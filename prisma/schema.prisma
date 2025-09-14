@@ -1,0 +1,35 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AuditLog {
+  id        Int      @id @default(autoincrement())
+  timestamp DateTime @default(now())
+
+  // Action metadata
+  action    String   // e.g. "terminology.search"
+  outcome   String   // "success" | "error"
+
+  // Request context
+  ipAddress String?  // from req.headers
+  clientId  String?  // from JWT claims
+  doctorId  String?  // from JWT claims (HPRID)
+
+  // Search context
+  queryTerm   String? // term searched by doctor
+  namasteCode String?
+  icdCode     String?
+
+  // Store raw FHIR AuditEvent JSON for compliance
+  fhirEvent Json
+
+  @@map("audit_logs")
+}
