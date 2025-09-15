@@ -10,6 +10,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Client {
+  id        Int      @id @default(autoincrement())
+  name      String   // e.g. "Aarogya EMR"
+  apiKey    String   @unique
+  createdAt DateTime @default(now())
+
+  @@map("clients")
+}
+
 model AuditLog {
   id        Int      @id @default(autoincrement())
   timestamp DateTime @default(now())
@@ -22,6 +31,10 @@ model AuditLog {
   ipAddress String?  // from req.headers
   clientId  String?  // from JWT claims
   doctorId  String?  // from JWT claims (HPRID)
+
+  // API client context
+  apiClientId   Int?    // from authenticated client
+  apiClientName String? // from authenticated client
 
   // Search context
   queryTerm   String? // term searched by doctor

@@ -11,6 +11,8 @@ export async function logAuditEvent({
   namasteCode,
   icdCode,
   fhirEvent,
+  apiClientId,
+  apiClientName,
 }: {
   action: string;
   outcome: string;
@@ -20,6 +22,8 @@ export async function logAuditEvent({
   queryTerm?: string;
   namasteCode?: string;
   icdCode?: string;
+  apiClientId?: number;
+  apiClientName?: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   fhirEvent: any;
 }) {
@@ -35,6 +39,8 @@ export async function logAuditEvent({
         namasteCode,
         icdCode,
         fhirEvent,
+        apiClientId,
+        apiClientName,
       },
     });
   } catch (err) {
@@ -51,6 +57,7 @@ export function createFhirAuditEvent(data: {
   queryTerm?: string;
   clientId?: string;
   doctorId?: string;
+  patientId?: string;
 }): object {
   const timestamp = new Date().toISOString();
   
@@ -104,24 +111,54 @@ export function createFhirAuditEvent(data: {
         }
       ]
     },
-    entity: data.queryTerm ? [
-      {
-        what: {
-          identifier: {
-            value: data.queryTerm
+    entity: (() => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const entities: any[] = [];
+      
+      // Add query term entity if available
+      if (data.queryTerm) {
+        entities.push({
+          what: {
+            identifier: {
+              value: data.queryTerm
+            }
+          },
+          type: {
+            system: 'http://terminology.hl7.org/CodeSystem/audit-entity-type',
+            code: '2',
+            display: 'System Object'
+          },
+          role: {
+            system: 'http://terminology.hl7.org/CodeSystem/object-role',
+            code: '24',
+            display: 'Query'
           }
-        },
-        type: {
-          system: 'http://terminology.hl7.org/CodeSystem/audit-entity-type',
-          code: '2',
-          display: 'System Object'
-        },
-        role: {
-          system: 'http://terminology.hl7.org/CodeSystem/object-role',
-          code: '24',
-          display: 'Query'
-        }
+        });
       }
-    ] : undefined
+      
+      // Add patient entity if available
+      if (data.patientId) {
+        entities.push({
+          what: {
+            identifier: {
+              system: 'https://healthid.ndhm.gov.in',
+              value: data.patientId
+            }
+          },
+          type: {
+            system: 'http://terminology.hl7.org/CodeSystem/audit-entity-type',
+            code: '1',
+            display: 'Person'
+          },
+          role: {
+            system: 'http://terminology.hl7.org/CodeSystem/object-role',
+            code: '1',
+            display: 'Patient'
+          }
+        });
+      }
+      
+      return entities.length > 0 ? entities : undefined;
+    })()
   };
 }
