@@ -1,7 +1,7 @@
 // app/api/terminology/search/route.ts
 import { NextResponse } from 'next/server';
 import { verifyAbhaJwt } from '@/lib/abha';
-import { buildRawAndFhirResponse } from '@/lib/terminology';
+import { buildRawAndFhirResponseWithHapi } from '@/lib/terminologyHapi';
 import { logAuditEvent, createFhirAuditEvent } from '@/lib/audit';
 import { authenticateClient } from '@/lib/authenticateClient';
 
@@ -165,11 +165,11 @@ export async function POST(req: Request) {
       }, { status: 400 });
     }
 
-    const result = await buildRawAndFhirResponse({ query, claims, patientId: patientIdFromBody });
+    const result = await buildRawAndFhirResponseWithHapi({ query, claims, patientId: patientIdFromBody });
 
     // Extract codes for audit logging
-    const namasteCode = result.rawMapping.find(r => r.system.includes('namaste'))?.code;
-    const icdCode = result.rawMapping.find(r => r.system.includes('icd'))?.code;
+    const namasteCode = result.rawMapping.find((r: any) => r.system.includes('namaste'))?.code;
+    const icdCode = result.rawMapping.find((r: any) => r.system.includes('icd'))?.code;
 
     // Audit successful search
     const fhirEvent = createFhirAuditEvent({
