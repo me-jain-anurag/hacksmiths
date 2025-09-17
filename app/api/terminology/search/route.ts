@@ -223,29 +223,6 @@ export async function POST(req: Request) {
     });
     
     // Enhanced error handling: Check for specific error types
-    if (error.message && error.message.includes('Query not found in CSV dataset:')) {
-      return NextResponse.json({ 
-        resourceType: 'OperationOutcome', 
-        issue: [{ 
-          severity: 'error', 
-          code: 'not-found', 
-          diagnostics: error.message 
-        }] 
-      }, { status: 404 });
-    }
-    
-    if (error.message && error.message.includes('No NAMASTE code exists for query:')) {
-      return NextResponse.json({ 
-        resourceType: 'OperationOutcome', 
-        issue: [{ 
-          severity: 'error', 
-          code: 'not-found', 
-          diagnostics: error.message 
-        }] 
-      }, { status: 404 });
-    }
-    
-    // Legacy error handling for backward compatibility
     if (error.message && error.message.includes('No ICD-11 mapping found for query:')) {
       return NextResponse.json({ 
         resourceType: 'OperationOutcome', 

@@ -65,12 +65,16 @@ export async function buildRawAndFhirResponseWithHapi(params: TerminologySearchP
     }).slice(0, maxResults);
 
     if (csvMatches.length === 0) {
-      throw new Error(`Query not found in CSV dataset: ${query}`);
+      // Return NOT_MAPPED response instead of throwing error
+      console.log(`⚠️ Query not found in CSV dataset: ${query} - returning NOT_MAPPED response`);
+      return buildNotMappedResponse(query, patientId);
     }
 
     const namasteMatches = csvMatches.filter(match => match.namaste_code && match.namaste_term);
     if (namasteMatches.length === 0) {
-      throw new Error(`No NAMASTE code exists for query: ${query}`);
+      // Return NOT_MAPPED response instead of throwing error
+      console.log(`⚠️ No NAMASTE code exists for query: ${query} - returning NOT_MAPPED response`);
+      return buildNotMappedResponse(query, patientId);
     }
 
     // Step 2: Use HAPI FHIR operations for standards-based terminology
@@ -262,4 +266,79 @@ function buildFhirCondition(primary: NormalizedRow, rawMapping: RawMapping[], pa
   }
 
   return condition;
+}
+
+/**
+ * Build response for unmapped terms
+ */
+function buildNotMappedResponse(query: string, patientId?: string): TerminologyResponse {
+  // Create a generic term entry with NOT_MAPPED status
+  const rawMapping: RawMapping[] = [{
+    term: query,
+    code: 'UNMAPPED',
+    system: 'http://ayush.gov.in/fhir/unmapped',
+    display: `${query} (No standard mapping found)`,
+    mappingStatus: 'NOT_MAPPED'
+  }];
+
+  // Build FHIR response
+  const id = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (crypto as any).randomUUID() : 
+    `unmapped-${Date.now()}`;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const condition: any = {
+    resourceType: 'Condition',
+    id,
+    extension: [{
+      url: "http://ayush.gov.in/fhir/StructureDefinition/mappingStatus",
+      valueString: 'NOT_MAPPED'
+    }],
+    clinicalStatus: {
+      coding: [
+        {
+          system: 'http://terminology.hl7.org/CodeSystem/condition-clinical',
+          code: 'active',
+          display: 'Active',
+        },
+      ],
+    },
+    code: {
+      coding: [{
+        system: 'http://ayush.gov.in/fhir/unmapped',
+        code: 'UNMAPPED',
+        display: `${query} (No standard mapping found)`,
+      }],
+      text: `${query} (No standard mapping found)`,
+    },
+    recordedDate: new Date().toISOString(),
+  };
+
+  if (patientId) {
+    condition.subject = { reference: `Patient/${patientId}` };
+
+    const patientStub = {
+      resourceType: 'Patient',
+      id: patientId,
+      identifier: [{ system: 'https://healthid.ndhm.gov.in', value: patientId }],
+    };
+
+    return {
+      rawMapping,
+      fhir: {
+        resourceType: 'Bundle',
+        type: 'collection',
+        entry: [
+          { resource: patientStub },
+          { resource: condition },
+        ],
+      }
+    };
+  }
+
+  return {
+    rawMapping,
+    fhir: condition
+  };
 }
