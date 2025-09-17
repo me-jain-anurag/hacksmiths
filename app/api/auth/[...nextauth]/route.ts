@@ -6,7 +6,6 @@ import { AuthOptions } from "next-auth";
 
 export const authOptions: AuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
-
   providers: [
     CredentialsProvider({
       id: "client-credentials",
@@ -16,12 +15,29 @@ export const authOptions: AuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials: any) {
-        if (!credentials?.email || !credentials?.password) {
-          return null;
-        }
+        if (!credentials?.email || !credentials?.password) return null;
+
         const client = await prisma.client.findUnique({ where: { email: credentials.email } });
         if (client && client.password && (await bcrypt.compare(credentials.password, client.password))) {
           return { id: client.id.toString(), email: client.email, role: "client" };
+        }
+        return null;
+      },
+    }),
+
+    CredentialsProvider({
+      id: "admin-credentials",
+      name: "Admin",
+      credentials: {
+        email: { label: "Email", type: "email" },
+        password: { label: "Password", type: "password" },
+      },
+      async authorize(credentials: any) {
+        if (!credentials?.email || !credentials?.password) return null;
+
+        const admin = await prisma.admin.findUnique({ where: { email: credentials.email } });
+        if (admin && (await bcrypt.compare(credentials.password, admin.password))) {
+          return { id: admin.id.toString(), email: admin.email, role: "admin" };
         }
         return null;
       },
@@ -40,7 +56,7 @@ export const authOptions: AuthOptions = {
     },
   },
   pages: {
-    signIn: "/login/client",
+    signIn: "/login/client", // Default page to redirect to on login errors
   }
 };
 
