@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏥 **SIH 2025 - HAPI FHIR Integrated Medical Terminology System**
 
 ## 🚀 **Complete Architecture Overview**
@@ -384,3 +385,6 @@ When everything is working correctly, you should see:
 ---
 
 *Built with ❤️ for better healthcare interoperability*
+=======
+# hacksmiths
+>>>>>>> 158a86413e7a81a5225255f9d78c3433fe24fd7b
