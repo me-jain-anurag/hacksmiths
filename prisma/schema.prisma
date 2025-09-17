@@ -15,7 +15,7 @@ model Client {
   email     String?  @unique
   password  String?
   name      String   // e.g. "Aarogya EMR"
-  apiKey    String   @unique
+  apiKey    String?  @unique
   createdAt DateTime @default(now())
 }
 
