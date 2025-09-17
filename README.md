@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏥 **SIH 2025 - HAPI FHIR Integrated Medical Terminology System**
 
 ## 🚀 **Complete Architecture Overview**
@@ -91,7 +90,7 @@ cd EMR/terminology-service
 npm install && npm start
 
 # Terminal 5: EMR Frontend
-cd ../emr-frontend-clean
+cd EMR/emr-frontend-clean
 npm install && npm run dev
 ```
 
@@ -385,6 +384,3 @@ When everything is working correctly, you should see:
 ---
 
 *Built with ❤️ for better healthcare interoperability*
-=======
-# hacksmiths
->>>>>>> 158a86413e7a81a5225255f9d78c3433fe24fd7b
