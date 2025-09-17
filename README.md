@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏥 **SIH 2025 - HAPI FHIR Integrated Medical Terminology System**
 
 ## 🚀 **Complete Architecture Overview**
@@ -68,6 +67,8 @@ This is a **Standards-Based Medical Terminology System** that integrates **NAMAS
 - VS Code (recommended)
 ```
 
+*Ensure that you have the API key before staring
+
 ### **🚀 One-Command Startup**
 ```powershell
 # Clone and start everything
@@ -80,19 +81,24 @@ docker-compose -f docker-compose.hapi.yml up -d
 
 # Terminal 2: Load terminology data
 cd hapi-loader
-npm install && npm run setup
+npm install
+npm run setup
+npx prisma generate
 
 # Terminal 3: Main Backend
 cd ..
-npm install && npm run dev
+npm install
+npm run dev
 
 # Terminal 4: EMR Backend
 cd EMR/terminology-service
-npm install && npm start
+npm install
+npm start
 
 # Terminal 5: EMR Frontend
-cd ../emr-frontend-clean
-npm install && npm run dev
+cd EMR/emr-frontend-clean
+npm install
+npm run dev
 ```
 
 ### **🧪 Verify Installation**
@@ -385,6 +391,3 @@ When everything is working correctly, you should see:
 ---
 
 *Built with ❤️ for better healthcare interoperability*
-=======
-# hacksmiths
->>>>>>> 158a86413e7a81a5225255f9d78c3433fe24fd7b
