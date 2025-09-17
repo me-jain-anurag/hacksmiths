@@ -10,7 +10,7 @@ export const Card: React.FC<CardProps> = ({ children, className }) => (
 );
 
 export const CardHeader: React.FC<{ children: ReactNode, className?: string }> = ({ children, className }) => (
-  <div className={`mb-2 font-bold text-lg ${className || ''}`.trim()}>{children}</div>
+  <div className={`flex flex-col space-y-1.5 p-6 ${className || ''}`.trim()}>{children}</div>
 );
 
 export const CardTitle: React.FC<{ children: ReactNode }> = ({ children }) => (
