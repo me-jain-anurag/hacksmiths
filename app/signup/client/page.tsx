@@ -1,3 +1,5 @@
+// In app/signup/client/page.tsx
+
 "use client";
 
 import { useState } from "react";
@@ -5,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import Link from "next/link"; // <-- ADD THIS IMPORT
 
 import { Button } from "@/components/ui/button";
 import {
@@ -46,7 +49,6 @@ export default function SignUpPage() {
       });
 
       if (response.ok) {
-        // Success! Redirect to the login page.
         router.push('/login/client');
       } else {
         const errorData = await response.json();
@@ -68,6 +70,7 @@ export default function SignUpPage() {
         <CardContent>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+              {/* ... your FormFields ... */}
               <FormField control={form.control} name="name" render={({ field }) => (
                   <FormItem>
                     <FormLabel>Name</FormLabel>
@@ -98,6 +101,12 @@ export default function SignUpPage() {
               </Button>
             </form>
           </Form>
+          <div className="mt-4 text-center text-sm">
+            Already have an account?{" "}
+            <Link href="/login/client" className="underline text-blue-600 hover:text-blue-800">
+              Sign in
+            </Link>
+          </div>
         </CardContent>
       </Card>
     </div>

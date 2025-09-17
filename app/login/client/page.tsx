@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-
-
-import { useForm, ControllerRenderProps, FieldValues } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { signIn } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -21,21 +21,18 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const formSchema = z.object({
-  name: z.string().min(1, { message: "Name is required." }),
   email: z.string().email({ message: "Invalid email address." }),
-  password: z.string().min(6, { message: "Password must be at least 6 characters." }),
+  password: z.string().min(1, { message: "Password is required." }),
 });
 
-export default function SignUpPage() {
+export default function ClientLoginPage() {
   const router = useRouter();
-
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      name: "",
       email: "",
       password: "",
     },
@@ -45,25 +42,18 @@ export default function SignUpPage() {
     setLoading(true);
     setError(null);
 
-    try {
-      const response = await fetch('/api/client/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      });
+    const result = await signIn("client-credentials", {
+      redirect: false,
+      email: values.email,
+      password: values.password,
+    });
 
-      if (response.ok) {
-        router.push('/login/client');
-      } else {
-        const errorData = await response.json();
-        setError(errorData.message || "An error occurred during registration.");
-      }
-    } catch (err) {
-      setError("An unexpected error occurred. Please try again.");
-    } finally {
-      setLoading(false);
+    setLoading(false);
+
+    if (result?.ok) {
+      router.push("/dashboard/client");
+    } else {
+      setError("Invalid email or password. Please try again.");
     }
   }
 
@@ -71,24 +61,11 @@ export default function SignUpPage() {
     <div className="flex items-center justify-center min-h-screen">
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle>Create a Client Account</CardTitle>
+          <CardTitle>Client Login</CardTitle>
         </CardHeader>
         <CardContent>
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-              <FormField
-                control={form.control}
-                name="name"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Name</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Your Name" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
               <FormField
                 control={form.control}
                 name="email"
@@ -117,10 +94,16 @@ export default function SignUpPage() {
               />
               {error && <p className="text-sm font-medium text-destructive">{error}</p>}
               <Button type="submit" disabled={loading} className="w-full">
-                {loading ? "Creating Account..." : "Create Account"}
+                {loading ? "Signing In..." : "Sign In"}
               </Button>
             </form>
           </Form>
+          <div className="mt-4 text-center text-sm">
+            Don't have an account?{" "}
+            <Link href="/signup/client" className="underline">
+                Sign up
+            </Link>
+          </div>
         </CardContent>
       </Card>
     </div>

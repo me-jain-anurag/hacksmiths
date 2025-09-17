@@ -1,20 +1,33 @@
-import React from "react";
-import type { ButtonHTMLAttributes, ReactNode } from "react";
+import * as React from "react";
+import { Slot } from "@radix-ui/react-slot";
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  children: ReactNode;
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  asChild?: boolean;
   variant?: 'default' | 'outline';
 }
 
-export const Button: React.FC<ButtonProps> = ({ children, variant = 'default', className, ...props }) => {
-  const baseStyles = "px-4 py-2 rounded";
-  const variantStyles = variant === 'outline'
-    ? "border border-gray-300 bg-transparent hover:bg-gray-100"
-    : "bg-blue-600 text-white";
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant = 'default', asChild = false, ...props }, ref) => {
+    
+    const Comp = asChild ? Slot : "button";
 
-  return (
-    <button {...props} className={`${baseStyles} ${variantStyles} ${className || ''}`.trim()}>
-      {children}
-    </button>
-  );
-};
+    // Define base styles and styles for each variant
+    const baseStyles = "inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
+    
+    const variantStyles = {
+      default: "bg-blue-600 text-white hover:bg-blue-700",
+      outline: "border border-input bg-transparent hover:bg-gray-100",
+    };
+
+    return (
+      <Comp
+        className={`${baseStyles} ${variantStyles[variant]} ${className || ''}`.trim()}
+        ref={ref}
+        {...props}
+      />
+    );
+  }
+);
+Button.displayName = "Button";
+
+export { Button };
