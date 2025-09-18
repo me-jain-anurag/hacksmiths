@@ -1,4 +1,4 @@
-// This is your Prisma schema file,
+// This is our Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
@@ -12,11 +12,18 @@ datasource db {
 
 model Client {
   id        Int      @id @default(autoincrement())
+  email     String?  @unique
+  password  String?
   name      String   // e.g. "Aarogya EMR"
-  apiKey    String   @unique
+  apiKey    String?  @unique
   createdAt DateTime @default(now())
+}
 
-  @@map("clients")
+model Admin {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
 }
 
 model AuditLog {

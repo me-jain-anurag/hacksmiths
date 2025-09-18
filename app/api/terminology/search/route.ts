@@ -1,9 +1,9 @@
 // app/api/terminology/search/route.ts
 import { NextResponse } from 'next/server';
-import { verifyAbhaJwt } from '@/lib/abha';
-import { buildRawAndFhirResponseWithHapi } from '@/lib/terminologyHapi';
-import { logAuditEvent, createFhirAuditEvent } from '@/lib/audit';
-import { authenticateClient } from '@/lib/authenticateClient';
+import { verifyAbhaJwt } from 'lib/abha';
+import { buildRawAndFhirResponseWithHapi } from 'lib/terminologyHapi';
+import { logAuditEvent, createFhirAuditEvent } from 'lib/audit';
+import { authenticateClient } from 'lib/authenticateClient';
 
 export async function POST(req: Request) {
   let queryTerm = '';
