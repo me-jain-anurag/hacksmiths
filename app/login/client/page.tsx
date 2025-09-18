@@ -20,17 +20,20 @@ import {
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+// Form validation schema
 const formSchema = z.object({
   email: z.string().email({ message: "Invalid email address." }),
   password: z.string().min(1, { message: "Password is required." }),
 });
+
+type FormData = z.infer<typeof formSchema>;
 
 export default function ClientLoginPage() {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  const form = useForm<z.infer<typeof formSchema>>({
+  const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       email: "",
@@ -38,24 +41,111 @@ export default function ClientLoginPage() {
     },
   });
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
+  const handleSignIn = async (values: FormData) => {
     setLoading(true);
     setError(null);
 
-    const result = await signIn("client-credentials", {
-      redirect: false,
-      email: values.email,
-      password: values.password,
-    });
+    try {
+      const result = await signIn("client-credentials", {
+        redirect: false,
+        email: values.email,
+        password: values.password,
+      });
 
-    setLoading(false);
-
-    if (result?.ok) {
-      router.push("/dashboard/client");
-    } else {
-      setError("Invalid email or password. Please try again.");
+      if (result?.ok) {
+        router.push("/dashboard/client");
+      } else {
+        setError("Invalid email or password. Please try again.");
+      }
+    } catch (err) {
+      setError("An unexpected error occurred. Please try again.");
+    } finally {
+      setLoading(false);
     }
-  }
+  };
+
+  const renderEmailField = () => (
+    <FormField
+      control={form.control}
+      name="email"
+      render={({ field }) => (
+        <FormItem>
+          <FormLabel>Email</FormLabel>
+          <FormControl>
+            <Input 
+              placeholder="name@example.com" 
+              type="email"
+              {...field} 
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      )}
+    />
+  );
+
+  const renderPasswordField = () => (
+    <FormField
+      control={form.control}
+      name="password"
+      render={({ field }) => (
+        <FormItem>
+          <FormLabel>Password</FormLabel>
+          <FormControl>
+            <Input 
+              type="password" 
+              placeholder="********" 
+              {...field} 
+            />
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      )}
+    />
+  );
+
+  const renderErrorMessage = () => {
+    if (!error) return null;
+    
+    return (
+      <p className="text-sm font-medium text-destructive">
+        {error}
+      </p>
+    );
+  };
+
+  const renderSubmitButton = () => (
+    <Button 
+      type="submit" 
+      disabled={loading} 
+      className="w-full h-12 text-base font-medium"
+    >
+      {loading ? "Signing In..." : "Sign In"}
+    </Button>
+  );
+
+  const renderSignUpLink = () => (
+    <div className="mt-4 text-center text-sm">
+      Don't have an account?{" "}
+      <Link href="/signup/client" className="underline">
+        Sign up
+      </Link>
+    </div>
+  );
+
+  const renderLoginForm = () => (
+    <Form {...form}>
+      <form 
+        onSubmit={form.handleSubmit(handleSignIn)} 
+        className="space-y-8"
+      >
+        {renderEmailField()}
+        {renderPasswordField()}
+        {renderErrorMessage()}
+        {renderSubmitButton()}
+      </form>
+    </Form>
+  );
 
   return (
     <div className="flex items-center justify-center min-h-screen">
@@ -64,46 +154,8 @@ export default function ClientLoginPage() {
           <CardTitle>Client Login</CardTitle>
         </CardHeader>
         <CardContent>
-          <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Email</FormLabel>
-                    <FormControl>
-                      <Input placeholder="name@example.com" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="password"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Password</FormLabel>
-                    <FormControl>
-                      <Input type="password" placeholder="********" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              {error && <p className="text-sm font-medium text-destructive">{error}</p>}
-              <Button type="submit" disabled={loading} className="w-full">
-                {loading ? "Signing In..." : "Sign In"}
-              </Button>
-            </form>
-          </Form>
-          <div className="mt-4 text-center text-sm">
-            Don't have an account?{" "}
-            <Link href="/signup/client" className="underline">
-                Sign up
-            </Link>
-          </div>
+          {renderLoginForm()}
+          {renderSignUpLink()}
         </CardContent>
       </Card>
     </div>
