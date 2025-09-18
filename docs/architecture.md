@@ -36,6 +36,6 @@ i already have ## Architecture
 - 5000 EMR Backend → depends on Main Backend
 - 5173 Frontend → depends on EMR Backend
 
-
-![System Architecture](docs/images/photoo.jpeg "System Architecture Diagram")
+<br><br>
+![System Architecture](images/photoo.jpeg "System Architecture Diagram")
 
