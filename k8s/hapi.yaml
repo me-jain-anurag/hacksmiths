@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hapi-fhir
+  namespace: hacksmiths
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hapi-fhir
+  template:
+    metadata:
+      labels:
+        app: hapi-fhir
+    spec:
+      containers:
+        - name: hapi-fhir
+          image: hapiproject/hapi:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: hapi.fhir.enable_terminology
+              value: "true"
+            - name: hapi.fhir.cors.allow_Credentials
+              value: "true"
+            - name: hapi.fhir.cors.allowed_origin
+              value: "*"
+            - name: spring.datasource.url
+              value: jdbc:h2:mem:testdb
+            - name: spring.datasource.driver-class-name
+              value: org.h2.Driver
+            - name: spring.jpa.hibernate.ddl-auto
+              value: create-drop
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hapi-fhir
+  namespace: hacksmiths
+spec:
+  selector:
+    app: hapi-fhir
+  ports:
+    - port: 8080
+      targetPort: 8080
+
+
+

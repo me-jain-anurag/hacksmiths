@@ -1,0 +1,2523 @@
+NUMC_CODE,NUMC_TERM,ICD_CODE,ICD_TERM
+O-6,Rutubat Ghariziyya,,
+UM,,,
+UM-DIS,,1739890344,Disorders
+A,Amrad-i-Nizam-i-Asab-o-Dimagh,1296093776,Diseases nervous system
+A-1,Bayda-o-Khudha,,
+A-2,Shaqiqa,669367341,Migraine
+A-2.1,Shaqiqa Harra,651630068,Acute migraine
+A-2.2,Shaqiqa Barida,1336990680,Chronic migraine
+A-3,Isaba,,
+A-4,Hiss-i-Dimagh,,
+A-5,Sarsam,1537714794,Meninges
+A-5.1,Sarsam Damawi Qaranitus,1371091944,Meningitis
+A-5.2,Sarsam Safrawi Qaranitus Khalis,,
+A-5.3,Sarsam Sawdawi,,
+A-5.4,Sarsam Balghami Litharghus,,
+A-5.5,Sarsam Haqiqi,,
+A-5.6,Sarsam Ghayr Haqiqi,851857399,Meningismus
+A-6,Falghamuni Dimaghi,1706110169,phlegmon
+A-7,Shafaqalus Dimaghi,,
+A-8,Humra Dimaghiyya,,
+A-9,Utash,,
+A-10,Mashra,1651247891,Erysipelas
+A-11,Ma al-Ras,574533444,Hydrocephalus
+A-12,Subat,1328725971,Coma
+A-12.1,Subat Sahri,,
+A-12.2,Subat Barid,,
+A-12.3,Subat Rutubi,,
+A-12.4,Subat Damawi,,
+A-12.5,Subat Bukhari,,
+A-12.6,Subat Dufi,,
+A-12.7,Subat Darbi,,
+A-13,Sahar,1038292737,Insomnia
+A-13.1,Sahar Yabis,1449941095,Insomnia dryness
+A-13.2,Sahar Rutubi,1389481561,Insomnia moistness
+A-14,Nisyan,67207871,Amnesia
+A-14.1,Nisyan Barid Ratb,,
+A-14.2,Nisyan Barid Yabis,,
+A-14.3,Nisyan Harr Yabis,,
+A-15,Ikhtlat al-Dhahn,,
+A-16,Hadhayan,897917531,Delirium
+A-17,Humq,546689346,Dementia
+A-18,Ruunat,450417382,Egomania
+A-19,Malankhuliya,546689346,Dementia
+A-19.1,Malankhuliya Damawi,,
+A-19.2,Malankhuliya Balghami,,
+A-19.3,Malankhuliya Safrawi,,
+A-19.4,Malankhuliya Sawdawi,,
+A-19.5,Qutrub Illa al-Dhib Junun Dhibi,2003260585,Lycanthropy
+A-19.6,Malankhuliya Maraqi Nafkh Maraqi Maraqiyya Illat NafikhaSharsufiya,1803416501,Psychoneurosis
+A-20,Junun Waswas,441413164,Insanity
+A-21,Maniya Junun Sabai,,
+A-22,Da al-Kalb,,
+A-23,Subara,,
+A-24,Ishq,1943270217,Erotomanic delusion
+A-25,Sadr-o-Duwar,691174964,Vertigo giddiness
+A-25.1,Sadr-o-Duwar Dimaghi Damawi,,
+A-25.2,Sadr-o-Duwar Dimaghi Balghami,,
+A-25.3,Sadr-o-Duwar Dimaghi Safrawi,,
+A-25.4,Sadr-o-Duwar Dimaghi Sawdawi,,
+A-25.5,Sadr-o-Duwar Shirki,1388407465,Secondary vertigo giddiness
+A-26,Lawa-o-Fayhadhaj Bijidhaq Al-Lawa,,
+A-27,Kabus Al-Khaniq Al-Jathum wal Nidlan Khanuq Daghut,,
+A-27.1,Kabus Damawi,,
+A-27.2,Kabus Balghami,,
+A-27.3,Kabus Barid,,
+A-28,Sar,1397288146,Epilepsy
+A-28.1,Sar Dimaghi Sawdawi,,
+A-28.2,Sar Dimaghi Asli,,
+A-28.3,Sar Shirki,2048248706,epilepsy
+A-28.4,Sar Lasi,,
+A-28.5,Sar al-Atfal,1310497511,epileptic infancy
+A-28.6,Sar Badani,,
+A-28.7,Sar Atrafi,,
+A-28.8,Sar Rahimi,,
+A-28.9,Sar Khababi,,
+A-28.10,Sar Khafif,36262213,Non-convulsive status epilepticus
+A-28.11,Sar Shadid,1734515921,Tonic-clonic status epilepticus
+A-28.12,Sar Darbi,1007173668,Epilepsy
+A-28.13,Sar Qalbi,,
+A-28.14,Sar Layli,1004734747,nocturnal epilepsy
+A-28.15,Sar Maraqi,675329566,Hypochondriasis
+A-28.16,Sar Nahari,,
+A-28.17,Sar Shirki Midi,2048248706,epilepsy
+A-28.18,Sar Hissi,,
+A-29,Sakta,1442995018,Stroke not known if ischaemic or haemorrhagic
+A-29.1,Sakta Damwiyya,,
+A-29.2,Sakta Balghamiyya,,
+A-29.3,Sakta Sawdawiyya,,
+A-29.4,Sakta Ihtiqaniyya,,
+A-29.5,Sakta Jildiyya,,
+A-29.6,Sakta Riwiyya,,
+A-29.7,Sakta Suddiyya,,
+A-29.8,Sakta Darbiyya,,
+A-29.9,Sakta Mawludiyya,,
+A-30,Jumud Shukhus AkhidhaMudrika Qatukhas,,
+A-31,Istirkha,,
+A-32,Falij,1641958762,Hemiplegia
+A-32.1,Falij Wabai,,
+A-33,Tashannuj,,
+A-33.1,Tashannuj Maddi Tashannuj Ratb Tashannuj Imtilai,,
+A-33.2,Tashannuj Yubsi Tashannuj Istifraghi,,
+A-33.3,Tashannuj Idhai,,
+A-33.4,Tashannuj al-Atfal,1023597213,Infantile spasms
+A-33.5,Tashannuj al-Nufsa,,
+A-33.6,Tashannuj Wajhi,577260920,facial spasm
+A-34,Duf al-Dimagh,1563479725,Cerebrasthenia
+A-35,Dhakawa al-Hiss,,
+A-36,Suda,,
+A-36.1,Suda Harr,,
+A-36.2,Suda Barid,1550804057,Headache excessive coldness
+A-36.3,Suda Damawi,,
+A-36.4,Suda Balghami,,
+A-36.5,Suda Safrawi,,
+A-36.6,Suda Sawdawi,,
+A-36.7,Suda Rihi Dakhili,,
+A-36.8,Suda Rihi Khariji,,
+A-36.9,Suda Bukhari Dakhili,,
+A-36.10,Suda Bukhari Khariji,,
+A-36.11,Suda Suddi,,
+A-36.12,Suda Warami,256989117,Inflammatory headache
+A-36.13,Suda Darabani,84953775,Throbbing headache
+A-36.14,Suda Duf Dimaghi,190561487,Headache weakness brain
+A-36.15,SudaHissi,,
+A-36.16,Suda Yubsi,,
+A-36.17,Suda Jimai,,
+A-36.18,Suda Khumari,934805539,Alcoholic headache
+A-36.19,Suda Shammi,28171409,Headache smell
+A-36.20,Suda Darbi Suda Tafarruq-i-Ittisali,902419921,Headache head
+A-36.21,Suda Tazazui,,
+A-36.22,Suda Nawmi,,
+A-36.23,Suda Dudi,,
+A-36.24,Suda Shirki,1865426792,Referred headache
+A-36.25,Suda Shirki Midi,633371261,Referred headache involvement stomach
+A-36.26,Suda Shirki Kabidi,1865426792,Referred headache involvement liver
+A-36.27,Suda Maraqi,183208669,Referred headache involvement peritoneum
+A-36.28,Suda Nazli,1907443904,Catarrhal headache
+A-36.29,Suda Ardi,296971178,Secondary headache
+A-36.30,Suda Buhrani,,
+A-37,Tamaddud,,
+A-38,Kuzaz,1793762788,Tetanus
+A-38.1,Kuzaz Quddami,516187391,Emprosthotonus
+A-38.2,Kuzaz Khalfi,,
+A-38.3,Kuzaz Mutlaq,,
+A-38.4,Kuzaz Janbi,,
+A-38.5,Kuzaz Dhati,,
+A-38.6,Kuzaz Sibyani,,
+A-38.7,Kuzaz Darbi Kuzaz Juruhi,,
+A-39,Laqwa,2004402146,palsy
+A-39.1,Laqwa Istirkhai,570526148,Deviation one side face
+A-39.2,Laqwa Tashannuji,570526148,Deviation one side face
+A-40,Rasha,2110078069,Tremor
+A-40.1,Rasha Barid,,
+A-40.2,Rasha Sharabiyya,1032984383,Alcoholic tremors
+A-41,Irtiad,1814274334,Fasciculation
+A-42,Khadar,1049159712,Anaesthesia of skin
+A-43,Ikhtilaj,1814274334,Fasciculation
+B,Amrad-i-Ayn,868865918,Diseases
+B-1,Ramad Ashob-i-Chashm,831696556,Conjunctivitis
+B-1.1,Ramad Damawi,,
+B-1.2,Ramad Safrawi,,
+B-1.3,Ramad Balghami,,
+B-1.4,Ramad Sawdawi,,
+B-1.5,Ramad Rihi,,
+B-1.6,Ramad Buthuri Wadaqa,655020145,Phlyctenular conjunctivitis
+B-1.7,Ramad Zuhri,884042621,Gonococcal conjunctivitis
+B-1.8,Ramad Thalji,,
+B-2,Takaddur Tabaqa al-Multahima,25044873,hyperaemia
+B-3,Sabal,,
+B-3.1,Sabal Ratb,,
+B-3.2,Sabal Yabis,,
+B-3.3,Sabal Mustahkam,,
+B-4,Kumna,49873717,Blindness
+B-5,Intifakh,,
+B-5.1,Intifakh Rihi,,
+B-5.2,Intifakh Balghami,,
+B-5.3,Intifakh Mai,,
+B-5.4,Intifakh Sawdawi,,
+B-6,Bayad al-Ayn,1161449475,Corneal opacity
+B-7,Zafara,1207385905,Pterygium
+B-8,Ghudda al-Ayn,,
+B-9,Quruh al-Ayn,649610899,eyelid
+B-10,Quruh al-Multahima,562200073,Ulceration
+B-11,Quruh al-Inabiyya,,
+B-12,Quruh al-Qarniyya,2089700977,Corneal ulcer
+B-12.1,Quruh al-Qarniyya Kharijiyya,1906143065,Superficial ulcer cornea
+B-12.2,Quruh al-Qarniyya Dakhiliyya,,
+B-12.3,Quruh al-Qarniyya Dhat al-Uruq,649610899,eyelid
+B-13,Buthur al-Qarniyya,,
+B-14,Dubayla al-Qarniyya,485862779,Corneal abscess
+B-15,Saratan al-Qarniyya,,
+B-16,Rutuba al-Qarniyya,,
+B-17,Yubs al-Qarniyya,2093954772,Dry eye
+B-18,Gharb,617640909,Chronic dacryocystitis
+B-18.1,Gharb Ghayr Munfajir,609107581,Congenital dacryocele
+B-18.2,Gharb Munfajir,,
+B-19,Khudra al-Ayn,,
+B-20,Zurqa al-Ayn,,
+B-21,Tarfa,566366609,Ecchymosis eyelid
+B-22,Qadha fil Ayn,144533975,Foreign body eye
+B-23,Morsarj,,
+B-23.1,Dhubabi,,
+B-23.2,Inabi,,
+B-23.3,Tuffahi,,
+B-23.4,Mismari Falaki,,
+B-24,Intishar wa Ittisa al-Thuqba,,
+B-25,Diq al-Thuqba,,
+B-26,Nutu al-Qarniyya,,
+B-27,Nuzul al-Ma,109841337,Cataract
+B-27.1,Ghamami,,
+B-27.2,Dhibaqi,,
+B-27.3,Jassi,,
+B-27.4,Asmanjuni,,
+B-27.5,Muntashir,,
+B-28,Ma Akhdar,499924848,Glaucoma
+B-29,Juhuz al-Ayn,1781942437,Outward displacement of eyeball
+B-29.1,Juhuz Imtilai,,
+B-29.2,Juhuz Indighati,,
+B-29.3,Juhuz Istirkhai,,
+B-30,Sill al-Ayn,1364346142,Phthisis bulbi
+B-31,Baras al-Ayn,,
+B-32,Duf al-Basar,,
+B-33,Takhayyulat,23150162,Visual hallucinations
+B-34,Qasr al-Basar,1666440799,Myopia
+B-35,Tul al-Basar,102241227,Hypermetropia
+B-36,Hawal,,
+B-37,ShabkoriAsha,,
+B-38,Jahar Rozkori,,
+B-39,Khafash,,
+B-40,Qumur,,
+B-41,Dhahab al-Basar fil Matamir wal Hubus al-Muzlima,,
+B-42,Bughd al-Ayn,1887138021,Photophobia
+B-43,Istirkha al-Jafn,1361674069,Blepharoptosis
+B-44,Suqut al-Qazhiyya,,
+B-45,Iltisaq al-Jafn,1260645418,symblepharon
+B-46,Shatra Inqilab al-Jafn,1200365909,Lagophthalmos
+B-46.1,Shatra Dakhiliyya,1290880184,entropion
+B-46.2,Shatra Kharijiyya,857829804,Ectropion
+B-47,Salaba al-Ajfan Jusa al-Ajfan,,
+B-48,Sulaq Bamni,,
+B-49,Qirdan al-Ajfan,1907820880,infestation eyelid tick
+B-50,Bayad al-Hudub,,
+B-51,Dummal al-Ajfan,247839673,Abscess eyelid
+B-52,Shara al-Ajfan,,
+B-53,Namla al-Ajfan,,
+B-54,Thaalil al-Ajfan,198059528,Eyelid wart
+B-55,Sala al-Ajfan,1744602556,Cysts eyelid
+B-56,Tarf al-Ajfan,,
+B-57,Wardinaj,,
+B-58,Jusa al-Multahim,,
+B-59,Jarab al-Ayn,372424530,Trachoma
+B-59.1,Jarab Munbasit,88896667,Diffused granulation eyelids
+B-59.2,Jarab Hasafi,99337451,Granulation eyelids eruptions similar prickly
+B-59.3,Jarab Tini Suqusalis,258368391,Granulation eyelids eruptions similar fig
+B-59.4,Jarab Aswad,,
+B-59.5,Jarab Adasi,,
+B-60,Hikka al-Amaq wal Ajfan,,
+B-61,Shirnaq,,
+B-62,Barada,,
+B-63,Uqda al-Ayn,735227050,Eyelid tumour
+B-64,Shaira,,
+B-65,Arusa,1362647259,swelling eyelid
+B-66,Tutha al-Ayn,,
+B-67,Tahajjur al-Ajfan,,
+B-68,Quruh al-Ajfan,649610899,eyelid
+B-69,Tahabbuj al-Ajfan,1901714362,Oedema eyelid
+B-70,Shar Munqalib Inqilab al-Shar,1143150083,Trichiasis
+B-71,Shar Zaid,417920497,Distichiasis
+B-72,Intithar al-Ahdab,1993682290,Ptilosis
+B-73,Qummal al-Ajfan,,
+B-74,Dama,1611503766,Epiphora
+B-75,Buwalatayn,,
+B-76,Inhitat Tabaqa al-Shabakiyya wal Mashimiyya,,
+B-77,Tasallub al-Uruq al-Shabakiyya,,
+B-78,Infisal al-Shabakiyya,,
+C,Amrad-i-Udhun Anf wa Halaq,,
+C-1,Waja al-Udhun,962492793,Otalgia
+C-2,Tarash,947280473,Deafness not otherwise specified
+C-3,Waqr,947280473,Deafness
+C-4,SamamLadi,147626546,Congenital deafness
+C-5,Tanin-o-Dawi,,
+C-6,Infijar al-Dam minal Udhun,683205650,Otorrhagia
+C-7,Didan al-Udhun,956060995,Maggots ear cavity
+C-8,Iltihab al-Udhun,1303990434,Otitis
+C-9,Sayalan al-Udhun,1544926445,Otorrhoea
+C-10,Hikka al-Udhun,109538384,Pruritus ear
+C-11,Inkisar al-Udhun,,
+C-12,Inqila al-Udhun,,
+C-13,Qula al-Udhun,,
+C-14,Harb al-Udhun,1493408531,Dysacusis
+C-15,Sudda al-Udhun,,
+C-16,Wasakh al-Udhun,,
+C-17,Buthur al-Udhun,,
+C-18,Quruh al-Udhun,,
+C-19,Qadha fil Udhun,2083535144,Foreign body ear
+C-20,Waram Asl al-Udhun Waram-i-Ghudda-i-Nakaf,,
+C-21,Nazla-o-Zukam,612225920,Coryza catarrh
+C-22,Nazla Udhuniyya,48663852,Otocatarrh
+C-23,Khasham,1599308422,Anosmia
+C-24,Fasad al-Shamm,,
+C-25,Buthur al-Anf,,
+C-26,Quruh al-Anf,1471198704,Ulceration nasal
+C-27,Hikka al-Anf,,
+C-28,Didan al-Anf,,
+C-29,Bakhr al-Anf Natn al-Anf,1795554974,Chronic atrophic rhinitis
+C-30,Radd al-Anf,2100139429,Injury nasal
+C-31,Ruaf,608337668,Epistaxis
+C-32,Bawasir al-Anf Urbiyan al-Anf,137754914,Nasal polyp
+C-33,Utas,1255375913,Sneezing
+C-34,Qadha al-Anf,747085562,Foreign body
+C-35,Jafaf al-Anf,,
+C-36,Zukam,2066255370,Acute nasopharyngitis
+C-37,Inhiraf Fasil al-Mankharayn,1739116429,Deviated nasal septum
+C-38,Anfi Besh Hassasiyat,1711769234,Allergic rhinitis
+C-39,Iltihab al-Anf,1346915097,rhinitis
+C-39.1,Iltihab al-Anf Hadd,2066255370,Acute
+C-39.2,Iltihab al-Anf Muzmin,1346915097,Chronic rhinitis
+C-39.3,Iltihab al-Anf Dumuri,1795554974,atrophic rhinitis
+C-39.4,Iltihab al-Anf Takaththuri,545004107,hypertrophic rhinitis
+C-40,Iltihab-i-Tajawif al-Anf,1836987572,Chronic rhinosinusitis
+C-41,Sudda-i-Khayshum,597318652,Nasal obstruction
+C-42,Waram al-Lisan,843084384,Glossitis
+C-43,Hurqa al-Lisan,1755751917,Glossodynia
+C-44,Hikka al-Lisan,951930713,Pruritus tongue
+C-45,Taqashshur al-Lisan,,
+C-46,Istirkha al-Lisan,,
+C-47,Butlan al-Dhawq,1320493037,Dysgeusia
+C-48,Fasad al-Dhawq,1320493037,Dysgeusia
+C-49,Izam al-Lisan,,
+C-50,Thiql al-Lisan,928435705,Diseases of tongue
+C-51,Difda al-Lisan,262012456,Structural developmental anomalies of salivary glands or ducts
+C-52,Shuqaq al-Lisan,699700094,Fissured tongue
+C-53,Qula,,
+C-53.1,Qula Damawi,,
+C-53.2,Qula Safrawi,,
+C-53.3,Qula Balghami,,
+C-53.4,Qula Sawdawi,,
+C-53.5,Qula-i-Sibyan,1517014705,Oral thrush babies
+C-54,Da al-Hafr Hafr al-Asnan wal Qalh,61564620,Dental plaque
+C-55,Dal al-Lisan,928435705,Diseases of tongue
+C-56,Jafaf-i-Lisan,,
+C-57,Buthur al-Fam,358923599,papular stomatitis
+C-58,Akila al-Fam,340823130,Noma
+C-59,Kathra al-Luab,1129322251,Excessive salivary secretion
+C-60,Bakhr al-Fam,1896266034,Halitosis
+C-61,Waram al-Hanak,70261446,Palate
+C-62,Hikka al-Hanak,217542474,Itchy palate
+C-63,Waram al-Shafatayn,482914030,Cheilitis
+C-64,Buthur al-Shafatayn,,
+C-65,Quruh al-Shafatayn,311096457,Lip ulceration
+C-66,Bawasir al-Shafatayn,,
+C-67,Bayad al-Shafatayn,,
+C-68,Ikhtilaj al-Shafatayn,,
+C-69,Taqashshur al-Shafatayn,1773105462,Chapping lips
+C-70,Taqallus al-Shafatayn,,
+C-71,Tashaqquq al-Shafatayn Shaquq al-Shafatayn,,
+C-72,Iltihab al-Fam Buthuri,,
+C-73,Iltihab al-Fam Quruhi,153761635,ulcerative stomatitis
+C-74,Iltihab al-Ghudda al-Riqiyya,94435020,Sialoadenitis
+C-75,Waja al-Asnan,,
+C-76,Tazayyud al-Asnan,,
+C-77,Taghayyur Lawn al-Asnan,118943988,Discolouration teeth
+C-78,Sarir al-Asnan,,
+C-79,Taharruk al-Asnan,2113668227,Odontoseisis
+C-80,Suqut al-Asnan,,
+C-81,Taakkul al-Asnan,1983306720,Dental caries
+C-82,Tafattut al-Asnan Takassur al-Asnan,,
+C-83,Tanaqqub al-Asnan,1983306720,Dental
+C-84,Hikka al-Asnan,,
+C-85,Dirs,,
+C-86,Dhahab Ma al-Asnan,,
+C-87,Dud al-Asnan Qadih,,
+C-88,Waram al-Litha,1542018172,gingivitis
+C-89,Litha Damiya,1021271873,Bleeding gums
+C-90,Quruh al-Litha,1377411594,Gingival ulceration
+C-91,Nawasir al-Litha,649301542,Pyorrhoea alveolaris
+C-92,Istirkha al-Litha,709874787,Spongy gums
+C-93,Lahm Zaid fil Litha,,
+C-94,Taqayyuh al-Litha,649301542,Pyorrhoea
+C-95,Bolas,1517220932,Gingival
+C-96,Farulas,1429189401,Gingival abscess
+C-97,Khunaq Dhabha,1635123778,Cellulitis of floor of mouth
+C-97.1,Khunaq WabaiWaram al-Hanjara Hadd GhishaiKhunaqi,508032285,Diphtheria
+C-97.2,Khunaq Kalbi,,
+C-98,Waram-i-Halaq,1791890273,pharyngitis
+C-98.1,Waram al-Halaq Khariji,1791890273,Acute pharyngitis
+C-99,Khuraj Halaqi Khalfi,719680227,Retropharyngeal abscess
+C-100,Suqut al-Lahah,,
+C-101,Waram-i-Lahat,776797866,Uvulitis
+C-101.1,Waram-i-Lahat Damawi,,
+C-101.2,Waram-i-Lahat Safrawi,,
+C-101.3,Waram-i-Lahat Balghami,,
+C-101.4,Waram-i-Lahat Sawdawi,,
+C-101.5,Waram-i-Lahat Nazli,,
+C-102,Tashannuj al-Balum,964055507,Pharyngeal spasm
+C-103,Tashannuj al-Hanjara,1531260827,Laryngeal spasm
+C-104,Waram al-Hanjara,1180710837,laryngitis
+C-104.1,Waram al-Hanjara Hadd,1180710837,Acute laryngitis
+C-104.2,Waram al-Hanjara Hadd Nazli,248851240,Catarrhal laryngitis
+C-104.3,Waram al-Hanjara Hadd Tahabbuji,1367810857,oedematous laryngitis
+C-105,Istirkha al-Hanjara,1500291878,Laryngoptosis
+C-106,Qadha al-Hanjara,1029768081,Foreign body larynx
+C-107,Waram al-Lawzatayn,320372230,tonsil
+C-108,Waja al-Halaq,1354622301,Pain pharynx
+C-109,Iltihab-i-Tajawif Hulqumi Anfi,457837468,Adenoid
+C-110,WabilaWaja al-Unuq Asabi,85602009,Cervicobrachial
+C-111,Ghussa al-Taam,,
+C-112,Sharq,,
+C-113,Bal al-Ibra,,
+C-114,Gharq al-Ma,989856314,Drowning
+C-115,Gulubasta,,
+C-116,Tashabbuth al-Alaq wal Shawk fil Halaq,,
+C-117,Quruh wa Buthur al-Halaq,936707025,Pharyngeal ulceration
+C-118,Sozish-i-Halaq Hurqa al-Halaq,,
+C-119,Khushuna al-Halaq,341568331,Feeling roughness throat
+C-120,Buhha al-Sawt Buhuha al-Sawt,741286458,Hoarseness
+C-121,Qasr al-Sawt,,
+C-122,Usr al-BalUsr al-Izdirar,968461848,Dysphagia
+C-123,Khalal al-Sawt,176555113,Voice
+C-124,Khushuna al-Sawt,936462533,Dysphonia
+C-125,Inqita al-Sawt,1385858385,Aphonia
+C-126,Ghilza al-Sawt,,
+C-127,Diqqa al-Sawt,,
+C-128,Kudura al-Sawt,,
+C-129,Irtiash al-Sawt,,
+D,Amrad-i-Nizam-i-Tanaffus,197934298,Diseases respiratory system
+D-1,Waram wa Quruh Qasaba al-Ria,590084641,tracheitis
+D-2,Duf al-Ria,1069518150,Lung insufficiency
+D-3,Nafas,495844982,respiration
+D-3.1,Nafas Sari,,
+D-3.2,Nafas Shahiq Nafas Ali Nafas Azim,960305085,Dyspnoea
+D-3.3,Nafas Saghir,,
+D-3.4,Nafas Asir,960305085,Dyspnoea
+D-3.5,Nafas Ghayr Muntazim Nafas Mukhtalif,1728207088,Irregular breathing
+D-3.6,Nafas Qasir,,
+D-3.7,Nafas MutatabiNafas Mutawatir,,
+D-3.8,Nafas Mutadaif,,
+D-3.9,Nafas Mutafawit,,
+D-3.10,Nafas Mumtali,,
+D-3.11,Nafas Murtaish,,
+D-3.12,Nafas Muntin,,
+D-3.13,Nafas Munqati,277953276,Unintentional threat to breathing by inhalation or ingestion of other objects or materials
+D-3.14,Nafas Khunaqi,,
+D-3.15,Nafas Mustakrah,,
+D-3.16,Usr al-Tanaffus,,
+D-3.17,Su al-Tanaffus,,
+D-3.18,Nafas Mankhari,,
+D-3.19,Nafas Muntasif,,
+D-4,Diq al-Nafas Dama Nafas Dayyiq,577724120,asthma
+D-5,Intisab al-Nafas,1076152687,Orthopnoea
+D-6,Rabw,577724120,asthma
+D-6.1,Rabw Balghami Rabw Nazli,1870104478,asthma
+D-6.2,Rabw Dukhani,,
+D-6.3,Rabw Rihi,1948124976,Emphysema
+D-6.4,Rabw Istirkhai,,
+D-6.5,Rabw Yubsi,,
+D-6.6,Rabw Warami,447724479,Potter's asthma
+D-6.7,Rabw Harr,,
+D-7,Sual-o-Surfa,,
+D-7.1,Sual Wabai,,
+D-7.2,Sual al-Atfal,1240756334,Infantile cough
+D-7.3,Surfa Nazliyya Harra,,
+D-7.4,Surfa Nazliyya Barida,,
+D-7.5,Surfa Rutubiyya,,
+D-7.6,Surfa Yubsiyya,,
+D-8,Khushuna al-Qasaba,,
+D-9,Kharkhara,1086458763,Joint crepitus
+D-10,Nafth al-Dam,899998313,Haemoptysis
+D-11,Shusa,,
+D-12,Jarayan al-Dam fi Jirm al-Ria,,
+D-13,Jarayan al-Dam Riwi Dakhili,,
+D-14,Dhat al-Ria,142052508,Pneumonia
+D-14.1,Dhat al-Ria Fassi,142052508,Pneumonia
+D-14.2,Dhat al-Ria Fusaysi,,
+D-14.3,Dhat al-Ria Muzmin,142052508,Pneumonia
+D-15,Sill,882244568,Tuberculosis of the respiratory system
+D-15.1,Sill Ghayr Haqiqi,,
+D-16,Nafth al-Midda,,
+D-17,Dhat al-Janb,317852053,Pleurisy
+D-17.1,Dhat al-Janb Haqiqi Dhat al-Janb Khalis,,
+D-17.2,Dhat al-Janb Ghayr HaqiqiDhat al-Janb Ghayr Khalis,830290763,Costochondritis
+D-17.3,Dhat al-Janb Wabai,637134348,Epidemic
+D-17.4,Dhat al-Janb Sadidi,1103848959,Pyothorax
+D-17.5,Dhat al-Janb Mudaaf,,
+D-18,Ijtima al-Ma fil-RiaUdhima Riwiyya,841348715,Pulmonary oedema
+D-19,Buthur al-Ria,,
+D-20,Waram Ria al-Atfal,,
+D-21,Dhat al-Sadr,317852053,Pleurisy
+D-22,Dhat al-Ard,,
+D-23,Barsam,1124735890,Diaphragmitis
+D-24,Jumud-i-Sadr Bard-i-Sadr,,
+D-25,Shahiqa,,
+D-26,Qih al-Sadr,,
+D-27,Hubut al-Ria,52186342,Pulmonary collapse
+D-28,Hubut Wasi,,
+D-29,Tadarrun Riwi,882244568,Tuberculosis
+D-30,Maytuta Riwiyya,1014964218,Pulmonary
+D-31,Tadarrun Umumi,861638547,Miliary tuberculosis
+D-32,Ittisa al-Shuab,1935524933,Bronchiectasis
+D-33,Iltihab al-Shuab Hadd,727572936,Acute bronchitis
+D-34,Iltihab al-Shuab Muzmin,290835130,Chronic bronchitis
+D-35,Nafkha al-Ria,1948124976,Emphysema
+D-36,Diq al-Nafas Shuabi,577724120,asthma
+D-37,Sala al-Shuab Sarataniyya,947165291,carcinoma
+D-38,Sala Shuba al-Ria Ghudadiyya,1418562110,Adenocarcinoma bronchus
+D-39,Ikhtilaj al-Qasaba,,
+D-40,Irtiash al-Qasaba,,
+D-41,Tamaddud Ghayr Kamil,,
+E,Amrad-i-Qalb wa Dawran-i-Khun,426429380,Diseases
+E-1,Waja al-Qalb,718946808,Angina pectoris
+E-2,Khafaqan,257569559,Palpitations
+E-2.1,Khafaqan Harr,490151622,Palpitation hot morbid temperament
+E-2.2,Khafaqan Barid,1445326877,Palpitation cold morbid temperament
+E-2.3,Khafaqan Rihi-o-Bukhari,,
+E-2.4,Khafaqan Suddi,1524208346,Palpitation obstruction
+E-2.5,Khafaqan Dufi,1338170370,Palpitation weakness heart
+E-2.6,Khafaqan Hissi,1320066388,Palpitation increased sensitivity heart
+E-2.7,Khafaqan Shirki,540239531,Palpitation secondary causes
+E-3,Ghashi,1418136013,Syncope
+E-3.1,Ghashi Imtilai,,
+E-3.2,Ghashi Istifraghi,,
+E-3.3,Ghashi Su-i-Mizaji,,
+E-3.4,Ghashi Wajai-o-Warami,1825340826,Neurogenic vasovagal reflex
+E-3.5,Ghashi Suddi,1715591926,Fainting obstruction vessels
+E-3.6,Ghashi Jui,761879781,Fainting severe starvation
+E-3.7,Ghashi Tabi-o-Yubsi,111771640,Fainting excessive physical exertion
+E-3.8,Ghashi Nafsani,415836385,Fainting excessive emotions
+E-3.9,Ghashi Midi,,
+E-3.10,Ghashi Ikhtinaqi,231892537,Fainting hysteria
+E-3.11,Ghashi Hummi,1463235266,Fainting fever
+E-3.12,Ghashi Sammi,306483085,Fainting poisoning
+E-4,Suqut al-Quwwa,1164022950,Shock
+E-5,Waram al-Qalb,874478433,carditis
+E-5.1,Waram Udhun al-Qalb,,
+E-5.2,Iltihab Darun-i-Qalb,293576108,endocarditis
+E-6,Waram Ghisha al-Qalb,1296696944,Pericarditis
+E-7,Imtila Ghilaf al-Qalb,2002014072,Pericardial effusion
+E-8,Daght al-Qalb,,
+E-9,Taqashshur al-Qalb,,
+E-10,Qadhf al-Qalb,257569559,Palpitations
+E-11,Ghalaba al-Rutuba alal Qalb Istisqa al-Qalb,2002014072,Pericardial effusion
+E-12,Dukhaniyya al-QalbIlla Dukhaniyya,808797539,Sensation upward pulling heart
+E-13,Jadhb al-Qalb,,
+E-14,Iqfari Marad-i-Qalb,1964269418,Ischaemic heart diseases
+E-15,Al-Tanakhkhur al-Insidadi li Adal al-Qalb,1334938734,myocardial infarction
+E-16,Takhaththur al-Dam,1859139099,Acute vascular disorders of intestine
+E-17,Qusur Iklili Hadd,253490233,Unstable angina
+E-18,Butu al-Qalb al-Jaybi,335965816,Sinus bradycardia
+E-19,Sura al-Qalb al-Jaybiyya,1275202242,sinus tachycardia
+E-20,Zaid Inqibadat,,
+E-21,Irtiash Udhuni,171698302,Atrial fibrillation
+E-22,Marad al-Qalb al-Hudari,291726710,rheumatic heart diseases
+E-23,Rafrafa Udhuniyya,1186800882,Atrial flutter
+E-24,Sura al-Qalb Dawriyya,1926915195,Paroxysmal tachycardia
+E-25,Sura al-Qalb Batniyya,1171837620,Ventricular tachycardia
+E-26,Fawq al-Batn Sura al-Qalb,113146812,Supraventricular tachyarrhythmia
+E-27,Insidad al-Qalb,486643502,Conduction disorders
+E-28,Insidad Udhuni Jaybi,884453307,Sinoatrial block
+E-29,Insidad Batni Udhuni,1147105932,atrioventricular block
+E-30,Insidad al-Qalb Kamil,1147105932,Complete block
+E-31,Insidad Shakh-i-Huzma,2080505197,Bundle branch block
+E-32,Suqut Dawran al-Dam,,
+E-33,Tawaqquf al-Qalb,395422191,Cardiac arrest
+E-34,Suqut al-Batn al-Aysar,437702716,Left ventricular failure
+E-35,Suqut al-Batn al-Ayman,1594578199,Right ventricular failure
+E-36,Taqahqur Taji,403917903,mitral regurgitation
+E-37,Taqahqur-i-Awrita,167104804,aortic regurgitation
+E-38,Daght al-Dam Qawi,761947693,hypertension
+E-38.1,Daght al-Dam Qawi Awwali Daght al-Dam Qawi Lazimi Daght al-Dam Qawi Ibtidai Daght al-Dam Qawi Dhati Daght al-Dam Qawi Asli,761947693,hypertension
+E-38.2,Daght al-Dam Qawi Thanwi,1331849426,Secondary hypertension
+E-38.3,Daght al-Dam Qawi Khabith,761947693,hypertension
+E-38.4,Daght al-Dam Qawi Riwi,1496633964,Pulmonary hypertension
+E-38.5,Daght al-Dam Qawi Kulwi,422807701,hypertension
+E-39,Maftuh Qanat Shiryani,1262462321,Patent duct
+E-40,Tadayyuq-i-Awrita,1066595728,aortic stenosis
+E-41,Naqs Hajizi Udhuni,1285985084,Interatrial communication
+E-42,Tasallub al-Sharayin,109367356,Atherosclerotic
+E-43,Tasaddud Shahmi Kilsi,109367356,Atherosclerotic
+E-44,Iltihab-i-Sharayin,818002838,arteritis
+E-45,Iltihab-i-Awrita Atshaki,,
+E-46,Iltihab Wiai Tasaddudi Takhaththuri,1000683110,Thrombo ngiitis obliterans
+E-47,Anurasma,392318289,aneurysm
+E-47.1,Anurasma Haqiqi,769391513,true aneurysm
+E-47.2,Anurasma Kadhib,392318289,aneurysm
+E-47.3,Anurasma Mighzali,392318289,aneurysm
+E-47.4,Anurasma Kisi,392318289,aneurysm
+E-47.5,Anurasma Tashrihi,392318289,aneurysm dissection
+E-47.6,Tamaddud al-Awiya,,
+F,Amrad-i-Nizam-i-Hadm,1256772020,Diseases digestive system
+F-1,Intibaq al-Mari,,
+F-2,Tafarruq Ittisal al-Mari,2001881014,Injury oesophagus
+F-3,Quruh al-Mari,1084515160,Oesophageal ulcer
+F-4,Hikka al-Mari,348407164,oesophageal reflux
+F-5,Waram-i-Mari,1540965840,Oesophagitis
+F-6,Su-i-Mizaj-i-Mida,1101187225,Gastric dyscrasia
+F-7,Waja al-Mida,1810710745,Pain localised to upper abdomen
+F-7.1,Waja al-Mida Riyahi,,
+F-7.2,Waja al-Mida Harr,,
+F-7.3,Waja al-Mida Safrawi,,
+F-7.4,Waja al-Mida Barid Balghami,,
+F-7.5,Waja al-Mida Yabis Sawdawi,,
+F-7.6,Waja al-Mida Dufi,2005856821,Asthenic gastralgia
+F-8,Duf al-Mida,1666089201,Gastric debility
+F-9,Duf al-Hadm,,
+F-10,Fasad al-Hadm Su al-Hadm,869622187,Dyspepsia
+F-11,Tukhma,1616929118,Functional dyspepsia
+F-12,Butlan al-Hadm,1616929118,Functional dyspepsia
+F-13,Hayda,1642556936,Foodborne
+F-13.1,Hayda Wabai,257068234,Cholera
+F-14,Butlan al-Ishtiha,,
+F-15,Duf al-Ishtiha,2137507044,Anorexia
+F-16,Fasad al-Ishtiha,719429371,Perverted appetite
+F-17,Waham,833390860,Pica
+F-18,Ju al-Kalb Shahwat Kalbiyya,,
+F-19,Ju al-BaqarBulimus,509381842,Bulimia
+F-20,Ju al-Maghshi,,
+F-21,Utash Mufrit,439093618,Polydipsia
+F-22,Waram al-Mida,1871672644,Gastritis
+F-22.1,Waram al-Mida Damawi,,
+F-22.2,Waram al-Mida Safrawi,,
+F-22.3,Waram al-Mida Balghami,865968881,Chronic gastritis
+F-22.4,Waram al-Mida Sawdawi,,
+F-23,Dubayla al-Mida Khuraj al-Mida,,
+F-24,Qarha wa Buthur al-Mida,1437411258,Gastric ulcer
+F-25,Qaraqir al-Mida,98838579,Hyperperistalsis
+F-26,Nafkh al-Mida,1540491307,Flatulence
+F-27,Kathra al-Jusha,,
+F-28,Kathra al-Tathaub,562399900,Excessive yawning
+F-29,Kathra al-Tamatti,,
+F-30,Ihtibas al-Jusha,,
+F-31,Qay,447658033,Vomiting
+F-31.1,Qay Shirki,1407174024,Vomiting associated disease organ stomach
+F-31.2,Qay Buhrani,936352029,Vomiting crisis period disease
+F-31.3,Qay Didani,826419605,Vomiting worm infestation
+F-31.4,Qay al-Dam,1794059753,Haematemesis
+F-32,Tahawwu,447658033,Vomiting
+F-33,Ghathayan,596805318,Nausea
+F-34,Taqallub al-Nafas,,
+F-35,Injimad al-Dam fil Mida,,
+F-36,Injimad al-Laban fil Mida,,
+F-37,Tahalhul al-Mida,,
+F-38,Fuwaq,798509501,Hiccough
+F-38.1,Fuwaq Rihi,,
+F-39,Inqilab al-Mida,,
+F-40,Karb al-Mida,1911219233,Distressing pain stomach
+F-41,Ikhtilaj al-Mida,368752820,Feeling trembling movement stomach
+F-42,Waja al-Fuwad,,
+F-43,Hurqa al-Mida,1701691528,Hyperacidity
+F-44,Hikka al-Mida,,
+F-45,Istirkha al-Mida,598423727,Gastroparesis
+F-46,Tashannuj al-Mida,776748300,Stomach spasm
+F-47,Salaba al-Mida Jusa al-Mida,,
+F-48,Tasaghghur al-Mida,1456893797,atrophic
+F-49,Kharq al-Mida,819812005,Perforation stomach
+F-50,Duf al-Kabid,508643963,Hepatic
+F-51,Su Mizaj-i-Kabid,502430882,Hepatic dyscrasia
+F-52,Sudad al-Kabid,,
+F-53,Nafkh wa Riyah al-Kabid,,
+F-54,Waja al-Kabid Kubad,1002741465,Hepatalgia
+F-55,Sharqa al-Kabid,,
+F-56,Waram al-Kabid,2046015098,Certain specified inflammatory liver diseases
+F-56.1,Waram al-Kabid Safrawi,,
+F-56.2,Waram al-Kabid Damawi,,
+F-56.3,Waram al-Kabid Sawdawi,,
+F-56.4,Waram al-Kabid Balghami,,
+F-56.5,Waram al-Kabid Sulb Saratani,1840757437,Carcinoma liver
+F-57,Darba wa Saqta al-Kabid,140695968,Injury liver
+F-58,Tabaththur al-Kabid,,
+F-59,Tasaghghur al-Kabid Sughar al-Kabid Dumur al-Kabid,861668321,Atrophy liver
+F-60,Izam al-Kabid,690435214,Hepatomegaly
+F-61,Khafqa al-Kabid,,
+F-62,Inshiqaq al-Kabid Infijar al-Kabid,,
+F-63,Salaba al-Kabid,1781315693,Hepatic cirrhosis
+F-64,Dubayla al-Kabid,1323593849,Abscess liver
+F-65,Hasa al-Kabid,,
+F-66,Su al-Qinya,289294765,Anaemia hypoproteineamia
+F-67,Fasad al-Dam,,
+F-68,Faqr al-Dam,224336967,Anaemias or other erythrocyte disorders
+F-69,Istisqa,826220775,Oedema
+F-69.1,Istisqa Lahmi,,
+F-69.2,Istisqa Tabli,,
+F-69.3,Istisqa Ziqqi,1133729855,Ascites
+F-70,Yarqan Asfar,1056591229,jaundice
+F-71,Yarqan Aswad,98221538,Blackish discoloration skin
+F-72,Su Mizaj-i-Tihal,1033187646,Splenic dyscrasia
+F-73,Waram wa Salaba al-Tihal,,
+F-74,Izam al-Tihal,1282210072,Splenomegaly
+F-75,Taqayyuh al-Tihal,1831834962,Abscess spleen
+F-76,Nafkh wa Riyah al-Tihal,,
+F-77,Duf al-Tihal,1773569569,Splenic insufficiency
+F-78,Sudad al-Tihal,,
+F-79,Hasa al-Tihal,,
+F-80,Waja al-Tihal,,
+F-81,Amrad Unuq al-Tihal,1726554290,Diseases pancreas
+F-82,Zalq al-Ama,,
+F-83,Ishal,116759077,Diarrhoea
+F-83.1,Ishal Ghidhai,,
+F-83.2,Ishal Hawai Ishal Wabai,1688127370,Gastroenteritis or colitis without specification of infectious agent
+F-83.3,Ishal al-Midda,,
+F-83.4,Ishal al-Dam,1826507405,Blood diarrhoea
+F-83.5,Ishal Dimaghi,1158238623,Irritable bowel syndrome
+F-83.6,Ishal Kabidi Kaylusi,,
+F-83.7,Ishal Kabidi Ghusali,,
+F-83.8,Ishal Kabidi Safrawi,,
+F-83.9,Ishal Kabidi Sadidi,,
+F-83.10,Ishal Kabidi Khathiri-o-Durdi,,
+F-83.11,Ishal Marari,,
+F-83.12,Ishal Tihali,1716776417,Diarrhoea involvement spleen
+F-83.13,Ishal Miwi Rutubi,1789890344,Enterorrhoea
+F-83.14,Ishal Miwi Buthuri,,
+F-83.15,Ishal Miwi Safrawi,,
+F-83.16,Ishal Miwi Sawdawi,,
+F-83.17,Ishal al-Atfal,,
+F-83.18,Ishal Midi,,
+F-83.19,Ishal Sahji Damawi,1688127370,Gastroenteritis or colitis without specification of infectious agent
+F-83.20,Ishal Sahji Mukhati,116759077,Diarrhoea
+F-83.21,Ishal Sahji Qushari-o-Khurati,,
+F-83.22,Ishal Sahji Middi-o-Sadidi,,
+F-83.23,Ishal Sahji Zubdi,,
+F-83.24,Ishal Sahji Mirri,,
+F-84,Duf al-Ama,386699845,Human immunodeficiency virus disease enteritis
+F-85,Dharab-o-Khilfa,,
+F-86,Sahj wa Quruh al-Ama,1267652425,Crohn disease
+F-87,Dhusantariya Kabidiyya,1768200173,Hepatic diarrhoea
+F-88,Dhusantariya Miwiyya,1826507405,Blood diarrhoea involvement intestine
+F-89,Zahir,1688127370,Gastroenteritis or colitis without specification of infectious agent
+F-89.1,Zahir Warami,,
+F-89.2,Zahir Wabai,,
+F-89.3,Zahir Idhai,,
+F-89.4,Zahir al-Atfal,,
+F-90,Maghs,1328152138,tenesmus
+F-90.1,Maghs al-Atfal,1767268402,Infantile tenesmus
+F-91,Nafkh-o-Qaraqir,,
+F-92,Qulanj,166022696,Other and unspecified abdominal pain
+F-92.1,Qulanj Warami,,
+F-92.2,Qulanj Rihi,1540491307,Flatulence
+F-92.3,Qulanj Iltiwai,728568723,Volvulus
+F-92.4,Qulanj Fatqi,,
+F-92.5,Qulanj Dudi,,
+F-92.6,Qulanj Thufli,,
+F-92.7,Qulanj Balghami,,
+F-92.8,Qulanj Tashannuji,166022696,Other and unspecified abdominal pain
+F-92.9,Qulanj Rasasi,,
+F-92.10,Qulanj Zaidi,1988785309,colic
+F-92.11,Qulanj Kabidi,232482334,hepatic
+F-92.12,Qulanj Marari,92432538,Calculus of bile duct without cholangitis or cholecystitis
+F-92.13,Qulanj Kulwi,821552851,Renal colic
+F-92.14,Qulanj Midi,,
+F-92.15,Qulanj Nuhasi,,
+F-92.16,Qulanj MurakkabKhunaq Miwi,2045954085,intestinal obstruction
+F-92.17,Qulanj Wabai,,
+F-92.18,Qulanj Ardi,1989299962,Secondary proctocolitis
+F-93,Ilaus,460984650,Dynamic intestinal obstruction
+F-94,QabdItiqal al-BatnHusrIhtibas al-Batn Ihtibas al-TabiaItiqal al-TabiaImsak al-Batn,502284069,Constipation
+F-94.1,Husr MutadHusr Daimi,1737019901,Habitual constipation
+F-94.2,Husr Ardi,1476571877,Secondary constipation
+F-95,Didan al-Ama,863306856,infestation worms
+F-96,Bawasir,,
+F-97,Rih al-Bawasir,,
+F-98,Qishr al-Bawasir,,
+F-99,Nawasir Ghayr Nafidha,1836987572,Chronic rhinosinusitis
+F-100,Nawasir Nafidha,206903882,fistula
+F-101,Waram al-Maqad,706550431,proctitis
+F-102,Shuqaq al-Maqad,677675737,Anal fissure
+F-103,Istirkha al-Maqad,,
+F-104,Khuruj al-Maqad Khuruj al-Mabraz,231914102,Rectal prolapse
+F-105,Hikka al-Maqad,1237083575,pruritus
+F-106,Quruh al-Maqad,1377705785,anal ulceration
+F-107,Maqad Ghayr Mathqub,515168801,Imperforate anus
+F-108,Fuhat Uruq al-Maqad,,
+G,Amrad-i-Nizam-i-Bawl,1932345217,Diseases urinary system
+G-1,Huzal al-Kulya Dumur al-Kulya,117862072,kidney
+G-2,Dhayabitus Dulabiya Muattisha Dawwariyya Parkariyya,465177735,Diabetes mellitus
+G-3,Duf al-Kulya,761526554,Kidney
+G-4,Hasa wa Raml al-Kulya,389168514,Calculus of kidney
+G-5,Hasa al-Mathana,197850369,Calculus in bladder
+G-6,Waram al-Mathana,1181120673,Cystitis
+G-7,Rih al-Kulya,,
+G-8,Waja al-Kulya,821552851,Renal
+G-9,Sudad al-Kulya,1993889507,kidney renal obstruction
+G-10,Waram al-Kulya,1783829886,Nephritic
+G-10.1,Waram al-Kulya Harr,1783829886,Nephritic
+G-10.2,Waram al-Kulya Barid Balghami,,
+G-10.3,Waram al-Kulya Sulb,,
+G-11,Dubayla al-Kulya,1683066042,Renal abscess
+G-12,Quruh al-Kulya,,
+G-13,Jarab al-Kulya,,
+G-14,Waram al-Mathana Sulb,382632922,chronic cystitis
+G-15,Dubayla al-Mathana,,
+G-16,Duf al-Mathana,340201268,Insufficiency urinary bladder
+G-17,Quruh al-Mathana,1495841197,Wound urinary bladder
+G-18,Jarab al-Mathana,,
+G-19,Injimad al-Dam fil Mathana,1993296529,Urinary clotted blood urinary bladder
+G-20,Istirkha al-Mathana,171330395,bladder
+G-21,Khal al-Mathana,,
+G-22,Waja al-Mathana,657284670,Cystodynia
+G-23,Rih al-Mathana,,
+G-24,Hurqa al-Bawl,1461225727,Burning micturition
+G-25,SozakSayalan ZuhriHurqa Al-Nakal Uquba,609214049,Gonococcal infection
+G-26,Hurqa Muzmina Zanaqa,609214049,Gonococcal infection
+G-27,Hurqa al-Nisa,1751464879,Gonorrhoeal vaginitis
+G-28,Ihtibas al-Bawl,1775034842,Retention urine
+G-29,Usr al-Bawl,781372207,Dysuria
+G-30,Taqtir al-Bawl,668600451,Dribbling urine
+G-31,Salas al-Bawl,766129123,Urinary incontinence
+G-32,Bawl fil Farash,,
+G-33,Kathra al-Bawl,2137636828,Polyuria
+G-34,Qilla al-Bawl,723491972,Oliguria
+G-35,Bawl al-Dam,2016050353,Haematuria
+H,Amrad-i-Tanasul,585064432,genital
+H-1,Duf al-Bah,,
+H-2,Istirkha al-Qadib,,
+H-3,Sura al-Inzal,361151087,ejaculation
+H-4,Kathra al-Shahwa,744774024,Increased libido
+H-5,Jarayan,1725754094,Passive discharge of semen from urethra
+H-6,Kathra al-Ihtilam,524799490,Excessive nocturnal emission
+H-7,FarismusFarmisyusIfrat al-Nuuz,1983776037,Priapism
+H-8,AqunaIkhtilaj Tanasuli,,
+H-9,AdhyutAdhita,,
+H-10,Waram al-Khusyatayn Waram al-Unthayayn,1484511712,Inflammation of testis
+H-11,Waja al-Khusya wal Qadib,,
+H-12,Waram al-Qadib,1391697065,Inflammation penis
+H-13,Shuqaq al-Qadib,,
+H-14,Quruh al-Khusya wal Qadib,,
+H-15,Hikka al-Qadib,,
+H-16,Sudda Majari al-Qadib,,
+H-17,Iwijaj al-Qadib,1184971160,Chordee
+H-18,Izam al- Khusyatayn,219740884,Hypertrophy testis
+H-19,Sighar al-Khusyatayn,1735709719,Atrophy testis
+H-20,Istirkha al-Safan,,
+H-21,Dawali al-Safan,315302008,Scrotal varices
+H-22,Salaba al-Safan,,
+H-23,Ibridah,867236062,Decreased libido
+H-24,Qarw Damawi,1238236054,Haematocele
+H-25,Ubna,,
+H-26,Band Kushad,,
+H-27,Qila,,
+H-28,Qila Maiyya,1323357778,Hydrocele
+H-29,Irtifa al-Khusya,1134950387,Cryptorchidism
+H-30,Taqallus al-Khusya,1735709719,Atrophy testis
+H-31,Thaalil al-Dhakar,1031905196,Penile warts
+H-32,Mani al-Dam,1644665841,Haematospermia
+H-33,Qilla al-Mani,,
+I,Amrad-i-Niswan wa Qabalat,,
+I-1,Su-i-Mizaj al-Rahim,,
+I-2,Sala al-Rahim,1462467975,Neoplasms uterus
+I-3,Tasaghghur al-Rahim,1532566248,atrophy uterus
+I-4,Izam al-Rahim,2143820032,uterus
+I-5,Tashahhum al-Rahim,418675175,Physometra
+I-6,Istisqa al-Rahim,1830992667,Hydrometra
+I-7,Insidad Fam al-Rahim,741581315,stenosis
+I-8,Inghilaq al-Rahim,741581315,Stricture
+I-9,Natn al-Rahim,,
+I-10,Inzilaq al-Rahim,334012722,prolapse uterus
+I-11,Isqat,2036729570,Abortion
+I-11.1,Isqat Adi,753990808,Recurrent pregnancy loss
+I-12,Iltihab Khusya al-Rahim,532571715,Oophritis
+I-13,Waja Khusya al-Rahim,250742860,Ovarian pain
+I-14,Khuruj Khusya al-Rahim,,
+I-15,Istisqa Khusya al-Rahim,1481220289,ovarian cysts
+I-16,Sala Khusya al-Rahim,1973989346,Neoplasms ovary
+I-17,Ghisha Khusya al-Rahim Kadhib,,
+I-18,Tasaghghur Khusya al-Rahim,,
+I-19,Iltihab al-Qadhif,1628929313,Inflammatory disease of fallopian tube
+I-20,Taakkul al-Qadhif,,
+I-21,Sala al-Qadhif,459381514,neoplasms fallopian tube
+I-22,Insidad al-Qadhif,1922880877,Fallopian tube
+I-23,Inshiqaq al-Qadhif,913821868,Tubal
+I-24,Qay al-Haml,1878037467,hyperemesis gravidarum
+I-25,Yaraqan al-Haml,,
+I-26,Namla al-Haml,,
+I-27,Kathra al-Nafas,,
+I-28,Wusa Fam al-Rahim,1232629655,Incompetence
+I-29,Raja,,
+I-30,Usr al-WiladaUsr al-Haml,,
+I-31,Ihtibas al-Mashima,1244461000,retained placenta
+I-32,Ihtibas al-Nafas,,
+I-33,Uqr,1237004558,Female infertility
+I-34,Qilla al-Laban,1132445247,Suppressed lactation
+I-35,Kathra al-LabanTaghzir al-Laban,936570562,Galactorrhoea
+I-36,Tajabbun al-Laban,,
+I-37,Waram al-Thadi,259204343,Inflammatory disorders of breast
+I-38,Dubayla wa Qarha al-Thadyayn,1033306788,Breast abscess
+I-39,Izam wa Suqut al-Thadyayn,,
+I-40,Tasaghghur al-Thadyayn,,
+I-41,Tamaddud al-Thadyayn,,
+I-42,Ihtibas al-Tamth,1595830028,Amenorrhoea
+I-43,Quruh al-Rahim,1126092249,Ulcer uterus
+I-44,Hikka al-Rahim Farismus al-Nisa,1567023854,Pruritus uteri
+I-45,Shuqaq al-Rahim,1703954528,ruptured uterus
+I-46,Inqilab al-Rahim Nutu al-Rahim,334012722,prolapse uterus
+I-47,Ratq,1957522777,Imperforate hymen
+I-48,Bawasir al-Rahim,1926647018,Polyp uteri
+I-49,Kathrat-i-Hayd Istihada,549694871,Frequent menstrual bleeding
+I-50,Sayalan al-Rahim,879327727,Leukorrhoea
+I-51,Nasur al-Rahim,12608163,fistula
+I-52,Saratan al-Rahim,1743710977,carcinoma
+I-53,Ikhtinaq al-Rahim,953661315,Histrionic personality disorder
+I-54,Nafkh al-Rahim,418675175,Physometra
+I-55,Buthur al-Rahim,,
+I-56,Atshak Abla Farang Darma Saur Al-Afranji Bad Farang Al-Khajil Qarha SulbaKoft,1721348227,Syphillis
+I-56.1,Wabal Warathi Khilqi Atshak Al-Afranji al-Warathi Mawruthi Atshak,587996426,Congenital syphilis
+I-56.2,Atshak Majazi,,
+I-57,Waram al-Rahim,343716294,Metritis
+I-58,Usr al-Tamth,1703914672,Dysmenorrhoea
+I-59,Qillat-i-Tamth,650279131,Infrequent menstrual bleeding
+J,Amrad-i-Jild wa Taziniyat,,
+J-1,Baras,,
+J-1.1,Baras Aswad,712391858,Hyperpigmented patches skin
+J-2,Bahaq Abyad Wadah,1386947078,Pityriasis alba
+J-3,Bahaq Aswad,1535278887,Pityriasis nigra
+J-4,Kalaf,,
+J-5,Barash,,
+J-6,Namash,729604718,naevus
+J-7,Khilan,1757898640,Benign cutaneous melanocytic neoplasms
+J-8,Khudra wa Sawad,1707892594,Bruise or contusion of skin
+J-9,Washm,857612238,tattoo
+J-10,Athar al-Quruh,,
+J-11,Athar al-Judari,,
+J-12,Badushnam,,
+J-13,Fasad al-Lawn,144124957,Abnormal skin pigmentation
+J-14,Taqashshur al-Jild,,
+J-15,Hazaz-o-Ibriyya Bafa Hubayra Qishr al-Ras Hibriyya,,
+J-16,Da al-Thalab,,
+J-17,Da al-Hayya,,
+J-18,Intithar al-Shar,379555302,Hair fall
+J-19,Illa al-Nuama,,
+J-20,Sala,1707380076,Male pattern hair loss
+J-21,Shayb,,
+J-22,Tatwil al-Shar,,
+J-23,Inbat al-Shar,,
+J-24,Halq al-Shar,336055701,Pseudofolliculitis barbae
+J-25,Tajid al-Shar,957396257,Hair curling
+J-26,Tarqiq al-Shar,,
+J-27,Tasbit al-Shar,,
+J-28,Tashaqquq al-Shar,4504631,Hair split
+J-29,Namusa,,
+J-30,Qummal-o-Siban,1083938812,Pediculosis
+J-31,Qamqam,,
+J-32,Zufra Talqiyya,2037739046,Brittle nails
+J-33,Baras al-Azfar,262016655,leukonychia
+J-34,Namash al-Azfar,,
+J-35,Judham al-Azfar,,
+J-36,Tashaquq al-Azfar,21709879,nail splitting
+J-37,Tauqquf al-Azfar,1899437669,Onychogryphosis
+J-38,Taqallu al-Azfar,1406399454,Nail shedding
+J-39,Taqassu al-Azfar,93998748,Onycholysis
+J-40,Mawt al-Dam,1707892594,Bruise or contusion of skin
+J-41,Sufra al-Azfar,47812081,Yellow nail
+J-42,Radd al-Azfar,1450817342,Contusion
+J-43,Kathra al-Araq,1416949107,Hyperhidrosis
+J-44,Araq Muntin,1456323010,Bromhidrosis
+J-45,Araq al-Dam,964148685,Hematidrosis
+J-46,Shuquq al-Atraf wal Wajh,,
+J-47,Taqarruh al-Shidqayn,1691782809,Cheilosis
+J-48,Saaf,,
+J-49,Taqashshuf al-Jild,318744822,Sunburn
+J-50,Taqashshur al-Qadamayn,837108867,Cracked heels
+J-51,Qushur al-Jabha,1120438080,Scaling forehead skin
+J-52,Shara,993242399,Urticaria
+J-52.1,Banat al-Layl,262260792,Nocturnal urticaria
+J-53,Hasaf Buthur Shawkiyya,1245016385,Miliaria rubra
+J-54,Quba,,
+J-54.1,Quba Hadith,967094396,Acute ring worm
+J-54.2,Quba Radi,,
+J-54.3,Quba Mutaqashshir,,
+J-54.4,Quba Sai,,
+J-54.5,Quba Waqif,,
+J-55,Dakhis,579742959,paronychia
+J-56,Jarab,876005123,Scabies
+J-57,Hikka,1729106757,Pruritus
+J-57.1,Hikka al-Mashayikh,1441759964,Senile pruritus
+J-58,Safa,1622653958,folliculitis
+J-58.1,Safa RatbaShirinaj,59032382,Wet folliculitis
+J-58.2,Safa Yabisa Suraji,908375866,Dry folliculitis
+J-58.3,Safa Shahdiyya,1281788366,Tinea favus
+J-58.4,Ruus al-Ibra,,
+J-58.5,Ujar,806314148,Nodular prurigo
+J-58.6,Halami,,
+J-58.7,Safa Balkhiyya,25801498,Chronic folliculitis
+J-58.8,Safa Humra,,
+J-59,Ghudun,,
+J-60,Athra,,
+J-61,Intifakh al-Asabi,247295056,Chilblains
+J-62,Hikka al-Asabi,,
+J-63,Mazah,937488272,"Intertriginous dermatitis due to friction, sweating or contact with body fluids"
+J-64,Sunan,1456323010,Bromhidrosis
+J-65,Natn Jild al-Ras,,
+J-66,Khasar-o-TasqiFasad al-Atraf bil Bard,152692065,Frostbite
+J-67,Thaalil,,
+J-68,Buthur Labaniyya Habb al-Shabab Buthur Duhniyya Al-Ghudd al-Shai,1892393023,Acne
+K,Hummayat,915343154,Fever
+K-1,Humma,915343154,Fever
+K-1.1,Humma al-Yawm,915343154,Fever
+K-1.1.1,Humma al-Yawm Hammiyya,,
+K-1.1.2,Humma al-Yawm Faziyya,,
+K-1.1.3,Humma al-Yawm Fikriyya,1970407217,Anxiety ephemeral fever
+K-1.1.4,Humma al-Yawm Ghadabiyya,,
+K-1.1.5,Humma al-Yawm Farhiyya,,
+K-1.1.6,Humma al-Yawm Sahriyya,,
+K-1.1.7,Humma al-Yawm Tabiyya,,
+K-1.1.8,Humma al-Yawm Ishaliyya,,
+K-1.1.9,Humma al-Yawm Wajaiyya,,
+K-1.1.10,Humma al-Yawm Ghashiyya,,
+K-1.1.11,Humma al-Yawm Atashiyya,,
+K-1.1.12,Humma al-Yawm Juiyya,,
+K-1.1.13,Humma al-Yawm Suddiyya,,
+K-1.1.14,Humma al-Yawm Tukhmiyya,,
+K-1.1.15,Humma al-Yawm Waramiyya,,
+K-1.1.16,Humma al-Yawm Shamsiyya,1154088362,Ephemeral fever heat stroke
+K-1.1.17,Humma al-Yawm Istihsafiyya,,
+K-1.1.18,Humma al-Yawm Sharabiyya,1481226890,Intoxicating ephemeral fever
+K-1.1.19,Humma al-Yawm Ghidhaiyya,,
+K-1.1.20,Humma al-Yawm Dawaiyya,,
+K-1.1.21,Humma al-Yawm Qashfiyya,,
+K-1.1.22,Humma al-Yawm Nazliyya-o-Zukamiyya,,
+K-1.1.23,Humma al-Yawm Zahiriyya,,
+K-1.1.24,Humma al-Yawm Harriyya,1154088362,Ephemeral fever heat stroke
+K-1.1.25,Humma al-Yawm Nawmiyya Humma al-Yawm Rahiyya,,
+K-1.1.26,Humma al-Yawm Jurhiyya,,
+K-1.1.27,Humma al-Yawm Imtilaiyya,,
+K-1.1.28,Humma al-Yawm Istifraghiyya,,
+K-1.2,Humma Diqqiyya,2042954837,fever hectic fever
+K-1.3,Humma Ufuniyya,,
+K-2,Ufunat,1435254666,infectious
+K-3,Humma Daima Humma Lazima,554848287,Continuous fever
+K-4,Humma Daira Humma Naiba,633896543,Malaria without parasitological confirmation
+K-5,Humma al-Ghibb Trataus,633896543,Malaria without parasitological confirmation
+K-5.1,Humma al-Ghibb Daira,1628728660,Tertian fever
+K-5.2,Humma al-Ghibb Lazima,,
+K-5.3,Humma al-Ghibb Muharriqa,,
+K-6,Humma Muwaziba Astrabus,154462584,Quotidian fever
+K-6.1,Humma Muwaziba Mudaifa,1724208081,Doubling quotidian fever
+K-6.2,Humma Muwaziba Safrawiyya,,
+K-7,Humma Lathiqa Humma Balghamiyya Lazima,,
+K-8,Humma al-RibTatra,862789727,Malaria due to Plasmodium malariae
+K-8.1,Humma al-Rib Lazima,,
+K-9,Humma Mukhtalita,,
+K-10,Humma Afyalus,1809976586,Ephiyalus fever
+K-11,Humma Lifuriya,1634708070,Liparia fever
+K-11.1,Tayfudas,,
+K-12,Humma Afyalus Lifuriya,1274972072,Ephiyalus Liparia fever
+K-13,Humma Mutbiqa,,
+K-13.1,Humma Mutbiqa Ghalayaniyya Humma Sunukhus,,
+K-13.2,Humma MutbiqaUfuniyya,139537222,Sinoco fever
+K-14,Humma al-Khims,1587737629,fever
+K-15,Humma al-Suds,,
+K-16,Humma al-Sub,,
+K-17,Humma al-Tus,,
+K-18,Humma Ghashiyya,,
+K-19,Humma Miwiyya,1528414070,fever
+K-20,Humma Wabaiyya,2106977129,Epidemic fever
+K-21,Humma Tafhiyya,1998081029,Eruptive fever
+K-21.1,Humma Judariyya,2054716425,Smallpox
+K-21.2,Hasba,1826431497,Measles
+K-21.3,Humma Qirmiziyya,107294155,Scarlet fever
+K-21.4,Humma Ghamiya HadhayaniyyaHumma Ruqta Humma al-Sufun Humma QadhiraHumma al-Sujun,,
+K-21.5,Humayqa Bad Abla,1667539108,Varicella without complication
+K-22,Humma Zamhaririyya Fardmuriyus,,
+K-23,Fimatus Dawwara,633896543,Malaria without parasitological confirmation
+K-24,Qatma,,
+K-25,Humma Ajamiyya,1820610243,Marshy area fever
+L,Amrad-i-Izam wa Mafasil,730641547,bone disease joint
+L-1,Waja al-Zahr,1800187363,Dorsalgia
+L-2,Waja al-Khasira,,
+L-3,Hudar,2113186970,Rheumatism
+L-4,Waja al-Mafasil,396939646,Inflammatory arthropathies
+L-5,Waja al-Warik,718979238,Coccygodynia
+L-6,Waja al-Aqib,1676566355,Achillodynia
+L-7,Niqris,395622227,Gout
+L-8,Irq al-Nasa,2056651014,Sciatica
+L-9,Tahajjur wa Salaba al-Mafasil,1505896560,spondyloarthritis
+L-10,Hadaba Hadaba al-Muakhkhar,1244444785,Kyphosis
+L-11,TaqassuHadaba al-Muqaddam,444559306,Lordosis
+L-12,Iltiwa,1925604007,Scoliosis
+L-13,Riyah al-Afrisa,,
+L-14,Wahn al-Izam Takhalkhul al-Izam Takhaththur al-Izam,2113001430,Osteoporosis
+L-15,Kasr,1504538171,Fracture
+L-15.1,Kasr Basit Kasr Sadhij,,
+L-15.2,Kasr Murakkab Kasr Makshuf,1080133681,Compound fracture
+L-15.3,Kasr Mudaaf Kasr Mukhtalit,1170779475,Complications fracture
+L-15.4,Kasr Kamil,873599689,Fracture
+L-15.5,Kasr Ghayr Kamil Kasr Juzi Kamil,75909427,Fracture
+L-15.6,Kasr Sadi,1801367926,Longitudinal fracture
+L-15.7,Kasr Kharrubi,1227306904,Greenstick fracture
+L-15.8,Kasr Mufattat,2006159364,Comminuted fracture
+L-15.9,Kasr Shatwi,1126329182,Avulsion fracture
+L-15.10,Kasr Thaqib,,
+L-15.11,Kasr Mustatil Kasr Mushattab,1801367926,Longitudinal fracture
+L-15.12,Kasr Mustarad Kasr Mutaaddid,804640573,Transverse fracture
+L-15.13,Kasr Muarrab,1504538171,Fracture
+L-15.14,Kasr Lawlabi Kasr Halazuni,1343005175,Spiral fracture
+L-15.15,Kasr Mudgham Kasr Munghariz,750703299,Impacted fracture
+L-15.16,Kasr Rahimi,,
+L-15.17,Kasr Khilqi,,
+L-15.18,Kasr Shari,,
+L-15.19,Kasr Dhati,639949585,Pathological fracture
+L-15.20,Kasr Mafsili,263535387,Fracture
+L-15.21,Kasr al-Anf,1981758834,Fracture nasal bones
+L-15.22,Kasr FujliKasr Qasabi Kasr Qathwi,,
+L-15.23,Kasr Hilali,,
+L-15.24,Kasr Sawiqi Kasr Qadibi Kasr Jawzi Kasr Jarishi,,
+L-16,Khal,1348012248,joint dislocations
+L-16.1,Khal Darbi,1559356233,Traumatic dislocation
+L-16.2,Khal al-Mafasil,1348012248,joint dislocations
+L-16.3,Khal Khilqi,1348012248,Congenital dislocations
+L-16.4,Khal Maradi Khal Ardi,,
+L-16.5,Khal Tamm Khal Kamil,913719038,Complete dislocation
+L-16.6,Khal Ghayr Tamm Khal Ghayr Kamil Khal Ghayr Mukammal,915654254,Partial dislocation
+L-16.7,Khal Murakkab,,
+L-16.8,Khal Mudaaf,,
+L-16.9,Khal Kasri,39276591,Dislocated fracture
+L-17,Watha,1008872039,sprains
+M,Jarahat,245796173,Acute abdomen
+M-1,Juruh,960305085,Dyspnoea
+M-1.1,Juruh Maftuha Juruh Wadiha,754990790,Open wound
+M-1.2,Juruh Qatiyya,,
+M-1.3,Juruh Wakhiziyya,754990790,wound
+M-1.4,Juruh Mazqiyya,1255711513,laceration
+M-1.5,Juruh Musaddasa Juruh Shashkhana,,
+M-1.6,Juruh Raddiyya,,
+M-1.7,Juruh Sammiyya,,
+M-1.8,Juruh Nariyya Juruh Barudiyya,,
+M-1.9,Juruh Ufuniyya,,
+M-1.10,Juruh Ghayr Ufuniyya Juruh Ghayr Mulawwatha,,
+M-2,Taaffun al-Dam,2093238381,Septicaemia
+M-3,Tasammum al-Dam,51354860,Toxaemia
+M-4,Taqayyuh al-Dam,325070079,Puerperal sepsis
+M-5,Qarha,2058491071,Osteomyelitis or osteitis
+M-5.1,Qarha Ardiyya,1555919427,Secondary ulcer
+M-5.2,Qarha Nawiyya,,
+M-5.3,Qarha Khabitha Qarha Afina,,
+M-5.4,Qarha Mulima,,
+M-5.5,Qarha Ghayr Mulima,,
+M-5.6,Qarha Salima,2100064846,benign ulcer
+M-5.7,Qarha Asir al-Indimal,,
+M-5.8,Qarha Khayruniyya,1707607718,tuberculosis
+M-5.9,Qarha Saiyya,,
+M-5.10,Qarha Ihtiraqiyya,,
+M-5.11,Qarha Qatat,,
+M-5.12,Qarha Naqiyya,900285196,Non ulcerative infection
+M-5.13,Qarha Ghayr Naqiyya,1851797100,Infectious ulcer
+M-5.14,Qarha Lathiqa,,
+M-5.15,Qarha Wasikha,,
+M-5.16,Qarha Mutaakkila,1770092375,"Basal cell carcinoma, NOS"
+M-5.17,Qarha Rahla Qarha Nathira,,
+M-5.18,Qarha Rashshaha,,
+M-5.19,Qarha Harra,1759582222,Acute ulcer
+M-5.20,Qarha Barida,104283915,Chronic ulcer
+M-5.21,Qarha Dawaliyya,9691905,ulcer
+M-6,Quruh Balkhiyya,,
+M-7,Udhima,826220775,Oedema
+M-8,Irq Madini,,
+M-9,Shafaqalus,188156827,Gangrene
+M-10,Ghangharana,188156827,Gangrene
+M-10.1,Ghangharana Yabisa,188156827,Gangrene
+M-10.2,Ghangharana Ratba,188156827,Gangrene
+M-10.3,Ghangharana Ratba Ufuniyya,,
+M-10.4,Ghangharana Ardiyya,2086620978,Secondary gangrene
+M-10.5,Ghangharana Suddiyya,,
+M-10.6,Ghangharana Shaykhukhiyya,,
+M-10.7,Ghangharana Takhaththuriyya,,
+M-10.8,Ghangharana Dhayabitusiyya,,
+M-10.9,Ghangharana Jurhiyya,,
+M-10.10,Ghangharana Bardiyya,,
+M-10.11,Ghangharana Hadda Saiyya,,
+M-11,Buthur,923546127,eruptions
+M-11.1,Buthur Sighar,889621,Small pustules
+M-11.2,Buthur al-Asdagh,466297143,Pustules pinna
+M-11.3,Buthur al-Saq,1708539552,Calf pustules
+M-11.4,Buthur al-Qafa,1258147328,Pustules nape neck
+M-11.5,Shilam,,
+M-11.6,Khuld,,
+M-11.7,Butm,,
+M-11.8,Tutha,,
+M-11.9,Dhat al-Asl,,
+M-11.10,Khafiya Zahira,,
+M-12,Akyas,987501456,cyst
+M-13,Uqda,712558265,nodule
+M-14,Khanazir,1564691570,lymph
+M-15,Waram,396939646,Inflammatory
+M-15.1,Waram Rihi,,
+M-15.2,Waram Harr,509821856,Acute
+M-15.3,Waram Barid,1877667198,Chronic inflammation
+M-15.4,Waram Sadhij,,
+M-15.5,Waram Maddi,677700358,Inflammation morbid matter
+M-15.6,Falghamuni,,
+M-15.7,Waram Rikhw,,
+M-15.8,Saqirus,1740423486,Scirrhous inflammation
+M-16,Salat,1630407678,Neoplasms
+M-16.1,Sala Salima,1102192015,Neoplasm benign
+M-16.2,Sala Khabitha,50574435,Neoplasm malignant
+M-16.3,Sala Shahmiyya,1090000716,Lipoma
+M-16.4,Sala Asaliyya,1540413143,Neoplasms soft
+M-16.5,Sala Ardahaliyya,,
+M-16.6,Sala Shiraziyya,,
+M-16.7,Sala Balghamiyya,212666004,Myxoma
+M-16.8,Sala Ghudrufiyya,575223205,Enchondroma
+M-16.9,Sala Lifiyya,817620506,Fibroma
+M-16.10,Sala Azmiyya,1162753778,Osteoma
+M-16.11,Sala Sinniyya,173223388,Odontoma
+M-16.12,Sala Asabiyya,809718306,Neuroma
+M-16.13,Sala Uruqiyya,134504304,"Haemangioma, NOS"
+M-16.14,Sala Adaliyya,2071221171,Myoma
+M-16.15,Sala Mukhkhiyya,526287100,myeloma
+M-16.16,Sala Ghuddiyya,293316593,Adenoma
+M-16.17,Sala Halamiyya,144282989,Papilloma
+M-17,Saratan,289879712,Carcinoma
+M-17.1,Saratan Mutaqarrih,1146695638,Cancerous ulcer
+M-18,Namla Saiya,248851702,Herpes
+M-18.1,Namla Sadhija,,
+M-18.2,Namla Mutaakkila,,
+M-18.3,Namla Shafawiyya,1720001875,Herpes labialis
+M-18.4,Namla Khitaniyya,666746193,Herpes
+M-18.5,Namla Mintaqiyya Namla Nariyya,523481501,Zoster
+M-18.6,Namla Mintaqiyya Jabhiyya,2105678631,zoster
+M-18.7,Namla Qazhiyya,,
+M-18.8,Namla Jawarsiyya,,
+M-19,Naffatat,831227428,blisters
+M-19.1,Naffatat Tafliyya,971176543,Impetigo
+M-19.2,Naffatat Ghangharaniyya,,
+M-19.3,Naffatat Tabaqiyya,,
+M-20,Naffakhat,629643446,Gas filled blisters
+M-21,Jamra Shab Chiragh,1456834066,Carbuncle
+M-22,Nar Farsi,1887882424,eczema
+M-23,Taun,1596449540,Plague
+M-23.1,Taun Ghudadi,1742025109,Bubonic plague
+M-23.2,Taun Ufuni,2093238381,Septicaemia
+M-23.3,Taun Riwi,1983098110,Pneumonic plague
+M-24,Akila,340823130,Noma
+M-25,Awram al-Maghabin Baghira,1805511520,bubo
+M-26,Dummal,1081137172,Furuncle
+M-27,Da al-Fil,,
+M-28,Dawali,1853305829,Varicose veins
+M-29,Harq,163532889,Burns
+M-29.1,Harq al-Saiqa Harq Barqi,,
+M-29.2,Harq al-Shams,318744822,Sunburn
+M-29.3,Harq al-Baladur,,
+M-29.4,Harq Darakhshani,2065906964,Burn
+M-30,Illa al-Baqar,709184369,Loiasis
+M-31,Naqarnami,,
+M-32,Suhuj al-Jild,377475788,Abrasion
+M-33,Aqr al-Khuff wal Nal,,
+M-34,Madd al-Habl,,
+M-35,Judham Al-Illa al-Kubra,149072669,Leprosy
+M-35.1,Judham Khadri,365370459,Lepromatous leprosy
+M-35.2,Judham Uqadi,310697776,Tuberculoid leprosy
+M-36,Huzal,1517885800,Undernutrition
+M-37,Siman Mufrit,149403041,Obesity
+M-38,Diqq al-Shaykhukha,,
+M-39,Fatq,1294458332,Hernias
+M-39.1,Fatq Tamm,,
+M-39.2,Fatq Naqis,,
+M-39.3,Fatq Raji,,
+M-39.4,Fatq Asi,1169384556,hernia
+M-39.5,Fatq Makhnuq,1647500715,hernia
+M-39.6,Fatq Warami,,
+M-39.7,Fatq Suddi,1498131691,hernia obstruction
+M-39.8,Fatq Urbi-o-Rabi,,
+M-39.9,Fatq Mustaqim,474718032,Inguinal hernia
+M-39.10,Fatq Khilqi,1747893182,Congenital hernia
+M-39.11,Fatq Surri,229442107,Umbilical hernia
+M-39.12,Fatq Midi,2038859230,Epigastric hernia
+M-39.13,Fatq Fakhidhi,2030064326,Femoral hernia
+M-40,Suqut al-Surra Nutu al-Surra,1294458332,Hernias
+M-41,FulusFunus,,
+M-42,Waram al-Sifaq,775356003,Peritonitis
+N,Amrad-i-Sumum,1236563202,Harmful effects of substances
+N-1,Gazidgi-i-Mar,234436746,snake
+N-2,Gazidgi-i-Aqrab,311621356,scorpion
+N-3,Gazidgi-i-Zanbur,,
+N-4,Gazidgi-i-Rutayla,,
+N-5,Gazidgi-i-Ankabut,1648535771,Spider bite
+N-6,Gazidgi-i-Hazarpa,,
+N-7,Gazidgi-i-Salamandira,,
+N-8,Gazidgi-i-Sag Abi,,
+N-9,Gazidgi-i-Nahang,,
+N-10,Gazidgi-i-Insan,,
+N-11,Gazidgi-i-Gurg,,
+N-12,Gazidgi-i-Gurba,,
+N-13,Gazidgi-i-Sag Diwana,,
+N-14,Las al-Hasharat,1262123607,Insect stings
+N-15,Sammiyat-i-Samm al-Far,161800108,Arsenic
+N-16,Sammiyat-i-Simab,,
+N-17,Sammiyat-i-Shangaraf,,
+N-18,Sammiyat-i-Murdarsang,,
+N-19,Sammiyat-i-Rasas,358356779,Lead
+N-20,Sammiyat-i-Khubth al-Hadid,,
+N-21,Sammiyat-i-Bish,,
+N-22,Sammiyat-i-Farfiyun,,
+N-23,Sammiyat-i-Baladur,,
+N-24,Sammiyat-i-Khar Zahra,,
+N-25,Sammiyat-i-Kharbaq Siyah,,
+N-26,Sammiyat-i-Tambaku,,
+N-27,Sammiyat-i-Jawz Mathil,,
+N-28,Sammiyat-i-Yabruj,,
+N-29,Sammiyat-i-Ajwain Khurasani,,
+N-30,Sammiyat-i-Shukran,795905711,Conium maculatum plant
+N-31,Sammiyat-i-Qinnab,1361649231,Cannabis
+O,Natural Patterns,840420437,natural pattern
+O-1,Tabiat,,
+O-2,Umur Tabiiyya,,
+O-2.1,Arkan,,
+O-2.1.1,Nar,429856753,fire
+O-2.1.2,Rih,3669619,air
+O-2.1.3,Ma,1607276467,water
+O-2.1.4,Ard,915627353,earth
+O-2.2,Mizaj,,
+O-2.2.1,Mizaj Harr Yabis,666606171,temperament
+O-2.2.2,Mizaj Harr Ratb,758529335,temperament
+O-2.2.3,Mizaj Barid Yabis,2039199114,temperament
+O-2.2.4,Mizaj Barid Ratb,656157227,temperament
+O-2.3,Akhlat,2088597502,humor
+O-2.3.1,Dam,,
+O-2.3.2,Balgham,1125554096,phlegm
+O-2.3.3,Safra,,
+O-2.3.4,Sawda,,
+O-2.4,Ruh,,
+O-2.4.1,Ruh Nafsani,,
+O-2.4.2,Ruh Haywani,,
+O-2.4.3,Ruh Tabii,,
+O-2.5,Ada,1910628372,Organ
+O-2.5.1,Ada Mufrada,,
+O-2.5.2,Ada Murakkaba,952670996,Lead
+O-2.6,Quwwat,,
+O-2.6.1,Quwa Tabiiyya,539226537,natural faculty
+O-2.6.2,Quwa Nafsaniyya,,
+O-2.6.3,Quwa Haywaniyya,,
+O-2.6.4,Quwa Tanasuliyya,1121791700,Reproductive faculties
+O-2.7,Fil,1164313611,functions
+O-2.7.1,Afal Haywaniyya,,
+O-2.7.2,Afal Nafsaniyya,21224658,Psychic
+O-2.7.3,Afal Tabiiyya,,
+O-3,Halat-i-Sihhat,719466389,health
+O-4,La Sihhat La Marad,,
+O-5,Kayfiyat Tabiiyya,,
+O-5.1,Kayfiyat Faila,,
+O-5.1.1,Hararat,1699744436,heat
+O-5.1.2,Burudat,2066255370,Acute nasopharyngitis
+O-5.2,Kayfiyat Munfaila,,
+O-5.2.1,Rutubat,,
+O-5.2.2,Yubusat,611010050,Drying
+O-7,Hararat Ghariziyya,,
+O-8,Hadm-o-Istihala,850289698,digestive metabolic
+O-9,Hudum Arbaa,,
+O-9.1,Hadm Midi,,
+O-9.2,Hadm Kabidi,,
+O-9.3,Hadm Uruqi,,
+O-9.4,Hadm Udwi,,
+O-10,Mizaj-i-Amar,220903323,Temperament according age
+O-11,Mizaj Insani,570509115,Human temperament
+O-11.1,Damawi al-Mizaj,,
+O-11.2,Balghami al-Mizaj,,
+O-11.3,Safrawi al-Mizaj,,
+O-11.4,Sawdawi al-Mizaj,,
+O-12,Dam Ghayr Tabii,,
+O-13,Balgham Ghayr Tabii,,
+O-13.1,Balgham Malih,,
+O-13.2,Balgham Hamid,,
+O-13.3,Balgham Masikh,,
+O-13.4,Balgham Afis,,
+O-13.5,Balgham Hulw,,
+O-13.6,Balgham Mai,,
+O-13.7,Balgham Jassi,,
+O-13.8,Balgham Mukhati,,
+O-13.9,Balgham Zujaji,,
+O-13.10,Balgham Muntin,,
+O-14,Safra Ghayr Tabii,,
+O-14.1,Safra Muhhiyya,,
+O-14.2,Mirra Safra,,
+O-14.3,Safra Muhtariqa,,
+O-14.4,Safra Kurrathi,,
+O-14.5,Safra Zanjari,,
+O-15,Sawda Ghayr Tabii,,
+O-15.1,Sawda Damawi,,
+O-15.2,Sawda Safrawi,,
+O-15.3,Sawda Balghami,,
+O-15.4,Sawda Sawdawi,,
+O-16,Al-Marad al-Mufrad,549327141,simplex diseases
+O-17,Mizaj Ghayr Mutadil Su-i-Mizaj,,
+O-17.1,Mizaj Ghayr Mutadil MufradSu-i-Mizaj Mufrad,1787442423,Simple morbid temperament
+O-17.1.1,Su-i-Mizaj Mufrad SadaMizaj Ghayr Mutadil Mufrad Sada,551410066,Simple abnormal temperament without substance
+O-17.1.1.1,Su-i-Mizaj Harr,12669760,Abnormal hot temperament
+O-17.1.1.2,Su-i-Mizaj Barid,1865476503,Abnormal cold temperament
+O-17.1.1.3,Su-i-Mizaj Ratb,,
+O-17.1.1.4,Su-i-Mizaj Yabis,240570910,Abnormal dry temperament
+O-17.1.2,Su-i-Mizaj Mufrad Maddi,1354845629,Abnormal temperament substance
+O-17.1.2.1,Su-i-Mizaj Harr Maddi,1046263366,Abnormal hot temperament substance
+O-17.1.2.2,Su-i-Mizaj Barid Maddi,1370295533,Abnormal cold temperament substance
+O-17.1.2.3,Su-i-Mizaj Ratb Maddi,,
+O-17.1.2.4,Su-i-Mizaj Yabis Maddi,777688462,Abnormal dry temperament substance
+O-17.2,Mizaj Ghayr Mutadil MurakkabSu-i-Mizaj Murakkab,618083042,Compound morbid temperament
+O-17.2.1,Su-i-Mizaj Murakkab SadaMizaj Ghayr Mutadil Murakkab Sada,994171734,Simple compound abnormal temperament
+O-17.2.1.1,Su-i-Mizaj Harr Ratb Sada,,
+O-17.2.1.2,Su-i-Mizaj Harr Yabis Sada,1884501391,Simple hot dry abnormal temperament
+O-17.2.1.3,Su-i-Mizaj Barid Ratb Sada,,
+O-17.2.1.4,Su-i-Mizaj Barid Yabis Sada,765559289,Simple cold dry abnormal temperament
+O-17.2.2,Su-i-Mizaj Murakkab Maddi,1464563080,Compound abnormal temperament associated substance
+O-17.2.2.1,Su-i-Mizaj Harr Ratb Maddi,,
+O-17.2.2.2,Su-i-Mizaj Harr Yabis Maddi,1566663318,Abnormal hot dry temperament associated
+O-17.2.2.3,Su-i-Mizaj Barid Ratb Maddi,,
+O-17.2.2.4,Su-i-Mizaj Barid Yabis Maddi,1304490284,Abnormal cold dry temperament associated
+O-18,Su-i-Mizaj Sada,551410066,Simple abnormal temperament
+O-19,Su-i-Mizaj Maddi,1354845629,Abnormal temperament associated substance
+O-20,Su-i-Mizaj Mustawi,,
+O-21,Su-i-Mizaj Mukhtalif,1490796532,Unstable abnormal temperament
+O-22,Amrad-i-Su al-Tarkib,,
+O-22.1,Amrad-i-Khilqat,2085071306,Megaloblastic anaemia due to dihydrofolate reductase deficiency
+O-22.1.1,Amrad-i-Shakl,,
+O-22.1.2,Amrad-i-Majari,197934298,Diseases
+O-22.1.2.1,Ittisa al-Majari,,
+O-22.1.2.2,Tadayyuq al-Majari,,
+O-22.1.2.3,Insidad al-Majari,,
+O-22.1.3,Amrad-i-Awiya,,
+O-22.1.3.1,Ittisa-i-Awiya,,
+O-22.1.3.2,Tadayyuq-i-Awiya,,
+O-22.1.3.3,Insidad-i-Awiya,,
+O-22.1.3.4,Inkhila-i-Awiya,,
+O-22.1.4,Amrad-i-Safaih,,
+O-22.1.4.1,Khushunat-i-Safaih,,
+O-22.1.4.2,Malasat-i-Safaih,,
+O-22.2,Amrad al-Miqdar,,
+O-22.2.1,Ziyadati-i-Miqdar,,
+O-22.2.1.1,Ziyadati-i-Miqdar Umumi,,
+O-22.2.1.2,Ziyadati-i-Miqdar Maqami,,
+O-22.2.2,Nuqsan-i-Miqdar,,
+O-22.2.2.1,Nuqsan-i-Miqdar Umumi,,
+O-22.2.2.2,Nuqsan-i-Miqdar Maqami,,
+O-22.3,Amrad-i-Adad,,
+O-22.3.1,Ziyadati-i-Adad,1472726658,Increase number organs
+O-22.3.1.1,Tabi Ziyadati,1564844526,Congenital increase number parts body
+O-22.3.1.2,Ghayr Tabi Ziyadati,484108377,Acquired pathological increase parts body
+O-22.3.2,Naqs-i-Adad,1452082494,Decrease number organs
+O-22.3.2.1,Tabi Naqs,1123682996,Congenital decrease number organs
+O-22.3.2.2,Ghayr Tabi Naqs,940637893,Acquired decrease number organs
+O-22.4,Amrad al-Wad,,
+O-22.4.1,Amrad-i- Mawda,,
+O-22.4.1.1,Zawal-i-Udw Kamil,1020702665,Complete displacement body part
+O-22.4.1.2,Zawal-i-Udw Naqis,911935653,Incomplete displacement body part
+O-22.4.1.3,Harakat Ghayr Tabi,591414909,Abnormal movement organs
+O-22.4.1.4,Sukun Ghayr Tabi,,
+O-22.4.2,Amrad-i- Musharakat,,
+O-22.4.2.1,Imtina-i-Harakat,1109818872,Restriction movement organs
+O-22.4.2.2,Usr-i-Harakat,670945347,Difficulty movement organs
+O-23,Tafarruq al-Ittisal,378222711,Loss continuity
+O-23.1,Khadsh,616352119,sharp
+O-23.2,Sahj,377475788,Abrasion
+O-23.3,Tafattut,152949187,Fragmentation bone
+O-23.4,Sad,1425419237,Splitting bone
+O-23.5,Shadkh,1019061703,Longitudinal breakage nerve
+O-23.6,Fadgh,59799215,Breakage muscle
+O-23.7,Batr,1702937553,Transverse breakage nerve
+O-23.8,Hatk,825067088,Tearing muscle
+O-23.9,Hazz,1863148733,Transverse tear muscle
+O-23.10,Infijar,1254062337,vein rupture
+O-23.11,Inshiqaq,2050975883,Splitting body part
+O-24,Ghalaba-i-Akhlat,,
+O-24.1,Amrad Damawiyya,,
+O-24.2,Amrad Safrawiyya,,
+O-24.3,Amrad Balghamiyya,,
+O-24.4,Amrad Sawdawiyya,,
+O-25,Nabd Tawil,,
+O-26,Nabd Qasir,,
+O-27,Nabd Arid,,
+O-28,Nabd Dayyiq,,
+O-29,Nabd Mushrif,,
+O-30,Nabd Munkhafid,,
+O-31,Nabd Azim,,
+O-32,Nabd Saghir,,
+O-33,Nabd Ghaliz,,
+O-34,Nabd Daqiq,,
+O-35,Nabd Qawi,,
+O-36,Nabd Daif,255135906,Weak pulse
+O-37,Nabd Sari,,
+O-38,Nabd Bati,,
+O-39,Nabd Mutawatir,515681918,"Tachycardia, unspecified"
+O-40,Nabd Mutafawit,,
+O-41,Nabd Layyin,,
+O-42,Nabd Sulb,,
+O-43,Nabd Mumtali,,
+O-44,Nabd Khali,,
+O-45,Nabd Harr,,
+O-46,Nabd Barid,,
+O-47,Nabd Mustawi,,
+O-48,Nabd Mustawi Mutlaq,,
+O-49,Nabd Mustawi Muqayyad,,
+O-50,Nabd Mukhtalif,,
+O-51,Nabd Mukhtalif Mutlaq,,
+O-52,Nabd Mukhtalif Muqayyad,,
+O-53,Nabd Munqati,,
+O-54,Nabd Aid,,
+O-55,Nabd Muttasil,,
+O-56,Nabd Mukhtalif Muntazim,,
+O-57,Nabd Mukhtalif Muntazim Mutlaq,,
+O-58,Nabd Mukhtalif Muntazim Dair,,
+O-59,Nabd Mukhtalif Ghayr Muntazim,,
+O-60,Nabd Jayyid al-Wazn,,
+O-61,Nabd Radi al-Wazn,,
+O-62,Nabd Mutaghayyir al-Wazn,,
+O-63,Nabd Mubayan al-Wazn,,
+O-64,Nabd Kharij al-Wazn,,
+O-65,Nabd Murakkab,,
+O-66,Nabd Misalli,,
+O-67,Nabd Dhul Fatra,,
+O-68,Nabd Waqi fil Wasat,,
+O-69,Nabd Dhul Qaratayn,,
+O-70,Nabd Dhanab al-Far,,
+O-71,Nabd Dhanab al-Far Munqadi,,
+O-72,Nabd Dhanab al-Far Thabit,,
+O-73,Nabd Dhanab al-Far Aid,,
+O-74,Nabd Ghazali,,
+O-75,Nabd Mawji,,
+O-76,Nabd Dudi,,
+O-77,Nabd Namli,,
+O-78,Nabd Minshari,,
+O-79,Nabd Mutashannij,,
+O-80,Nabd Murtaish,,
+O-81,Nabd Multawi,,
+O-82,Nabd Mutawattir,,
+O-83,Bawl Ashqar,,
+O-84,Bawl Asfar Naranji,,
+O-85,Bawl Nari,,
+O-86,Bawl Zafrani,,
+O-87,Bawl Ashab,,
+O-88,Bawl Wardi,,
+O-89,Bawl Ahmar Aqtam,,
+O-90,Bawl Ahmar Qani,,
+O-91,Bawl Fustuqi,,
+O-92,Bawl Zanjari,,
+O-93,Bawl Asmanjuni,,
+O-94,Bawl Nilji,,
+O-95,Bawl Kurrathi,,
+O-96,Bawl Aswad,,
+O-97,Bawl Abyad,381325574,White urine
+O-98,Bawl Abyad Majazi,1077748012,Transparent urine
+O-99,Bawl Abyad Haqiqi,991700093,Translucent urine
+O-100,Bawl Mukhati,,
+O-101,Bawl Dasmi,,
+O-102,Bawl Ihali,,
+O-103,Bawl Fuqqai,,
+O-104,Bawl Manwi,,
+O-105,Bawl Rasasi,,
+O-106,Bawl Labani,2095915189,Chyluria
+O-107,Bawl Ghusali,,
+O-108,Bawl Zayti,,
+O-109,Bawl Urjuwani,,
+O-110,Bawl Jamri,,
+O-111,Bawl Raqiq,,
+O-112,Bawl Ghaliz,,
+O-113,Al-Bawl al-Adim al-Raiha,,
+O-114,Bawl Muntin,,
+O-115,Sawad al-Zabad,,
+O-116,Shuqra al-Zabad,,
+O-117,Sighar al-Zabad,,
+O-118,Kibar al-Zabad,,
+O-119,Qilla al-Zabad,,
+O-120,Kathra al-Zabad,,
+O-121,Butu Infiqa al-Zabad,,
+O-122,Sura Infiqa al-Zabad,,
+O-123,Rasub Khurati,,
+O-124,Rasub Khurati Nukhali,,
+O-125,Rasub Khurati Karsani,,
+O-126,Rasub Khurati Dashishi,,
+O-127,Rasub Khurati Sawiqi,,
+O-128,Rasub Khurati Safaihi,,
+O-129,Rasub Lahmi,,
+O-130,Rasub Dasmi,,
+O-131,Rasub Middi,,
+O-132,Rasub Mukhati,,
+O-133,Rasub Khamiri,,
+O-134,Rasub Alaqi,,
+O-135,Rasub Shari,,
+O-136,Rasub Ramli,,
+O-137,Rasub Ramadi,,
+O-138,Kathra al-Rasub,,
+O-139,Qilla al-Rasub,,
+O-142,Al-Rasub al-Aswad,,
+O-143,Al-Rasub al-Ahmar,1861896171,sedimentation
+O-144,Al-Rasub al-Asfar,,
+O-145,Al-Rasub al-Akhdar,,
+O-146,Al-Rasub al-Abyad,,
+O-147,Ziyada al-Baraz,1548325565,Larger quantity stool
+O-148,Qilla al-Baraz,,
+O-149,Al-Baraz al-Ratb,,
+O-150,Al-Baraz al-Yabis,113241186,Dry stool
+O-151,Baraz Nari,,
+O-152,Baraz Abyad,,
+O-153,Baraz Aswad,,
+O-154,Baraz Akhdar,,
+O-155,Al-Baraz al-Muntafikh,,
+O-156,Sura Khuruj al-Baraz,,
+O-157,Butu Khuruj al-Baraz,2085951505,Delayed passing stool
+O-158,Al-Nafth al-Asfar,,
+O-159,Al-Nafth al-Ahmar al-Nasi,,
+O-160,Al-Nafth al-Ahmar al-Mushabba,,
+O-161,Al-Nafth al-Kamid,,
+O-162,Al-Nafth al-Aswad,,
+O-163,Al-Nafth al-Raqiq,,
+O-164,Al-Nafth al-Ghaliz,,
+O-165,Al-Nafth al-Muntin,,
+O-166,Al-Nafth al-Ghayr al-Muntin,,
+O-167,Al-Nafth al-Kathir al-Miqdar,854359897,sputum
+O-168,Al-Nafth al-Qalil al-Miqdar,1839285547,Lack sputum
+O-169,Al-Nafth al-Mutadil al-Miqdar,38862722,Moderate quantity sputum
+O-170,Al-Araq al-Asfar,,
+O-171,Al-Araq al-Ahmar,,
+O-172,Al-Araq al-Kamid,,
+O-173,Al-Araq al-Akhdar,,
+O-174,Al-Araq al-Aswad,,
+O-175,Al-Araq al-Abyad,,
+O-176,Ifrat al-Araq,1416949107,Hyperhidrosis
+O-177,Al-Araq al-Qalil al-Miqdar,1209524187,Lack sweat
+O-178,Al-Araq al-Muntin,1456323010,Bromhidrosis
+O-179,Al-Araq Hadd al-Raiha,965885706,Sharp smelling sweat
+O-180,Al-Araq Hamid al-Rih,381276074,Sour smelling sweat
+O-181,Al-Araq al-Raqiq,1117419703,Sweat thin consistency
+O-182,Al-Araq al-Ghaliz,473196742,Sweat thick consistency
+O-183,Fuqdan al-Hawas,974671636,Parosmia
+O-184,Al-Badan al-Daif,,
+O-185,Asbab Maddiyya,,
+O-186,Asbab Failiyya,,
+O-187,Asbab Suriyya,,
+O-188,Asbab Tamamiyya,,
+O-189,Asbab Amma,,
+O-190,Asbab Maradiyya,,
+O-191,Asbab Badaniyya,428234313,Short stature of child
+O-192,Asbab Wasila,,
+O-193,Asbab Sabiqa,,
+O-194,Asbab Badiya,,
+O-195,Asbab Dhatiyya,,
+O-196,Sabab Ardiyya,,
+O-197,Asbab Mukhallifa,,
+O-198,Asbab Ghayr Mukhallifa,,
+O-199,Asbab Juziyya,,
+O-200,Asbab-i-Fasad-i-Shakl,,
+O-201,Asbab-i-Sudda,1617264610,Obstructed causes
+O-202,Asbab-i-Diq-i-Majari,,
+O-203,Asbab-i-Ittisa-i-Majari,,
+O-204,Asbab-i-Khushunat,,
+O-205,Asbab-i-Malasat,62129031,Smooth cause
+O-206,Asbab-i-Khal,,
+O-207,Asbab-i-Su-i-Mujawirat,,
+O-208,Asbab-i-Harakat Ghayr Tabiiyya,,
+O-209,Asbab-i-Ziyadati-i-Miqdar-i-Ada,,
+O-210,Asbab-i-Ziyadati-i-Adad-i-Ada,,
+O-211,Asbab-i-Nuqsan-i Miqdar-i-Ada,,
+O-212,Asbab-i-Nuqsan-i Adad-i-Ada,,
+O-213,Asbab Mughayyara,,
+O-214,Asbab-i-Tafarruq-i-Ittisal,,
+O-215,Asbab-i-Qarha,1742412137,ulcer causes
+O-216,Asbab-i-Waram,,
+O-217,Asbab-i-Waja,520823693,causing pain
+O-218,Asbab-i-Sukun-i-Waja,,
+O-219,Asbab-i-Ladhdhat,,
+O-220,Asbab-i-Ihtibas,,
+O-221,Asbab-i-Istifragh,,
+O-222,Asbab-i-Tukhma-o-Imtila,,
+O-223,Asbab-i-Duf-i-Ada,,
+O-224,Al-Asbab al-Sitta al-Daruriyya,,
+O-225,Ilaj bil Taghdhiya,,
+O-226,Tark-i-Ghidha,,
+O-227,Taqlil-i- Ghidha,,
+O-228,Taqlil-i-Ghidha ba Itibar-i-Kammiyat,,
+O-229,Taqlil-i- Ghidha ba Itibar-i-Kayfiyat,,
+O-230,Taqlil-i- Ghidha ba Itibar-i-Kammiyat-o- Kayfiyat,,
+O-231,Ilaj bil Dawa,1892703871,Drugs treatment
+O-232,Ilaj bil Mufradat,,
+O-233,Ilaj bil Murakkabat,,
+O-234,Ilaj bil Didd,,
+O-235,Ilaj Nafsani,,
+O-236,Islah-i-Su-i-Mizaj,,
+O-237,Nudj,,
+O-238,Nudj-i-Akhlat,,
+O-239,Nudj-i-Balgham,,
+O-240,Nudj-i-Safra,,
+O-241,Nudj-i-Sawda,,
+O-242,Istifragh,,
+O-243,Tanqiya,,
+O-244,Tanqiya-i-Dimagh,,
+O-245,Tanqiya-i-Sar,,
+O-246,Tanqiya-i-Sadr,,
+O-247,Tanqiya-i-Dandan,,
+O-248,Tanqiya-i-Mida,,
+O-249,Tanqiya-i-Kabid,,
+O-250,Tanqiya-i-Tihal,,
+O-251,Tanqiya-i-Ama,,
+O-252,Tanqiya-i-Kuliya,,
+O-253,Tanqiya-i-Majari-i-Bawl,,
+O-254,Tanqiya-i-Rim,,
+O-255,Tanqiya-i-Murdia,,
+O-256,Imala,,
+O-257,Imala Qarib,,
+O-258,Imala Baid,,
+O-259,Ilam,,
+O-260,Tabid-i-Marad,,
+O-261,Tadil-i-Mawad,,
+O-262,Tadil-i-Qiwam,,
+O-263,Tadil-i-Dam,,
+O-264,Tadil-i-Safra,,
+O-265,Tadil-i-Su-i-Mizaj,,
+O-266,Tabdil-i-Mizaj,,
+O-267,Izala-i-Sabab,,
+O-268,Man-i-Insibab-i-Akhlat,,
+O-269,Taskhin,,
+O-270,Taskhin-i-Mizaj,,
+O-271,Taskhin-i-Dimagh,,
+O-272,Taskhin-i-Sar,,
+O-273,Taskhin-i-Qalb,,
+O-274,Taskhin-i-Mida,,
+O-275,Taskhin-i-Fam-i-Mida,,
+O-276,Taskhin-i-Jigar,,
+O-277,Taskhin-i-Ama,,
+O-278,Taskhin-i-Kiliya,,
+O-279,Taskhin-i-Mathana,,
+O-280,Taskhin-i-Rahim,,
+O-281,Taskhin-i-Alat-i-Mani,,
+O-282,Taskhin-i-Atraf,,
+O-283,Taskhin-i-Hawa,,
+O-284,Tabrid,,
+O-285,Tabrid-i-Mizaj,,
+O-286,Tabrid-i-Dimagh,,
+O-287,Tabrid-i-Sar,,
+O-288,Tabrid-i-Mida,,
+O-289,Tabrid-i-Fam-i-Mida,,
+O-290,Tabrid-i-Jigar,,
+O-291,Tabrid-i-Tihal,,
+O-292,Tabrid-i-Unthayayn,,
+O-293,Tabrid-i-Hawa,,
+O-294,Tartib,,
+O-295,Tartib-i-Mizaj,,
+O-296,Tartib-i-Dimagh,,
+O-297,Tartib-i-Sar,,
+O-298,Tartib-i-Halaq,,
+O-299,Tartib-i-Jigar,,
+O-300,Tartib-i-Hawa,,
+O-301,Itfa,,
+O-302,Itfa-i-Abkhira,,
+O-303,Tajfif,,
+O-304,Tajfif-i-Dimagh,,
+O-305,Tajfif-i-Mida,,
+O-306,Tajfif-i-Kabid,,
+O-307,Tanshif,,
+O-308,Taltif,,
+O-309,Tahlil-i-Awram,,
+O-310,Talyin-i-Awram,,
+O-311,Tafjir-i-Awram,,
+O-312,Taftih-i-Uruq,,
+O-313,Taftih-i-Majari,,
+O-314,Taftih-i-Majari-i-Kabid,,
+O-315,Taftih-i-Majari-i-Bawl,,
+O-316,Taftih-i-Masam,,
+O-317,Takthif-i-Masam,,
+O-318,Taftih-i-Sudad,,
+O-319,Tasfiya al-Dam,,
+O-320,Qat-i-Mawad,,
+O-321,Tarqiq-i-Mawad,,
+O-322,Tarqiq-i-Madda,,
+O-323,Jadhb-i-Mawad,,
+O-324,Taghliz-i-Mawad,,
+O-325,Izlaq-i-Mawad,,
+O-326,Rad-i-Mawad,,
+O-327,Tahlil-i-Riyah,,
+O-328,Irkha,1638330014,relaxants
+O-329,Tahrik-i-Asab,1750501593,nerve stimulation
+O-330,Tahrik-i-Dimagh,,
+O-331,Tahrik-i-Hararat Gharizi,,
+O-332,Taqwiyat,,
+O-333,Taqwiyat-i-Ada Raisa,,
+O-334,Taqwiyat-i-Dimagh,,
+O-335,Taqwiyat-i-Asab,,
+O-336,Taqwiyat-i-Basar,,
+O-337,Taqwiyat-i-Asnan-o-Litha,,
+O-338,Taqwiyat-i-Qalb,,
+O-339,Taqwiyat-i-Kabid,,
+O-340,Taqwiyat-i-Kuliya,,
+O-341,Taqwiyat-i-Mathana,,
+O-342,Taqwiyat-i-Bah,,
+O-343,Taqwiyat-i-Rahim,,
+O-344,Taqwiyat-i-Shar,,
+O-345,Taqwiyat-i-Sar,,
+O-346,Taqwiyat-i-Chashm,,
+O-347,Taqwiyat-i-Dandan,,
+O-348,Taqwiyat-i-Bekh-i-Dandan,,
+O-349,Taqwiyat-i-Mida,,
+O-350,Taqwiyat-i-Fam-i-Mida,,
+O-351,Taqwiyat-i-Hararat Gharizi,,
+O-352,Taltif-i-Qiwam,,
+O-353,Taltif-i-Madda,,
+O-354,Taltif-i-Akhlat,,
+O-355,Taltif-i-Ghidha,,
+O-356,Taltif-i-Tadbir,,
+O-357,Taqwiyat-i-Ruh Nafsani,,
+O-358,Tahlil-i-Madda,,
+O-359,Tahlil-i-Riyah,,
+O-360,Tahlil-i-Abkhira,,
+O-361,Inbat-i-Shar,,
+O-362,Takhdir,,
+O-363,Tanwim,,
+O-364,Taskin,,
+O-365,Taskin-i-Madda,,
+O-366,Taskin-i-Hararat,,
+O-367,Taskin-i-Abkhira,,
+O-368,Taskin-i-Dimagh,,
+O-369,Taskin-i-Qalb,,
+O-370,Taskin-i-Akhlat,,
+O-371,Taskin-i-Waja,1314811790,Analgesia
+O-372,Habs-i-Dam,1004763328,Blood stasis
+O-373,Man-i-Araq,,
+O-374,Tanfit,,
+O-375,Tanqiya-i-Quruh,,
+O-376,Inbat-i-Lahm,,
+O-377,Qat-i-Bah,867236062,Decreased libido
+O-378,Tahyij-Shahwat,,
+O-379,Tawlid-i-Laban,,
+O-380,Tawlid-i-Mani,,
+O-381,Taghliz-i-Mani,,
+O-382,Imsak-i-Mani,,
+O-383,Taghliz-i-Abkhira,,
+O-384,Idrar-i-Laban,1608355392,Increased secretion milk
+O-385,Idrar-i-Bawl,1606468248,Urine increase
+O-386,Idrar-i-Hayd,201210145,Increased menstrual flow
+O-387,Taftit-i-Hasat,,
+O-388,Qatl-i-Didan,,
+O-389,Ikhraj-i-Didan,,
+O-390,Isqat-i-Janin,696502028,Spontaneous abortion
+O-391,Taqlil-i-Laban,,
+O-392,Daf-i-Taaffun,,
+O-393,Taqlil-i-Hararat,2104676964,reduced temperature
+O-394,Taqlil-i-Madda,,
+O-395,Tatis,,
+O-396,Taqdif,,
+O-397,Tasmin,,
+O-398,Talyin-i-Ama,,
+O-399,Ilaj bil Tadbir,1605615920,chemotherapy
+O-400,Ishal,,
+O-401,Qay,,
+O-402,Idrar,,
+O-403,Tanfith,,
+O-404,Fasd,,
+O-405,Hijama,,
+O-406,Hijama bil Shart,,
+O-407,Hijama bila Shart,,
+O-408,Hijama bil Nar,,
+O-409,Hijama bila Nar,,
+O-410,Hijama Mai,,
+O-411,Taliq al-Alaq,,
+O-412,Tariq,1884908195,induced sweating
+O-413,Hammam,,
+O-414,Hammam Harr,,
+O-415,Hammam Dawai,,
+O-416,Hammam Buraqi,,
+O-417,Hammam Kibriti,,
+O-418,Hammam Ramli,,
+O-419,Hammam Bahri,,
+O-420,Hammam Shamsi,,
+O-421,Hammam Zayti,,
+O-422,Hammam Qabid,,
+O-423,Riyadat,,
+O-424,Riyadat Ardiyya,,
+O-425,Riyadat Khalisa,,
+O-426,Riyadat Qalila,,
+O-427,Riyadat Kathira,,
+O-428,Riyadat Qawiyya,,
+O-429,Riyadat Daifa,,
+O-430,Riyadat Saria,,
+O-431,Riyadat Batia,,
+O-432,Riyadat Hathitha,,
+O-433,Riyadat Mutarakhiya,,
+O-434,Riyadat Mutadila,,
+O-435,Dalk,,
+O-436,Dalk Sulb,,
+O-437,Dalk Layyin,,
+O-438,Dalk Qalil,,
+O-439,Dalk Kathir,,
+O-440,Dalk Mutadil,,
+O-441,Dalk Khashin,,
+O-442,Dalk Amlas,,
+O-443,Dalk Istidad,,
+O-444,Dalk Istirdad,,
+O-445,Al-Amal bil Yad,,
+O-446,Al-Kayy,1351765105,Cautery
+O-447,Al-Kayy bil Nar,,
+O-448,Al-Kayy bil Hadid,,
+O-449,Al-Kayy bil Dhahab,,
+O-450,Al-Kayy bil Adwiya al-Muharriqa,,
+O-451,Al-Shaqq,1163063637,Incisional
+O-452,Shaqq al-Awram,1784035810,incising swelling
+O-453,Batt al-Khuraj,,
+O-454,Batt al-Awram,,
+O-455,Shaqq al-Hanjara,,
+O-456,Ikhraj al-Hasa,,
+O-457,Qat al-Atraf,949010725,amputation limb
+O-458,Nashr al-Izam,,
+O-459,Tathir al-Sibyan,1459051663,Female Genital Mutilation
+O-460,Qat al-Dawali,,
+O-461,Bazl al-Ma,525825450,Paracentesis
+O-462,Batr,1033549095,Constriction rings
+O-463,Al-Jabr,,
+O-464,Radd al-Fakk,,
+O-465,Al-Khiyata,647353689,suture
+O-466,Al-Tadbir bil Ghidha,,
+O-467,Ghidha Mutlaq,,
+O-468,Al-Ghidha al-Mufrad,,
+O-469,Al-Ghidha al-Murakkab,,
+O-470,Ghidha Harr,,
+O-471,Ghidha Barid,,
+O-472,Ghidha Ratb,,
+O-473,Ghidha Yabis,,
+O-474,Ghidha Nafi,,
+O-475,Ghidha Darr,,
+O-476,Ghidha bil Quwwa,,
+O-477,Ghidha bil Quwwa al-Baida,,
+O-478,Ghidha bil Quwwa al-Qariba,,
+O-479,Ghidha bil Fil,,
+O-480,Ghidha Dawai,,
+O-481,Ghidha Dawai Dhul Khasiyat,,
+O-482,Ghidha Dhul Khasiyat,,
+O-483,Ghidha Sari al-Inhidam,,
+O-484,Ghidha Asir al-Inhidam,,
+O-485,Ghidha Jayyid al-Inhidam,,
+O-486,Ghidha Radi al-Inhidam,,
+O-487,Ghidha Sari al-Khuruj,,
+O-488,Ghidha Bati al-Khuruj,,
+O-489,Ghidha Sari al-Nuzul,,
+O-490,Ghidha Bati al-Nuzul,,
+O-491,Ghidha Jayyid al- Ghidha,,
+O-492,Ghidha Radi al- Ghidha,,
+O-493,Ghidha Qalil al- Ghidha,,
+O-494,Ghidha Kathir al- Ghidha,,
+O-495,Ghidha Salih al-Kaymus,,
+O-496,Ghidha Radi al-Kaymus,,
+O-497,Ghidha Latif,,
+O-498,Ghidha Latif Kathir al-Ghidha Hasan al-Kaymus,,
+O-499,Ghidha Latif Kathir al-Ghidha Radi al-Kaymus,,
+O-500,Ghidha Latif Kathir al-Ghidha Mutadil al-Kaymus,,
+O-501,Ghidha Latif Qalil al-Ghidha Hasan al-Kaymus,,
+O-502,Ghidha Latif Qalil al-Ghidha Radi al-Kaymus,,
+O-503,Ghidha Latif Qalil al-Ghidha Mutadil al-Kaymus,,
+O-504,Ghidha Latif Mutadil al-Ghidha Hasan al-Kaymus,,
+O-505,Ghidha Latif Mutadil al-Ghidha Radi al-Kaymus,,
+O-506,Ghidha Latif Mutadil al-Ghidha Mutadil al-Kaymus,,
+O-507,Ghidha Kathif,,
+O-508,Ghidha Kathif Kathir al-Ghidha Hasan al-Kaymus,,
+O-509,Ghidha Kathif Kathir al-Ghidha Radi al-Kaymus,,
+O-510,Ghidha Kathif Kathir al-Ghidha Mutadil al-Kaymus,,
+O-511,Ghidha Kathif Qalil al-Ghidha Hasan al-Kaymus,,
+O-512,Ghidha Kathif Qalil al-Ghidha Radi al-Kaymus,,
+O-513,Ghidha Kathif Qalil al-Ghidha Mutadil al-Kaymus,,
+O-514,Ghidha Kathif Mutadil al-Ghidha Hasan al-Kaymus,,
+O-515,Ghidha Kathif Mutadil al-Ghidha Radi al-Kaymus,,
+O-516,Ghidha Kathif Mutadil al-Ghidha Mutadil al-Kaymus,,
+O-517,Ghidha Mutadil,,
+O-518,Ghidha Mutadil Kathir al-Ghidha Hasan al-Kaymus,,
+O-519,Ghidha Mutadil Kathir al-Ghidha Radi al-Kaymus,,
+O-520,Ghidha Mutadil Kathir al-Ghidha Mutadil al-Kaymus,,
+O-521,Ghidha Mutadil Qalil al- Ghidha Hasan al-Kaymus,,
+O-522,Ghidha Mutadil Qalil al- Ghidha Radi al-Kaymus,,
+O-523,Ghidha Mutadil Qalil al- Ghidha Mutadil al-Kaymus,,
+O-524,Ghidha Mutadil Mutadil al-Ghidha Hasan al-Kaymus,,
+O-525,Ghidha Mutadil Mutadil al- Ghidha Radi al-Kaymus,,
+O-526,Ghidha Mutadil Mutadil al- Ghidha Mutadil al-Kaymus,,
+O-527,Al-Aghdhiya al-Muwallida lil Sawda,,
+O-528,Al-Aghdhiya al-Muwallida lil Balgham,,
+O-529,Al-Aghdhiya al-Muwallida lil Dam,,
+O-530,Al-Aghdhiya al-Mukhsiba lil Badan,,
+O-531,Al-Aghdhiya al-Muwallida lil Riyah,,
+O-532,Al-Aghdhiya al-Mulayyina lil Tabia,,
+O-533,Al-Aghdhiya al-Habisa lil Batn,,
+O-534,Al-Aghdhiya al-Dhahiba lil Nafkh,,
+O-535,Al-Aghdhiya al-Muwallida lil Sudad,,
+O-536,Al-Ma al-Matbukh,506322100,Boiling water water
+O-537,Al-Ma al-Muqattar,631125729,Water distilled
+O-538,Al-Ma al-Adhb,,
+O-539,Al-Ma al-Malih,,
+O-540,Hifz al-Sihha bi Hasabil Hawa,,
+O-541,Hifz al-Sihha bi Hasabil Awqat al-Arbaa,,
+O-542,Hifz al-Sihha bi Shurb al-Ma,,
+O-543,Hifz al-Sihha bil Ghidha,,
+O-544,Hifz al-Sihha bil Nawm wal Yaqza,,
+O-545,Hifz al-Sihha bil Riyada,,
+O-546,Hifz al-Sihha bil Dalk,,
+O-547,Hifz al-Sihha bil Ishal,,
+O-548,Hifz al-Sihha bil Qay,,
+O-549,Hifz al-Sihha bil Jima,,
+O-550,Hifz Sihha al-Hubla,1876938930,Supervision of normal pregnancy
+O-551,Hifz Sihha al-Murdia,,
+O-552,Tadbir al-Rada,,
+O-553,Tadbir al-Mawlud,,
+O-554,Hifz Sihha al-Sabiy Bad al-Fitam,,
+O-555,Hifz Sihha al-Tifl,810788589,care child
+O-556,Hifz Sihha al-Shabb,,
+O-557,Hifz Sihha al-Kahl,,
+O-558,Hifz Sihha al-Shaykh,,
+O-559,Hifz Sihha al-Naqih,,
+O-560,Hifz al-Sihha bi Hasabil Amakin,,
+O-561,Tadbir al-Musafir,,
+O-562,Hifz Sihha al-Musafir fil Barr,,
+O-563,Hifz Sihha al-Rakib fil Bahr,,
+O-564,Hifz Sihha bil Hammam,,
+O-565,Hifz Sihha al-Ada,,
+O-566,Hifz Sihha al-Shar,,
+O-567,Hifz Sihha al-Ras,,
+O-568,Hifz Sihha al-Ayn,,
+O-569,Hifz Sihha al-Anf,,
+O-570,Hifz Sihha al-Udhun,,
+O-571,Hifz Sihha al-Lisan,,
+O-572,Hifz Sihha al-Asnan,,
+O-573,Hifz Sihha al-Ria wa Qasaba al-Ria,,
+O-574,Hifz Sihha al-Qalb,,
+O-575,Hifz Sihha al-Mida,,
+O-576,Hifz Sihha al-Ama,,
+O-577,Hifz Sihha al-Kabid,,
+O-578,Hifz Sihha Alat al-Bawl,,
+O-579,Hifz Sihha al-Mafasil,,
+O-580,Man al-Habal,70895146,contraception
+O-581,Tadbir-i-Man-i-Haml,,
+P,Amrad Mutafarriqa,1584947339,Miscellaneous disorders
+Q,Alamat,1693572010,Symptoms signs
+AA,Amrad-i-Ras,1114284798,disease head
+AB,Amrad-i-Dimagh,151219786,Disease brain
+AC,Amrad-i-Asab,1866592137,Mononeuropathy
+BA,Amrad-i-Jafn,,
+BB,Amrad-i-Amaq,,
+BC,Amrad-i-Multahima,1471747216,conjunctiva
+BD,Amrad-i-Tabaqa-i-Qarniyya,980864631,cornea
+BE,Amrad-i-Tabaqa-i-Inabiyya,,
+BF,Amrad-i-Hadaqa,,
+BG,Amrad-i-Miqla,,
+BH,Amrad-i-Ahdab,,
+BI,Amrad-i-Quwwat Basira,,
+BJ,Amrad-i-Tabaqa-i-Shabkiyya,77208243,retina
+BK,Amrad-i-Tabaqa-i-Mashimiyya,146528463,choroid
+BL,Amrad-i-Rutubat Jalidiyya,1074032998,lens
+BM,Amrad-i-Rutubat-i-Chashm,,
+CA,Amrad-i-Udhun,1769556904,ear
+CB,Amrad-i-Anf,1776413428,Disease nose
+CC,Amrad-i-Dahan,1008730501,mouth disease
+CD,Amrad-i-Zaban,928435705,Diseases tongue
+CE,Amrad-i-Hanak,,
+CF,Amrad-i-Lab,512707891,disease lips
+CG,Amrad-i-Dandan,235003409,tooth
+CH,Amrad-i-Litha,1903499403,gingiva
+CI,Amrad-i-Halq,877884560,diseases
+CJ,Amrad-i-Lahat,,
+DA,Amrad-i-Qasaba-i-Ria,1412868226,trachea
+DB,Amrad-i-Ria,,
+FA,Amrad-i-Mari,1594312948,Diseases oesophagus
+FB,Amrad-i-Mida,1264914040,Diseases stomach
+FC,Amrad-i-Kabid,1784240230,Diseases liver
+FD,Amrad-i-Tihal,567425990,Diseases spleen
+FE,Amrad-i-Ama,1644587915,Diseases intestine
+FF,Amrad-i-Maqad,,
+GA,Amrad-i-Kulya,,
+GB,Amrad-i-Mathana,4407978,diseases
+HA,Amrad-i-Qadib,885653625,penis
+HB,Amrad-i-Khusya,85116327,Disease testis
+IA,Amrad-i-Nizswan,585064432,Diseases of the female genital system
+IB,Amrad-i-Qabalat,1345188377,"Personal history of complications of pregnancy, childbirth or the puerperium"
+IC,Amrad-i-Rahim,261678206,uterus
+ID,Amrad-i-Thadi,1836788232,breast
+JA,Amrad-i-Jild,2044170142,Skin disorder
+JB,Awram-i-Zahir-i-Badan,,
+JC,Buthur-i-Zahir-i-Badan,1841320198,Skin eruptions
+JD,Amrad-i-Shar,986728180,disease
+JE,Amrad-i-Zufr,1721834679,Nail disease
+KA,Hummayat Yawmiyya,915343154,Fever
+KB,Hummayat Khiltiyya,,
+,Sammiyat-i-Sumum Mashruba,541001179,oral
+NB,Sammiyat-i-Sumum Maldugha,,
+OA,Namat-i-Akhlat Ghayr Tabiiyya,309514703,humoral derangement patterns
+OB,Namat-i-Su-i-Mizaj,,
+OC,Namat-i-Khalal-i-Fudlat-i-Badan,936674819,Excretory products derangement patterns
+OD,Namat-i-Su-i-Tarkib,,
+OE,Namat-i-Nabd Ghayr Tabii,,
+OF,Namat-i-Asbab,,
+OG,Namat-i-Ilaj,,
+OH,Anmat Mukhtalifa,,
+A-1.1,Bayda-o-Khudha Damawi,,
+A-1.2,Bayda-o-Khudha Safrawi,,
+A-1.3,Bayda-o-Khudha Balghami,,
+A-1.4,Bayda-o-Khudha Sawdawi,,
+A-1.5,Bayda-o-Khudha Bukhari-o-Rihi,,
+A-2.3,Shaqiqa Riyahi,,
+A-2.4,Shaqiqa Bukhari,,
+A-14.4,Halaka al-Dhikr,,
+A-25.6,Sadr-o-Duwar Rihi-o-Bukhari,,
+A-27.4,Kabus Sawdawi,,
+A-28.19,Sar Dimaghi Damawi,,
+A-28.20,Sar Dimaghi Safrawi,,
+A-28.21,Sar Dimaghi Balghami,,
+A-28.22,Sar Dimaghi Rihi,,
+A-28.23,Sar Midi Balghami,,
+A-28.24,Sar Midi Sawdawi,,
+A-28.25,Sar Midi Safrawi,,
+A-28.26,Sar Miai,,
+A-29.10,Sakta Bukhariyya,,
+A-32.2,Falij Rutubi Balghami,,
+A-32.3,Falij Damawi,,
+A-32.4,Falij Intiqali Buhrani,,
+A-32.5,Falij Warami,,
+A-32.6,Abubalqisya,388558112,General paralysis
+A-33.7,Tashannuj Balghami,,
+A-33.8,Tashannuj Sawdawi,,
+A-33.9,Tashannuj Rihi,,
+A-36.31,Suda Sada,,
+A-36.32,Suda Harr Khariji,,
+A-36.33,Suda Harr Dakhili,,
+A-36.34,Suda Barid Khariji,,
+A-36.35,Suda Barid Dakhili,,
+A-36.36,Suda Maddi,,
+A-36.37,Suda Harr Maddi,,
+A-36.38,Suda Barid Maddi,,
+A-36.39,Suda Tihali,,
+A-36.40,Suda Miwi Didani,,
+A-36.41,Suda Rahimi,,
+A-36.42,Suda Hijabi,,
+A-36.43,Suda Kulwi,,
+A-36.44,Suda Sulbi,,
+A-36.45,Suda Atrafi,,
+A-36.46,Suda-i-Humma,,
+A-38.8,Kuzaz Imtilai,,
+A-38.9,Kuzaz Yabis,,
+A-40.3,Risha Jimai,,
+A-41.1,Irtiad Rutubi,,
+A-41.2,Irtiad Sharabi,,
+A-42.1,Khadar Damawi,,
+A-42.2,Khadar Safrawi,,
+A-42.3,Khadar Balghami-o- Rutubi,,
+A-42.4,Khadar Sawdawi,,
+A-42.5,Khadar Rihi,,
+A-42.6,Khadar Yubsi,,
+A-44,Jamra-i-Dimagh,,
+B-12.1.1,Qatam,,
+B-12.1.2,Sahab,,
+B-12.1.3,Iklili,2035123281,Marginal corneal ulcer
+B-12.1.4,Sufi,,
+B-12.2.1,Luthuyun,,
+B-12.2.2,Lulawm,,
+B-12.2.3,Awquma,,
+B-29.4,Juhuz Khilti,,
+B-29.5,Juhuz Rihi,,
+B-32.1,Butlan-i-Basar,49873717,Blindness
+B-79,Buthur-i-Multahima,,
+B-80,Midda Kamina,,
+B-81,Safa-i-Jafn,649610899,eyelid
+B-82,Nar Farsi-i-Jafn,,
+B-83,Khushunat-i-Jafn,,
+B-84,Kumudat-o-Khudrat-i-Jafn,,
+B-85,Inkhiraq-i-Jafn,,
+B-86,Ikhtilaj-i-Jafn,,
+C-1.1,Waja-i-Gosh-i-Atfal,,
+C-5.1,Tanin Balghami,,
+C-5.2,Tanin Rihi,,
+C-5.3,Tanin Dufi,,
+C-5.4,Tanin Hissi,,
+C-5.5,Tanin Yubsi,,
+C-18.1,Akila-i-Gosh,,
+C-20.1,Waram Asl al-Udhun Damawi,,
+C-20.2,Waram Asl al-Udhun Safrawi,,
+C-20.3,Waram Asl al-Udhun Balghami,,
+C-20.4,Waram Asl al-Udhun Sawdawi,,
+C-21.1,Zukam-o-Nazla Harr,,
+C-21.2,Zukam Damawi,,
+C-21.3,Zukam Safrawi,,
+C-21.4,Zukam-o-Nazla Barid,,
+C-21.5,Zukam Balghami,,
+C-21.6,Zukam Sawdawi,,
+C-25.1,Qarha-i-Anf Yabis,,
+C-25.2,Qarha-i-Anf Ratb,,
+C-25.3,Qarha-i-Anf Muntin,,
+C-32.1,Bawasir-i-Anf Damawi,,
+C-32.2,Bawasir-i-Anf Balghami,,
+C-32.3,Bawasir-i-Anf Sawdawi,,
+C-32.4,Urbiyan al-Anf,,
+C-42.1,Waram-i-Zaban Damawi,,
+C-42.2,Waram-i-Zaban Safrawi,,
+C-42.3,Waram-i-Zaban Balghami,,
+C-42.4,Waram-i-Zaban Sawdawi,,
+C-63.1,Waram-i-Lab Damawi,,
+C-63.2,Waram-i-Lab Safrawi,,
+C-63.3,Waram-i-Lab Balghami,,
+C-63.4,Waram-i-Lab Sawdawi,,
+C-63.5,Tashaqquq-i-Shidqayn,591060439,Angular cheilitis
+C-97.3,Khunaq Damawi,,
+C-97.4,Khunaq Safrawi,,
+C-97.5,Khunaq Balghami,,
+C-97.6,Khunaq Sawdawi,,
+C-97.7,Khunaq Mutlaq,,
+C-101.6,Waram-i-Lahat Amudi,,
+C-101.7,Waram-i-Lahat Inabi,,
+C-101.8,Waram-i-Lahat Asli,,
+C-130,Khunan,240013389,Hypernasal speech
+D-6.8,Rabw Barid,,
+D-6.9,Buhr,,
+D-14.4,Dhat al-Ria Damawi,,
+D-14.5,Dhat al-Ria Safrawi,,
+D-14.6,Dhat al-Ria Balghami,,
+D-17.6,Dhat al-Janb Khalis,317852053,Pleurisy
+D-17.7,Dhat al-Janb Khalis Damawi,,
+D-17.8,Dhat al-Janb Khalis Safrawi,,
+D-17.9,Dhat al-Janb Khalis Balghami,,
+D-17.10,Dhat al-Janb Khalis Sawdawi,,
+D-17.11,Dhat al-Janb Ghayr Khalis,,
+E-0,Amrad-i-Qalb,2135151223,Diseases cardiac
+E-2.8,Khafaqan Damawi,,
+E-2.9,Khafaqan Safrawi,,
+E-2.10,Khafaqan Balghami,,
+E-2.11,Khafaqan Sawdawi,,
+F-5.1,Waram-i-Mari Harr,1411505176,Acute oesophagitis
+F-5.2,Waram-i-Mari Barid,1422140552,Chronic oesophagitis
+F-6.1,Su-i-Mizaj-i-Mida Sadhij,,
+F-6.2,Su-i-Mizaj-i-Mida Maddi,,
+F-13.2,Hayda Safrawi,,
+F-13.3,Hayda Balghami,,
+F-13.4,Hayda Sawdawi,,
+F-31.5,Qay Safrawi,1260034794,Bilious vomiting
+F-31.6,Qay Balghami,,
+F-31.7,Qay Sawdawi,,
+F-38.2,Fuwaq Harr,,
+F-38.3,Fuwaq Barid,,
+F-38.4,Fuwaq Safrawi,,
+F-38.5,Fuwaq Sawdawi,,
+F-38.6,Fuwaq Yubsi,,
+F-38.7,Fuwaq Imtilai,,
+F-38.8,Fuwaq Ladhi,,
+F-38.9,Fuwaq Warami,,
+F-44.1,Hikka-i-Mida Khilti,,
+F-44.2,Hikka-i-Mida Buthuri,,
+F-51.1,Su Mizaj al-Kabid al-Harr,,
+F-51.2,Su Mizaj al-Kabid al-Barid,,
+F-51.3,Su Mizaj al-Kabid al-Ratb,,
+F-51.4,Su Mizaj al-Kabid al-Yabis,,
+F-70.1,Yarqan Suddi,54922189,Obstruction
+F-70.2,Yarqan Warami,,
+F-70.3,Yarqan Sammi,,
+F-70.4,Yarqan Buhrani,,
+F-72.1,Su Mizaj al-Tihal al-Harr,,
+F-72.2,Su Mizaj al-Tihal al-Barid,,
+F-72.3,Su Mizaj al-Tihal al-Ratb,,
+F-72.4,Su Mizaj al-Tihal al-Yabis,,
+F-73.1,Waram-i-Tihal Damawi,,
+F-73.2,Waram-i-Tihal Safrawi,,
+F-73.3,Waram-i-Tihal Balghami,,
+F-73.4,Waram-i-Tihal Sulb Sawdawi,,
+F-83.25,Ishal Dhawbani,,
+F-89.5,Zahir Kadhib,,
+F-89.6,Zahir Sadiq,,
+F-89.7,Zahir Safrawi,,
+F-89.8,Zahir Balghami,,
+F-90.2,Maghs Harr Sada,,
+F-90.3,Maghs Safrawi,,
+F-90.4,Maghs Balghami,,
+F-90.5,Maghs Sawdawi,,
+F-90.6,Maghs Rihi,,
+F-90.7,Maghs Warami,,
+F-90.8,Maghs Thufli,,
+F-90.9,Maghs Didani,,
+F-91.1,Nafkh-o-Qaraqir Ghidhai,,
+F-91.2,Nafkh-o-Qaraqir Adai,,
+F-91.3,Nafkh-o-Qaraqir Buhrani,,
+F-92.19,Qulanj Safrawi,,
+F-92.20,Qulanj Sawdawi,,
+F-92.21,Qulanj Warami Damawi,,
+F-92.22,Qulanj Warami Safrawi,,
+F-92.23,Qulanj Warami Sawdawi,,
+F-92.24,Qulanj Warami Balghami,,
+F-95.1,Hayyat,1332645098,Round worm Infestation
+F-95.2,Habb al-Qar,321014067,"Cestode infection, unspecified"
+F-95.3,Sighar,1517666866,Thread worm infestation
+F-95.4,Mustadira,1542252776,Ancylostomiasis
+F-96.1,Bawasir Damiya,2139302050,Bleeding piles
+F-96.2,Bawasir Amya,,
+F-96.3,Bawasir Thululi,,
+F-96.4,Bawasir Inabiyya,,
+F-96.5,Bawasir Tuti,,
+F-96.6,Bawasir Naffakhi,,
+F-96.7,Bawasir Nakhli,,
+F-96.8,Bawasir Tini,,
+F-96.9,Bawasir Tamri,,
+M-43,Jarayan al-Dam,1599946610,bleeding haemorrhagic
+L-4.1,Waja al-Mafasil Damawi,,
+L-4.2,Waja al-Mafasil Safrawi,,
+L-4.3,Waja al-Mafasil Balghami,,
+L-4.4,Waja al-Mafasil Sawdawi,,
+L-4.5,Waja al-Mafasil Murakkab,,
+L-15.25,Kasr al-Lahy,1901919769,Fracture
+L-15.26,Kasr al-Tarquwa,663825629,Fracture clavicle
+L-15.27,Kasr al-Katif,1121640777,Fracture scapula
+L-15.28,Kasr al-Qass,1445690128,Fracture sternum
+L-15.29,Kasr al-Adla,861976198,Fracture rib
+L-15.30,Kasr al-Kharzat,869771751,Fracture
+L-15.31,Kasr Azm al-Kahil,,
+L-15.32,Kasr Asfal al-Qatan,,
+L-15.33,Kasr al-Usus,1177638945,Fracture coccyx
+L-15.34,Kasr al-Adud,1396472868,Fracture humerus
+L-15.35,Kasr al-Said,1810124937,Fracture bone forearm
+L-15.36,Kasr al-Rusgh,324749809,Fracture bone wrist
+L-15.37,Kasr Izam al-Asabi,1951136043,fractures
+L-15.38,Kasr al-Warik,1720741433,Fracture ischium
+L-15.39,Kasr al-Fakhidh,1810119958,Fracture femur
+L-15.40,Kasr al-Saq,166485624,Fracture bone leg
+L-15.41,Kasr al-Kab,1822921698,Fracture bone ankle
+L-15.42,Kasr al-Aqib,147678558,Fracture
+L-15.43,Kasr Asabi al-Rijl,,
+J-52.2,Shara Damawi,,
+J-52.3,Shara Balghami,,
+J-56.1,Jarab Safrawi,,
+J-56.2,Jarab Sawdawi,,
+J-56.3,Jarab Balghami,,
+J-56.4,Jarab Ratab,,
+J-56.5,Jarab Yabis,,
+J-67.1,Masamir,,
+J-67.2,Qurun,1444461303,Cutaneous horn
+G-2.1,Dhayabitus Barid,1009553897,diabetes insipidus
+G-6.1,Waram-i-Mathana Damawi,,
+G-6.2,Waram-i-Mathana Safrawi,,
+G-6.3,Waram-i-Mathana Balghami,,
+H-10.1,Waram al-Khusyatayn HarrWaram al-Unthayayn Harr,1297293412,Acute orchitis
+H-10.1.1,Waram al-Khusyatayn Damawi Waram al-Unthayayn Damawi,,
+H-10.1.2,Waram al-Khusyatayn SafrawiWaram al-Unthayayn Safrawi,,
+H-10.2,Waram al-Khusyatayn BaridWaram al-Unthayayn Barid,675559343,Chronic orchitis
+H-10.2.1,Waram al-Khusyatayn BalghamiWaram al-Unthayayn Balghami,,
+H-10.2.2,Waram al-Khusyatayn SawdawiWaram al-Unthayayn Sawdawi,,
+H-10.3,Waram al-Khusyatayn RihiWaram al-Unthayayn Rihi,,
+H-28.1,Qila Maiyya Ghimdi,,
+H-28.2,Qila Maiyya Khilqi,899077249,Congenital hydrocele
+H-28.3,Qila Maiyya Kisi,1995003672,Encysted hydrocele
+I-1.1,Su-i-Mizaj al-Rahim al-Harr,,
+I-1.2,Su-i-Mizaj al-Rahim al-Barid,,
+I-1.3,Su-i-Mizaj al-Rahim al-Ratb,,
+I-1.4,Su-i-Mizaj al-Rahim al-Yabis,,
+I-18.1,Tasaghghur Khusya al-Rahim Khilqi,,
+I-18.2,Tasaghghur Khusya al-Rahim Iktisabi,,
+I-19.1,Iltihab al-Qadhif Hadd,1286268784,Acute salpingitis
+I-19.2,Iltihab al-Qadhif Muzmin,1932766800,Chronic salpingitis
+I-37.1,Waram-i-Thadi Harr,259204343,Inflammatory disorders of breast
+I-37.2,Waram-i-Thadi Barid,1349353962,Chronic mastitis
+I-37.3,Waram-i-Thadi Sulb,,
+I-57.1,Waram-i-Rahim Harr,,
+I-57.2,Waram-i-Rahim Balghami,,
+I-57.3,Waram-i-Rahim Sulb,,
+I-60,Dubayla al-Rahim,1731446623,Uterine abscess
+K-5.1.1,Ghibb Khalisa,,
+K-5.1.2,Ghibb Ghayr Khalisa,,
+K-8.2,Humma al-Rib Daira,,
+K-8.3,Rib Damawi,,
+K-8.4,Rib Safrawi,,
+K-8.5,Rib Balghami,,
+K-8.6,Rib Sawdawi,,
+K-13.2.1,Humma Mutbiqa Ufuniyya Mutazaida,,
+K-13.2.2,Humma Mutbiqa Ufuniyya Waqifa,,
+K-13.2.3,Humma Mutbiqa Ufuniyya Mutanaqisa,,
+K-26,Shatar al-Ghibb,,
+K-27,Humma Nahariyya,,
+K-28,Humma Layliyya,,
+N-32,Gazidgi-i-Jarrara,,
+N-33,Gazidgi-i-Mur,,
+N-34,Gazidgi-i-Magas-i-Asal,,
+N-35,Gazidgi-i-Pashsha,2024599295,Mosquito bite
+O-582,Duf-i-Ada,1135701894,Debility organs
+O-583,Duf-i-Hararat Ghariziyya,,
+O-584,Duf-i-Am,1109546957,Fatigue
+O-585,Khalal-i-Quwa Nafsaniyya,,
+O-586,Khalal-i-Quwwat Haywaniyya,,
+O-587,Khalal-i-Quwa Tabiiyya,,
+O-588,Khalal-i-Quwwat Ghadhiya,,
+O-589,Khalal-i-Quwwat Muhassila,,
+O-590,Khalal-i-Quwwat Mulassiqa,,
+O-591,Khalal-i-Quwwat Mushabbiha,,
+O-592,Khalal-i-Quwwat NamiyaKhalal-i-Quwwat Murabbiya,,
+O-593,Khalal-i-Quwwat Jadhiba,,
+O-594,Khalal-i-Quwwat Masika,,
+O-595,Khalal-i-Quwwat Hadima,,
+O-596,Khalal-i-Quwwat Dafia,,
+O-597,Khalal-i-Quwa Tanasuliyya,,
+N-36,Kathrat-i-Sharab Noshi,1676588433,Disorders alcohol
+M-44,Khuraj Dubayla,1324834502,abscess
+H-34,Izam-i-Ghudda-i-Madhi,978159279,prostate
+A-32.7,Falij AsfalFalij Atrafi,,
+M-45,Iya,,
+M-45.1,Iya Tamaddudi,,
+M-45.2,Iya Nafikh,,
+M-45.3,Iya Quruhi,,
+M-45.4,Iya Warami,,
+M-46,Waja,661232217,Pain
+M-46.1,Waja Hakkak,,
+M-46.2,Waja Khashin,,
+M-46.3,Waja Nakhis,1850213017,Pricking pain
+M-46.4,Waja Daghit,,
+M-46.5,Waja Mumaddid,,
+M-46.6,Waja Mufassikh,,
+M-46.7,Waja Mukassir,1182010747,Breaking pain
+M-46.8,Waja Rikhw,,
+M-46.9,Waja Thaqib,,
+M-46.10,Waja Misalli,,
+M-46.11,Waja Khadri,,
+M-46.12,Waja Thaqil,,
+M-46.13,Waja Iyai,,
+M-46.14,Waja Ladhi,,
+C-131,Luknat,668613342,Stammering disorder
+O-598,Sinn-i-Numu Sinn-i-Hadathat,1406542390,Hot moist predominant temperament age
+O-599,Sinn-i-Shabab Sinn-i-Wuquf,153115881,Hot predominant temperament lesser degree
+O-600,Sinn-i-Kuhulat Sinn-i-Inhitat,1942661272,Cold dry predominant temperament age
+O-601,Sinn-i-Shaykhukhat,473633329,Cold predominant temperament greater degree
+O-602,Arad-i-Ibtida-i-Haml,,
+O-603,Arad-i-Wasat-i-Haml,,
+O-604,Arad-i-Akhir-i-Haml,,
+O-605,Arad-i-Nifas,,
+O-24.5,Ghalaba-i-Dam,1165413146,Predominance Dam
+O-24.6,Ghalaba-i-Safra,,
+O-24.7,Ghalaba-i-Balgham,1331485700,Predominance Balgham
+O-24.8,Ghalaba-i-Sawda,,
+I-62,Duf-i-Rahim,,
+I-63,Sudad al-Rahim,,
+O-606,Ghilza al-Rutuba,,
+O-607,Riqqa al-Rutuba,,
+O-608,Rutubat Ghariba,,
+A-15.1,Itilal al-Takhayyul Fasad-i-Takhayyul,,
+A-15.2,Itilal al-Fikr Fasad-i-Fikr,,
+A-15.3,Fikr Radi,,
+F-109,Al-Thiqal fil Mida,1751398427,heaviness stomach
+P-1,Amrad Hadda,,
+P-2,Amrad Muzmina,,
+P-3,Amrad Zahira,,
+P-4,Amrad Batina,,
+P-5,Amrad Khassa,,
+P-6,Amrad bil Shirka,,
+P-7,Amrad Mudiya,,
+P-8,Amrad Mutawaritha,,
+P-9,Amrad Jinsiyya,,
+P-10,Awqat al-Amrad,120524401,Disseminated Lyme borreliosis
+P-11,Waqt al-Ibtida,,
+P-12,Waqt al-Tazayyud,,
+P-13,Waqt al-Muntaha,,
+P-14,Waqt al-Inhitat,,
+P-15,Intiqal-i-Madda,,
+Q-1,Al- AradAl-Arad,1097998347,manifestations disease
+Q-2,Dall,,
+Q-3,Mudhakkir,,
+Q-4,Taqaddama al-Marafa,,
+Q-5,Alamat-i- Marad,922175770,Symptoms signs diseases
+Q-6,Alamat Jawhariyya,,
+Q-7,Alamat Ardiyya,,
+Q-8,Alamat Tamamiyya,,
+Q-9,Alamat Muwaqqata,,
+Q-10,Alamat Ghayr Muwaqqata,,
+Q-11,Alamat Mushakhkhisa,,
+Q-12,Alamat Mushtarika,,
+Q-13,Alamat Muajjala,,
+Q-14,Alamat Haila,,
+Q-15,Alamat Fariqa,,
+Q-16,Dalail Hadira,,
+Q-17,Dalail Madiya,,
+Q-18,Alamat-i-Amrad Zahira,,
+Q-19,Alamat-i-Amrad Batina,,
+Q-20,Alamat-i-Riyah,,
+Q-21,Alamat-i-Awram,,
+Q-22,Alamat-i-Tafarruq-i-Ittisal,,
+Q-23,Thiqal Jami al-Badan,,
+Q-24,Thiqal al-Ras,316699522,Heaviness head
+Q-25,Thiqal al-Aynayn,,
+Q-26,Thiqal al-Sudghayn,,
+Q-27,Takassur fil Ada,,
+Q-28,Tarahhul al-Badan,,
+Q-29,Kasal al-Badan,,
+Q-30,Rakhawa al-Asab,,
+Q-31,Bayad Lawn al-Badan,,
+Q-32,Lin Malmas al-Badan,536650343,body soft
+Q-33,Sufra al-Lawn,,
+Q-34,Sufra al-Wajh,,
+Q-35,Sufra al-Ayn,,
+Q-36,Marara al-Fam,,
+Q-37,Khashin al-Lisan,,
+Q-38,Al-Iltidhadh bil Nasim al-Barid,,
+Q-39,Qahal al-Badan,111771640,excessive dryness body
+Q-40,Kumuda al-Lawn,,
+Q-41,Sawad al-Lawn,,
+Q-42,Ziyada al-Wasawis,,
+Q-43,Hurqa Fam al-Mida,,
+Q-44,Harara al-Malmas,,
+Q-45,Al-Hidda fil Ras,,
+Q-46,Ihsas al-Thiqal fil Ras,,
+Q-47,Al-Tamaddud fil Ras,,
+Q-48,Mayl al-Suda ila Shiqq al-Ras al-Ayman,,
+Q-49,Mayl al-Suda ila Shiqq al-Ras al-Aysar,,
+Q-50,Mayl al-Suda ila Khalf al-Ras,,
+Q-51,Mayl al-Suda ila Muqaddam al-Ras,,
+Q-52,Bayad Jilda al-Ras,,
+Q-53,Kathra al-Nawm,,
+Q-54,Qilla al-Nawm,,
+Q-55,Al-Nawm al-Mudtarib,1207299072,Sleep disturbance
+Q-56,Al-Ghatit,1795485025,Snoring
+Q-57,Al-Huzn al-Daim,,
+Q-58,Al-Ibta fil Jawab,,
+Q-59,Al-Tafazzu,,
+Q-60,Ishtidad al-Suda fil Khawa,,
+Q-61,Hayajan al-Suda Bad Shurb al-Khumur,,
+Q-62,Hayajan al-Suda ma al-Haraka,,
+Q-63,Hala al-Sukr,,
+Q-64,Al-Izbad,,
+Q-65,Al-Nuas,,
+L-18,Waja al-Unuq,,
+L-19,Waja-i-Mafsal-i-Katif,855105308,shoulder
+F-110,Waram-i-Marara,786251500,Cholecystitis
+F-111,Waram-i-Banqras Muzmin,1758007371,Chronic pancreatitis
+F-112,Tashahhum-i-Kabid Ghayr Khamri,1331941447,fatty liver disease
+I-61,Akyas Khusya al-Rahim Mutalazima,1213633323,Polycystic ovary syndrome
+I-64,Marad-i-Iltihab- i- Hawd al-Ana,1230041477,pelvic inflammatory diseases
+O-609,Wiladat Tabai,,
+I-65,Mutalazima Iyasiyya,177862565,menopause
+K-29,Chikhunguniya,1137729397,Chikungunya
+M-47,Itilal Asabi Sukkari,1837670870,Diabetic
+M-48,Fart-i-Darqiyya,1470387017,Thyrotoxicosis
+M-49,Naqs-i-Darqiyya,1722092627,Hypothyroidism
+M-50,Qarha Sukkariyya Qadamiyya,74527684,Diabetic foot ulcer
+A-45,Falij Dimaghi,76906748,Cerebral palsy
+A-46,Waja-i-Asab-i-Thalathi Wajhi,1803581281,Trigeminal neuralgia
+D-44,Amrad-i-Ria Mihaniyya,,
+F-113,Ishal Sahji,,
+F-114,Nasur-i-Shariyya Ghayr Nafidha,1857606837,pilonidal sinus
+F-115,Waram-i-Kabid Khamri,229221394,Alcoholic hepatitis
+C-132,Nazla Wabai,,
+E-15.1,Mutalazima Bad Tanakhkhur-i-Qalb Insidadi,1353640147,syndrome

@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  namespace: hacksmiths
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+        - name: app
+          image: app:local
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: NODE_ENV
+              value: production
+            - name: DATABASE_URL
+              value: postgresql://postgres:postgres@postgres.hacksmiths.svc.cluster.local:5432/appdb?schema=public
+            - name: NEXTAUTH_URL
+              value: http://app.local
+            - name: NEXTAUTH_SECRET
+              value: changeme-nextauth-secret
+            - name: HAPI_BASE_URL
+              value: http://hapi-fhir.hacksmiths.svc.cluster.local:8080/fhir
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app
+  namespace: hacksmiths
+spec:
+  selector:
+    app: app
+  ports:
+    - port: 3000
+      targetPort: 3000
+
+
+

@@ -1,0 +1,32 @@
+{
+  "name": "hapi-terminology-loader",
+  "version": "1.0.0",
+  "description": "HAPI FHIR terminology loader for NAMASTE to ICD-11 mapping",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "node scripts/csv-to-fhir.js",
+    "load": "node scripts/load-to-hapi.js",
+    "setup": "npm run generate && npm run load",
+    "test": "node scripts/test-operations.js",
+    "clean": "if exist output\\*.json del /Q output\\*.json",
+    "clean-hapi": "node scripts/clean-hapi.js"
+  },
+  "keywords": [
+    "hapi",
+    "fhir",
+    "terminology",
+    "namaste",
+    "icd-11"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "csv-parser": "^3.2.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0"
+  }
+}
