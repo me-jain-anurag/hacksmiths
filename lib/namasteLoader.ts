@@ -16,6 +16,13 @@ export type NormalizedRow = {
 
 let CACHE: NormalizedRow[] | null = null;
 
+/**
+ * Clear the cache to force reload of CSV data
+ */
+export function clearCache(): void {
+  CACHE = null;
+}
+
 function pickFirst(row: Record<string, string>, candidates: string[]) {
   for (const c of candidates) {
     for (const key of Object.keys(row)) {
@@ -48,13 +55,13 @@ export function loadNamasteDataSync(): NormalizedRow[] {
     const normalized: Record<string, string> = {};
     for (const k of Object.keys(r)) normalized[k.trim().toLowerCase()] = (r[k] ?? '').toString().trim();
 
-    // candidate header names:
-    const namasteCode = pickFirst(normalized, ['namaste_code', 'numc_code', 'numc_code', 'code', 'namastecode', 'numc_code']);
-    const namasteTerm = pickFirst(normalized, ['namaste_term', 'numc_term', 'term', 'name', 'namasteterm']);
+    // candidate header names (supporting both old and new formats):
+    const namasteCode = pickFirst(normalized, ['namaste_code', 'numc_code', 'code', 'namastecode']);
+    const namasteTerm = pickFirst(normalized, ['namaste_term', 'namaste_display', 'numc_term', 'term', 'name', 'namasteterm']);
     const namasteDesc = pickFirst(normalized, ['namaste_description', 'description', 'namastadescription', 'desc']);
 
-    const icd11Code = pickFirst(normalized, ['icd11_code', 'icd_code', 'icd_code', 'icd11', 'icd']);
-    const icd11Title = pickFirst(normalized, ['icd11_title', 'icd_term', 'icd_term', 'icd_title', 'icd11title']);
+    const icd11Code = pickFirst(normalized, ['icd11_code', 'icd_code', 'icd11', 'icd']);
+    const icd11Title = pickFirst(normalized, ['icd11_title', 'icd11_display', 'icd_term', 'icd_title', 'icd11title']);
     const icd11Desc = pickFirst(normalized, ['icd11_description', 'icd_description', 'longdescription', 'longdefinition']);
 
     return {
