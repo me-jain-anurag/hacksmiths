@@ -7,6 +7,7 @@ import path from 'path';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import csv from 'csv-parser';
+import { clearCache } from '../../../../lib/namasteLoader';
 
 const execAsync = promisify(exec);
 const REQUIRED_COLUMNS = ['NAMASTE_CODE', 'NAMASTE_DISPLAY', 'ICD11_CODE', 'ICD11_DISPLAY'];
@@ -39,6 +40,7 @@ export async function POST(request: NextRequest) {
   }
 
   const tempFilePath = path.join(process.cwd(), 'hapi-loader', `temp_upload_${Date.now()}.csv`);
+  const dataFilePath = path.join(process.cwd(), 'app', 'data', 'Cleaned_data.csv');
 
   try {
     const data = await request.formData();
@@ -61,13 +63,25 @@ export async function POST(request: NextRequest) {
     await validateCsvHeaders(tempFilePath);
     console.log('CSV headers validated successfully.');
 
+    // Copy uploaded file to the data directory so search can use it
+    const dataDir = path.dirname(dataFilePath);
+    if (!require('fs').existsSync(dataDir)) {
+      await require('fs').promises.mkdir(dataDir, { recursive: true });
+    }
+    await writeFile(dataFilePath, buffer);
+    console.log(`File also saved to data directory: ${dataFilePath}`);
+
     const hapiLoaderPath = path.join(process.cwd(), 'hapi-loader');
 
     console.log('Running CSV to FHIR conversion...');
-    await execAsync(`node scripts/csv-to-fhir.js ${tempFilePath}`, { cwd: hapiLoaderPath });
+    await execAsync(`node scripts/csv-to-fhir.js "${tempFilePath}"`, { cwd: hapiLoaderPath });
     
     console.log('Loading FHIR resources to HAPI server...');
     await execAsync('node scripts/load-to-hapi.js', { cwd: hapiLoaderPath });
+
+    // Clear the namasteLoader cache so it picks up the new data
+    clearCache();
+    console.log('Cache cleared - new CSV data will be used for searches');
 
     return NextResponse.json({ success: true, message: 'File processed and loaded successfully.' });
 

@@ -7,9 +7,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Paths
-// UPDATED: The path now points to a local 'data' directory.
-const CSV_PATH = path.resolve(__dirname, '../../data/Cleaned_data.csv');
+// Get the CSV path from command line argument or default
+const csvArg = process.argv[2];
+const CSV_PATH = csvArg || path.resolve(__dirname, '../../app/data/Cleaned_data.csv');
 const OUTPUT_DIR = path.resolve(__dirname, '../output');
 
 // Ensure output directory exists
@@ -24,7 +24,7 @@ console.log(`📁 Output directory: ${OUTPUT_DIR}`);
 // Check if CSV file exists
 if (!fs.existsSync(CSV_PATH)) {
   console.error(`❌ CSV file not found: ${CSV_PATH}`);
-  console.error('Please ensure "Cleaned_data.csv" is placed inside the "EMR/hapi-loader/data/" directory.');
+  console.error('Please ensure the CSV file exists at the specified path.');
   process.exit(1);
 }
 
@@ -74,8 +74,9 @@ function generateCodeSystem(data) {
 
   data.forEach((row, index) => {
     try {
-      const namasteCode = row.NUMC_CODE?.trim();
-      const namasteTerm = row.NUMC_TERM?.trim();
+      // Support both old and new column names
+      const namasteCode = row.NAMASTE_CODE?.trim() || row.NUMC_CODE?.trim();
+      const namasteTerm = row.NAMASTE_DISPLAY?.trim() || row.NUMC_TERM?.trim();
 
       if (!namasteCode || !namasteTerm) return; // Skip invalid rows
       if (processedCodes.has(namasteCode)) return; // Avoid duplicate codes
@@ -115,10 +116,11 @@ function generateConceptMap(data) {
 
   data.forEach((row, index) => {
     try {
-      const namasteCode = row.NUMC_CODE?.trim();
-      const namasteTerm = row.NUMC_TERM?.trim();
-      const icdCode = row.ICD_CODE?.trim();
-      const icdTerm = row.ICD_TERM?.trim();
+      // Support both old and new column names
+      const namasteCode = row.NAMASTE_CODE?.trim() || row.NUMC_CODE?.trim();
+      const namasteTerm = row.NAMASTE_DISPLAY?.trim() || row.NUMC_TERM?.trim();
+      const icdCode = row.ICD11_CODE?.trim() || row.ICD_CODE?.trim();
+      const icdTerm = row.ICD11_DISPLAY?.trim() || row.ICD_TERM?.trim();
 
       if (!namasteCode || !icdCode || !icdTerm) return; // Skip rows without proper mapping
 
