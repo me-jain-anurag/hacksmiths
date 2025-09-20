@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: emr-backend
+  namespace: hacksmiths
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: emr-backend
+  template:
+    metadata:
+      labels:
+        app: emr-backend
+    spec:
+      containers:
+        - name: emr-backend
+          image: emr-backend:local
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: NODE_ENV
+              value: production
+            - name: PORT
+              value: "5000"
+            - name: MAIN_BACKEND_URL
+              value: http://app.hacksmiths.svc.cluster.local:3000
+            - name: MAIN_BACKEND_API_KEY
+              value: changeme-main-api-key
+          ports:
+            - containerPort: 5000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: emr-backend
+  namespace: hacksmiths
+spec:
+  selector:
+    app: emr-backend
+  ports:
+    - port: 5000
+      targetPort: 5000
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: emr-frontend
+  namespace: hacksmiths
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: emr-frontend
+  template:
+    metadata:
+      labels:
+        app: emr-frontend
+    spec:
+      containers:
+        - name: emr-frontend
+          image: emr-frontend:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: emr-frontend
+  namespace: hacksmiths
+spec:
+  selector:
+    app: emr-frontend
+  ports:
+    - port: 80
+      targetPort: 80
+
+
+

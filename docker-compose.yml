@@ -1,0 +1,97 @@
+services:
+  # PostgreSQL for Prisma
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: appdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Custom HAPI FHIR server with persistent data
+  hapi-fhir:
+    image: hapiproject/hapi:latest
+    container_name: hapi-terminology-server
+    ports:
+      - "8080:8080"
+    environment:
+      - hapi.fhir.enable_terminology=true
+      - hapi.fhir.cors.allow_Credentials=true
+      - hapi.fhir.cors.allowed_origin=*
+      - spring.datasource.url=jdbc:h2:mem:testdb
+      - spring.datasource.driver-class-name=org.h2.Driver
+      - spring.jpa.hibernate.ddl-auto=create-drop
+    volumes:
+      - hapi-data:/data/hapi
+
+  # Automated data loader service
+  hapi-loader:
+    build:
+      context: ./hapi-loader
+    container_name: hapi-loader
+    environment:
+      # Point to the FHIR server using Docker's internal network
+      HAPI_FHIR_URL: http://hapi-fhir:8080/fhir
+    depends_on:
+      - hapi-fhir
+    restart: "no" # This is a one-time task, it should not restart
+
+  # Main Next.js backend
+  app:
+    build: .
+    container_name: next-app
+    depends_on:
+      - postgres
+      - hapi-loader
+    environment:
+      ABHA_JWKS_URL: https://example.com/jwks
+      ABHA_ISSUER: https://example.com
+      ABHA_AUDIENCE: terminology-api
+      ALLOW_INSECURE_DEV: "true"
+      NODE_ENV: production
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/appdb?schema=public
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: changeme-nextauth-secret
+      HAPI_BASE_URL: http://hapi-fhir:8080/fhir
+    ports:
+      - "3000:3000"
+
+  # EMR terminology backend (adapter)
+  emr-backend:
+    build: ./EMR/terminology-service
+    container_name: emr-backend
+    depends_on:
+      - app
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+      MAIN_BACKEND_URL: http://app:3000
+      MAIN_BACKEND_API_KEY: lMqWaS9eAWR6BB4hcLzU9nF0NHth3z99
+    ports:
+      - "5000:5000"
+
+  # EMR frontend (Vite build served by nginx)
+  emr-frontend:
+    build: ./EMR/emr-frontend-clean
+    container_name: emr-frontend
+    depends_on:
+      - emr-backend
+    environment:
+      VITE_API_URL: http://localhost:5000
+      VITE_API_KEY: supersecretapikey123
+    ports:
+      - "5173:80"
+
+volumes:
+  pgdata:
+  hapi-data:
+

@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  hapi-fhir:
+    image: hapiproject/hapi:latest
+    container_name: hapi-terminology-server
+    ports:
+      - "8080:8080"
+    environment:
+      # Enable terminology operations
+      - hapi.fhir.enable_terminology=true
+      # Allow all origins for development
+      - hapi.fhir.cors.allow_Credentials=true
+      - hapi.fhir.cors.allowed_origin=*
+      # Use H2 database for development (switch to PostgreSQL for production)
+      - spring.datasource.url=jdbc:h2:mem:testdb
+      - spring.datasource.driver-class-name=org.h2.Driver
+      - spring.jpa.hibernate.ddl-auto=create-drop
+    volumes:
+      # Optional: persist data
+      - hapi-data:/data/hapi
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/fhir/metadata"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  hapi-data:

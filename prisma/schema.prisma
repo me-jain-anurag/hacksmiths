@@ -1,0 +1,55 @@
+// This is our Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Client {
+  id        Int      @id @default(autoincrement())
+  email     String?  @unique
+  password  String?
+  name      String   // e.g. "Aarogya EMR"
+  apiKey    String?  @unique
+  createdAt DateTime @default(now())
+}
+
+model Admin {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+model AuditLog {
+  id        Int      @id @default(autoincrement())
+  timestamp DateTime @default(now())
+
+  // Action metadata
+  action    String   // e.g. "terminology.search"
+  outcome   String   // "success" | "error"
+
+  // Request context
+  ipAddress String?  // from req.headers
+  clientId  String?  // from JWT claims
+  doctorId  String?  // from JWT claims (HPRID)
+
+  // API client context
+  apiClientId   Int?    // from authenticated client
+  apiClientName String? // from authenticated client
+
+  // Search context
+  queryTerm   String? // term searched by doctor
+  namasteCode String?
+  icdCode     String?
+
+  // Store raw FHIR AuditEvent JSON for compliance
+  fhirEvent Json
+
+  @@map("audit_logs")
+}
