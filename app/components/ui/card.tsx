@@ -6,9 +6,10 @@ import type { HTMLAttributes, ReactNode } from "react";
 interface CardProps extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
 }
+
 export const Card: React.FC<CardProps> = ({ children, className, ...props }) => (
   <div
-    className={`rounded-lg border bg-card text-card-foreground shadow-sm ${className || ""}`.trim()}
+    className={`rounded border border-gray-300 bg-white text-gray-900 shadow-sm ${className || ""}`.trim()}
     {...props}
   >
     {children}
@@ -17,7 +18,7 @@ export const Card: React.FC<CardProps> = ({ children, className, ...props }) => 
 
 export const CardHeader: React.FC<CardProps> = ({ children, className, ...props }) => (
   <div
-    className={`flex flex-col space-y-1.5 p-6 ${className || ''}`.trim()}
+    className={`flex flex-col space-y-2 p-6 border-b border-gray-200 ${className || ''}`.trim()}
     {...props}
   >
     {children}
@@ -26,7 +27,7 @@ export const CardHeader: React.FC<CardProps> = ({ children, className, ...props 
 
 export const CardTitle: React.FC<CardProps> = ({ children, className, ...props }) => (
   <h3
-    className={`text-2xl font-semibold leading-none tracking-tight ${className || ''}`.trim()}
+    className={`text-lg font-semibold leading-none tracking-normal text-gray-900 ${className || ''}`.trim()}
     {...props}
   >
     {children}
@@ -35,16 +36,15 @@ export const CardTitle: React.FC<CardProps> = ({ children, className, ...props }
 
 export const CardDescription: React.FC<CardProps> = ({ children, className, ...props }) => (
   <p
-    className={`text-sm text-muted-foreground ${className || ''}`.trim()}
+    className={`text-sm text-gray-600 ${className || ''}`.trim()}
     {...props}
   >
     {children}
   </p>
 );
 
-
 export const CardContent: React.FC<CardProps> = ({ children, className, ...props }) => (
-  <div className={`p-6 pt-0 ${className || ''}`.trim()} {...props}>
+  <div className={`p-6 ${className || ''}`.trim()} {...props}>
     {children}
   </div>
 );

@@ -128,7 +128,7 @@ app.post('/api/search', authenticateRequest, async (req, res) => {
         namaste: mainBackendData.rawMapping?.find(m => m.system.includes('namaste')) || null,
         icd11: mainBackendData.rawMapping?.find(m => m.system.includes('icd')) || null,
         mappingStatus: mainBackendData.rawMapping?.[0]?.mappingStatus || 'UNKNOWN',
-        totalMappings: mainBackendData.rawMapping?.length || 0
+        totalMappings: mainBackendData.rawMapping?.filter(m => m.mappingStatus === 'MAPPED').length || 0
       },
       
       // Audit information
