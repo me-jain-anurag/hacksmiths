@@ -61,72 +61,82 @@ export default function SignUpPage() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
-      <Card className="w-full max-w-md">
-        <CardHeader className="text-center">
-          <CardTitle>Create Your Setu Account</CardTitle>
-          <CardDescription>Get started by creating a client account.</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-              <FormField
-                control={form.control}
-                name="name"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Full Name or Company</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Your Name" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Email</FormLabel>
-                    <FormControl>
-                      <Input placeholder="name@example.com" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="password"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Password</FormLabel>
-                    <FormControl>
-                      <Input type="password" placeholder="********" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              {error && <p className="pt-2 text-sm font-medium text-destructive">{error}</p>}
-              <Button type="submit" disabled={loading} className="w-full h-11 text-base font-semibold">
-                {loading ? "Creating Account..." : "Create Account"}
-              </Button>
-            </form>
-          </Form>
-          <div className="mt-4 text-center text-sm">
-            Already have an account?{" "}
-            <Link href="/login/client" className="underline font-semibold text-blue-600 hover:text-blue-800">
-              Sign in
-            </Link>
-          </div>
-        </CardContent>
-      </Card>
-      <div className="mt-4 text-sm">
-        <Link href="/" className="underline text-gray-500 hover:text-gray-800">
-            &larr; Back to Home
-        </Link>
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-md w-full space-y-8">
+        <div>
+          <h2 className="mt-6 text-center text-2xl font-bold text-gray-900">
+            Create Client Account
+          </h2>
+          <p className="mt-2 text-center text-sm text-gray-600">
+            Register for API access to Setu Medical Terminology Bridge
+          </p>
+        </div>
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-lg font-semibold text-center">Account Registration</CardTitle>
+            <CardDescription className="text-center">Enter your details to get started</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Form {...form}>
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+                <FormField
+                  control={form.control}
+                  name="name"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Full Name or Organization</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Your full name or organization name" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <FormField
+                  control={form.control}
+                  name="email"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Email Address</FormLabel>
+                      <FormControl>
+                        <Input type="email" placeholder="name@example.com" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <FormField
+                  control={form.control}
+                  name="password"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Password</FormLabel>
+                      <FormControl>
+                        <Input type="password" placeholder="Minimum 6 characters" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                {error && <p className="text-sm font-medium text-red-600">{error}</p>}
+                <Button type="submit" disabled={loading} className="w-full h-11 text-base font-medium">
+                  {loading ? "Creating Account..." : "Create Account"}
+                </Button>
+              </form>
+            </Form>
+            <div className="mt-4 text-center text-sm">
+              Already have an account?{" "}
+              <Link href="/login/client" className="text-blue-700 underline hover:text-blue-800">
+                Sign in here
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+        <div className="text-center">
+          <Link href="/" className="text-sm text-gray-500 underline hover:text-gray-700">
+            ← Back to Home
+          </Link>
+        </div>
       </div>
     </div>
   );

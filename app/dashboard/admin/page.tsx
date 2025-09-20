@@ -3,11 +3,12 @@
 import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { Users, Upload, FileText, Calendar, Mail, User, LogOut, RefreshCw } from "lucide-react";
+import { Users, Upload, FileText, Calendar, Mail, User, LogOut, RefreshCw, Home } from "lucide-react";
 
 type Client = {
   id: string;
@@ -128,14 +129,23 @@ export default function AdminDashboard() {
                 <p className="text-gray-600 mt-1">Welcome back, {session.user?.email}</p>
               </div>
             </div>
-            <Button 
-              variant="outline" 
-              onClick={() => signOut()}
-              className="flex items-center space-x-2 hover:bg-red-50 hover:border-red-300 hover:text-red-600 transition-colors"
-            >
-              <LogOut className="h-4 w-4" />
-              <span>Sign Out</span>
-            </Button>
+            <div className="flex items-center space-x-3">
+              <Link 
+                href="/" 
+                className="inline-flex items-center space-x-2 px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+              >
+                <Home className="h-4 w-4" />
+                <span>Home</span>
+              </Link>
+              <Button 
+                variant="outline" 
+                onClick={() => signOut()}
+                className="flex items-center space-x-2 hover:bg-red-50 hover:border-red-300 hover:text-red-600 transition-colors"
+              >
+                <LogOut className="h-4 w-4" />
+                <span>Sign Out</span>
+              </Button>
+            </div>
           </header>
 
           {/* Stats Cards */}
