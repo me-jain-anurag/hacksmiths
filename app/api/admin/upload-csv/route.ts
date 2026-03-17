@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth/next';
 import { authOptions } from '../../auth/[...nextauth]/route';
-import { writeFile, unlink } from 'fs/promises';
+import { writeFile, unlink, access } from 'fs/promises';
 import { createReadStream } from 'fs';
 import path from 'path';
 import { exec } from 'child_process';
@@ -11,6 +11,14 @@ import { clearCache } from '../../../../lib/namasteLoader';
 
 const execAsync = promisify(exec);
 const REQUIRED_COLUMNS = ['NAMASTE_CODE', 'NAMASTE_DISPLAY', 'ICD11_CODE', 'ICD11_DISPLAY'];
+
+type RoleSessionUser = {
+  role?: string;
+};
+
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : 'Unknown error';
+}
 
 async function validateCsvHeaders(filePath: string): Promise<boolean> {
   return new Promise((resolve, reject) => {
@@ -27,7 +35,7 @@ async function validateCsvHeaders(filePath: string): Promise<boolean> {
       }
     });
 
-    stream.on('error', (error: any) => { // Corrected type
+    stream.on('error', (error: unknown) => {
       reject(error);
     });
   });
@@ -35,7 +43,7 @@ async function validateCsvHeaders(filePath: string): Promise<boolean> {
 
 export async function POST(request: NextRequest) {
   const session = await getServerSession(authOptions);
-  if (!session || (session.user as any).role !== 'admin') {
+  if (!session || (session.user as RoleSessionUser | undefined)?.role !== 'admin') {
     return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
   }
 
@@ -85,16 +93,17 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ success: true, message: 'File processed and loaded successfully.' });
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('File upload processing error:', error);
-    return NextResponse.json({ error: `An unexpected error occurred: ${error.message}` }, { status: 500 });
+    return NextResponse.json({ error: `An unexpected error occurred: ${getErrorMessage(error)}` }, { status: 500 });
   } finally {
     try {
-      if (require('fs').existsSync(tempFilePath)) {
+      await access(tempFilePath);
+      {
         await unlink(tempFilePath);
         console.log(`Cleaned up temporary file: ${tempFilePath}`);
       }
-    } catch (cleanupError: any) {
+    } catch (cleanupError: unknown) {
       console.error(`Failed to clean up temporary file ${tempFilePath}:`, cleanupError);
     }
   }

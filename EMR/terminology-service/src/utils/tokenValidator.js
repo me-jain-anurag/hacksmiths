@@ -25,7 +25,7 @@ export const validateAbhaToken = (req, res, next) => {
     });
     req.abhaUser = decoded;
     next();
-  } catch (err) {
+  } catch {
     return res.status(401).json({ error: 'Invalid ABHA token' });
   }
 };

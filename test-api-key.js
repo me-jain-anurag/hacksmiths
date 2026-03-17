@@ -1,6 +1,7 @@
 // test-api-key.js
 // Test API key authentication directly
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const axios = require('axios');
 
 async function testApiKey() {

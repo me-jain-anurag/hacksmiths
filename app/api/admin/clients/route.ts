@@ -3,10 +3,14 @@ import { authOptions } from "../../auth/[...nextauth]/route";
 import { prisma } from "../../../../lib/prisma";
 import { NextResponse } from "next/server";
 
+type RoleSessionUser = {
+  role?: string;
+};
+
 export async function GET() {
   // 1. Ensure the user is an authenticated admin
   const session = await getServerSession(authOptions);
-  if (!session || (session.user as any).role !== 'admin') {
+  if (!session || (session.user as RoleSessionUser | undefined)?.role !== 'admin') {
     return new NextResponse("Unauthorized", { status: 401 });
   }
 

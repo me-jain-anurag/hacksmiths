@@ -1,5 +1,6 @@
 // lib/terminologyHapi.ts
 // Standards-based terminology service using HAPI FHIR server
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { hapiClient } from './hapiClient';
 import { loadNamasteDataSync, type NormalizedRow } from './namasteLoader';
@@ -22,7 +23,6 @@ export interface RawMapping {
 
 export interface FhirResponse {
   resourceType: string;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
 }
 
@@ -203,11 +203,9 @@ async function buildRawAndFhirResponseFallback(params: TerminologySearchParams):
  */
 function buildFhirCondition(primary: NormalizedRow, rawMapping: RawMapping[], patientId?: string): FhirResponse {
   const id = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (crypto as any).randomUUID() : 
     `cond-${Date.now()}`;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const coding: any[] = rawMapping.map(mapping => ({
     system: mapping.system,
     code: mapping.code,
@@ -216,13 +214,11 @@ function buildFhirCondition(primary: NormalizedRow, rawMapping: RawMapping[], pa
 
   const mappingStatus = rawMapping.some(m => m.system.includes('icd')) ? 'MAPPED' : 'NOT_MAPPED';
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const extensions: any[] = [{
     url: "http://ayush.gov.in/fhir/StructureDefinition/mappingStatus",
     valueString: mappingStatus
   }];
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const condition: any = {
     resourceType: 'Condition',
     id,
@@ -283,11 +279,9 @@ function buildNotMappedResponse(query: string, patientId?: string): TerminologyR
 
   // Build FHIR response
   const id = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (crypto as any).randomUUID() : 
     `unmapped-${Date.now()}`;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const condition: any = {
     resourceType: 'Condition',
     id,

@@ -5,9 +5,19 @@ import { generateApiKey } from "lib/authenticateClient";
 import bcrypt from "bcrypt";
 import { NextResponse } from "next/server";
 
+type RoleSessionUser = {
+  role?: string;
+  email?: string | null;
+};
+
 export async function POST() {
   const session = await getServerSession(authOptions);
-  if (!session || (session.user as any).role !== 'client') {
+  const user = session?.user as RoleSessionUser | undefined;
+  if (!session || user?.role !== 'client') {
+    return new NextResponse("Unauthorized", { status: 401 });
+  }
+
+  if (!user?.email) {
     return new NextResponse("Unauthorized", { status: 401 });
   }
 
@@ -17,7 +27,7 @@ export async function POST() {
     const hashedApiKey = await bcrypt.hash(newApiKey, 12);
 
     await prisma.client.update({
-      where: { email: session.user?.email! },
+      where: { email: user.email },
       data: { apiKey: hashedApiKey },
     });
 

@@ -6,7 +6,6 @@ import * as z from "zod";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { 
@@ -57,7 +56,7 @@ export default function AdminLoginPage() {
       } else {
         setError("Invalid admin credentials.");
       }
-    } catch (err) {
+    } catch {
       setError("An unexpected error occurred. Please try again.");
     } finally {
       setLoading(false);

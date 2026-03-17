@@ -4,15 +4,25 @@ import { authOptions } from "../../auth/[...nextauth]/route";
 import { prisma } from "../../../../lib/prisma";
 import { NextResponse } from "next/server";
 
+type RoleSessionUser = {
+  role?: string;
+  email?: string | null;
+};
+
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session || (session.user as any).role !== 'client') {
+  const user = session?.user as RoleSessionUser | undefined;
+  if (!session || user?.role !== 'client') {
+    return new NextResponse("Unauthorized", { status: 401 });
+  }
+
+  if (!user?.email) {
     return new NextResponse("Unauthorized", { status: 401 });
   }
 
   try {
     const client = await prisma.client.findUnique({
-      where: { email: session.user?.email! },
+      where: { email: user.email },
       select: {
         id: true,
         name: true,

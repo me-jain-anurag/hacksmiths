@@ -168,8 +168,8 @@ export async function POST(req: Request) {
     const result = await buildRawAndFhirResponseWithHapi({ query, claims, patientId: patientIdFromBody });
 
     // Extract codes for audit logging
-    const namasteCode = result.rawMapping.find((r: any) => r.system.includes('namaste'))?.code;
-    const icdCode = result.rawMapping.find((r: any) => r.system.includes('icd'))?.code;
+    const namasteCode = result.rawMapping.find((r: { system: string; code: string }) => r.system.includes('namaste'))?.code;
+    const icdCode = result.rawMapping.find((r: { system: string; code: string }) => r.system.includes('icd'))?.code;
 
     // Audit successful search
     const fhirEvent = createFhirAuditEvent({

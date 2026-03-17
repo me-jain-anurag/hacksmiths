@@ -1,6 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-
 // Mock CSV lookup
 const namasteDB = [
   { code: 'NAMASTE_1023', term: 'Amlapitta', description: 'Acid Dyspepsia' },

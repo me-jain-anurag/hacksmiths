@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import csv from 'csv-parser';
-import { v4 as uuidv4 } from 'uuid';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);

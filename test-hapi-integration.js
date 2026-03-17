@@ -14,7 +14,7 @@ const testHapiIntegration = async () => {
       console.log('❌ HAPI FHIR server is not responding\n');
       return;
     }
-  } catch (error) {
+  } catch {
     console.log('❌ Cannot connect to HAPI FHIR server');
     console.log('💡 Make sure to run: docker-compose -f docker-compose.hapi.yml up -d\n');
     return;

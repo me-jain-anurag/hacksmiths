@@ -19,7 +19,7 @@ async function waitForHapi(maxRetries = 60, delay = 2000) {
         console.log('✅ HAPI FHIR server is ready!');
         return true;
       }
-    } catch (error) {
+    } catch {
       console.log(`⏳ Attempt ${i + 1}/${maxRetries}: HAPI server not ready yet...`);
     }
     await new Promise(resolve => setTimeout(resolve, delay));

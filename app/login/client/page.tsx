@@ -57,7 +57,7 @@ export default function ClientLoginPage() {
       } else {
         setError("Invalid email or password. Please try again.");
       }
-    } catch (err) {
+    } catch {
       setError("An unexpected error occurred. Please try again.");
     } finally {
       setLoading(false);
@@ -126,7 +126,7 @@ export default function ClientLoginPage() {
 
   const renderSignUpLink = () => (
     <div className="mt-4 text-center text-sm">
-      Don't have an account?{" "}
+      Don&apos;t have an account?{" "}
       <Link href="/signup/client" className="underline">
         Sign up
       </Link>

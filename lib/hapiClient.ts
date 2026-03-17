@@ -1,5 +1,6 @@
 // lib/hapiClient.ts
 // Client library for HAPI FHIR terminology operations
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export interface HapiConfig {
   baseUrl: string;

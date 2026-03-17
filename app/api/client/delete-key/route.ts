@@ -4,9 +4,19 @@ import { prisma } from "../../../../lib/prisma";
 import { NextResponse } from "next/server";
 import bcrypt from "bcrypt";
 
+type RoleSessionUser = {
+  role?: string;
+  email?: string | null;
+};
+
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session || (session.user as any).role !== 'client') {
+  const user = session?.user as RoleSessionUser | undefined;
+  if (!session || user?.role !== 'client') {
+    return new NextResponse("Unauthorized", { status: 401 });
+  }
+
+  if (!user?.email) {
     return new NextResponse("Unauthorized", { status: 401 });
   }
 
@@ -18,7 +28,7 @@ export async function POST(req: Request) {
 
     // 1. Find the client in the database
     const client = await prisma.client.findUnique({
-      where: { email: session.user?.email! },
+      where: { email: user.email },
     });
 
     if (!client || !client.password) {
@@ -34,7 +44,7 @@ export async function POST(req: Request) {
 
     // 3. If password is valid, proceed with deletion
     await prisma.client.update({
-      where: { email: session.user?.email! },
+      where: { email: user.email },
       data: { apiKey: null },
     });
 

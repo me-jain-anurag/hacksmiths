@@ -18,6 +18,14 @@ type Client = {
   hasApiKey: boolean;
 };
 
+type RoleSessionUser = {
+  role?: string;
+};
+
+function isErrorWithMessage(error: unknown): error is { message: string } {
+  return typeof error === 'object' && error !== null && 'message' in error;
+}
+
 export default function AdminDashboard() {
   const { data: session, status } = useSession();
   const router = useRouter();
@@ -47,8 +55,9 @@ export default function AdminDashboard() {
   };
 
   useEffect(() => {
+    const user = session?.user as RoleSessionUser | undefined;
     if (status === "authenticated") {
-      if ((session.user as any).role !== "admin") {
+      if (user?.role !== "admin") {
         router.push("/dashboard/client");
       } else {
         fetchClients();
@@ -95,8 +104,8 @@ export default function AdminDashboard() {
       // Reset the file input
       const fileInput = document.querySelector('input[type="file"]') as HTMLInputElement;
       if (fileInput) fileInput.value = '';
-    } catch (error: any) {
-      setUploadMessage(`Error: ${error.message}`);
+    } catch (error: unknown) {
+      setUploadMessage(`Error: ${isErrorWithMessage(error) ? error.message : 'Upload failed.'}`);
       setUploadError(true);
     } finally {
       setIsUploading(false);
@@ -114,7 +123,7 @@ export default function AdminDashboard() {
     );
   }
 
-  if (status === "authenticated" && (session.user as any).role === "admin") {
+  if (status === "authenticated" && (session.user as RoleSessionUser | undefined)?.role === "admin") {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="max-w-7xl mx-auto p-6 space-y-8">

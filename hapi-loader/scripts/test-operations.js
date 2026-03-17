@@ -1,19 +1,14 @@
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import axios from 'axios';
 
 // Get the server URL from an environment variable, with a fallback for local testing
 const HAPI_BASE_URL = process.env.HAPI_FHIR_URL || 'http://localhost:8080/fhir';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 const hapiClient = {
   async healthCheck() {
     try {
       const response = await axios.get(`${HAPI_BASE_URL}/metadata`);
       return response.data.resourceType === 'CapabilityStatement';
-    } catch (error) {
+    } catch {
       return false;
     }
   },
@@ -23,7 +18,7 @@ const hapiClient = {
       const parameters = response.data;
       const displayParam = parameters.parameter?.find(p => p.name === 'display');
       return { display: displayParam?.valueString || 'No display found' };
-    } catch (error) {
+    } catch {
       return null;
     }
   },
