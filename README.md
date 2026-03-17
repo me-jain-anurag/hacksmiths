@@ -320,12 +320,30 @@ The main backend response contains two core sections:
 └── k8s/                         Kubernetes manifests
 ```
 
-## Current Behavior And Caveats
+## Current Status & Limitations
 
-- The main terminology API works with HAPI when available and falls back to CSV when HAPI is down.
-- The admin CSV upload path depends on HAPI being reachable, because it regenerates and reloads FHIR resources.
-- `hapi-loader` tests are external-service dependent and expect a healthy HAPI server.
-- The repository includes both product code and hackathon/demo UI, so there is some overlap between “core platform” and “demo application” concerns.
+### What Works ✅
+
+- **Core API & Fallback Mechanism:** The Next.js terminology API successfully falls back to serving results from the local CSV dataset (`app/data/Cleaned_data.csv`) when the HAPI FHIR server is unresponsive or disconnected.
+- **EMR Proxy Routing:** The Express service correctly proxies requests, validates `X-API-Key` and Bearer tokens, and forwards payloads to the main backend.
+- **Frontend Search Flow:** The Vite-based EMR frontend correctly queries the terminology API, rendering side-by-side NAMASTE and ICD-11 results.
+- **Audit Logging:** Database auditing of searches, including API client relationships and IP tracking via Prisma, is fully functional.
+- **FHIR Response Generation:** Generating standard FHIR `Condition` and `Bundle` responses representing the mappings works correctly.
+
+### What Doesn't Work / Caveats ⚠️
+
+- **HAPI-Dependent Admin Operations:** The admin CSV upload route **fails** if the HAPI FHIR server is unreachable because it strictly attempts to regenerate and upload FHIR resources to it.
+- **Test Suite Flakiness:** The `hapi-loader` tests are dependent on external services. They will fail if there is no healthy local HAPI server or if the port is occupied.
+- **Production Readiness:** Currently, development configurations (such as an insecure dev bypass in `lib/abha.ts` via `ALLOW_INSECURE_DEV=true` and `hapi.fhir.cors.allow_Credentials=true`) make it unsuitable for immediate production deployment without lockdown.
+- **Separation of Concerns:** The repository mixes "Core Integration Platform" logic with "Demo Application" code (the frontend client UI), causing some structural overlap.
+
+## Future Scope 🚀
+
+- **Decoupling the Platform:** Split the React Frontend and the EMR Proxy into separate repositories to ensure the Core API is isolated.
+- **Robust Queuing for HAPI:** The HAPI FHIR data-loading pipeline (CSV -> FHIR) should be moved to a robust background job queue (e.g., BullMQ) rather than blocking UI HTTP requests during an admin CSV upload.
+- **Caching Layer:** Implement a Redis cache layer in front of the Next.js API to drastically reduce database and HAPI server lookup times for frequently requested terminologies like "migraine" or "fever".
+- **Enhanced ABHA Auth:** Implement full cryptographic verification of the ABHA JWT tokens utilizing external JWKS endpoints in production.
+- **Advanced FHIR Terminology Features:** Support complex graph operations like subsumption (`$subsumes`) to allow searching by parent/child terminologies within the NAMASTE system.
 
 ## Where To Start In The Code
 
