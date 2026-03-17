@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth/next';
 import { authOptions } from '../../auth/[...nextauth]/route';
-import { writeFile, unlink, access } from 'fs/promises';
-import { createReadStream } from 'fs';
+import { writeFile, unlink, access, mkdir } from 'fs/promises';
+import { createReadStream, existsSync } from 'fs';
 import path from 'path';
 import { exec } from 'child_process';
 import { promisify } from 'util';
@@ -73,8 +73,8 @@ export async function POST(request: NextRequest) {
 
     // Copy uploaded file to the data directory so search can use it
     const dataDir = path.dirname(dataFilePath);
-    if (!require('fs').existsSync(dataDir)) {
-      await require('fs').promises.mkdir(dataDir, { recursive: true });
+    if (!existsSync(dataDir)) {
+      await mkdir(dataDir, { recursive: true });
     }
     await writeFile(dataFilePath, buffer);
     console.log(`File also saved to data directory: ${dataFilePath}`);
