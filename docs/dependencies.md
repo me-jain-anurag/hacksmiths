@@ -1,4 +1,4 @@
-# Toolchain and Dependency Notes (hacksmiths)
+# Toolchain and Dependency Notes (AyushSetu)
 
 ## Local toolchain used
 - Node.js: v24.13.0

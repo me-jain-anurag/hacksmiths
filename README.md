@@ -1,4 +1,6 @@
-# Hacksmiths Terminology Integration Platform
+# AyushSetu Terminology Integration Platform
+
+**Quick Summary:** AyushSetu is a healthcare terminology integration platform designed to bridge traditional AYUSH NAMASTE medicine terms with global ICD-11 standards. Originally conceived as a Smart India Hackathon (SIH) 2025 project by team **Hacksmiths**, the platform provides a standard-compliant FHIR API and an EMR-friendly proxy to ensure seamless interoperability across healthcare ecosystems.
 
 This repository is a multi-service healthcare terminology integration project built around one core job: take AYUSH NAMASTE terminology data, map it to ICD-11, expose that mapping through a secure API, and return FHIR-shaped output that an EMR can consume.
 
