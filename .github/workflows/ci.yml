@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        package-dir:
+          - .
+          - hapi-loader
+          - EMR/emr-frontend-clean
+          - EMR/terminology-service
+
+    defaults:
+      run:
+        working-directory: ${{ matrix.package-dir }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            hapi-loader/package-lock.json
+            EMR/emr-frontend-clean/package-lock.json
+            EMR/terminology-service/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run lint (if present)
+        run: npm run lint --if-present
+
+      - name: Run tests (if present)
+        run: npm test --if-present
+
+      - name: Run build (if present)
+        run: npm run build --if-present
