@@ -5,32 +5,22 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
-    auto-merge:
-      enabled: true
-      auto-commit: false
 
   - package-ecosystem: "npm"
     directory: "/hapi-loader"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
-    auto-merge:
-      enabled: true
-      auto-commit: false
 
   - package-ecosystem: "npm"
     directory: "/EMR/emr-frontend-clean"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
-    auto-merge:
-      enabled: true
-      auto-commit: false
 
   - package-ecosystem: "npm"
     directory: "/EMR/terminology-service"
     schedule:
       interval: "weekly"
-    auto-merge:
-      enabled: true
-      auto-commit: false
+    open-pull-requests-limit: 5
+
