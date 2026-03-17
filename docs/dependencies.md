@@ -4,7 +4,11 @@
 - Node.js: v24.13.0
 - npm: 11.6.2
 
-For team/CI stability, standardizing on Node 22 LTS is recommended.
+## Project runtime standard
+- Pinned Node version: 22 LTS via `.nvmrc`
+- Supported engines for all package roots: Node `>=22 <23`, npm `>=10`
+
+Local development may use a newer Node release, but CI and team setup should target Node 22 LTS.
 
 ## Node package locations
 This repository contains four Node.js package roots:

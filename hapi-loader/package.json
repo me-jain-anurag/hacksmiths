@@ -4,6 +4,10 @@
   "description": "HAPI FHIR terminology loader for NAMASTE to ICD-11 mapping",
   "type": "module",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=22 <23",
+    "npm": ">=10"
+  },
   "scripts": {
     "generate": "node scripts/csv-to-fhir.js",
     "load": "node scripts/load-to-hapi.js",

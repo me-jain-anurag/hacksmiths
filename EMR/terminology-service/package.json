@@ -4,6 +4,10 @@
   "description": "Terminology API for NAMASTE and ICD-11 Integration",
   "main": "src/app.js",
   "type": "module",
+  "engines": {
+    "node": ">=22 <23",
+    "npm": ">=10"
+  },
   "scripts": {
     "dev": "nodemon src/app.js",
     "start": "node src/app.js"

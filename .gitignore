@@ -6,6 +6,7 @@ yarn-error.log*
 pnpm-debug.log*
 dist/
 build/
+.next/
 
 # Env / secrets
 .env

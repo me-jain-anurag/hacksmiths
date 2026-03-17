@@ -29,7 +29,7 @@ export async function GET() {
       }
     });
 
-    const clientData = clients.map((client) => ({
+    const clientData = clients.map((client: (typeof clients)[number]) => ({
       ...client,
       hasApiKey: !!client.apiKey
     }));

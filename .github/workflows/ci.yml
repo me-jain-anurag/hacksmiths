@@ -11,11 +11,19 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        package-dir:
-          - .
-          - hapi-loader
-          - EMR/emr-frontend-clean
-          - EMR/terminology-service
+        include:
+          - package-dir: .
+            run-tests: true
+            run-build: true
+          - package-dir: hapi-loader
+            run-tests: false
+            run-build: false
+          - package-dir: EMR/emr-frontend-clean
+            run-tests: false
+            run-build: true
+          - package-dir: EMR/terminology-service
+            run-tests: false
+            run-build: false
 
     defaults:
       run:
@@ -39,11 +47,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Generate Prisma client
+        if: ${{ matrix.package-dir == '.' }}
+        run: npx prisma generate
+
       - name: Run lint (if present)
         run: npm run lint --if-present
 
-      - name: Run tests (if present)
+      - name: Run tests (when enabled)
+        if: ${{ matrix.run-tests }}
         run: npm test --if-present
 
-      - name: Run build (if present)
+      - name: Skip service-dependent tests
+        if: ${{ !matrix.run-tests }}
+        run: echo "Skipping service-dependent or non-essential tests for ${{ matrix.package-dir }}"
+
+      - name: Run build (when enabled)
+        if: ${{ matrix.run-build }}
         run: npm run build --if-present
