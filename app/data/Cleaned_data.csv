@@ -1,2523 +1,1925 @@
-NUMC_CODE,NUMC_TERM,ICD_CODE,ICD_TERM
-O-6,Rutubat Ghariziyya,,
-UM,,,
-UM-DIS,,1739890344,Disorders
-A,Amrad-i-Nizam-i-Asab-o-Dimagh,1296093776,Diseases nervous system
-A-1,Bayda-o-Khudha,,
-A-2,Shaqiqa,669367341,Migraine
-A-2.1,Shaqiqa Harra,651630068,Acute migraine
-A-2.2,Shaqiqa Barida,1336990680,Chronic migraine
-A-3,Isaba,,
-A-4,Hiss-i-Dimagh,,
-A-5,Sarsam,1537714794,Meninges
-A-5.1,Sarsam Damawi Qaranitus,1371091944,Meningitis
-A-5.2,Sarsam Safrawi Qaranitus Khalis,,
-A-5.3,Sarsam Sawdawi,,
-A-5.4,Sarsam Balghami Litharghus,,
-A-5.5,Sarsam Haqiqi,,
-A-5.6,Sarsam Ghayr Haqiqi,851857399,Meningismus
-A-6,Falghamuni Dimaghi,1706110169,phlegmon
-A-7,Shafaqalus Dimaghi,,
-A-8,Humra Dimaghiyya,,
-A-9,Utash,,
-A-10,Mashra,1651247891,Erysipelas
-A-11,Ma al-Ras,574533444,Hydrocephalus
-A-12,Subat,1328725971,Coma
-A-12.1,Subat Sahri,,
-A-12.2,Subat Barid,,
-A-12.3,Subat Rutubi,,
-A-12.4,Subat Damawi,,
-A-12.5,Subat Bukhari,,
-A-12.6,Subat Dufi,,
-A-12.7,Subat Darbi,,
-A-13,Sahar,1038292737,Insomnia
-A-13.1,Sahar Yabis,1449941095,Insomnia dryness
-A-13.2,Sahar Rutubi,1389481561,Insomnia moistness
-A-14,Nisyan,67207871,Amnesia
-A-14.1,Nisyan Barid Ratb,,
-A-14.2,Nisyan Barid Yabis,,
-A-14.3,Nisyan Harr Yabis,,
-A-15,Ikhtlat al-Dhahn,,
-A-16,Hadhayan,897917531,Delirium
-A-17,Humq,546689346,Dementia
-A-18,Ruunat,450417382,Egomania
-A-19,Malankhuliya,546689346,Dementia
-A-19.1,Malankhuliya Damawi,,
-A-19.2,Malankhuliya Balghami,,
-A-19.3,Malankhuliya Safrawi,,
-A-19.4,Malankhuliya Sawdawi,,
-A-19.5,Qutrub Illa al-Dhib Junun Dhibi,2003260585,Lycanthropy
-A-19.6,Malankhuliya Maraqi Nafkh Maraqi Maraqiyya Illat NafikhaSharsufiya,1803416501,Psychoneurosis
-A-20,Junun Waswas,441413164,Insanity
-A-21,Maniya Junun Sabai,,
-A-22,Da al-Kalb,,
-A-23,Subara,,
-A-24,Ishq,1943270217,Erotomanic delusion
-A-25,Sadr-o-Duwar,691174964,Vertigo giddiness
-A-25.1,Sadr-o-Duwar Dimaghi Damawi,,
-A-25.2,Sadr-o-Duwar Dimaghi Balghami,,
-A-25.3,Sadr-o-Duwar Dimaghi Safrawi,,
-A-25.4,Sadr-o-Duwar Dimaghi Sawdawi,,
-A-25.5,Sadr-o-Duwar Shirki,1388407465,Secondary vertigo giddiness
-A-26,Lawa-o-Fayhadhaj Bijidhaq Al-Lawa,,
-A-27,Kabus Al-Khaniq Al-Jathum wal Nidlan Khanuq Daghut,,
-A-27.1,Kabus Damawi,,
-A-27.2,Kabus Balghami,,
-A-27.3,Kabus Barid,,
-A-28,Sar,1397288146,Epilepsy
-A-28.1,Sar Dimaghi Sawdawi,,
-A-28.2,Sar Dimaghi Asli,,
-A-28.3,Sar Shirki,2048248706,epilepsy
-A-28.4,Sar Lasi,,
-A-28.5,Sar al-Atfal,1310497511,epileptic infancy
-A-28.6,Sar Badani,,
-A-28.7,Sar Atrafi,,
-A-28.8,Sar Rahimi,,
-A-28.9,Sar Khababi,,
-A-28.10,Sar Khafif,36262213,Non-convulsive status epilepticus
-A-28.11,Sar Shadid,1734515921,Tonic-clonic status epilepticus
-A-28.12,Sar Darbi,1007173668,Epilepsy
-A-28.13,Sar Qalbi,,
-A-28.14,Sar Layli,1004734747,nocturnal epilepsy
-A-28.15,Sar Maraqi,675329566,Hypochondriasis
-A-28.16,Sar Nahari,,
-A-28.17,Sar Shirki Midi,2048248706,epilepsy
-A-28.18,Sar Hissi,,
-A-29,Sakta,1442995018,Stroke not known if ischaemic or haemorrhagic
-A-29.1,Sakta Damwiyya,,
-A-29.2,Sakta Balghamiyya,,
-A-29.3,Sakta Sawdawiyya,,
-A-29.4,Sakta Ihtiqaniyya,,
-A-29.5,Sakta Jildiyya,,
-A-29.6,Sakta Riwiyya,,
-A-29.7,Sakta Suddiyya,,
-A-29.8,Sakta Darbiyya,,
-A-29.9,Sakta Mawludiyya,,
-A-30,Jumud Shukhus AkhidhaMudrika Qatukhas,,
-A-31,Istirkha,,
-A-32,Falij,1641958762,Hemiplegia
-A-32.1,Falij Wabai,,
-A-33,Tashannuj,,
-A-33.1,Tashannuj Maddi Tashannuj Ratb Tashannuj Imtilai,,
-A-33.2,Tashannuj Yubsi Tashannuj Istifraghi,,
-A-33.3,Tashannuj Idhai,,
-A-33.4,Tashannuj al-Atfal,1023597213,Infantile spasms
-A-33.5,Tashannuj al-Nufsa,,
-A-33.6,Tashannuj Wajhi,577260920,facial spasm
-A-34,Duf al-Dimagh,1563479725,Cerebrasthenia
-A-35,Dhakawa al-Hiss,,
-A-36,Suda,,
-A-36.1,Suda Harr,,
-A-36.2,Suda Barid,1550804057,Headache excessive coldness
-A-36.3,Suda Damawi,,
-A-36.4,Suda Balghami,,
-A-36.5,Suda Safrawi,,
-A-36.6,Suda Sawdawi,,
-A-36.7,Suda Rihi Dakhili,,
-A-36.8,Suda Rihi Khariji,,
-A-36.9,Suda Bukhari Dakhili,,
-A-36.10,Suda Bukhari Khariji,,
-A-36.11,Suda Suddi,,
-A-36.12,Suda Warami,256989117,Inflammatory headache
-A-36.13,Suda Darabani,84953775,Throbbing headache
-A-36.14,Suda Duf Dimaghi,190561487,Headache weakness brain
-A-36.15,SudaHissi,,
-A-36.16,Suda Yubsi,,
-A-36.17,Suda Jimai,,
-A-36.18,Suda Khumari,934805539,Alcoholic headache
-A-36.19,Suda Shammi,28171409,Headache smell
-A-36.20,Suda Darbi Suda Tafarruq-i-Ittisali,902419921,Headache head
-A-36.21,Suda Tazazui,,
-A-36.22,Suda Nawmi,,
-A-36.23,Suda Dudi,,
-A-36.24,Suda Shirki,1865426792,Referred headache
-A-36.25,Suda Shirki Midi,633371261,Referred headache involvement stomach
-A-36.26,Suda Shirki Kabidi,1865426792,Referred headache involvement liver
-A-36.27,Suda Maraqi,183208669,Referred headache involvement peritoneum
-A-36.28,Suda Nazli,1907443904,Catarrhal headache
-A-36.29,Suda Ardi,296971178,Secondary headache
-A-36.30,Suda Buhrani,,
-A-37,Tamaddud,,
-A-38,Kuzaz,1793762788,Tetanus
-A-38.1,Kuzaz Quddami,516187391,Emprosthotonus
-A-38.2,Kuzaz Khalfi,,
-A-38.3,Kuzaz Mutlaq,,
-A-38.4,Kuzaz Janbi,,
-A-38.5,Kuzaz Dhati,,
-A-38.6,Kuzaz Sibyani,,
-A-38.7,Kuzaz Darbi Kuzaz Juruhi,,
-A-39,Laqwa,2004402146,palsy
-A-39.1,Laqwa Istirkhai,570526148,Deviation one side face
-A-39.2,Laqwa Tashannuji,570526148,Deviation one side face
-A-40,Rasha,2110078069,Tremor
-A-40.1,Rasha Barid,,
-A-40.2,Rasha Sharabiyya,1032984383,Alcoholic tremors
-A-41,Irtiad,1814274334,Fasciculation
-A-42,Khadar,1049159712,Anaesthesia of skin
-A-43,Ikhtilaj,1814274334,Fasciculation
-B,Amrad-i-Ayn,868865918,Diseases
-B-1,Ramad Ashob-i-Chashm,831696556,Conjunctivitis
-B-1.1,Ramad Damawi,,
-B-1.2,Ramad Safrawi,,
-B-1.3,Ramad Balghami,,
-B-1.4,Ramad Sawdawi,,
-B-1.5,Ramad Rihi,,
-B-1.6,Ramad Buthuri Wadaqa,655020145,Phlyctenular conjunctivitis
-B-1.7,Ramad Zuhri,884042621,Gonococcal conjunctivitis
-B-1.8,Ramad Thalji,,
-B-2,Takaddur Tabaqa al-Multahima,25044873,hyperaemia
-B-3,Sabal,,
-B-3.1,Sabal Ratb,,
-B-3.2,Sabal Yabis,,
-B-3.3,Sabal Mustahkam,,
-B-4,Kumna,49873717,Blindness
-B-5,Intifakh,,
-B-5.1,Intifakh Rihi,,
-B-5.2,Intifakh Balghami,,
-B-5.3,Intifakh Mai,,
-B-5.4,Intifakh Sawdawi,,
-B-6,Bayad al-Ayn,1161449475,Corneal opacity
-B-7,Zafara,1207385905,Pterygium
-B-8,Ghudda al-Ayn,,
-B-9,Quruh al-Ayn,649610899,eyelid
-B-10,Quruh al-Multahima,562200073,Ulceration
-B-11,Quruh al-Inabiyya,,
-B-12,Quruh al-Qarniyya,2089700977,Corneal ulcer
-B-12.1,Quruh al-Qarniyya Kharijiyya,1906143065,Superficial ulcer cornea
-B-12.2,Quruh al-Qarniyya Dakhiliyya,,
-B-12.3,Quruh al-Qarniyya Dhat al-Uruq,649610899,eyelid
-B-13,Buthur al-Qarniyya,,
-B-14,Dubayla al-Qarniyya,485862779,Corneal abscess
-B-15,Saratan al-Qarniyya,,
-B-16,Rutuba al-Qarniyya,,
-B-17,Yubs al-Qarniyya,2093954772,Dry eye
-B-18,Gharb,617640909,Chronic dacryocystitis
-B-18.1,Gharb Ghayr Munfajir,609107581,Congenital dacryocele
-B-18.2,Gharb Munfajir,,
-B-19,Khudra al-Ayn,,
-B-20,Zurqa al-Ayn,,
-B-21,Tarfa,566366609,Ecchymosis eyelid
-B-22,Qadha fil Ayn,144533975,Foreign body eye
-B-23,Morsarj,,
-B-23.1,Dhubabi,,
-B-23.2,Inabi,,
-B-23.3,Tuffahi,,
-B-23.4,Mismari Falaki,,
-B-24,Intishar wa Ittisa al-Thuqba,,
-B-25,Diq al-Thuqba,,
-B-26,Nutu al-Qarniyya,,
-B-27,Nuzul al-Ma,109841337,Cataract
-B-27.1,Ghamami,,
-B-27.2,Dhibaqi,,
-B-27.3,Jassi,,
-B-27.4,Asmanjuni,,
-B-27.5,Muntashir,,
-B-28,Ma Akhdar,499924848,Glaucoma
-B-29,Juhuz al-Ayn,1781942437,Outward displacement of eyeball
-B-29.1,Juhuz Imtilai,,
-B-29.2,Juhuz Indighati,,
-B-29.3,Juhuz Istirkhai,,
-B-30,Sill al-Ayn,1364346142,Phthisis bulbi
-B-31,Baras al-Ayn,,
-B-32,Duf al-Basar,,
-B-33,Takhayyulat,23150162,Visual hallucinations
-B-34,Qasr al-Basar,1666440799,Myopia
-B-35,Tul al-Basar,102241227,Hypermetropia
-B-36,Hawal,,
-B-37,ShabkoriAsha,,
-B-38,Jahar Rozkori,,
-B-39,Khafash,,
-B-40,Qumur,,
-B-41,Dhahab al-Basar fil Matamir wal Hubus al-Muzlima,,
-B-42,Bughd al-Ayn,1887138021,Photophobia
-B-43,Istirkha al-Jafn,1361674069,Blepharoptosis
-B-44,Suqut al-Qazhiyya,,
-B-45,Iltisaq al-Jafn,1260645418,symblepharon
-B-46,Shatra Inqilab al-Jafn,1200365909,Lagophthalmos
-B-46.1,Shatra Dakhiliyya,1290880184,entropion
-B-46.2,Shatra Kharijiyya,857829804,Ectropion
-B-47,Salaba al-Ajfan Jusa al-Ajfan,,
-B-48,Sulaq Bamni,,
-B-49,Qirdan al-Ajfan,1907820880,infestation eyelid tick
-B-50,Bayad al-Hudub,,
-B-51,Dummal al-Ajfan,247839673,Abscess eyelid
-B-52,Shara al-Ajfan,,
-B-53,Namla al-Ajfan,,
-B-54,Thaalil al-Ajfan,198059528,Eyelid wart
-B-55,Sala al-Ajfan,1744602556,Cysts eyelid
-B-56,Tarf al-Ajfan,,
-B-57,Wardinaj,,
-B-58,Jusa al-Multahim,,
-B-59,Jarab al-Ayn,372424530,Trachoma
-B-59.1,Jarab Munbasit,88896667,Diffused granulation eyelids
-B-59.2,Jarab Hasafi,99337451,Granulation eyelids eruptions similar prickly
-B-59.3,Jarab Tini Suqusalis,258368391,Granulation eyelids eruptions similar fig
-B-59.4,Jarab Aswad,,
-B-59.5,Jarab Adasi,,
-B-60,Hikka al-Amaq wal Ajfan,,
-B-61,Shirnaq,,
-B-62,Barada,,
-B-63,Uqda al-Ayn,735227050,Eyelid tumour
-B-64,Shaira,,
-B-65,Arusa,1362647259,swelling eyelid
-B-66,Tutha al-Ayn,,
-B-67,Tahajjur al-Ajfan,,
-B-68,Quruh al-Ajfan,649610899,eyelid
-B-69,Tahabbuj al-Ajfan,1901714362,Oedema eyelid
-B-70,Shar Munqalib Inqilab al-Shar,1143150083,Trichiasis
-B-71,Shar Zaid,417920497,Distichiasis
-B-72,Intithar al-Ahdab,1993682290,Ptilosis
-B-73,Qummal al-Ajfan,,
-B-74,Dama,1611503766,Epiphora
-B-75,Buwalatayn,,
-B-76,Inhitat Tabaqa al-Shabakiyya wal Mashimiyya,,
-B-77,Tasallub al-Uruq al-Shabakiyya,,
-B-78,Infisal al-Shabakiyya,,
-C,Amrad-i-Udhun Anf wa Halaq,,
-C-1,Waja al-Udhun,962492793,Otalgia
-C-2,Tarash,947280473,Deafness not otherwise specified
-C-3,Waqr,947280473,Deafness
-C-4,SamamLadi,147626546,Congenital deafness
-C-5,Tanin-o-Dawi,,
-C-6,Infijar al-Dam minal Udhun,683205650,Otorrhagia
-C-7,Didan al-Udhun,956060995,Maggots ear cavity
-C-8,Iltihab al-Udhun,1303990434,Otitis
-C-9,Sayalan al-Udhun,1544926445,Otorrhoea
-C-10,Hikka al-Udhun,109538384,Pruritus ear
-C-11,Inkisar al-Udhun,,
-C-12,Inqila al-Udhun,,
-C-13,Qula al-Udhun,,
-C-14,Harb al-Udhun,1493408531,Dysacusis
-C-15,Sudda al-Udhun,,
-C-16,Wasakh al-Udhun,,
-C-17,Buthur al-Udhun,,
-C-18,Quruh al-Udhun,,
-C-19,Qadha fil Udhun,2083535144,Foreign body ear
-C-20,Waram Asl al-Udhun Waram-i-Ghudda-i-Nakaf,,
-C-21,Nazla-o-Zukam,612225920,Coryza catarrh
-C-22,Nazla Udhuniyya,48663852,Otocatarrh
-C-23,Khasham,1599308422,Anosmia
-C-24,Fasad al-Shamm,,
-C-25,Buthur al-Anf,,
-C-26,Quruh al-Anf,1471198704,Ulceration nasal
-C-27,Hikka al-Anf,,
-C-28,Didan al-Anf,,
-C-29,Bakhr al-Anf Natn al-Anf,1795554974,Chronic atrophic rhinitis
-C-30,Radd al-Anf,2100139429,Injury nasal
-C-31,Ruaf,608337668,Epistaxis
-C-32,Bawasir al-Anf Urbiyan al-Anf,137754914,Nasal polyp
-C-33,Utas,1255375913,Sneezing
-C-34,Qadha al-Anf,747085562,Foreign body
-C-35,Jafaf al-Anf,,
-C-36,Zukam,2066255370,Acute nasopharyngitis
-C-37,Inhiraf Fasil al-Mankharayn,1739116429,Deviated nasal septum
-C-38,Anfi Besh Hassasiyat,1711769234,Allergic rhinitis
-C-39,Iltihab al-Anf,1346915097,rhinitis
-C-39.1,Iltihab al-Anf Hadd,2066255370,Acute
-C-39.2,Iltihab al-Anf Muzmin,1346915097,Chronic rhinitis
-C-39.3,Iltihab al-Anf Dumuri,1795554974,atrophic rhinitis
-C-39.4,Iltihab al-Anf Takaththuri,545004107,hypertrophic rhinitis
-C-40,Iltihab-i-Tajawif al-Anf,1836987572,Chronic rhinosinusitis
-C-41,Sudda-i-Khayshum,597318652,Nasal obstruction
-C-42,Waram al-Lisan,843084384,Glossitis
-C-43,Hurqa al-Lisan,1755751917,Glossodynia
-C-44,Hikka al-Lisan,951930713,Pruritus tongue
-C-45,Taqashshur al-Lisan,,
-C-46,Istirkha al-Lisan,,
-C-47,Butlan al-Dhawq,1320493037,Dysgeusia
-C-48,Fasad al-Dhawq,1320493037,Dysgeusia
-C-49,Izam al-Lisan,,
-C-50,Thiql al-Lisan,928435705,Diseases of tongue
-C-51,Difda al-Lisan,262012456,Structural developmental anomalies of salivary glands or ducts
-C-52,Shuqaq al-Lisan,699700094,Fissured tongue
-C-53,Qula,,
-C-53.1,Qula Damawi,,
-C-53.2,Qula Safrawi,,
-C-53.3,Qula Balghami,,
-C-53.4,Qula Sawdawi,,
-C-53.5,Qula-i-Sibyan,1517014705,Oral thrush babies
-C-54,Da al-Hafr Hafr al-Asnan wal Qalh,61564620,Dental plaque
-C-55,Dal al-Lisan,928435705,Diseases of tongue
-C-56,Jafaf-i-Lisan,,
-C-57,Buthur al-Fam,358923599,papular stomatitis
-C-58,Akila al-Fam,340823130,Noma
-C-59,Kathra al-Luab,1129322251,Excessive salivary secretion
-C-60,Bakhr al-Fam,1896266034,Halitosis
-C-61,Waram al-Hanak,70261446,Palate
-C-62,Hikka al-Hanak,217542474,Itchy palate
-C-63,Waram al-Shafatayn,482914030,Cheilitis
-C-64,Buthur al-Shafatayn,,
-C-65,Quruh al-Shafatayn,311096457,Lip ulceration
-C-66,Bawasir al-Shafatayn,,
-C-67,Bayad al-Shafatayn,,
-C-68,Ikhtilaj al-Shafatayn,,
-C-69,Taqashshur al-Shafatayn,1773105462,Chapping lips
-C-70,Taqallus al-Shafatayn,,
-C-71,Tashaqquq al-Shafatayn Shaquq al-Shafatayn,,
-C-72,Iltihab al-Fam Buthuri,,
-C-73,Iltihab al-Fam Quruhi,153761635,ulcerative stomatitis
-C-74,Iltihab al-Ghudda al-Riqiyya,94435020,Sialoadenitis
-C-75,Waja al-Asnan,,
-C-76,Tazayyud al-Asnan,,
-C-77,Taghayyur Lawn al-Asnan,118943988,Discolouration teeth
-C-78,Sarir al-Asnan,,
-C-79,Taharruk al-Asnan,2113668227,Odontoseisis
-C-80,Suqut al-Asnan,,
-C-81,Taakkul al-Asnan,1983306720,Dental caries
-C-82,Tafattut al-Asnan Takassur al-Asnan,,
-C-83,Tanaqqub al-Asnan,1983306720,Dental
-C-84,Hikka al-Asnan,,
-C-85,Dirs,,
-C-86,Dhahab Ma al-Asnan,,
-C-87,Dud al-Asnan Qadih,,
-C-88,Waram al-Litha,1542018172,gingivitis
-C-89,Litha Damiya,1021271873,Bleeding gums
-C-90,Quruh al-Litha,1377411594,Gingival ulceration
-C-91,Nawasir al-Litha,649301542,Pyorrhoea alveolaris
-C-92,Istirkha al-Litha,709874787,Spongy gums
-C-93,Lahm Zaid fil Litha,,
-C-94,Taqayyuh al-Litha,649301542,Pyorrhoea
-C-95,Bolas,1517220932,Gingival
-C-96,Farulas,1429189401,Gingival abscess
-C-97,Khunaq Dhabha,1635123778,Cellulitis of floor of mouth
-C-97.1,Khunaq WabaiWaram al-Hanjara Hadd GhishaiKhunaqi,508032285,Diphtheria
-C-97.2,Khunaq Kalbi,,
-C-98,Waram-i-Halaq,1791890273,pharyngitis
-C-98.1,Waram al-Halaq Khariji,1791890273,Acute pharyngitis
-C-99,Khuraj Halaqi Khalfi,719680227,Retropharyngeal abscess
-C-100,Suqut al-Lahah,,
-C-101,Waram-i-Lahat,776797866,Uvulitis
-C-101.1,Waram-i-Lahat Damawi,,
-C-101.2,Waram-i-Lahat Safrawi,,
-C-101.3,Waram-i-Lahat Balghami,,
-C-101.4,Waram-i-Lahat Sawdawi,,
-C-101.5,Waram-i-Lahat Nazli,,
-C-102,Tashannuj al-Balum,964055507,Pharyngeal spasm
-C-103,Tashannuj al-Hanjara,1531260827,Laryngeal spasm
-C-104,Waram al-Hanjara,1180710837,laryngitis
-C-104.1,Waram al-Hanjara Hadd,1180710837,Acute laryngitis
-C-104.2,Waram al-Hanjara Hadd Nazli,248851240,Catarrhal laryngitis
-C-104.3,Waram al-Hanjara Hadd Tahabbuji,1367810857,oedematous laryngitis
-C-105,Istirkha al-Hanjara,1500291878,Laryngoptosis
-C-106,Qadha al-Hanjara,1029768081,Foreign body larynx
-C-107,Waram al-Lawzatayn,320372230,tonsil
-C-108,Waja al-Halaq,1354622301,Pain pharynx
-C-109,Iltihab-i-Tajawif Hulqumi Anfi,457837468,Adenoid
-C-110,WabilaWaja al-Unuq Asabi,85602009,Cervicobrachial
-C-111,Ghussa al-Taam,,
-C-112,Sharq,,
-C-113,Bal al-Ibra,,
-C-114,Gharq al-Ma,989856314,Drowning
-C-115,Gulubasta,,
-C-116,Tashabbuth al-Alaq wal Shawk fil Halaq,,
-C-117,Quruh wa Buthur al-Halaq,936707025,Pharyngeal ulceration
-C-118,Sozish-i-Halaq Hurqa al-Halaq,,
-C-119,Khushuna al-Halaq,341568331,Feeling roughness throat
-C-120,Buhha al-Sawt Buhuha al-Sawt,741286458,Hoarseness
-C-121,Qasr al-Sawt,,
-C-122,Usr al-BalUsr al-Izdirar,968461848,Dysphagia
-C-123,Khalal al-Sawt,176555113,Voice
-C-124,Khushuna al-Sawt,936462533,Dysphonia
-C-125,Inqita al-Sawt,1385858385,Aphonia
-C-126,Ghilza al-Sawt,,
-C-127,Diqqa al-Sawt,,
-C-128,Kudura al-Sawt,,
-C-129,Irtiash al-Sawt,,
-D,Amrad-i-Nizam-i-Tanaffus,197934298,Diseases respiratory system
-D-1,Waram wa Quruh Qasaba al-Ria,590084641,tracheitis
-D-2,Duf al-Ria,1069518150,Lung insufficiency
-D-3,Nafas,495844982,respiration
-D-3.1,Nafas Sari,,
-D-3.2,Nafas Shahiq Nafas Ali Nafas Azim,960305085,Dyspnoea
-D-3.3,Nafas Saghir,,
-D-3.4,Nafas Asir,960305085,Dyspnoea
-D-3.5,Nafas Ghayr Muntazim Nafas Mukhtalif,1728207088,Irregular breathing
-D-3.6,Nafas Qasir,,
-D-3.7,Nafas MutatabiNafas Mutawatir,,
-D-3.8,Nafas Mutadaif,,
-D-3.9,Nafas Mutafawit,,
-D-3.10,Nafas Mumtali,,
-D-3.11,Nafas Murtaish,,
-D-3.12,Nafas Muntin,,
-D-3.13,Nafas Munqati,277953276,Unintentional threat to breathing by inhalation or ingestion of other objects or materials
-D-3.14,Nafas Khunaqi,,
-D-3.15,Nafas Mustakrah,,
-D-3.16,Usr al-Tanaffus,,
-D-3.17,Su al-Tanaffus,,
-D-3.18,Nafas Mankhari,,
-D-3.19,Nafas Muntasif,,
-D-4,Diq al-Nafas Dama Nafas Dayyiq,577724120,asthma
-D-5,Intisab al-Nafas,1076152687,Orthopnoea
-D-6,Rabw,577724120,asthma
-D-6.1,Rabw Balghami Rabw Nazli,1870104478,asthma
-D-6.2,Rabw Dukhani,,
-D-6.3,Rabw Rihi,1948124976,Emphysema
-D-6.4,Rabw Istirkhai,,
-D-6.5,Rabw Yubsi,,
-D-6.6,Rabw Warami,447724479,Potter's asthma
-D-6.7,Rabw Harr,,
-D-7,Sual-o-Surfa,,
-D-7.1,Sual Wabai,,
-D-7.2,Sual al-Atfal,1240756334,Infantile cough
-D-7.3,Surfa Nazliyya Harra,,
-D-7.4,Surfa Nazliyya Barida,,
-D-7.5,Surfa Rutubiyya,,
-D-7.6,Surfa Yubsiyya,,
-D-8,Khushuna al-Qasaba,,
-D-9,Kharkhara,1086458763,Joint crepitus
-D-10,Nafth al-Dam,899998313,Haemoptysis
-D-11,Shusa,,
-D-12,Jarayan al-Dam fi Jirm al-Ria,,
-D-13,Jarayan al-Dam Riwi Dakhili,,
-D-14,Dhat al-Ria,142052508,Pneumonia
-D-14.1,Dhat al-Ria Fassi,142052508,Pneumonia
-D-14.2,Dhat al-Ria Fusaysi,,
-D-14.3,Dhat al-Ria Muzmin,142052508,Pneumonia
-D-15,Sill,882244568,Tuberculosis of the respiratory system
-D-15.1,Sill Ghayr Haqiqi,,
-D-16,Nafth al-Midda,,
-D-17,Dhat al-Janb,317852053,Pleurisy
-D-17.1,Dhat al-Janb Haqiqi Dhat al-Janb Khalis,,
-D-17.2,Dhat al-Janb Ghayr HaqiqiDhat al-Janb Ghayr Khalis,830290763,Costochondritis
-D-17.3,Dhat al-Janb Wabai,637134348,Epidemic
-D-17.4,Dhat al-Janb Sadidi,1103848959,Pyothorax
-D-17.5,Dhat al-Janb Mudaaf,,
-D-18,Ijtima al-Ma fil-RiaUdhima Riwiyya,841348715,Pulmonary oedema
-D-19,Buthur al-Ria,,
-D-20,Waram Ria al-Atfal,,
-D-21,Dhat al-Sadr,317852053,Pleurisy
-D-22,Dhat al-Ard,,
-D-23,Barsam,1124735890,Diaphragmitis
-D-24,Jumud-i-Sadr Bard-i-Sadr,,
-D-25,Shahiqa,,
-D-26,Qih al-Sadr,,
-D-27,Hubut al-Ria,52186342,Pulmonary collapse
-D-28,Hubut Wasi,,
-D-29,Tadarrun Riwi,882244568,Tuberculosis
-D-30,Maytuta Riwiyya,1014964218,Pulmonary
-D-31,Tadarrun Umumi,861638547,Miliary tuberculosis
-D-32,Ittisa al-Shuab,1935524933,Bronchiectasis
-D-33,Iltihab al-Shuab Hadd,727572936,Acute bronchitis
-D-34,Iltihab al-Shuab Muzmin,290835130,Chronic bronchitis
-D-35,Nafkha al-Ria,1948124976,Emphysema
-D-36,Diq al-Nafas Shuabi,577724120,asthma
-D-37,Sala al-Shuab Sarataniyya,947165291,carcinoma
-D-38,Sala Shuba al-Ria Ghudadiyya,1418562110,Adenocarcinoma bronchus
-D-39,Ikhtilaj al-Qasaba,,
-D-40,Irtiash al-Qasaba,,
-D-41,Tamaddud Ghayr Kamil,,
-E,Amrad-i-Qalb wa Dawran-i-Khun,426429380,Diseases
-E-1,Waja al-Qalb,718946808,Angina pectoris
-E-2,Khafaqan,257569559,Palpitations
-E-2.1,Khafaqan Harr,490151622,Palpitation hot morbid temperament
-E-2.2,Khafaqan Barid,1445326877,Palpitation cold morbid temperament
-E-2.3,Khafaqan Rihi-o-Bukhari,,
-E-2.4,Khafaqan Suddi,1524208346,Palpitation obstruction
-E-2.5,Khafaqan Dufi,1338170370,Palpitation weakness heart
-E-2.6,Khafaqan Hissi,1320066388,Palpitation increased sensitivity heart
-E-2.7,Khafaqan Shirki,540239531,Palpitation secondary causes
-E-3,Ghashi,1418136013,Syncope
-E-3.1,Ghashi Imtilai,,
-E-3.2,Ghashi Istifraghi,,
-E-3.3,Ghashi Su-i-Mizaji,,
-E-3.4,Ghashi Wajai-o-Warami,1825340826,Neurogenic vasovagal reflex
-E-3.5,Ghashi Suddi,1715591926,Fainting obstruction vessels
-E-3.6,Ghashi Jui,761879781,Fainting severe starvation
-E-3.7,Ghashi Tabi-o-Yubsi,111771640,Fainting excessive physical exertion
-E-3.8,Ghashi Nafsani,415836385,Fainting excessive emotions
-E-3.9,Ghashi Midi,,
-E-3.10,Ghashi Ikhtinaqi,231892537,Fainting hysteria
-E-3.11,Ghashi Hummi,1463235266,Fainting fever
-E-3.12,Ghashi Sammi,306483085,Fainting poisoning
-E-4,Suqut al-Quwwa,1164022950,Shock
-E-5,Waram al-Qalb,874478433,carditis
-E-5.1,Waram Udhun al-Qalb,,
-E-5.2,Iltihab Darun-i-Qalb,293576108,endocarditis
-E-6,Waram Ghisha al-Qalb,1296696944,Pericarditis
-E-7,Imtila Ghilaf al-Qalb,2002014072,Pericardial effusion
-E-8,Daght al-Qalb,,
-E-9,Taqashshur al-Qalb,,
-E-10,Qadhf al-Qalb,257569559,Palpitations
-E-11,Ghalaba al-Rutuba alal Qalb Istisqa al-Qalb,2002014072,Pericardial effusion
-E-12,Dukhaniyya al-QalbIlla Dukhaniyya,808797539,Sensation upward pulling heart
-E-13,Jadhb al-Qalb,,
-E-14,Iqfari Marad-i-Qalb,1964269418,Ischaemic heart diseases
-E-15,Al-Tanakhkhur al-Insidadi li Adal al-Qalb,1334938734,myocardial infarction
-E-16,Takhaththur al-Dam,1859139099,Acute vascular disorders of intestine
-E-17,Qusur Iklili Hadd,253490233,Unstable angina
-E-18,Butu al-Qalb al-Jaybi,335965816,Sinus bradycardia
-E-19,Sura al-Qalb al-Jaybiyya,1275202242,sinus tachycardia
-E-20,Zaid Inqibadat,,
-E-21,Irtiash Udhuni,171698302,Atrial fibrillation
-E-22,Marad al-Qalb al-Hudari,291726710,rheumatic heart diseases
-E-23,Rafrafa Udhuniyya,1186800882,Atrial flutter
-E-24,Sura al-Qalb Dawriyya,1926915195,Paroxysmal tachycardia
-E-25,Sura al-Qalb Batniyya,1171837620,Ventricular tachycardia
-E-26,Fawq al-Batn Sura al-Qalb,113146812,Supraventricular tachyarrhythmia
-E-27,Insidad al-Qalb,486643502,Conduction disorders
-E-28,Insidad Udhuni Jaybi,884453307,Sinoatrial block
-E-29,Insidad Batni Udhuni,1147105932,atrioventricular block
-E-30,Insidad al-Qalb Kamil,1147105932,Complete block
-E-31,Insidad Shakh-i-Huzma,2080505197,Bundle branch block
-E-32,Suqut Dawran al-Dam,,
-E-33,Tawaqquf al-Qalb,395422191,Cardiac arrest
-E-34,Suqut al-Batn al-Aysar,437702716,Left ventricular failure
-E-35,Suqut al-Batn al-Ayman,1594578199,Right ventricular failure
-E-36,Taqahqur Taji,403917903,mitral regurgitation
-E-37,Taqahqur-i-Awrita,167104804,aortic regurgitation
-E-38,Daght al-Dam Qawi,761947693,hypertension
-E-38.1,Daght al-Dam Qawi Awwali Daght al-Dam Qawi Lazimi Daght al-Dam Qawi Ibtidai Daght al-Dam Qawi Dhati Daght al-Dam Qawi Asli,761947693,hypertension
-E-38.2,Daght al-Dam Qawi Thanwi,1331849426,Secondary hypertension
-E-38.3,Daght al-Dam Qawi Khabith,761947693,hypertension
-E-38.4,Daght al-Dam Qawi Riwi,1496633964,Pulmonary hypertension
-E-38.5,Daght al-Dam Qawi Kulwi,422807701,hypertension
-E-39,Maftuh Qanat Shiryani,1262462321,Patent duct
-E-40,Tadayyuq-i-Awrita,1066595728,aortic stenosis
-E-41,Naqs Hajizi Udhuni,1285985084,Interatrial communication
-E-42,Tasallub al-Sharayin,109367356,Atherosclerotic
-E-43,Tasaddud Shahmi Kilsi,109367356,Atherosclerotic
-E-44,Iltihab-i-Sharayin,818002838,arteritis
-E-45,Iltihab-i-Awrita Atshaki,,
-E-46,Iltihab Wiai Tasaddudi Takhaththuri,1000683110,Thrombo ngiitis obliterans
-E-47,Anurasma,392318289,aneurysm
-E-47.1,Anurasma Haqiqi,769391513,true aneurysm
-E-47.2,Anurasma Kadhib,392318289,aneurysm
-E-47.3,Anurasma Mighzali,392318289,aneurysm
-E-47.4,Anurasma Kisi,392318289,aneurysm
-E-47.5,Anurasma Tashrihi,392318289,aneurysm dissection
-E-47.6,Tamaddud al-Awiya,,
-F,Amrad-i-Nizam-i-Hadm,1256772020,Diseases digestive system
-F-1,Intibaq al-Mari,,
-F-2,Tafarruq Ittisal al-Mari,2001881014,Injury oesophagus
-F-3,Quruh al-Mari,1084515160,Oesophageal ulcer
-F-4,Hikka al-Mari,348407164,oesophageal reflux
-F-5,Waram-i-Mari,1540965840,Oesophagitis
-F-6,Su-i-Mizaj-i-Mida,1101187225,Gastric dyscrasia
-F-7,Waja al-Mida,1810710745,Pain localised to upper abdomen
-F-7.1,Waja al-Mida Riyahi,,
-F-7.2,Waja al-Mida Harr,,
-F-7.3,Waja al-Mida Safrawi,,
-F-7.4,Waja al-Mida Barid Balghami,,
-F-7.5,Waja al-Mida Yabis Sawdawi,,
-F-7.6,Waja al-Mida Dufi,2005856821,Asthenic gastralgia
-F-8,Duf al-Mida,1666089201,Gastric debility
-F-9,Duf al-Hadm,,
-F-10,Fasad al-Hadm Su al-Hadm,869622187,Dyspepsia
-F-11,Tukhma,1616929118,Functional dyspepsia
-F-12,Butlan al-Hadm,1616929118,Functional dyspepsia
-F-13,Hayda,1642556936,Foodborne
-F-13.1,Hayda Wabai,257068234,Cholera
-F-14,Butlan al-Ishtiha,,
-F-15,Duf al-Ishtiha,2137507044,Anorexia
-F-16,Fasad al-Ishtiha,719429371,Perverted appetite
-F-17,Waham,833390860,Pica
-F-18,Ju al-Kalb Shahwat Kalbiyya,,
-F-19,Ju al-BaqarBulimus,509381842,Bulimia
-F-20,Ju al-Maghshi,,
-F-21,Utash Mufrit,439093618,Polydipsia
-F-22,Waram al-Mida,1871672644,Gastritis
-F-22.1,Waram al-Mida Damawi,,
-F-22.2,Waram al-Mida Safrawi,,
-F-22.3,Waram al-Mida Balghami,865968881,Chronic gastritis
-F-22.4,Waram al-Mida Sawdawi,,
-F-23,Dubayla al-Mida Khuraj al-Mida,,
-F-24,Qarha wa Buthur al-Mida,1437411258,Gastric ulcer
-F-25,Qaraqir al-Mida,98838579,Hyperperistalsis
-F-26,Nafkh al-Mida,1540491307,Flatulence
-F-27,Kathra al-Jusha,,
-F-28,Kathra al-Tathaub,562399900,Excessive yawning
-F-29,Kathra al-Tamatti,,
-F-30,Ihtibas al-Jusha,,
-F-31,Qay,447658033,Vomiting
-F-31.1,Qay Shirki,1407174024,Vomiting associated disease organ stomach
-F-31.2,Qay Buhrani,936352029,Vomiting crisis period disease
-F-31.3,Qay Didani,826419605,Vomiting worm infestation
-F-31.4,Qay al-Dam,1794059753,Haematemesis
-F-32,Tahawwu,447658033,Vomiting
-F-33,Ghathayan,596805318,Nausea
-F-34,Taqallub al-Nafas,,
-F-35,Injimad al-Dam fil Mida,,
-F-36,Injimad al-Laban fil Mida,,
-F-37,Tahalhul al-Mida,,
-F-38,Fuwaq,798509501,Hiccough
-F-38.1,Fuwaq Rihi,,
-F-39,Inqilab al-Mida,,
-F-40,Karb al-Mida,1911219233,Distressing pain stomach
-F-41,Ikhtilaj al-Mida,368752820,Feeling trembling movement stomach
-F-42,Waja al-Fuwad,,
-F-43,Hurqa al-Mida,1701691528,Hyperacidity
-F-44,Hikka al-Mida,,
-F-45,Istirkha al-Mida,598423727,Gastroparesis
-F-46,Tashannuj al-Mida,776748300,Stomach spasm
-F-47,Salaba al-Mida Jusa al-Mida,,
-F-48,Tasaghghur al-Mida,1456893797,atrophic
-F-49,Kharq al-Mida,819812005,Perforation stomach
-F-50,Duf al-Kabid,508643963,Hepatic
-F-51,Su Mizaj-i-Kabid,502430882,Hepatic dyscrasia
-F-52,Sudad al-Kabid,,
-F-53,Nafkh wa Riyah al-Kabid,,
-F-54,Waja al-Kabid Kubad,1002741465,Hepatalgia
-F-55,Sharqa al-Kabid,,
-F-56,Waram al-Kabid,2046015098,Certain specified inflammatory liver diseases
-F-56.1,Waram al-Kabid Safrawi,,
-F-56.2,Waram al-Kabid Damawi,,
-F-56.3,Waram al-Kabid Sawdawi,,
-F-56.4,Waram al-Kabid Balghami,,
-F-56.5,Waram al-Kabid Sulb Saratani,1840757437,Carcinoma liver
-F-57,Darba wa Saqta al-Kabid,140695968,Injury liver
-F-58,Tabaththur al-Kabid,,
-F-59,Tasaghghur al-Kabid Sughar al-Kabid Dumur al-Kabid,861668321,Atrophy liver
-F-60,Izam al-Kabid,690435214,Hepatomegaly
-F-61,Khafqa al-Kabid,,
-F-62,Inshiqaq al-Kabid Infijar al-Kabid,,
-F-63,Salaba al-Kabid,1781315693,Hepatic cirrhosis
-F-64,Dubayla al-Kabid,1323593849,Abscess liver
-F-65,Hasa al-Kabid,,
-F-66,Su al-Qinya,289294765,Anaemia hypoproteineamia
-F-67,Fasad al-Dam,,
-F-68,Faqr al-Dam,224336967,Anaemias or other erythrocyte disorders
-F-69,Istisqa,826220775,Oedema
-F-69.1,Istisqa Lahmi,,
-F-69.2,Istisqa Tabli,,
-F-69.3,Istisqa Ziqqi,1133729855,Ascites
-F-70,Yarqan Asfar,1056591229,jaundice
-F-71,Yarqan Aswad,98221538,Blackish discoloration skin
-F-72,Su Mizaj-i-Tihal,1033187646,Splenic dyscrasia
-F-73,Waram wa Salaba al-Tihal,,
-F-74,Izam al-Tihal,1282210072,Splenomegaly
-F-75,Taqayyuh al-Tihal,1831834962,Abscess spleen
-F-76,Nafkh wa Riyah al-Tihal,,
-F-77,Duf al-Tihal,1773569569,Splenic insufficiency
-F-78,Sudad al-Tihal,,
-F-79,Hasa al-Tihal,,
-F-80,Waja al-Tihal,,
-F-81,Amrad Unuq al-Tihal,1726554290,Diseases pancreas
-F-82,Zalq al-Ama,,
-F-83,Ishal,116759077,Diarrhoea
-F-83.1,Ishal Ghidhai,,
-F-83.2,Ishal Hawai Ishal Wabai,1688127370,Gastroenteritis or colitis without specification of infectious agent
-F-83.3,Ishal al-Midda,,
-F-83.4,Ishal al-Dam,1826507405,Blood diarrhoea
-F-83.5,Ishal Dimaghi,1158238623,Irritable bowel syndrome
-F-83.6,Ishal Kabidi Kaylusi,,
-F-83.7,Ishal Kabidi Ghusali,,
-F-83.8,Ishal Kabidi Safrawi,,
-F-83.9,Ishal Kabidi Sadidi,,
-F-83.10,Ishal Kabidi Khathiri-o-Durdi,,
-F-83.11,Ishal Marari,,
-F-83.12,Ishal Tihali,1716776417,Diarrhoea involvement spleen
-F-83.13,Ishal Miwi Rutubi,1789890344,Enterorrhoea
-F-83.14,Ishal Miwi Buthuri,,
-F-83.15,Ishal Miwi Safrawi,,
-F-83.16,Ishal Miwi Sawdawi,,
-F-83.17,Ishal al-Atfal,,
-F-83.18,Ishal Midi,,
-F-83.19,Ishal Sahji Damawi,1688127370,Gastroenteritis or colitis without specification of infectious agent
-F-83.20,Ishal Sahji Mukhati,116759077,Diarrhoea
-F-83.21,Ishal Sahji Qushari-o-Khurati,,
-F-83.22,Ishal Sahji Middi-o-Sadidi,,
-F-83.23,Ishal Sahji Zubdi,,
-F-83.24,Ishal Sahji Mirri,,
-F-84,Duf al-Ama,386699845,Human immunodeficiency virus disease enteritis
-F-85,Dharab-o-Khilfa,,
-F-86,Sahj wa Quruh al-Ama,1267652425,Crohn disease
-F-87,Dhusantariya Kabidiyya,1768200173,Hepatic diarrhoea
-F-88,Dhusantariya Miwiyya,1826507405,Blood diarrhoea involvement intestine
-F-89,Zahir,1688127370,Gastroenteritis or colitis without specification of infectious agent
-F-89.1,Zahir Warami,,
-F-89.2,Zahir Wabai,,
-F-89.3,Zahir Idhai,,
-F-89.4,Zahir al-Atfal,,
-F-90,Maghs,1328152138,tenesmus
-F-90.1,Maghs al-Atfal,1767268402,Infantile tenesmus
-F-91,Nafkh-o-Qaraqir,,
-F-92,Qulanj,166022696,Other and unspecified abdominal pain
-F-92.1,Qulanj Warami,,
-F-92.2,Qulanj Rihi,1540491307,Flatulence
-F-92.3,Qulanj Iltiwai,728568723,Volvulus
-F-92.4,Qulanj Fatqi,,
-F-92.5,Qulanj Dudi,,
-F-92.6,Qulanj Thufli,,
-F-92.7,Qulanj Balghami,,
-F-92.8,Qulanj Tashannuji,166022696,Other and unspecified abdominal pain
-F-92.9,Qulanj Rasasi,,
-F-92.10,Qulanj Zaidi,1988785309,colic
-F-92.11,Qulanj Kabidi,232482334,hepatic
-F-92.12,Qulanj Marari,92432538,Calculus of bile duct without cholangitis or cholecystitis
-F-92.13,Qulanj Kulwi,821552851,Renal colic
-F-92.14,Qulanj Midi,,
-F-92.15,Qulanj Nuhasi,,
-F-92.16,Qulanj MurakkabKhunaq Miwi,2045954085,intestinal obstruction
-F-92.17,Qulanj Wabai,,
-F-92.18,Qulanj Ardi,1989299962,Secondary proctocolitis
-F-93,Ilaus,460984650,Dynamic intestinal obstruction
-F-94,QabdItiqal al-BatnHusrIhtibas al-Batn Ihtibas al-TabiaItiqal al-TabiaImsak al-Batn,502284069,Constipation
-F-94.1,Husr MutadHusr Daimi,1737019901,Habitual constipation
-F-94.2,Husr Ardi,1476571877,Secondary constipation
-F-95,Didan al-Ama,863306856,infestation worms
-F-96,Bawasir,,
-F-97,Rih al-Bawasir,,
-F-98,Qishr al-Bawasir,,
-F-99,Nawasir Ghayr Nafidha,1836987572,Chronic rhinosinusitis
-F-100,Nawasir Nafidha,206903882,fistula
-F-101,Waram al-Maqad,706550431,proctitis
-F-102,Shuqaq al-Maqad,677675737,Anal fissure
-F-103,Istirkha al-Maqad,,
-F-104,Khuruj al-Maqad Khuruj al-Mabraz,231914102,Rectal prolapse
-F-105,Hikka al-Maqad,1237083575,pruritus
-F-106,Quruh al-Maqad,1377705785,anal ulceration
-F-107,Maqad Ghayr Mathqub,515168801,Imperforate anus
-F-108,Fuhat Uruq al-Maqad,,
-G,Amrad-i-Nizam-i-Bawl,1932345217,Diseases urinary system
-G-1,Huzal al-Kulya Dumur al-Kulya,117862072,kidney
-G-2,Dhayabitus Dulabiya Muattisha Dawwariyya Parkariyya,465177735,Diabetes mellitus
-G-3,Duf al-Kulya,761526554,Kidney
-G-4,Hasa wa Raml al-Kulya,389168514,Calculus of kidney
-G-5,Hasa al-Mathana,197850369,Calculus in bladder
-G-6,Waram al-Mathana,1181120673,Cystitis
-G-7,Rih al-Kulya,,
-G-8,Waja al-Kulya,821552851,Renal
-G-9,Sudad al-Kulya,1993889507,kidney renal obstruction
-G-10,Waram al-Kulya,1783829886,Nephritic
-G-10.1,Waram al-Kulya Harr,1783829886,Nephritic
-G-10.2,Waram al-Kulya Barid Balghami,,
-G-10.3,Waram al-Kulya Sulb,,
-G-11,Dubayla al-Kulya,1683066042,Renal abscess
-G-12,Quruh al-Kulya,,
-G-13,Jarab al-Kulya,,
-G-14,Waram al-Mathana Sulb,382632922,chronic cystitis
-G-15,Dubayla al-Mathana,,
-G-16,Duf al-Mathana,340201268,Insufficiency urinary bladder
-G-17,Quruh al-Mathana,1495841197,Wound urinary bladder
-G-18,Jarab al-Mathana,,
-G-19,Injimad al-Dam fil Mathana,1993296529,Urinary clotted blood urinary bladder
-G-20,Istirkha al-Mathana,171330395,bladder
-G-21,Khal al-Mathana,,
-G-22,Waja al-Mathana,657284670,Cystodynia
-G-23,Rih al-Mathana,,
-G-24,Hurqa al-Bawl,1461225727,Burning micturition
-G-25,SozakSayalan ZuhriHurqa Al-Nakal Uquba,609214049,Gonococcal infection
-G-26,Hurqa Muzmina Zanaqa,609214049,Gonococcal infection
-G-27,Hurqa al-Nisa,1751464879,Gonorrhoeal vaginitis
-G-28,Ihtibas al-Bawl,1775034842,Retention urine
-G-29,Usr al-Bawl,781372207,Dysuria
-G-30,Taqtir al-Bawl,668600451,Dribbling urine
-G-31,Salas al-Bawl,766129123,Urinary incontinence
-G-32,Bawl fil Farash,,
-G-33,Kathra al-Bawl,2137636828,Polyuria
-G-34,Qilla al-Bawl,723491972,Oliguria
-G-35,Bawl al-Dam,2016050353,Haematuria
-H,Amrad-i-Tanasul,585064432,genital
-H-1,Duf al-Bah,,
-H-2,Istirkha al-Qadib,,
-H-3,Sura al-Inzal,361151087,ejaculation
-H-4,Kathra al-Shahwa,744774024,Increased libido
-H-5,Jarayan,1725754094,Passive discharge of semen from urethra
-H-6,Kathra al-Ihtilam,524799490,Excessive nocturnal emission
-H-7,FarismusFarmisyusIfrat al-Nuuz,1983776037,Priapism
-H-8,AqunaIkhtilaj Tanasuli,,
-H-9,AdhyutAdhita,,
-H-10,Waram al-Khusyatayn Waram al-Unthayayn,1484511712,Inflammation of testis
-H-11,Waja al-Khusya wal Qadib,,
-H-12,Waram al-Qadib,1391697065,Inflammation penis
-H-13,Shuqaq al-Qadib,,
-H-14,Quruh al-Khusya wal Qadib,,
-H-15,Hikka al-Qadib,,
-H-16,Sudda Majari al-Qadib,,
-H-17,Iwijaj al-Qadib,1184971160,Chordee
-H-18,Izam al- Khusyatayn,219740884,Hypertrophy testis
-H-19,Sighar al-Khusyatayn,1735709719,Atrophy testis
-H-20,Istirkha al-Safan,,
-H-21,Dawali al-Safan,315302008,Scrotal varices
-H-22,Salaba al-Safan,,
-H-23,Ibridah,867236062,Decreased libido
-H-24,Qarw Damawi,1238236054,Haematocele
-H-25,Ubna,,
-H-26,Band Kushad,,
-H-27,Qila,,
-H-28,Qila Maiyya,1323357778,Hydrocele
-H-29,Irtifa al-Khusya,1134950387,Cryptorchidism
-H-30,Taqallus al-Khusya,1735709719,Atrophy testis
-H-31,Thaalil al-Dhakar,1031905196,Penile warts
-H-32,Mani al-Dam,1644665841,Haematospermia
-H-33,Qilla al-Mani,,
-I,Amrad-i-Niswan wa Qabalat,,
-I-1,Su-i-Mizaj al-Rahim,,
-I-2,Sala al-Rahim,1462467975,Neoplasms uterus
-I-3,Tasaghghur al-Rahim,1532566248,atrophy uterus
-I-4,Izam al-Rahim,2143820032,uterus
-I-5,Tashahhum al-Rahim,418675175,Physometra
-I-6,Istisqa al-Rahim,1830992667,Hydrometra
-I-7,Insidad Fam al-Rahim,741581315,stenosis
-I-8,Inghilaq al-Rahim,741581315,Stricture
-I-9,Natn al-Rahim,,
-I-10,Inzilaq al-Rahim,334012722,prolapse uterus
-I-11,Isqat,2036729570,Abortion
-I-11.1,Isqat Adi,753990808,Recurrent pregnancy loss
-I-12,Iltihab Khusya al-Rahim,532571715,Oophritis
-I-13,Waja Khusya al-Rahim,250742860,Ovarian pain
-I-14,Khuruj Khusya al-Rahim,,
-I-15,Istisqa Khusya al-Rahim,1481220289,ovarian cysts
-I-16,Sala Khusya al-Rahim,1973989346,Neoplasms ovary
-I-17,Ghisha Khusya al-Rahim Kadhib,,
-I-18,Tasaghghur Khusya al-Rahim,,
-I-19,Iltihab al-Qadhif,1628929313,Inflammatory disease of fallopian tube
-I-20,Taakkul al-Qadhif,,
-I-21,Sala al-Qadhif,459381514,neoplasms fallopian tube
-I-22,Insidad al-Qadhif,1922880877,Fallopian tube
-I-23,Inshiqaq al-Qadhif,913821868,Tubal
-I-24,Qay al-Haml,1878037467,hyperemesis gravidarum
-I-25,Yaraqan al-Haml,,
-I-26,Namla al-Haml,,
-I-27,Kathra al-Nafas,,
-I-28,Wusa Fam al-Rahim,1232629655,Incompetence
-I-29,Raja,,
-I-30,Usr al-WiladaUsr al-Haml,,
-I-31,Ihtibas al-Mashima,1244461000,retained placenta
-I-32,Ihtibas al-Nafas,,
-I-33,Uqr,1237004558,Female infertility
-I-34,Qilla al-Laban,1132445247,Suppressed lactation
-I-35,Kathra al-LabanTaghzir al-Laban,936570562,Galactorrhoea
-I-36,Tajabbun al-Laban,,
-I-37,Waram al-Thadi,259204343,Inflammatory disorders of breast
-I-38,Dubayla wa Qarha al-Thadyayn,1033306788,Breast abscess
-I-39,Izam wa Suqut al-Thadyayn,,
-I-40,Tasaghghur al-Thadyayn,,
-I-41,Tamaddud al-Thadyayn,,
-I-42,Ihtibas al-Tamth,1595830028,Amenorrhoea
-I-43,Quruh al-Rahim,1126092249,Ulcer uterus
-I-44,Hikka al-Rahim Farismus al-Nisa,1567023854,Pruritus uteri
-I-45,Shuqaq al-Rahim,1703954528,ruptured uterus
-I-46,Inqilab al-Rahim Nutu al-Rahim,334012722,prolapse uterus
-I-47,Ratq,1957522777,Imperforate hymen
-I-48,Bawasir al-Rahim,1926647018,Polyp uteri
-I-49,Kathrat-i-Hayd Istihada,549694871,Frequent menstrual bleeding
-I-50,Sayalan al-Rahim,879327727,Leukorrhoea
-I-51,Nasur al-Rahim,12608163,fistula
-I-52,Saratan al-Rahim,1743710977,carcinoma
-I-53,Ikhtinaq al-Rahim,953661315,Histrionic personality disorder
-I-54,Nafkh al-Rahim,418675175,Physometra
-I-55,Buthur al-Rahim,,
-I-56,Atshak Abla Farang Darma Saur Al-Afranji Bad Farang Al-Khajil Qarha SulbaKoft,1721348227,Syphillis
-I-56.1,Wabal Warathi Khilqi Atshak Al-Afranji al-Warathi Mawruthi Atshak,587996426,Congenital syphilis
-I-56.2,Atshak Majazi,,
-I-57,Waram al-Rahim,343716294,Metritis
-I-58,Usr al-Tamth,1703914672,Dysmenorrhoea
-I-59,Qillat-i-Tamth,650279131,Infrequent menstrual bleeding
-J,Amrad-i-Jild wa Taziniyat,,
-J-1,Baras,,
-J-1.1,Baras Aswad,712391858,Hyperpigmented patches skin
-J-2,Bahaq Abyad Wadah,1386947078,Pityriasis alba
-J-3,Bahaq Aswad,1535278887,Pityriasis nigra
-J-4,Kalaf,,
-J-5,Barash,,
-J-6,Namash,729604718,naevus
-J-7,Khilan,1757898640,Benign cutaneous melanocytic neoplasms
-J-8,Khudra wa Sawad,1707892594,Bruise or contusion of skin
-J-9,Washm,857612238,tattoo
-J-10,Athar al-Quruh,,
-J-11,Athar al-Judari,,
-J-12,Badushnam,,
-J-13,Fasad al-Lawn,144124957,Abnormal skin pigmentation
-J-14,Taqashshur al-Jild,,
-J-15,Hazaz-o-Ibriyya Bafa Hubayra Qishr al-Ras Hibriyya,,
-J-16,Da al-Thalab,,
-J-17,Da al-Hayya,,
-J-18,Intithar al-Shar,379555302,Hair fall
-J-19,Illa al-Nuama,,
-J-20,Sala,1707380076,Male pattern hair loss
-J-21,Shayb,,
-J-22,Tatwil al-Shar,,
-J-23,Inbat al-Shar,,
-J-24,Halq al-Shar,336055701,Pseudofolliculitis barbae
-J-25,Tajid al-Shar,957396257,Hair curling
-J-26,Tarqiq al-Shar,,
-J-27,Tasbit al-Shar,,
-J-28,Tashaqquq al-Shar,4504631,Hair split
-J-29,Namusa,,
-J-30,Qummal-o-Siban,1083938812,Pediculosis
-J-31,Qamqam,,
-J-32,Zufra Talqiyya,2037739046,Brittle nails
-J-33,Baras al-Azfar,262016655,leukonychia
-J-34,Namash al-Azfar,,
-J-35,Judham al-Azfar,,
-J-36,Tashaquq al-Azfar,21709879,nail splitting
-J-37,Tauqquf al-Azfar,1899437669,Onychogryphosis
-J-38,Taqallu al-Azfar,1406399454,Nail shedding
-J-39,Taqassu al-Azfar,93998748,Onycholysis
-J-40,Mawt al-Dam,1707892594,Bruise or contusion of skin
-J-41,Sufra al-Azfar,47812081,Yellow nail
-J-42,Radd al-Azfar,1450817342,Contusion
-J-43,Kathra al-Araq,1416949107,Hyperhidrosis
-J-44,Araq Muntin,1456323010,Bromhidrosis
-J-45,Araq al-Dam,964148685,Hematidrosis
-J-46,Shuquq al-Atraf wal Wajh,,
-J-47,Taqarruh al-Shidqayn,1691782809,Cheilosis
-J-48,Saaf,,
-J-49,Taqashshuf al-Jild,318744822,Sunburn
-J-50,Taqashshur al-Qadamayn,837108867,Cracked heels
-J-51,Qushur al-Jabha,1120438080,Scaling forehead skin
-J-52,Shara,993242399,Urticaria
-J-52.1,Banat al-Layl,262260792,Nocturnal urticaria
-J-53,Hasaf Buthur Shawkiyya,1245016385,Miliaria rubra
-J-54,Quba,,
-J-54.1,Quba Hadith,967094396,Acute ring worm
-J-54.2,Quba Radi,,
-J-54.3,Quba Mutaqashshir,,
-J-54.4,Quba Sai,,
-J-54.5,Quba Waqif,,
-J-55,Dakhis,579742959,paronychia
-J-56,Jarab,876005123,Scabies
-J-57,Hikka,1729106757,Pruritus
-J-57.1,Hikka al-Mashayikh,1441759964,Senile pruritus
-J-58,Safa,1622653958,folliculitis
-J-58.1,Safa RatbaShirinaj,59032382,Wet folliculitis
-J-58.2,Safa Yabisa Suraji,908375866,Dry folliculitis
-J-58.3,Safa Shahdiyya,1281788366,Tinea favus
-J-58.4,Ruus al-Ibra,,
-J-58.5,Ujar,806314148,Nodular prurigo
-J-58.6,Halami,,
-J-58.7,Safa Balkhiyya,25801498,Chronic folliculitis
-J-58.8,Safa Humra,,
-J-59,Ghudun,,
-J-60,Athra,,
-J-61,Intifakh al-Asabi,247295056,Chilblains
-J-62,Hikka al-Asabi,,
-J-63,Mazah,937488272,"Intertriginous dermatitis due to friction, sweating or contact with body fluids"
-J-64,Sunan,1456323010,Bromhidrosis
-J-65,Natn Jild al-Ras,,
-J-66,Khasar-o-TasqiFasad al-Atraf bil Bard,152692065,Frostbite
-J-67,Thaalil,,
-J-68,Buthur Labaniyya Habb al-Shabab Buthur Duhniyya Al-Ghudd al-Shai,1892393023,Acne
-K,Hummayat,915343154,Fever
-K-1,Humma,915343154,Fever
-K-1.1,Humma al-Yawm,915343154,Fever
-K-1.1.1,Humma al-Yawm Hammiyya,,
-K-1.1.2,Humma al-Yawm Faziyya,,
-K-1.1.3,Humma al-Yawm Fikriyya,1970407217,Anxiety ephemeral fever
-K-1.1.4,Humma al-Yawm Ghadabiyya,,
-K-1.1.5,Humma al-Yawm Farhiyya,,
-K-1.1.6,Humma al-Yawm Sahriyya,,
-K-1.1.7,Humma al-Yawm Tabiyya,,
-K-1.1.8,Humma al-Yawm Ishaliyya,,
-K-1.1.9,Humma al-Yawm Wajaiyya,,
-K-1.1.10,Humma al-Yawm Ghashiyya,,
-K-1.1.11,Humma al-Yawm Atashiyya,,
-K-1.1.12,Humma al-Yawm Juiyya,,
-K-1.1.13,Humma al-Yawm Suddiyya,,
-K-1.1.14,Humma al-Yawm Tukhmiyya,,
-K-1.1.15,Humma al-Yawm Waramiyya,,
-K-1.1.16,Humma al-Yawm Shamsiyya,1154088362,Ephemeral fever heat stroke
-K-1.1.17,Humma al-Yawm Istihsafiyya,,
-K-1.1.18,Humma al-Yawm Sharabiyya,1481226890,Intoxicating ephemeral fever
-K-1.1.19,Humma al-Yawm Ghidhaiyya,,
-K-1.1.20,Humma al-Yawm Dawaiyya,,
-K-1.1.21,Humma al-Yawm Qashfiyya,,
-K-1.1.22,Humma al-Yawm Nazliyya-o-Zukamiyya,,
-K-1.1.23,Humma al-Yawm Zahiriyya,,
-K-1.1.24,Humma al-Yawm Harriyya,1154088362,Ephemeral fever heat stroke
-K-1.1.25,Humma al-Yawm Nawmiyya Humma al-Yawm Rahiyya,,
-K-1.1.26,Humma al-Yawm Jurhiyya,,
-K-1.1.27,Humma al-Yawm Imtilaiyya,,
-K-1.1.28,Humma al-Yawm Istifraghiyya,,
-K-1.2,Humma Diqqiyya,2042954837,fever hectic fever
-K-1.3,Humma Ufuniyya,,
-K-2,Ufunat,1435254666,infectious
-K-3,Humma Daima Humma Lazima,554848287,Continuous fever
-K-4,Humma Daira Humma Naiba,633896543,Malaria without parasitological confirmation
-K-5,Humma al-Ghibb Trataus,633896543,Malaria without parasitological confirmation
-K-5.1,Humma al-Ghibb Daira,1628728660,Tertian fever
-K-5.2,Humma al-Ghibb Lazima,,
-K-5.3,Humma al-Ghibb Muharriqa,,
-K-6,Humma Muwaziba Astrabus,154462584,Quotidian fever
-K-6.1,Humma Muwaziba Mudaifa,1724208081,Doubling quotidian fever
-K-6.2,Humma Muwaziba Safrawiyya,,
-K-7,Humma Lathiqa Humma Balghamiyya Lazima,,
-K-8,Humma al-RibTatra,862789727,Malaria due to Plasmodium malariae
-K-8.1,Humma al-Rib Lazima,,
-K-9,Humma Mukhtalita,,
-K-10,Humma Afyalus,1809976586,Ephiyalus fever
-K-11,Humma Lifuriya,1634708070,Liparia fever
-K-11.1,Tayfudas,,
-K-12,Humma Afyalus Lifuriya,1274972072,Ephiyalus Liparia fever
-K-13,Humma Mutbiqa,,
-K-13.1,Humma Mutbiqa Ghalayaniyya Humma Sunukhus,,
-K-13.2,Humma MutbiqaUfuniyya,139537222,Sinoco fever
-K-14,Humma al-Khims,1587737629,fever
-K-15,Humma al-Suds,,
-K-16,Humma al-Sub,,
-K-17,Humma al-Tus,,
-K-18,Humma Ghashiyya,,
-K-19,Humma Miwiyya,1528414070,fever
-K-20,Humma Wabaiyya,2106977129,Epidemic fever
-K-21,Humma Tafhiyya,1998081029,Eruptive fever
-K-21.1,Humma Judariyya,2054716425,Smallpox
-K-21.2,Hasba,1826431497,Measles
-K-21.3,Humma Qirmiziyya,107294155,Scarlet fever
-K-21.4,Humma Ghamiya HadhayaniyyaHumma Ruqta Humma al-Sufun Humma QadhiraHumma al-Sujun,,
-K-21.5,Humayqa Bad Abla,1667539108,Varicella without complication
-K-22,Humma Zamhaririyya Fardmuriyus,,
-K-23,Fimatus Dawwara,633896543,Malaria without parasitological confirmation
-K-24,Qatma,,
-K-25,Humma Ajamiyya,1820610243,Marshy area fever
-L,Amrad-i-Izam wa Mafasil,730641547,bone disease joint
-L-1,Waja al-Zahr,1800187363,Dorsalgia
-L-2,Waja al-Khasira,,
-L-3,Hudar,2113186970,Rheumatism
-L-4,Waja al-Mafasil,396939646,Inflammatory arthropathies
-L-5,Waja al-Warik,718979238,Coccygodynia
-L-6,Waja al-Aqib,1676566355,Achillodynia
-L-7,Niqris,395622227,Gout
-L-8,Irq al-Nasa,2056651014,Sciatica
-L-9,Tahajjur wa Salaba al-Mafasil,1505896560,spondyloarthritis
-L-10,Hadaba Hadaba al-Muakhkhar,1244444785,Kyphosis
-L-11,TaqassuHadaba al-Muqaddam,444559306,Lordosis
-L-12,Iltiwa,1925604007,Scoliosis
-L-13,Riyah al-Afrisa,,
-L-14,Wahn al-Izam Takhalkhul al-Izam Takhaththur al-Izam,2113001430,Osteoporosis
-L-15,Kasr,1504538171,Fracture
-L-15.1,Kasr Basit Kasr Sadhij,,
-L-15.2,Kasr Murakkab Kasr Makshuf,1080133681,Compound fracture
-L-15.3,Kasr Mudaaf Kasr Mukhtalit,1170779475,Complications fracture
-L-15.4,Kasr Kamil,873599689,Fracture
-L-15.5,Kasr Ghayr Kamil Kasr Juzi Kamil,75909427,Fracture
-L-15.6,Kasr Sadi,1801367926,Longitudinal fracture
-L-15.7,Kasr Kharrubi,1227306904,Greenstick fracture
-L-15.8,Kasr Mufattat,2006159364,Comminuted fracture
-L-15.9,Kasr Shatwi,1126329182,Avulsion fracture
-L-15.10,Kasr Thaqib,,
-L-15.11,Kasr Mustatil Kasr Mushattab,1801367926,Longitudinal fracture
-L-15.12,Kasr Mustarad Kasr Mutaaddid,804640573,Transverse fracture
-L-15.13,Kasr Muarrab,1504538171,Fracture
-L-15.14,Kasr Lawlabi Kasr Halazuni,1343005175,Spiral fracture
-L-15.15,Kasr Mudgham Kasr Munghariz,750703299,Impacted fracture
-L-15.16,Kasr Rahimi,,
-L-15.17,Kasr Khilqi,,
-L-15.18,Kasr Shari,,
-L-15.19,Kasr Dhati,639949585,Pathological fracture
-L-15.20,Kasr Mafsili,263535387,Fracture
-L-15.21,Kasr al-Anf,1981758834,Fracture nasal bones
-L-15.22,Kasr FujliKasr Qasabi Kasr Qathwi,,
-L-15.23,Kasr Hilali,,
-L-15.24,Kasr Sawiqi Kasr Qadibi Kasr Jawzi Kasr Jarishi,,
-L-16,Khal,1348012248,joint dislocations
-L-16.1,Khal Darbi,1559356233,Traumatic dislocation
-L-16.2,Khal al-Mafasil,1348012248,joint dislocations
-L-16.3,Khal Khilqi,1348012248,Congenital dislocations
-L-16.4,Khal Maradi Khal Ardi,,
-L-16.5,Khal Tamm Khal Kamil,913719038,Complete dislocation
-L-16.6,Khal Ghayr Tamm Khal Ghayr Kamil Khal Ghayr Mukammal,915654254,Partial dislocation
-L-16.7,Khal Murakkab,,
-L-16.8,Khal Mudaaf,,
-L-16.9,Khal Kasri,39276591,Dislocated fracture
-L-17,Watha,1008872039,sprains
-M,Jarahat,245796173,Acute abdomen
-M-1,Juruh,960305085,Dyspnoea
-M-1.1,Juruh Maftuha Juruh Wadiha,754990790,Open wound
-M-1.2,Juruh Qatiyya,,
-M-1.3,Juruh Wakhiziyya,754990790,wound
-M-1.4,Juruh Mazqiyya,1255711513,laceration
-M-1.5,Juruh Musaddasa Juruh Shashkhana,,
-M-1.6,Juruh Raddiyya,,
-M-1.7,Juruh Sammiyya,,
-M-1.8,Juruh Nariyya Juruh Barudiyya,,
-M-1.9,Juruh Ufuniyya,,
-M-1.10,Juruh Ghayr Ufuniyya Juruh Ghayr Mulawwatha,,
-M-2,Taaffun al-Dam,2093238381,Septicaemia
-M-3,Tasammum al-Dam,51354860,Toxaemia
-M-4,Taqayyuh al-Dam,325070079,Puerperal sepsis
-M-5,Qarha,2058491071,Osteomyelitis or osteitis
-M-5.1,Qarha Ardiyya,1555919427,Secondary ulcer
-M-5.2,Qarha Nawiyya,,
-M-5.3,Qarha Khabitha Qarha Afina,,
-M-5.4,Qarha Mulima,,
-M-5.5,Qarha Ghayr Mulima,,
-M-5.6,Qarha Salima,2100064846,benign ulcer
-M-5.7,Qarha Asir al-Indimal,,
-M-5.8,Qarha Khayruniyya,1707607718,tuberculosis
-M-5.9,Qarha Saiyya,,
-M-5.10,Qarha Ihtiraqiyya,,
-M-5.11,Qarha Qatat,,
-M-5.12,Qarha Naqiyya,900285196,Non ulcerative infection
-M-5.13,Qarha Ghayr Naqiyya,1851797100,Infectious ulcer
-M-5.14,Qarha Lathiqa,,
-M-5.15,Qarha Wasikha,,
-M-5.16,Qarha Mutaakkila,1770092375,"Basal cell carcinoma, NOS"
-M-5.17,Qarha Rahla Qarha Nathira,,
-M-5.18,Qarha Rashshaha,,
-M-5.19,Qarha Harra,1759582222,Acute ulcer
-M-5.20,Qarha Barida,104283915,Chronic ulcer
-M-5.21,Qarha Dawaliyya,9691905,ulcer
-M-6,Quruh Balkhiyya,,
-M-7,Udhima,826220775,Oedema
-M-8,Irq Madini,,
-M-9,Shafaqalus,188156827,Gangrene
-M-10,Ghangharana,188156827,Gangrene
-M-10.1,Ghangharana Yabisa,188156827,Gangrene
-M-10.2,Ghangharana Ratba,188156827,Gangrene
-M-10.3,Ghangharana Ratba Ufuniyya,,
-M-10.4,Ghangharana Ardiyya,2086620978,Secondary gangrene
-M-10.5,Ghangharana Suddiyya,,
-M-10.6,Ghangharana Shaykhukhiyya,,
-M-10.7,Ghangharana Takhaththuriyya,,
-M-10.8,Ghangharana Dhayabitusiyya,,
-M-10.9,Ghangharana Jurhiyya,,
-M-10.10,Ghangharana Bardiyya,,
-M-10.11,Ghangharana Hadda Saiyya,,
-M-11,Buthur,923546127,eruptions
-M-11.1,Buthur Sighar,889621,Small pustules
-M-11.2,Buthur al-Asdagh,466297143,Pustules pinna
-M-11.3,Buthur al-Saq,1708539552,Calf pustules
-M-11.4,Buthur al-Qafa,1258147328,Pustules nape neck
-M-11.5,Shilam,,
-M-11.6,Khuld,,
-M-11.7,Butm,,
-M-11.8,Tutha,,
-M-11.9,Dhat al-Asl,,
-M-11.10,Khafiya Zahira,,
-M-12,Akyas,987501456,cyst
-M-13,Uqda,712558265,nodule
-M-14,Khanazir,1564691570,lymph
-M-15,Waram,396939646,Inflammatory
-M-15.1,Waram Rihi,,
-M-15.2,Waram Harr,509821856,Acute
-M-15.3,Waram Barid,1877667198,Chronic inflammation
-M-15.4,Waram Sadhij,,
-M-15.5,Waram Maddi,677700358,Inflammation morbid matter
-M-15.6,Falghamuni,,
-M-15.7,Waram Rikhw,,
-M-15.8,Saqirus,1740423486,Scirrhous inflammation
-M-16,Salat,1630407678,Neoplasms
-M-16.1,Sala Salima,1102192015,Neoplasm benign
-M-16.2,Sala Khabitha,50574435,Neoplasm malignant
-M-16.3,Sala Shahmiyya,1090000716,Lipoma
-M-16.4,Sala Asaliyya,1540413143,Neoplasms soft
-M-16.5,Sala Ardahaliyya,,
-M-16.6,Sala Shiraziyya,,
-M-16.7,Sala Balghamiyya,212666004,Myxoma
-M-16.8,Sala Ghudrufiyya,575223205,Enchondroma
-M-16.9,Sala Lifiyya,817620506,Fibroma
-M-16.10,Sala Azmiyya,1162753778,Osteoma
-M-16.11,Sala Sinniyya,173223388,Odontoma
-M-16.12,Sala Asabiyya,809718306,Neuroma
-M-16.13,Sala Uruqiyya,134504304,"Haemangioma, NOS"
-M-16.14,Sala Adaliyya,2071221171,Myoma
-M-16.15,Sala Mukhkhiyya,526287100,myeloma
-M-16.16,Sala Ghuddiyya,293316593,Adenoma
-M-16.17,Sala Halamiyya,144282989,Papilloma
-M-17,Saratan,289879712,Carcinoma
-M-17.1,Saratan Mutaqarrih,1146695638,Cancerous ulcer
-M-18,Namla Saiya,248851702,Herpes
-M-18.1,Namla Sadhija,,
-M-18.2,Namla Mutaakkila,,
-M-18.3,Namla Shafawiyya,1720001875,Herpes labialis
-M-18.4,Namla Khitaniyya,666746193,Herpes
-M-18.5,Namla Mintaqiyya Namla Nariyya,523481501,Zoster
-M-18.6,Namla Mintaqiyya Jabhiyya,2105678631,zoster
-M-18.7,Namla Qazhiyya,,
-M-18.8,Namla Jawarsiyya,,
-M-19,Naffatat,831227428,blisters
-M-19.1,Naffatat Tafliyya,971176543,Impetigo
-M-19.2,Naffatat Ghangharaniyya,,
-M-19.3,Naffatat Tabaqiyya,,
-M-20,Naffakhat,629643446,Gas filled blisters
-M-21,Jamra Shab Chiragh,1456834066,Carbuncle
-M-22,Nar Farsi,1887882424,eczema
-M-23,Taun,1596449540,Plague
-M-23.1,Taun Ghudadi,1742025109,Bubonic plague
-M-23.2,Taun Ufuni,2093238381,Septicaemia
-M-23.3,Taun Riwi,1983098110,Pneumonic plague
-M-24,Akila,340823130,Noma
-M-25,Awram al-Maghabin Baghira,1805511520,bubo
-M-26,Dummal,1081137172,Furuncle
-M-27,Da al-Fil,,
-M-28,Dawali,1853305829,Varicose veins
-M-29,Harq,163532889,Burns
-M-29.1,Harq al-Saiqa Harq Barqi,,
-M-29.2,Harq al-Shams,318744822,Sunburn
-M-29.3,Harq al-Baladur,,
-M-29.4,Harq Darakhshani,2065906964,Burn
-M-30,Illa al-Baqar,709184369,Loiasis
-M-31,Naqarnami,,
-M-32,Suhuj al-Jild,377475788,Abrasion
-M-33,Aqr al-Khuff wal Nal,,
-M-34,Madd al-Habl,,
-M-35,Judham Al-Illa al-Kubra,149072669,Leprosy
-M-35.1,Judham Khadri,365370459,Lepromatous leprosy
-M-35.2,Judham Uqadi,310697776,Tuberculoid leprosy
-M-36,Huzal,1517885800,Undernutrition
-M-37,Siman Mufrit,149403041,Obesity
-M-38,Diqq al-Shaykhukha,,
-M-39,Fatq,1294458332,Hernias
-M-39.1,Fatq Tamm,,
-M-39.2,Fatq Naqis,,
-M-39.3,Fatq Raji,,
-M-39.4,Fatq Asi,1169384556,hernia
-M-39.5,Fatq Makhnuq,1647500715,hernia
-M-39.6,Fatq Warami,,
-M-39.7,Fatq Suddi,1498131691,hernia obstruction
-M-39.8,Fatq Urbi-o-Rabi,,
-M-39.9,Fatq Mustaqim,474718032,Inguinal hernia
-M-39.10,Fatq Khilqi,1747893182,Congenital hernia
-M-39.11,Fatq Surri,229442107,Umbilical hernia
-M-39.12,Fatq Midi,2038859230,Epigastric hernia
-M-39.13,Fatq Fakhidhi,2030064326,Femoral hernia
-M-40,Suqut al-Surra Nutu al-Surra,1294458332,Hernias
-M-41,FulusFunus,,
-M-42,Waram al-Sifaq,775356003,Peritonitis
-N,Amrad-i-Sumum,1236563202,Harmful effects of substances
-N-1,Gazidgi-i-Mar,234436746,snake
-N-2,Gazidgi-i-Aqrab,311621356,scorpion
-N-3,Gazidgi-i-Zanbur,,
-N-4,Gazidgi-i-Rutayla,,
-N-5,Gazidgi-i-Ankabut,1648535771,Spider bite
-N-6,Gazidgi-i-Hazarpa,,
-N-7,Gazidgi-i-Salamandira,,
-N-8,Gazidgi-i-Sag Abi,,
-N-9,Gazidgi-i-Nahang,,
-N-10,Gazidgi-i-Insan,,
-N-11,Gazidgi-i-Gurg,,
-N-12,Gazidgi-i-Gurba,,
-N-13,Gazidgi-i-Sag Diwana,,
-N-14,Las al-Hasharat,1262123607,Insect stings
-N-15,Sammiyat-i-Samm al-Far,161800108,Arsenic
-N-16,Sammiyat-i-Simab,,
-N-17,Sammiyat-i-Shangaraf,,
-N-18,Sammiyat-i-Murdarsang,,
-N-19,Sammiyat-i-Rasas,358356779,Lead
-N-20,Sammiyat-i-Khubth al-Hadid,,
-N-21,Sammiyat-i-Bish,,
-N-22,Sammiyat-i-Farfiyun,,
-N-23,Sammiyat-i-Baladur,,
-N-24,Sammiyat-i-Khar Zahra,,
-N-25,Sammiyat-i-Kharbaq Siyah,,
-N-26,Sammiyat-i-Tambaku,,
-N-27,Sammiyat-i-Jawz Mathil,,
-N-28,Sammiyat-i-Yabruj,,
-N-29,Sammiyat-i-Ajwain Khurasani,,
-N-30,Sammiyat-i-Shukran,795905711,Conium maculatum plant
-N-31,Sammiyat-i-Qinnab,1361649231,Cannabis
-O,Natural Patterns,840420437,natural pattern
-O-1,Tabiat,,
-O-2,Umur Tabiiyya,,
-O-2.1,Arkan,,
-O-2.1.1,Nar,429856753,fire
-O-2.1.2,Rih,3669619,air
-O-2.1.3,Ma,1607276467,water
-O-2.1.4,Ard,915627353,earth
-O-2.2,Mizaj,,
-O-2.2.1,Mizaj Harr Yabis,666606171,temperament
-O-2.2.2,Mizaj Harr Ratb,758529335,temperament
-O-2.2.3,Mizaj Barid Yabis,2039199114,temperament
-O-2.2.4,Mizaj Barid Ratb,656157227,temperament
-O-2.3,Akhlat,2088597502,humor
-O-2.3.1,Dam,,
-O-2.3.2,Balgham,1125554096,phlegm
-O-2.3.3,Safra,,
-O-2.3.4,Sawda,,
-O-2.4,Ruh,,
-O-2.4.1,Ruh Nafsani,,
-O-2.4.2,Ruh Haywani,,
-O-2.4.3,Ruh Tabii,,
-O-2.5,Ada,1910628372,Organ
-O-2.5.1,Ada Mufrada,,
-O-2.5.2,Ada Murakkaba,952670996,Lead
-O-2.6,Quwwat,,
-O-2.6.1,Quwa Tabiiyya,539226537,natural faculty
-O-2.6.2,Quwa Nafsaniyya,,
-O-2.6.3,Quwa Haywaniyya,,
-O-2.6.4,Quwa Tanasuliyya,1121791700,Reproductive faculties
-O-2.7,Fil,1164313611,functions
-O-2.7.1,Afal Haywaniyya,,
-O-2.7.2,Afal Nafsaniyya,21224658,Psychic
-O-2.7.3,Afal Tabiiyya,,
-O-3,Halat-i-Sihhat,719466389,health
-O-4,La Sihhat La Marad,,
-O-5,Kayfiyat Tabiiyya,,
-O-5.1,Kayfiyat Faila,,
-O-5.1.1,Hararat,1699744436,heat
-O-5.1.2,Burudat,2066255370,Acute nasopharyngitis
-O-5.2,Kayfiyat Munfaila,,
-O-5.2.1,Rutubat,,
-O-5.2.2,Yubusat,611010050,Drying
-O-7,Hararat Ghariziyya,,
-O-8,Hadm-o-Istihala,850289698,digestive metabolic
-O-9,Hudum Arbaa,,
-O-9.1,Hadm Midi,,
-O-9.2,Hadm Kabidi,,
-O-9.3,Hadm Uruqi,,
-O-9.4,Hadm Udwi,,
-O-10,Mizaj-i-Amar,220903323,Temperament according age
-O-11,Mizaj Insani,570509115,Human temperament
-O-11.1,Damawi al-Mizaj,,
-O-11.2,Balghami al-Mizaj,,
-O-11.3,Safrawi al-Mizaj,,
-O-11.4,Sawdawi al-Mizaj,,
-O-12,Dam Ghayr Tabii,,
-O-13,Balgham Ghayr Tabii,,
-O-13.1,Balgham Malih,,
-O-13.2,Balgham Hamid,,
-O-13.3,Balgham Masikh,,
-O-13.4,Balgham Afis,,
-O-13.5,Balgham Hulw,,
-O-13.6,Balgham Mai,,
-O-13.7,Balgham Jassi,,
-O-13.8,Balgham Mukhati,,
-O-13.9,Balgham Zujaji,,
-O-13.10,Balgham Muntin,,
-O-14,Safra Ghayr Tabii,,
-O-14.1,Safra Muhhiyya,,
-O-14.2,Mirra Safra,,
-O-14.3,Safra Muhtariqa,,
-O-14.4,Safra Kurrathi,,
-O-14.5,Safra Zanjari,,
-O-15,Sawda Ghayr Tabii,,
-O-15.1,Sawda Damawi,,
-O-15.2,Sawda Safrawi,,
-O-15.3,Sawda Balghami,,
-O-15.4,Sawda Sawdawi,,
-O-16,Al-Marad al-Mufrad,549327141,simplex diseases
-O-17,Mizaj Ghayr Mutadil Su-i-Mizaj,,
-O-17.1,Mizaj Ghayr Mutadil MufradSu-i-Mizaj Mufrad,1787442423,Simple morbid temperament
-O-17.1.1,Su-i-Mizaj Mufrad SadaMizaj Ghayr Mutadil Mufrad Sada,551410066,Simple abnormal temperament without substance
-O-17.1.1.1,Su-i-Mizaj Harr,12669760,Abnormal hot temperament
-O-17.1.1.2,Su-i-Mizaj Barid,1865476503,Abnormal cold temperament
-O-17.1.1.3,Su-i-Mizaj Ratb,,
-O-17.1.1.4,Su-i-Mizaj Yabis,240570910,Abnormal dry temperament
-O-17.1.2,Su-i-Mizaj Mufrad Maddi,1354845629,Abnormal temperament substance
-O-17.1.2.1,Su-i-Mizaj Harr Maddi,1046263366,Abnormal hot temperament substance
-O-17.1.2.2,Su-i-Mizaj Barid Maddi,1370295533,Abnormal cold temperament substance
-O-17.1.2.3,Su-i-Mizaj Ratb Maddi,,
-O-17.1.2.4,Su-i-Mizaj Yabis Maddi,777688462,Abnormal dry temperament substance
-O-17.2,Mizaj Ghayr Mutadil MurakkabSu-i-Mizaj Murakkab,618083042,Compound morbid temperament
-O-17.2.1,Su-i-Mizaj Murakkab SadaMizaj Ghayr Mutadil Murakkab Sada,994171734,Simple compound abnormal temperament
-O-17.2.1.1,Su-i-Mizaj Harr Ratb Sada,,
-O-17.2.1.2,Su-i-Mizaj Harr Yabis Sada,1884501391,Simple hot dry abnormal temperament
-O-17.2.1.3,Su-i-Mizaj Barid Ratb Sada,,
-O-17.2.1.4,Su-i-Mizaj Barid Yabis Sada,765559289,Simple cold dry abnormal temperament
-O-17.2.2,Su-i-Mizaj Murakkab Maddi,1464563080,Compound abnormal temperament associated substance
-O-17.2.2.1,Su-i-Mizaj Harr Ratb Maddi,,
-O-17.2.2.2,Su-i-Mizaj Harr Yabis Maddi,1566663318,Abnormal hot dry temperament associated
-O-17.2.2.3,Su-i-Mizaj Barid Ratb Maddi,,
-O-17.2.2.4,Su-i-Mizaj Barid Yabis Maddi,1304490284,Abnormal cold dry temperament associated
-O-18,Su-i-Mizaj Sada,551410066,Simple abnormal temperament
-O-19,Su-i-Mizaj Maddi,1354845629,Abnormal temperament associated substance
-O-20,Su-i-Mizaj Mustawi,,
-O-21,Su-i-Mizaj Mukhtalif,1490796532,Unstable abnormal temperament
-O-22,Amrad-i-Su al-Tarkib,,
-O-22.1,Amrad-i-Khilqat,2085071306,Megaloblastic anaemia due to dihydrofolate reductase deficiency
-O-22.1.1,Amrad-i-Shakl,,
-O-22.1.2,Amrad-i-Majari,197934298,Diseases
-O-22.1.2.1,Ittisa al-Majari,,
-O-22.1.2.2,Tadayyuq al-Majari,,
-O-22.1.2.3,Insidad al-Majari,,
-O-22.1.3,Amrad-i-Awiya,,
-O-22.1.3.1,Ittisa-i-Awiya,,
-O-22.1.3.2,Tadayyuq-i-Awiya,,
-O-22.1.3.3,Insidad-i-Awiya,,
-O-22.1.3.4,Inkhila-i-Awiya,,
-O-22.1.4,Amrad-i-Safaih,,
-O-22.1.4.1,Khushunat-i-Safaih,,
-O-22.1.4.2,Malasat-i-Safaih,,
-O-22.2,Amrad al-Miqdar,,
-O-22.2.1,Ziyadati-i-Miqdar,,
-O-22.2.1.1,Ziyadati-i-Miqdar Umumi,,
-O-22.2.1.2,Ziyadati-i-Miqdar Maqami,,
-O-22.2.2,Nuqsan-i-Miqdar,,
-O-22.2.2.1,Nuqsan-i-Miqdar Umumi,,
-O-22.2.2.2,Nuqsan-i-Miqdar Maqami,,
-O-22.3,Amrad-i-Adad,,
-O-22.3.1,Ziyadati-i-Adad,1472726658,Increase number organs
-O-22.3.1.1,Tabi Ziyadati,1564844526,Congenital increase number parts body
-O-22.3.1.2,Ghayr Tabi Ziyadati,484108377,Acquired pathological increase parts body
-O-22.3.2,Naqs-i-Adad,1452082494,Decrease number organs
-O-22.3.2.1,Tabi Naqs,1123682996,Congenital decrease number organs
-O-22.3.2.2,Ghayr Tabi Naqs,940637893,Acquired decrease number organs
-O-22.4,Amrad al-Wad,,
-O-22.4.1,Amrad-i- Mawda,,
-O-22.4.1.1,Zawal-i-Udw Kamil,1020702665,Complete displacement body part
-O-22.4.1.2,Zawal-i-Udw Naqis,911935653,Incomplete displacement body part
-O-22.4.1.3,Harakat Ghayr Tabi,591414909,Abnormal movement organs
-O-22.4.1.4,Sukun Ghayr Tabi,,
-O-22.4.2,Amrad-i- Musharakat,,
-O-22.4.2.1,Imtina-i-Harakat,1109818872,Restriction movement organs
-O-22.4.2.2,Usr-i-Harakat,670945347,Difficulty movement organs
-O-23,Tafarruq al-Ittisal,378222711,Loss continuity
-O-23.1,Khadsh,616352119,sharp
-O-23.2,Sahj,377475788,Abrasion
-O-23.3,Tafattut,152949187,Fragmentation bone
-O-23.4,Sad,1425419237,Splitting bone
-O-23.5,Shadkh,1019061703,Longitudinal breakage nerve
-O-23.6,Fadgh,59799215,Breakage muscle
-O-23.7,Batr,1702937553,Transverse breakage nerve
-O-23.8,Hatk,825067088,Tearing muscle
-O-23.9,Hazz,1863148733,Transverse tear muscle
-O-23.10,Infijar,1254062337,vein rupture
-O-23.11,Inshiqaq,2050975883,Splitting body part
-O-24,Ghalaba-i-Akhlat,,
-O-24.1,Amrad Damawiyya,,
-O-24.2,Amrad Safrawiyya,,
-O-24.3,Amrad Balghamiyya,,
-O-24.4,Amrad Sawdawiyya,,
-O-25,Nabd Tawil,,
-O-26,Nabd Qasir,,
-O-27,Nabd Arid,,
-O-28,Nabd Dayyiq,,
-O-29,Nabd Mushrif,,
-O-30,Nabd Munkhafid,,
-O-31,Nabd Azim,,
-O-32,Nabd Saghir,,
-O-33,Nabd Ghaliz,,
-O-34,Nabd Daqiq,,
-O-35,Nabd Qawi,,
-O-36,Nabd Daif,255135906,Weak pulse
-O-37,Nabd Sari,,
-O-38,Nabd Bati,,
-O-39,Nabd Mutawatir,515681918,"Tachycardia, unspecified"
-O-40,Nabd Mutafawit,,
-O-41,Nabd Layyin,,
-O-42,Nabd Sulb,,
-O-43,Nabd Mumtali,,
-O-44,Nabd Khali,,
-O-45,Nabd Harr,,
-O-46,Nabd Barid,,
-O-47,Nabd Mustawi,,
-O-48,Nabd Mustawi Mutlaq,,
-O-49,Nabd Mustawi Muqayyad,,
-O-50,Nabd Mukhtalif,,
-O-51,Nabd Mukhtalif Mutlaq,,
-O-52,Nabd Mukhtalif Muqayyad,,
-O-53,Nabd Munqati,,
-O-54,Nabd Aid,,
-O-55,Nabd Muttasil,,
-O-56,Nabd Mukhtalif Muntazim,,
-O-57,Nabd Mukhtalif Muntazim Mutlaq,,
-O-58,Nabd Mukhtalif Muntazim Dair,,
-O-59,Nabd Mukhtalif Ghayr Muntazim,,
-O-60,Nabd Jayyid al-Wazn,,
-O-61,Nabd Radi al-Wazn,,
-O-62,Nabd Mutaghayyir al-Wazn,,
-O-63,Nabd Mubayan al-Wazn,,
-O-64,Nabd Kharij al-Wazn,,
-O-65,Nabd Murakkab,,
-O-66,Nabd Misalli,,
-O-67,Nabd Dhul Fatra,,
-O-68,Nabd Waqi fil Wasat,,
-O-69,Nabd Dhul Qaratayn,,
-O-70,Nabd Dhanab al-Far,,
-O-71,Nabd Dhanab al-Far Munqadi,,
-O-72,Nabd Dhanab al-Far Thabit,,
-O-73,Nabd Dhanab al-Far Aid,,
-O-74,Nabd Ghazali,,
-O-75,Nabd Mawji,,
-O-76,Nabd Dudi,,
-O-77,Nabd Namli,,
-O-78,Nabd Minshari,,
-O-79,Nabd Mutashannij,,
-O-80,Nabd Murtaish,,
-O-81,Nabd Multawi,,
-O-82,Nabd Mutawattir,,
-O-83,Bawl Ashqar,,
-O-84,Bawl Asfar Naranji,,
-O-85,Bawl Nari,,
-O-86,Bawl Zafrani,,
-O-87,Bawl Ashab,,
-O-88,Bawl Wardi,,
-O-89,Bawl Ahmar Aqtam,,
-O-90,Bawl Ahmar Qani,,
-O-91,Bawl Fustuqi,,
-O-92,Bawl Zanjari,,
-O-93,Bawl Asmanjuni,,
-O-94,Bawl Nilji,,
-O-95,Bawl Kurrathi,,
-O-96,Bawl Aswad,,
-O-97,Bawl Abyad,381325574,White urine
-O-98,Bawl Abyad Majazi,1077748012,Transparent urine
-O-99,Bawl Abyad Haqiqi,991700093,Translucent urine
-O-100,Bawl Mukhati,,
-O-101,Bawl Dasmi,,
-O-102,Bawl Ihali,,
-O-103,Bawl Fuqqai,,
-O-104,Bawl Manwi,,
-O-105,Bawl Rasasi,,
-O-106,Bawl Labani,2095915189,Chyluria
-O-107,Bawl Ghusali,,
-O-108,Bawl Zayti,,
-O-109,Bawl Urjuwani,,
-O-110,Bawl Jamri,,
-O-111,Bawl Raqiq,,
-O-112,Bawl Ghaliz,,
-O-113,Al-Bawl al-Adim al-Raiha,,
-O-114,Bawl Muntin,,
-O-115,Sawad al-Zabad,,
-O-116,Shuqra al-Zabad,,
-O-117,Sighar al-Zabad,,
-O-118,Kibar al-Zabad,,
-O-119,Qilla al-Zabad,,
-O-120,Kathra al-Zabad,,
-O-121,Butu Infiqa al-Zabad,,
-O-122,Sura Infiqa al-Zabad,,
-O-123,Rasub Khurati,,
-O-124,Rasub Khurati Nukhali,,
-O-125,Rasub Khurati Karsani,,
-O-126,Rasub Khurati Dashishi,,
-O-127,Rasub Khurati Sawiqi,,
-O-128,Rasub Khurati Safaihi,,
-O-129,Rasub Lahmi,,
-O-130,Rasub Dasmi,,
-O-131,Rasub Middi,,
-O-132,Rasub Mukhati,,
-O-133,Rasub Khamiri,,
-O-134,Rasub Alaqi,,
-O-135,Rasub Shari,,
-O-136,Rasub Ramli,,
-O-137,Rasub Ramadi,,
-O-138,Kathra al-Rasub,,
-O-139,Qilla al-Rasub,,
-O-142,Al-Rasub al-Aswad,,
-O-143,Al-Rasub al-Ahmar,1861896171,sedimentation
-O-144,Al-Rasub al-Asfar,,
-O-145,Al-Rasub al-Akhdar,,
-O-146,Al-Rasub al-Abyad,,
-O-147,Ziyada al-Baraz,1548325565,Larger quantity stool
-O-148,Qilla al-Baraz,,
-O-149,Al-Baraz al-Ratb,,
-O-150,Al-Baraz al-Yabis,113241186,Dry stool
-O-151,Baraz Nari,,
-O-152,Baraz Abyad,,
-O-153,Baraz Aswad,,
-O-154,Baraz Akhdar,,
-O-155,Al-Baraz al-Muntafikh,,
-O-156,Sura Khuruj al-Baraz,,
-O-157,Butu Khuruj al-Baraz,2085951505,Delayed passing stool
-O-158,Al-Nafth al-Asfar,,
-O-159,Al-Nafth al-Ahmar al-Nasi,,
-O-160,Al-Nafth al-Ahmar al-Mushabba,,
-O-161,Al-Nafth al-Kamid,,
-O-162,Al-Nafth al-Aswad,,
-O-163,Al-Nafth al-Raqiq,,
-O-164,Al-Nafth al-Ghaliz,,
-O-165,Al-Nafth al-Muntin,,
-O-166,Al-Nafth al-Ghayr al-Muntin,,
-O-167,Al-Nafth al-Kathir al-Miqdar,854359897,sputum
-O-168,Al-Nafth al-Qalil al-Miqdar,1839285547,Lack sputum
-O-169,Al-Nafth al-Mutadil al-Miqdar,38862722,Moderate quantity sputum
-O-170,Al-Araq al-Asfar,,
-O-171,Al-Araq al-Ahmar,,
-O-172,Al-Araq al-Kamid,,
-O-173,Al-Araq al-Akhdar,,
-O-174,Al-Araq al-Aswad,,
-O-175,Al-Araq al-Abyad,,
-O-176,Ifrat al-Araq,1416949107,Hyperhidrosis
-O-177,Al-Araq al-Qalil al-Miqdar,1209524187,Lack sweat
-O-178,Al-Araq al-Muntin,1456323010,Bromhidrosis
-O-179,Al-Araq Hadd al-Raiha,965885706,Sharp smelling sweat
-O-180,Al-Araq Hamid al-Rih,381276074,Sour smelling sweat
-O-181,Al-Araq al-Raqiq,1117419703,Sweat thin consistency
-O-182,Al-Araq al-Ghaliz,473196742,Sweat thick consistency
-O-183,Fuqdan al-Hawas,974671636,Parosmia
-O-184,Al-Badan al-Daif,,
-O-185,Asbab Maddiyya,,
-O-186,Asbab Failiyya,,
-O-187,Asbab Suriyya,,
-O-188,Asbab Tamamiyya,,
-O-189,Asbab Amma,,
-O-190,Asbab Maradiyya,,
-O-191,Asbab Badaniyya,428234313,Short stature of child
-O-192,Asbab Wasila,,
-O-193,Asbab Sabiqa,,
-O-194,Asbab Badiya,,
-O-195,Asbab Dhatiyya,,
-O-196,Sabab Ardiyya,,
-O-197,Asbab Mukhallifa,,
-O-198,Asbab Ghayr Mukhallifa,,
-O-199,Asbab Juziyya,,
-O-200,Asbab-i-Fasad-i-Shakl,,
-O-201,Asbab-i-Sudda,1617264610,Obstructed causes
-O-202,Asbab-i-Diq-i-Majari,,
-O-203,Asbab-i-Ittisa-i-Majari,,
-O-204,Asbab-i-Khushunat,,
-O-205,Asbab-i-Malasat,62129031,Smooth cause
-O-206,Asbab-i-Khal,,
-O-207,Asbab-i-Su-i-Mujawirat,,
-O-208,Asbab-i-Harakat Ghayr Tabiiyya,,
-O-209,Asbab-i-Ziyadati-i-Miqdar-i-Ada,,
-O-210,Asbab-i-Ziyadati-i-Adad-i-Ada,,
-O-211,Asbab-i-Nuqsan-i Miqdar-i-Ada,,
-O-212,Asbab-i-Nuqsan-i Adad-i-Ada,,
-O-213,Asbab Mughayyara,,
-O-214,Asbab-i-Tafarruq-i-Ittisal,,
-O-215,Asbab-i-Qarha,1742412137,ulcer causes
-O-216,Asbab-i-Waram,,
-O-217,Asbab-i-Waja,520823693,causing pain
-O-218,Asbab-i-Sukun-i-Waja,,
-O-219,Asbab-i-Ladhdhat,,
-O-220,Asbab-i-Ihtibas,,
-O-221,Asbab-i-Istifragh,,
-O-222,Asbab-i-Tukhma-o-Imtila,,
-O-223,Asbab-i-Duf-i-Ada,,
-O-224,Al-Asbab al-Sitta al-Daruriyya,,
-O-225,Ilaj bil Taghdhiya,,
-O-226,Tark-i-Ghidha,,
-O-227,Taqlil-i- Ghidha,,
-O-228,Taqlil-i-Ghidha ba Itibar-i-Kammiyat,,
-O-229,Taqlil-i- Ghidha ba Itibar-i-Kayfiyat,,
-O-230,Taqlil-i- Ghidha ba Itibar-i-Kammiyat-o- Kayfiyat,,
-O-231,Ilaj bil Dawa,1892703871,Drugs treatment
-O-232,Ilaj bil Mufradat,,
-O-233,Ilaj bil Murakkabat,,
-O-234,Ilaj bil Didd,,
-O-235,Ilaj Nafsani,,
-O-236,Islah-i-Su-i-Mizaj,,
-O-237,Nudj,,
-O-238,Nudj-i-Akhlat,,
-O-239,Nudj-i-Balgham,,
-O-240,Nudj-i-Safra,,
-O-241,Nudj-i-Sawda,,
-O-242,Istifragh,,
-O-243,Tanqiya,,
-O-244,Tanqiya-i-Dimagh,,
-O-245,Tanqiya-i-Sar,,
-O-246,Tanqiya-i-Sadr,,
-O-247,Tanqiya-i-Dandan,,
-O-248,Tanqiya-i-Mida,,
-O-249,Tanqiya-i-Kabid,,
-O-250,Tanqiya-i-Tihal,,
-O-251,Tanqiya-i-Ama,,
-O-252,Tanqiya-i-Kuliya,,
-O-253,Tanqiya-i-Majari-i-Bawl,,
-O-254,Tanqiya-i-Rim,,
-O-255,Tanqiya-i-Murdia,,
-O-256,Imala,,
-O-257,Imala Qarib,,
-O-258,Imala Baid,,
-O-259,Ilam,,
-O-260,Tabid-i-Marad,,
-O-261,Tadil-i-Mawad,,
-O-262,Tadil-i-Qiwam,,
-O-263,Tadil-i-Dam,,
-O-264,Tadil-i-Safra,,
-O-265,Tadil-i-Su-i-Mizaj,,
-O-266,Tabdil-i-Mizaj,,
-O-267,Izala-i-Sabab,,
-O-268,Man-i-Insibab-i-Akhlat,,
-O-269,Taskhin,,
-O-270,Taskhin-i-Mizaj,,
-O-271,Taskhin-i-Dimagh,,
-O-272,Taskhin-i-Sar,,
-O-273,Taskhin-i-Qalb,,
-O-274,Taskhin-i-Mida,,
-O-275,Taskhin-i-Fam-i-Mida,,
-O-276,Taskhin-i-Jigar,,
-O-277,Taskhin-i-Ama,,
-O-278,Taskhin-i-Kiliya,,
-O-279,Taskhin-i-Mathana,,
-O-280,Taskhin-i-Rahim,,
-O-281,Taskhin-i-Alat-i-Mani,,
-O-282,Taskhin-i-Atraf,,
-O-283,Taskhin-i-Hawa,,
-O-284,Tabrid,,
-O-285,Tabrid-i-Mizaj,,
-O-286,Tabrid-i-Dimagh,,
-O-287,Tabrid-i-Sar,,
-O-288,Tabrid-i-Mida,,
-O-289,Tabrid-i-Fam-i-Mida,,
-O-290,Tabrid-i-Jigar,,
-O-291,Tabrid-i-Tihal,,
-O-292,Tabrid-i-Unthayayn,,
-O-293,Tabrid-i-Hawa,,
-O-294,Tartib,,
-O-295,Tartib-i-Mizaj,,
-O-296,Tartib-i-Dimagh,,
-O-297,Tartib-i-Sar,,
-O-298,Tartib-i-Halaq,,
-O-299,Tartib-i-Jigar,,
-O-300,Tartib-i-Hawa,,
-O-301,Itfa,,
-O-302,Itfa-i-Abkhira,,
-O-303,Tajfif,,
-O-304,Tajfif-i-Dimagh,,
-O-305,Tajfif-i-Mida,,
-O-306,Tajfif-i-Kabid,,
-O-307,Tanshif,,
-O-308,Taltif,,
-O-309,Tahlil-i-Awram,,
-O-310,Talyin-i-Awram,,
-O-311,Tafjir-i-Awram,,
-O-312,Taftih-i-Uruq,,
-O-313,Taftih-i-Majari,,
-O-314,Taftih-i-Majari-i-Kabid,,
-O-315,Taftih-i-Majari-i-Bawl,,
-O-316,Taftih-i-Masam,,
-O-317,Takthif-i-Masam,,
-O-318,Taftih-i-Sudad,,
-O-319,Tasfiya al-Dam,,
-O-320,Qat-i-Mawad,,
-O-321,Tarqiq-i-Mawad,,
-O-322,Tarqiq-i-Madda,,
-O-323,Jadhb-i-Mawad,,
-O-324,Taghliz-i-Mawad,,
-O-325,Izlaq-i-Mawad,,
-O-326,Rad-i-Mawad,,
-O-327,Tahlil-i-Riyah,,
-O-328,Irkha,1638330014,relaxants
-O-329,Tahrik-i-Asab,1750501593,nerve stimulation
-O-330,Tahrik-i-Dimagh,,
-O-331,Tahrik-i-Hararat Gharizi,,
-O-332,Taqwiyat,,
-O-333,Taqwiyat-i-Ada Raisa,,
-O-334,Taqwiyat-i-Dimagh,,
-O-335,Taqwiyat-i-Asab,,
-O-336,Taqwiyat-i-Basar,,
-O-337,Taqwiyat-i-Asnan-o-Litha,,
-O-338,Taqwiyat-i-Qalb,,
-O-339,Taqwiyat-i-Kabid,,
-O-340,Taqwiyat-i-Kuliya,,
-O-341,Taqwiyat-i-Mathana,,
-O-342,Taqwiyat-i-Bah,,
-O-343,Taqwiyat-i-Rahim,,
-O-344,Taqwiyat-i-Shar,,
-O-345,Taqwiyat-i-Sar,,
-O-346,Taqwiyat-i-Chashm,,
-O-347,Taqwiyat-i-Dandan,,
-O-348,Taqwiyat-i-Bekh-i-Dandan,,
-O-349,Taqwiyat-i-Mida,,
-O-350,Taqwiyat-i-Fam-i-Mida,,
-O-351,Taqwiyat-i-Hararat Gharizi,,
-O-352,Taltif-i-Qiwam,,
-O-353,Taltif-i-Madda,,
-O-354,Taltif-i-Akhlat,,
-O-355,Taltif-i-Ghidha,,
-O-356,Taltif-i-Tadbir,,
-O-357,Taqwiyat-i-Ruh Nafsani,,
-O-358,Tahlil-i-Madda,,
-O-359,Tahlil-i-Riyah,,
-O-360,Tahlil-i-Abkhira,,
-O-361,Inbat-i-Shar,,
-O-362,Takhdir,,
-O-363,Tanwim,,
-O-364,Taskin,,
-O-365,Taskin-i-Madda,,
-O-366,Taskin-i-Hararat,,
-O-367,Taskin-i-Abkhira,,
-O-368,Taskin-i-Dimagh,,
-O-369,Taskin-i-Qalb,,
-O-370,Taskin-i-Akhlat,,
-O-371,Taskin-i-Waja,1314811790,Analgesia
-O-372,Habs-i-Dam,1004763328,Blood stasis
-O-373,Man-i-Araq,,
-O-374,Tanfit,,
-O-375,Tanqiya-i-Quruh,,
-O-376,Inbat-i-Lahm,,
-O-377,Qat-i-Bah,867236062,Decreased libido
-O-378,Tahyij-Shahwat,,
-O-379,Tawlid-i-Laban,,
-O-380,Tawlid-i-Mani,,
-O-381,Taghliz-i-Mani,,
-O-382,Imsak-i-Mani,,
-O-383,Taghliz-i-Abkhira,,
-O-384,Idrar-i-Laban,1608355392,Increased secretion milk
-O-385,Idrar-i-Bawl,1606468248,Urine increase
-O-386,Idrar-i-Hayd,201210145,Increased menstrual flow
-O-387,Taftit-i-Hasat,,
-O-388,Qatl-i-Didan,,
-O-389,Ikhraj-i-Didan,,
-O-390,Isqat-i-Janin,696502028,Spontaneous abortion
-O-391,Taqlil-i-Laban,,
-O-392,Daf-i-Taaffun,,
-O-393,Taqlil-i-Hararat,2104676964,reduced temperature
-O-394,Taqlil-i-Madda,,
-O-395,Tatis,,
-O-396,Taqdif,,
-O-397,Tasmin,,
-O-398,Talyin-i-Ama,,
-O-399,Ilaj bil Tadbir,1605615920,chemotherapy
-O-400,Ishal,,
-O-401,Qay,,
-O-402,Idrar,,
-O-403,Tanfith,,
-O-404,Fasd,,
-O-405,Hijama,,
-O-406,Hijama bil Shart,,
-O-407,Hijama bila Shart,,
-O-408,Hijama bil Nar,,
-O-409,Hijama bila Nar,,
-O-410,Hijama Mai,,
-O-411,Taliq al-Alaq,,
-O-412,Tariq,1884908195,induced sweating
-O-413,Hammam,,
-O-414,Hammam Harr,,
-O-415,Hammam Dawai,,
-O-416,Hammam Buraqi,,
-O-417,Hammam Kibriti,,
-O-418,Hammam Ramli,,
-O-419,Hammam Bahri,,
-O-420,Hammam Shamsi,,
-O-421,Hammam Zayti,,
-O-422,Hammam Qabid,,
-O-423,Riyadat,,
-O-424,Riyadat Ardiyya,,
-O-425,Riyadat Khalisa,,
-O-426,Riyadat Qalila,,
-O-427,Riyadat Kathira,,
-O-428,Riyadat Qawiyya,,
-O-429,Riyadat Daifa,,
-O-430,Riyadat Saria,,
-O-431,Riyadat Batia,,
-O-432,Riyadat Hathitha,,
-O-433,Riyadat Mutarakhiya,,
-O-434,Riyadat Mutadila,,
-O-435,Dalk,,
-O-436,Dalk Sulb,,
-O-437,Dalk Layyin,,
-O-438,Dalk Qalil,,
-O-439,Dalk Kathir,,
-O-440,Dalk Mutadil,,
-O-441,Dalk Khashin,,
-O-442,Dalk Amlas,,
-O-443,Dalk Istidad,,
-O-444,Dalk Istirdad,,
-O-445,Al-Amal bil Yad,,
-O-446,Al-Kayy,1351765105,Cautery
-O-447,Al-Kayy bil Nar,,
-O-448,Al-Kayy bil Hadid,,
-O-449,Al-Kayy bil Dhahab,,
-O-450,Al-Kayy bil Adwiya al-Muharriqa,,
-O-451,Al-Shaqq,1163063637,Incisional
-O-452,Shaqq al-Awram,1784035810,incising swelling
-O-453,Batt al-Khuraj,,
-O-454,Batt al-Awram,,
-O-455,Shaqq al-Hanjara,,
-O-456,Ikhraj al-Hasa,,
-O-457,Qat al-Atraf,949010725,amputation limb
-O-458,Nashr al-Izam,,
-O-459,Tathir al-Sibyan,1459051663,Female Genital Mutilation
-O-460,Qat al-Dawali,,
-O-461,Bazl al-Ma,525825450,Paracentesis
-O-462,Batr,1033549095,Constriction rings
-O-463,Al-Jabr,,
-O-464,Radd al-Fakk,,
-O-465,Al-Khiyata,647353689,suture
-O-466,Al-Tadbir bil Ghidha,,
-O-467,Ghidha Mutlaq,,
-O-468,Al-Ghidha al-Mufrad,,
-O-469,Al-Ghidha al-Murakkab,,
-O-470,Ghidha Harr,,
-O-471,Ghidha Barid,,
-O-472,Ghidha Ratb,,
-O-473,Ghidha Yabis,,
-O-474,Ghidha Nafi,,
-O-475,Ghidha Darr,,
-O-476,Ghidha bil Quwwa,,
-O-477,Ghidha bil Quwwa al-Baida,,
-O-478,Ghidha bil Quwwa al-Qariba,,
-O-479,Ghidha bil Fil,,
-O-480,Ghidha Dawai,,
-O-481,Ghidha Dawai Dhul Khasiyat,,
-O-482,Ghidha Dhul Khasiyat,,
-O-483,Ghidha Sari al-Inhidam,,
-O-484,Ghidha Asir al-Inhidam,,
-O-485,Ghidha Jayyid al-Inhidam,,
-O-486,Ghidha Radi al-Inhidam,,
-O-487,Ghidha Sari al-Khuruj,,
-O-488,Ghidha Bati al-Khuruj,,
-O-489,Ghidha Sari al-Nuzul,,
-O-490,Ghidha Bati al-Nuzul,,
-O-491,Ghidha Jayyid al- Ghidha,,
-O-492,Ghidha Radi al- Ghidha,,
-O-493,Ghidha Qalil al- Ghidha,,
-O-494,Ghidha Kathir al- Ghidha,,
-O-495,Ghidha Salih al-Kaymus,,
-O-496,Ghidha Radi al-Kaymus,,
-O-497,Ghidha Latif,,
-O-498,Ghidha Latif Kathir al-Ghidha Hasan al-Kaymus,,
-O-499,Ghidha Latif Kathir al-Ghidha Radi al-Kaymus,,
-O-500,Ghidha Latif Kathir al-Ghidha Mutadil al-Kaymus,,
-O-501,Ghidha Latif Qalil al-Ghidha Hasan al-Kaymus,,
-O-502,Ghidha Latif Qalil al-Ghidha Radi al-Kaymus,,
-O-503,Ghidha Latif Qalil al-Ghidha Mutadil al-Kaymus,,
-O-504,Ghidha Latif Mutadil al-Ghidha Hasan al-Kaymus,,
-O-505,Ghidha Latif Mutadil al-Ghidha Radi al-Kaymus,,
-O-506,Ghidha Latif Mutadil al-Ghidha Mutadil al-Kaymus,,
-O-507,Ghidha Kathif,,
-O-508,Ghidha Kathif Kathir al-Ghidha Hasan al-Kaymus,,
-O-509,Ghidha Kathif Kathir al-Ghidha Radi al-Kaymus,,
-O-510,Ghidha Kathif Kathir al-Ghidha Mutadil al-Kaymus,,
-O-511,Ghidha Kathif Qalil al-Ghidha Hasan al-Kaymus,,
-O-512,Ghidha Kathif Qalil al-Ghidha Radi al-Kaymus,,
-O-513,Ghidha Kathif Qalil al-Ghidha Mutadil al-Kaymus,,
-O-514,Ghidha Kathif Mutadil al-Ghidha Hasan al-Kaymus,,
-O-515,Ghidha Kathif Mutadil al-Ghidha Radi al-Kaymus,,
-O-516,Ghidha Kathif Mutadil al-Ghidha Mutadil al-Kaymus,,
-O-517,Ghidha Mutadil,,
-O-518,Ghidha Mutadil Kathir al-Ghidha Hasan al-Kaymus,,
-O-519,Ghidha Mutadil Kathir al-Ghidha Radi al-Kaymus,,
-O-520,Ghidha Mutadil Kathir al-Ghidha Mutadil al-Kaymus,,
-O-521,Ghidha Mutadil Qalil al- Ghidha Hasan al-Kaymus,,
-O-522,Ghidha Mutadil Qalil al- Ghidha Radi al-Kaymus,,
-O-523,Ghidha Mutadil Qalil al- Ghidha Mutadil al-Kaymus,,
-O-524,Ghidha Mutadil Mutadil al-Ghidha Hasan al-Kaymus,,
-O-525,Ghidha Mutadil Mutadil al- Ghidha Radi al-Kaymus,,
-O-526,Ghidha Mutadil Mutadil al- Ghidha Mutadil al-Kaymus,,
-O-527,Al-Aghdhiya al-Muwallida lil Sawda,,
-O-528,Al-Aghdhiya al-Muwallida lil Balgham,,
-O-529,Al-Aghdhiya al-Muwallida lil Dam,,
-O-530,Al-Aghdhiya al-Mukhsiba lil Badan,,
-O-531,Al-Aghdhiya al-Muwallida lil Riyah,,
-O-532,Al-Aghdhiya al-Mulayyina lil Tabia,,
-O-533,Al-Aghdhiya al-Habisa lil Batn,,
-O-534,Al-Aghdhiya al-Dhahiba lil Nafkh,,
-O-535,Al-Aghdhiya al-Muwallida lil Sudad,,
-O-536,Al-Ma al-Matbukh,506322100,Boiling water water
-O-537,Al-Ma al-Muqattar,631125729,Water distilled
-O-538,Al-Ma al-Adhb,,
-O-539,Al-Ma al-Malih,,
-O-540,Hifz al-Sihha bi Hasabil Hawa,,
-O-541,Hifz al-Sihha bi Hasabil Awqat al-Arbaa,,
-O-542,Hifz al-Sihha bi Shurb al-Ma,,
-O-543,Hifz al-Sihha bil Ghidha,,
-O-544,Hifz al-Sihha bil Nawm wal Yaqza,,
-O-545,Hifz al-Sihha bil Riyada,,
-O-546,Hifz al-Sihha bil Dalk,,
-O-547,Hifz al-Sihha bil Ishal,,
-O-548,Hifz al-Sihha bil Qay,,
-O-549,Hifz al-Sihha bil Jima,,
-O-550,Hifz Sihha al-Hubla,1876938930,Supervision of normal pregnancy
-O-551,Hifz Sihha al-Murdia,,
-O-552,Tadbir al-Rada,,
-O-553,Tadbir al-Mawlud,,
-O-554,Hifz Sihha al-Sabiy Bad al-Fitam,,
-O-555,Hifz Sihha al-Tifl,810788589,care child
-O-556,Hifz Sihha al-Shabb,,
-O-557,Hifz Sihha al-Kahl,,
-O-558,Hifz Sihha al-Shaykh,,
-O-559,Hifz Sihha al-Naqih,,
-O-560,Hifz al-Sihha bi Hasabil Amakin,,
-O-561,Tadbir al-Musafir,,
-O-562,Hifz Sihha al-Musafir fil Barr,,
-O-563,Hifz Sihha al-Rakib fil Bahr,,
-O-564,Hifz Sihha bil Hammam,,
-O-565,Hifz Sihha al-Ada,,
-O-566,Hifz Sihha al-Shar,,
-O-567,Hifz Sihha al-Ras,,
-O-568,Hifz Sihha al-Ayn,,
-O-569,Hifz Sihha al-Anf,,
-O-570,Hifz Sihha al-Udhun,,
-O-571,Hifz Sihha al-Lisan,,
-O-572,Hifz Sihha al-Asnan,,
-O-573,Hifz Sihha al-Ria wa Qasaba al-Ria,,
-O-574,Hifz Sihha al-Qalb,,
-O-575,Hifz Sihha al-Mida,,
-O-576,Hifz Sihha al-Ama,,
-O-577,Hifz Sihha al-Kabid,,
-O-578,Hifz Sihha Alat al-Bawl,,
-O-579,Hifz Sihha al-Mafasil,,
-O-580,Man al-Habal,70895146,contraception
-O-581,Tadbir-i-Man-i-Haml,,
-P,Amrad Mutafarriqa,1584947339,Miscellaneous disorders
-Q,Alamat,1693572010,Symptoms signs
-AA,Amrad-i-Ras,1114284798,disease head
-AB,Amrad-i-Dimagh,151219786,Disease brain
-AC,Amrad-i-Asab,1866592137,Mononeuropathy
-BA,Amrad-i-Jafn,,
-BB,Amrad-i-Amaq,,
-BC,Amrad-i-Multahima,1471747216,conjunctiva
-BD,Amrad-i-Tabaqa-i-Qarniyya,980864631,cornea
-BE,Amrad-i-Tabaqa-i-Inabiyya,,
-BF,Amrad-i-Hadaqa,,
-BG,Amrad-i-Miqla,,
-BH,Amrad-i-Ahdab,,
-BI,Amrad-i-Quwwat Basira,,
-BJ,Amrad-i-Tabaqa-i-Shabkiyya,77208243,retina
-BK,Amrad-i-Tabaqa-i-Mashimiyya,146528463,choroid
-BL,Amrad-i-Rutubat Jalidiyya,1074032998,lens
-BM,Amrad-i-Rutubat-i-Chashm,,
-CA,Amrad-i-Udhun,1769556904,ear
-CB,Amrad-i-Anf,1776413428,Disease nose
-CC,Amrad-i-Dahan,1008730501,mouth disease
-CD,Amrad-i-Zaban,928435705,Diseases tongue
-CE,Amrad-i-Hanak,,
-CF,Amrad-i-Lab,512707891,disease lips
-CG,Amrad-i-Dandan,235003409,tooth
-CH,Amrad-i-Litha,1903499403,gingiva
-CI,Amrad-i-Halq,877884560,diseases
-CJ,Amrad-i-Lahat,,
-DA,Amrad-i-Qasaba-i-Ria,1412868226,trachea
-DB,Amrad-i-Ria,,
-FA,Amrad-i-Mari,1594312948,Diseases oesophagus
-FB,Amrad-i-Mida,1264914040,Diseases stomach
-FC,Amrad-i-Kabid,1784240230,Diseases liver
-FD,Amrad-i-Tihal,567425990,Diseases spleen
-FE,Amrad-i-Ama,1644587915,Diseases intestine
-FF,Amrad-i-Maqad,,
-GA,Amrad-i-Kulya,,
-GB,Amrad-i-Mathana,4407978,diseases
-HA,Amrad-i-Qadib,885653625,penis
-HB,Amrad-i-Khusya,85116327,Disease testis
-IA,Amrad-i-Nizswan,585064432,Diseases of the female genital system
-IB,Amrad-i-Qabalat,1345188377,"Personal history of complications of pregnancy, childbirth or the puerperium"
-IC,Amrad-i-Rahim,261678206,uterus
-ID,Amrad-i-Thadi,1836788232,breast
-JA,Amrad-i-Jild,2044170142,Skin disorder
-JB,Awram-i-Zahir-i-Badan,,
-JC,Buthur-i-Zahir-i-Badan,1841320198,Skin eruptions
-JD,Amrad-i-Shar,986728180,disease
-JE,Amrad-i-Zufr,1721834679,Nail disease
-KA,Hummayat Yawmiyya,915343154,Fever
-KB,Hummayat Khiltiyya,,
-,Sammiyat-i-Sumum Mashruba,541001179,oral
-NB,Sammiyat-i-Sumum Maldugha,,
-OA,Namat-i-Akhlat Ghayr Tabiiyya,309514703,humoral derangement patterns
-OB,Namat-i-Su-i-Mizaj,,
-OC,Namat-i-Khalal-i-Fudlat-i-Badan,936674819,Excretory products derangement patterns
-OD,Namat-i-Su-i-Tarkib,,
-OE,Namat-i-Nabd Ghayr Tabii,,
-OF,Namat-i-Asbab,,
-OG,Namat-i-Ilaj,,
-OH,Anmat Mukhtalifa,,
-A-1.1,Bayda-o-Khudha Damawi,,
-A-1.2,Bayda-o-Khudha Safrawi,,
-A-1.3,Bayda-o-Khudha Balghami,,
-A-1.4,Bayda-o-Khudha Sawdawi,,
-A-1.5,Bayda-o-Khudha Bukhari-o-Rihi,,
-A-2.3,Shaqiqa Riyahi,,
-A-2.4,Shaqiqa Bukhari,,
-A-14.4,Halaka al-Dhikr,,
-A-25.6,Sadr-o-Duwar Rihi-o-Bukhari,,
-A-27.4,Kabus Sawdawi,,
-A-28.19,Sar Dimaghi Damawi,,
-A-28.20,Sar Dimaghi Safrawi,,
-A-28.21,Sar Dimaghi Balghami,,
-A-28.22,Sar Dimaghi Rihi,,
-A-28.23,Sar Midi Balghami,,
-A-28.24,Sar Midi Sawdawi,,
-A-28.25,Sar Midi Safrawi,,
-A-28.26,Sar Miai,,
-A-29.10,Sakta Bukhariyya,,
-A-32.2,Falij Rutubi Balghami,,
-A-32.3,Falij Damawi,,
-A-32.4,Falij Intiqali Buhrani,,
-A-32.5,Falij Warami,,
-A-32.6,Abubalqisya,388558112,General paralysis
-A-33.7,Tashannuj Balghami,,
-A-33.8,Tashannuj Sawdawi,,
-A-33.9,Tashannuj Rihi,,
-A-36.31,Suda Sada,,
-A-36.32,Suda Harr Khariji,,
-A-36.33,Suda Harr Dakhili,,
-A-36.34,Suda Barid Khariji,,
-A-36.35,Suda Barid Dakhili,,
-A-36.36,Suda Maddi,,
-A-36.37,Suda Harr Maddi,,
-A-36.38,Suda Barid Maddi,,
-A-36.39,Suda Tihali,,
-A-36.40,Suda Miwi Didani,,
-A-36.41,Suda Rahimi,,
-A-36.42,Suda Hijabi,,
-A-36.43,Suda Kulwi,,
-A-36.44,Suda Sulbi,,
-A-36.45,Suda Atrafi,,
-A-36.46,Suda-i-Humma,,
-A-38.8,Kuzaz Imtilai,,
-A-38.9,Kuzaz Yabis,,
-A-40.3,Risha Jimai,,
-A-41.1,Irtiad Rutubi,,
-A-41.2,Irtiad Sharabi,,
-A-42.1,Khadar Damawi,,
-A-42.2,Khadar Safrawi,,
-A-42.3,Khadar Balghami-o- Rutubi,,
-A-42.4,Khadar Sawdawi,,
-A-42.5,Khadar Rihi,,
-A-42.6,Khadar Yubsi,,
-A-44,Jamra-i-Dimagh,,
-B-12.1.1,Qatam,,
-B-12.1.2,Sahab,,
-B-12.1.3,Iklili,2035123281,Marginal corneal ulcer
-B-12.1.4,Sufi,,
-B-12.2.1,Luthuyun,,
-B-12.2.2,Lulawm,,
-B-12.2.3,Awquma,,
-B-29.4,Juhuz Khilti,,
-B-29.5,Juhuz Rihi,,
-B-32.1,Butlan-i-Basar,49873717,Blindness
-B-79,Buthur-i-Multahima,,
-B-80,Midda Kamina,,
-B-81,Safa-i-Jafn,649610899,eyelid
-B-82,Nar Farsi-i-Jafn,,
-B-83,Khushunat-i-Jafn,,
-B-84,Kumudat-o-Khudrat-i-Jafn,,
-B-85,Inkhiraq-i-Jafn,,
-B-86,Ikhtilaj-i-Jafn,,
-C-1.1,Waja-i-Gosh-i-Atfal,,
-C-5.1,Tanin Balghami,,
-C-5.2,Tanin Rihi,,
-C-5.3,Tanin Dufi,,
-C-5.4,Tanin Hissi,,
-C-5.5,Tanin Yubsi,,
-C-18.1,Akila-i-Gosh,,
-C-20.1,Waram Asl al-Udhun Damawi,,
-C-20.2,Waram Asl al-Udhun Safrawi,,
-C-20.3,Waram Asl al-Udhun Balghami,,
-C-20.4,Waram Asl al-Udhun Sawdawi,,
-C-21.1,Zukam-o-Nazla Harr,,
-C-21.2,Zukam Damawi,,
-C-21.3,Zukam Safrawi,,
-C-21.4,Zukam-o-Nazla Barid,,
-C-21.5,Zukam Balghami,,
-C-21.6,Zukam Sawdawi,,
-C-25.1,Qarha-i-Anf Yabis,,
-C-25.2,Qarha-i-Anf Ratb,,
-C-25.3,Qarha-i-Anf Muntin,,
-C-32.1,Bawasir-i-Anf Damawi,,
-C-32.2,Bawasir-i-Anf Balghami,,
-C-32.3,Bawasir-i-Anf Sawdawi,,
-C-32.4,Urbiyan al-Anf,,
-C-42.1,Waram-i-Zaban Damawi,,
-C-42.2,Waram-i-Zaban Safrawi,,
-C-42.3,Waram-i-Zaban Balghami,,
-C-42.4,Waram-i-Zaban Sawdawi,,
-C-63.1,Waram-i-Lab Damawi,,
-C-63.2,Waram-i-Lab Safrawi,,
-C-63.3,Waram-i-Lab Balghami,,
-C-63.4,Waram-i-Lab Sawdawi,,
-C-63.5,Tashaqquq-i-Shidqayn,591060439,Angular cheilitis
-C-97.3,Khunaq Damawi,,
-C-97.4,Khunaq Safrawi,,
-C-97.5,Khunaq Balghami,,
-C-97.6,Khunaq Sawdawi,,
-C-97.7,Khunaq Mutlaq,,
-C-101.6,Waram-i-Lahat Amudi,,
-C-101.7,Waram-i-Lahat Inabi,,
-C-101.8,Waram-i-Lahat Asli,,
-C-130,Khunan,240013389,Hypernasal speech
-D-6.8,Rabw Barid,,
-D-6.9,Buhr,,
-D-14.4,Dhat al-Ria Damawi,,
-D-14.5,Dhat al-Ria Safrawi,,
-D-14.6,Dhat al-Ria Balghami,,
-D-17.6,Dhat al-Janb Khalis,317852053,Pleurisy
-D-17.7,Dhat al-Janb Khalis Damawi,,
-D-17.8,Dhat al-Janb Khalis Safrawi,,
-D-17.9,Dhat al-Janb Khalis Balghami,,
-D-17.10,Dhat al-Janb Khalis Sawdawi,,
-D-17.11,Dhat al-Janb Ghayr Khalis,,
-E-0,Amrad-i-Qalb,2135151223,Diseases cardiac
-E-2.8,Khafaqan Damawi,,
-E-2.9,Khafaqan Safrawi,,
-E-2.10,Khafaqan Balghami,,
-E-2.11,Khafaqan Sawdawi,,
-F-5.1,Waram-i-Mari Harr,1411505176,Acute oesophagitis
-F-5.2,Waram-i-Mari Barid,1422140552,Chronic oesophagitis
-F-6.1,Su-i-Mizaj-i-Mida Sadhij,,
-F-6.2,Su-i-Mizaj-i-Mida Maddi,,
-F-13.2,Hayda Safrawi,,
-F-13.3,Hayda Balghami,,
-F-13.4,Hayda Sawdawi,,
-F-31.5,Qay Safrawi,1260034794,Bilious vomiting
-F-31.6,Qay Balghami,,
-F-31.7,Qay Sawdawi,,
-F-38.2,Fuwaq Harr,,
-F-38.3,Fuwaq Barid,,
-F-38.4,Fuwaq Safrawi,,
-F-38.5,Fuwaq Sawdawi,,
-F-38.6,Fuwaq Yubsi,,
-F-38.7,Fuwaq Imtilai,,
-F-38.8,Fuwaq Ladhi,,
-F-38.9,Fuwaq Warami,,
-F-44.1,Hikka-i-Mida Khilti,,
-F-44.2,Hikka-i-Mida Buthuri,,
-F-51.1,Su Mizaj al-Kabid al-Harr,,
-F-51.2,Su Mizaj al-Kabid al-Barid,,
-F-51.3,Su Mizaj al-Kabid al-Ratb,,
-F-51.4,Su Mizaj al-Kabid al-Yabis,,
-F-70.1,Yarqan Suddi,54922189,Obstruction
-F-70.2,Yarqan Warami,,
-F-70.3,Yarqan Sammi,,
-F-70.4,Yarqan Buhrani,,
-F-72.1,Su Mizaj al-Tihal al-Harr,,
-F-72.2,Su Mizaj al-Tihal al-Barid,,
-F-72.3,Su Mizaj al-Tihal al-Ratb,,
-F-72.4,Su Mizaj al-Tihal al-Yabis,,
-F-73.1,Waram-i-Tihal Damawi,,
-F-73.2,Waram-i-Tihal Safrawi,,
-F-73.3,Waram-i-Tihal Balghami,,
-F-73.4,Waram-i-Tihal Sulb Sawdawi,,
-F-83.25,Ishal Dhawbani,,
-F-89.5,Zahir Kadhib,,
-F-89.6,Zahir Sadiq,,
-F-89.7,Zahir Safrawi,,
-F-89.8,Zahir Balghami,,
-F-90.2,Maghs Harr Sada,,
-F-90.3,Maghs Safrawi,,
-F-90.4,Maghs Balghami,,
-F-90.5,Maghs Sawdawi,,
-F-90.6,Maghs Rihi,,
-F-90.7,Maghs Warami,,
-F-90.8,Maghs Thufli,,
-F-90.9,Maghs Didani,,
-F-91.1,Nafkh-o-Qaraqir Ghidhai,,
-F-91.2,Nafkh-o-Qaraqir Adai,,
-F-91.3,Nafkh-o-Qaraqir Buhrani,,
-F-92.19,Qulanj Safrawi,,
-F-92.20,Qulanj Sawdawi,,
-F-92.21,Qulanj Warami Damawi,,
-F-92.22,Qulanj Warami Safrawi,,
-F-92.23,Qulanj Warami Sawdawi,,
-F-92.24,Qulanj Warami Balghami,,
-F-95.1,Hayyat,1332645098,Round worm Infestation
-F-95.2,Habb al-Qar,321014067,"Cestode infection, unspecified"
-F-95.3,Sighar,1517666866,Thread worm infestation
-F-95.4,Mustadira,1542252776,Ancylostomiasis
-F-96.1,Bawasir Damiya,2139302050,Bleeding piles
-F-96.2,Bawasir Amya,,
-F-96.3,Bawasir Thululi,,
-F-96.4,Bawasir Inabiyya,,
-F-96.5,Bawasir Tuti,,
-F-96.6,Bawasir Naffakhi,,
-F-96.7,Bawasir Nakhli,,
-F-96.8,Bawasir Tini,,
-F-96.9,Bawasir Tamri,,
-M-43,Jarayan al-Dam,1599946610,bleeding haemorrhagic
-L-4.1,Waja al-Mafasil Damawi,,
-L-4.2,Waja al-Mafasil Safrawi,,
-L-4.3,Waja al-Mafasil Balghami,,
-L-4.4,Waja al-Mafasil Sawdawi,,
-L-4.5,Waja al-Mafasil Murakkab,,
-L-15.25,Kasr al-Lahy,1901919769,Fracture
-L-15.26,Kasr al-Tarquwa,663825629,Fracture clavicle
-L-15.27,Kasr al-Katif,1121640777,Fracture scapula
-L-15.28,Kasr al-Qass,1445690128,Fracture sternum
-L-15.29,Kasr al-Adla,861976198,Fracture rib
-L-15.30,Kasr al-Kharzat,869771751,Fracture
-L-15.31,Kasr Azm al-Kahil,,
-L-15.32,Kasr Asfal al-Qatan,,
-L-15.33,Kasr al-Usus,1177638945,Fracture coccyx
-L-15.34,Kasr al-Adud,1396472868,Fracture humerus
-L-15.35,Kasr al-Said,1810124937,Fracture bone forearm
-L-15.36,Kasr al-Rusgh,324749809,Fracture bone wrist
-L-15.37,Kasr Izam al-Asabi,1951136043,fractures
-L-15.38,Kasr al-Warik,1720741433,Fracture ischium
-L-15.39,Kasr al-Fakhidh,1810119958,Fracture femur
-L-15.40,Kasr al-Saq,166485624,Fracture bone leg
-L-15.41,Kasr al-Kab,1822921698,Fracture bone ankle
-L-15.42,Kasr al-Aqib,147678558,Fracture
-L-15.43,Kasr Asabi al-Rijl,,
-J-52.2,Shara Damawi,,
-J-52.3,Shara Balghami,,
-J-56.1,Jarab Safrawi,,
-J-56.2,Jarab Sawdawi,,
-J-56.3,Jarab Balghami,,
-J-56.4,Jarab Ratab,,
-J-56.5,Jarab Yabis,,
-J-67.1,Masamir,,
-J-67.2,Qurun,1444461303,Cutaneous horn
-G-2.1,Dhayabitus Barid,1009553897,diabetes insipidus
-G-6.1,Waram-i-Mathana Damawi,,
-G-6.2,Waram-i-Mathana Safrawi,,
-G-6.3,Waram-i-Mathana Balghami,,
-H-10.1,Waram al-Khusyatayn HarrWaram al-Unthayayn Harr,1297293412,Acute orchitis
-H-10.1.1,Waram al-Khusyatayn Damawi Waram al-Unthayayn Damawi,,
-H-10.1.2,Waram al-Khusyatayn SafrawiWaram al-Unthayayn Safrawi,,
-H-10.2,Waram al-Khusyatayn BaridWaram al-Unthayayn Barid,675559343,Chronic orchitis
-H-10.2.1,Waram al-Khusyatayn BalghamiWaram al-Unthayayn Balghami,,
-H-10.2.2,Waram al-Khusyatayn SawdawiWaram al-Unthayayn Sawdawi,,
-H-10.3,Waram al-Khusyatayn RihiWaram al-Unthayayn Rihi,,
-H-28.1,Qila Maiyya Ghimdi,,
-H-28.2,Qila Maiyya Khilqi,899077249,Congenital hydrocele
-H-28.3,Qila Maiyya Kisi,1995003672,Encysted hydrocele
-I-1.1,Su-i-Mizaj al-Rahim al-Harr,,
-I-1.2,Su-i-Mizaj al-Rahim al-Barid,,
-I-1.3,Su-i-Mizaj al-Rahim al-Ratb,,
-I-1.4,Su-i-Mizaj al-Rahim al-Yabis,,
-I-18.1,Tasaghghur Khusya al-Rahim Khilqi,,
-I-18.2,Tasaghghur Khusya al-Rahim Iktisabi,,
-I-19.1,Iltihab al-Qadhif Hadd,1286268784,Acute salpingitis
-I-19.2,Iltihab al-Qadhif Muzmin,1932766800,Chronic salpingitis
-I-37.1,Waram-i-Thadi Harr,259204343,Inflammatory disorders of breast
-I-37.2,Waram-i-Thadi Barid,1349353962,Chronic mastitis
-I-37.3,Waram-i-Thadi Sulb,,
-I-57.1,Waram-i-Rahim Harr,,
-I-57.2,Waram-i-Rahim Balghami,,
-I-57.3,Waram-i-Rahim Sulb,,
-I-60,Dubayla al-Rahim,1731446623,Uterine abscess
-K-5.1.1,Ghibb Khalisa,,
-K-5.1.2,Ghibb Ghayr Khalisa,,
-K-8.2,Humma al-Rib Daira,,
-K-8.3,Rib Damawi,,
-K-8.4,Rib Safrawi,,
-K-8.5,Rib Balghami,,
-K-8.6,Rib Sawdawi,,
-K-13.2.1,Humma Mutbiqa Ufuniyya Mutazaida,,
-K-13.2.2,Humma Mutbiqa Ufuniyya Waqifa,,
-K-13.2.3,Humma Mutbiqa Ufuniyya Mutanaqisa,,
-K-26,Shatar al-Ghibb,,
-K-27,Humma Nahariyya,,
-K-28,Humma Layliyya,,
-N-32,Gazidgi-i-Jarrara,,
-N-33,Gazidgi-i-Mur,,
-N-34,Gazidgi-i-Magas-i-Asal,,
-N-35,Gazidgi-i-Pashsha,2024599295,Mosquito bite
-O-582,Duf-i-Ada,1135701894,Debility organs
-O-583,Duf-i-Hararat Ghariziyya,,
-O-584,Duf-i-Am,1109546957,Fatigue
-O-585,Khalal-i-Quwa Nafsaniyya,,
-O-586,Khalal-i-Quwwat Haywaniyya,,
-O-587,Khalal-i-Quwa Tabiiyya,,
-O-588,Khalal-i-Quwwat Ghadhiya,,
-O-589,Khalal-i-Quwwat Muhassila,,
-O-590,Khalal-i-Quwwat Mulassiqa,,
-O-591,Khalal-i-Quwwat Mushabbiha,,
-O-592,Khalal-i-Quwwat NamiyaKhalal-i-Quwwat Murabbiya,,
-O-593,Khalal-i-Quwwat Jadhiba,,
-O-594,Khalal-i-Quwwat Masika,,
-O-595,Khalal-i-Quwwat Hadima,,
-O-596,Khalal-i-Quwwat Dafia,,
-O-597,Khalal-i-Quwa Tanasuliyya,,
-N-36,Kathrat-i-Sharab Noshi,1676588433,Disorders alcohol
-M-44,Khuraj Dubayla,1324834502,abscess
-H-34,Izam-i-Ghudda-i-Madhi,978159279,prostate
-A-32.7,Falij AsfalFalij Atrafi,,
-M-45,Iya,,
-M-45.1,Iya Tamaddudi,,
-M-45.2,Iya Nafikh,,
-M-45.3,Iya Quruhi,,
-M-45.4,Iya Warami,,
-M-46,Waja,661232217,Pain
-M-46.1,Waja Hakkak,,
-M-46.2,Waja Khashin,,
-M-46.3,Waja Nakhis,1850213017,Pricking pain
-M-46.4,Waja Daghit,,
-M-46.5,Waja Mumaddid,,
-M-46.6,Waja Mufassikh,,
-M-46.7,Waja Mukassir,1182010747,Breaking pain
-M-46.8,Waja Rikhw,,
-M-46.9,Waja Thaqib,,
-M-46.10,Waja Misalli,,
-M-46.11,Waja Khadri,,
-M-46.12,Waja Thaqil,,
-M-46.13,Waja Iyai,,
-M-46.14,Waja Ladhi,,
-C-131,Luknat,668613342,Stammering disorder
-O-598,Sinn-i-Numu Sinn-i-Hadathat,1406542390,Hot moist predominant temperament age
-O-599,Sinn-i-Shabab Sinn-i-Wuquf,153115881,Hot predominant temperament lesser degree
-O-600,Sinn-i-Kuhulat Sinn-i-Inhitat,1942661272,Cold dry predominant temperament age
-O-601,Sinn-i-Shaykhukhat,473633329,Cold predominant temperament greater degree
-O-602,Arad-i-Ibtida-i-Haml,,
-O-603,Arad-i-Wasat-i-Haml,,
-O-604,Arad-i-Akhir-i-Haml,,
-O-605,Arad-i-Nifas,,
-O-24.5,Ghalaba-i-Dam,1165413146,Predominance Dam
-O-24.6,Ghalaba-i-Safra,,
-O-24.7,Ghalaba-i-Balgham,1331485700,Predominance Balgham
-O-24.8,Ghalaba-i-Sawda,,
-I-62,Duf-i-Rahim,,
-I-63,Sudad al-Rahim,,
-O-606,Ghilza al-Rutuba,,
-O-607,Riqqa al-Rutuba,,
-O-608,Rutubat Ghariba,,
-A-15.1,Itilal al-Takhayyul Fasad-i-Takhayyul,,
-A-15.2,Itilal al-Fikr Fasad-i-Fikr,,
-A-15.3,Fikr Radi,,
-F-109,Al-Thiqal fil Mida,1751398427,heaviness stomach
-P-1,Amrad Hadda,,
-P-2,Amrad Muzmina,,
-P-3,Amrad Zahira,,
-P-4,Amrad Batina,,
-P-5,Amrad Khassa,,
-P-6,Amrad bil Shirka,,
-P-7,Amrad Mudiya,,
-P-8,Amrad Mutawaritha,,
-P-9,Amrad Jinsiyya,,
-P-10,Awqat al-Amrad,120524401,Disseminated Lyme borreliosis
-P-11,Waqt al-Ibtida,,
-P-12,Waqt al-Tazayyud,,
-P-13,Waqt al-Muntaha,,
-P-14,Waqt al-Inhitat,,
-P-15,Intiqal-i-Madda,,
-Q-1,Al- AradAl-Arad,1097998347,manifestations disease
-Q-2,Dall,,
-Q-3,Mudhakkir,,
-Q-4,Taqaddama al-Marafa,,
-Q-5,Alamat-i- Marad,922175770,Symptoms signs diseases
-Q-6,Alamat Jawhariyya,,
-Q-7,Alamat Ardiyya,,
-Q-8,Alamat Tamamiyya,,
-Q-9,Alamat Muwaqqata,,
-Q-10,Alamat Ghayr Muwaqqata,,
-Q-11,Alamat Mushakhkhisa,,
-Q-12,Alamat Mushtarika,,
-Q-13,Alamat Muajjala,,
-Q-14,Alamat Haila,,
-Q-15,Alamat Fariqa,,
-Q-16,Dalail Hadira,,
-Q-17,Dalail Madiya,,
-Q-18,Alamat-i-Amrad Zahira,,
-Q-19,Alamat-i-Amrad Batina,,
-Q-20,Alamat-i-Riyah,,
-Q-21,Alamat-i-Awram,,
-Q-22,Alamat-i-Tafarruq-i-Ittisal,,
-Q-23,Thiqal Jami al-Badan,,
-Q-24,Thiqal al-Ras,316699522,Heaviness head
-Q-25,Thiqal al-Aynayn,,
-Q-26,Thiqal al-Sudghayn,,
-Q-27,Takassur fil Ada,,
-Q-28,Tarahhul al-Badan,,
-Q-29,Kasal al-Badan,,
-Q-30,Rakhawa al-Asab,,
-Q-31,Bayad Lawn al-Badan,,
-Q-32,Lin Malmas al-Badan,536650343,body soft
-Q-33,Sufra al-Lawn,,
-Q-34,Sufra al-Wajh,,
-Q-35,Sufra al-Ayn,,
-Q-36,Marara al-Fam,,
-Q-37,Khashin al-Lisan,,
-Q-38,Al-Iltidhadh bil Nasim al-Barid,,
-Q-39,Qahal al-Badan,111771640,excessive dryness body
-Q-40,Kumuda al-Lawn,,
-Q-41,Sawad al-Lawn,,
-Q-42,Ziyada al-Wasawis,,
-Q-43,Hurqa Fam al-Mida,,
-Q-44,Harara al-Malmas,,
-Q-45,Al-Hidda fil Ras,,
-Q-46,Ihsas al-Thiqal fil Ras,,
-Q-47,Al-Tamaddud fil Ras,,
-Q-48,Mayl al-Suda ila Shiqq al-Ras al-Ayman,,
-Q-49,Mayl al-Suda ila Shiqq al-Ras al-Aysar,,
-Q-50,Mayl al-Suda ila Khalf al-Ras,,
-Q-51,Mayl al-Suda ila Muqaddam al-Ras,,
-Q-52,Bayad Jilda al-Ras,,
-Q-53,Kathra al-Nawm,,
-Q-54,Qilla al-Nawm,,
-Q-55,Al-Nawm al-Mudtarib,1207299072,Sleep disturbance
-Q-56,Al-Ghatit,1795485025,Snoring
-Q-57,Al-Huzn al-Daim,,
-Q-58,Al-Ibta fil Jawab,,
-Q-59,Al-Tafazzu,,
-Q-60,Ishtidad al-Suda fil Khawa,,
-Q-61,Hayajan al-Suda Bad Shurb al-Khumur,,
-Q-62,Hayajan al-Suda ma al-Haraka,,
-Q-63,Hala al-Sukr,,
-Q-64,Al-Izbad,,
-Q-65,Al-Nuas,,
-L-18,Waja al-Unuq,,
-L-19,Waja-i-Mafsal-i-Katif,855105308,shoulder
-F-110,Waram-i-Marara,786251500,Cholecystitis
-F-111,Waram-i-Banqras Muzmin,1758007371,Chronic pancreatitis
-F-112,Tashahhum-i-Kabid Ghayr Khamri,1331941447,fatty liver disease
-I-61,Akyas Khusya al-Rahim Mutalazima,1213633323,Polycystic ovary syndrome
-I-64,Marad-i-Iltihab- i- Hawd al-Ana,1230041477,pelvic inflammatory diseases
-O-609,Wiladat Tabai,,
-I-65,Mutalazima Iyasiyya,177862565,menopause
-K-29,Chikhunguniya,1137729397,Chikungunya
-M-47,Itilal Asabi Sukkari,1837670870,Diabetic
-M-48,Fart-i-Darqiyya,1470387017,Thyrotoxicosis
-M-49,Naqs-i-Darqiyya,1722092627,Hypothyroidism
-M-50,Qarha Sukkariyya Qadamiyya,74527684,Diabetic foot ulcer
-A-45,Falij Dimaghi,76906748,Cerebral palsy
-A-46,Waja-i-Asab-i-Thalathi Wajhi,1803581281,Trigeminal neuralgia
-D-44,Amrad-i-Ria Mihaniyya,,
-F-113,Ishal Sahji,,
-F-114,Nasur-i-Shariyya Ghayr Nafidha,1857606837,pilonidal sinus
-F-115,Waram-i-Kabid Khamri,229221394,Alcoholic hepatitis
-C-132,Nazla Wabai,,
-E-15.1,Mutalazima Bad Tanakhkhur-i-Qalb Insidadi,1353640147,syndrome
+NAMASTE_CODE,NAMASTE_DISPLAY,ICD11_CODE,ICD11_DISPLAY
+SID,Siddha,,
+DIS,Disorder,1739890344,Disorders of muscles
+A,Valarcitai Marra Noykal,155258022,Metabolic disorders
+AA,Kalliral Noy,1784240230,Diseases of liver
+AAA,Vali,,
+AAA1.1,Vali Kalliral Noy,,
+AAB,Azal,,
+AAB1.1,Azal Kalliral Noy,,
+AAC,Aiyam,,
+AAC1,Aiya Kalliral Noy,,
+AB,Mancal Noy,1056591229,Unspecified jaundice
+ABA,Vali,,
+ABA1.1,Vali Mancal Noy,1422639647,Jaundice disorder caused by increased Vaḷi (TM2)
+ABA1.2,Kumpa Mancal Noy,316584861,Jaundice disorder with dysentery (TM2)
+ABC1.2,Kunma Mancal Noy,316584861,Jaundice disorder with dysentery (TM2)
+ABA1.3,,2074245727,Jaundice disorder due to increased Vaḷi and Aiyam (TM2)
+ABB,Azal,,
+ABB1.1,Azal Mancal Noy,604709236,Jaundice disorder caused by increased Aẕal (TM2)
+ABB1.2,Azal Aiya Mancal Noy,2126452559,Jaundice disorder caused by increased Aẕal Aiyam (TM2)
+ABB1.3,Utu Mancal Noy,486428659,Jaundice disorder with anasarca (TM2)
+ABB1.4,Varattu Mancal Noy,,
+ABB1.5,Peru Mancal Noy,1909073315,Jaundice disorder with male sterility (TM2)
+ABB1.6,Azaku Mancal Noy,1630142203,Jaundice disorder with urethritis (TM2)
+ABB1.7,Cenkamala Mancal Noy,336693270,Jaundice disorder with cardiac dysfunction (TM2)
+ABC,Aiyam,,
+ABC1.1,Aiya Mancal Noy,1264397227,Jaundice disorder due to aiyam (TM2)
+ABD,Mukkurram,,
+BWB,Azhal,,
+LAC,,,
+MDA,Vali,,
+MDA1.1,Tamaraikkayttatippu,,
+MDA1.2,Timirkkuri Noy,,
+MDB,Azal,,
+MDB1.1,Eri Pun,,
+MDB1.2,Katuku Koppulam,,
+MDB1.3,Karippun,,
+MDB1.4,Karppun,,
+MDB1.5,Karumarul Tiratcippun,,
+MDB1.6,Nerukkukiranti,,
+MDB1.7,Un Azippun,,
+MDB1.8,Paravu Kattippun,,
+MDB1.9,Pilappupun,,
+MDB1.10,Cennirak Koppulam,,
+MDB1.11,Ciru Koppulappun,,
+MDB1.12,Tol Azippun,,
+MDB1.13,Tol Tataippun,,
+MDB1.14,Tulaippun,,
+MDB1.15,Varicaippun,,
+MDB1.16,Viral Koppulam,,
+MDC,Aiyam,,
+MDC1.1,Ilantaikkaykatti,,
+MDC1.2,Unnirakkatti,,
+MDC1.3,Cirumulai,,
+MDC1.4,Venmekappun,,
+MEA,Vali,,
+MEC,Aiyam,,
+NAC,Aiyam,,
+PDD,Mukkurram,,
+PDD1.1,Karuppaikkazuntupurru,,
+PDD1.2,Karuppaippurru,,
+QAD,Mukkurram,,
+RFC,Aiyam,,
+SAA,Talaiyil Kanum Varma Atikal,,
+SAB,Kazuttil Kanum Varma Atikal,,
+SAC,Nencil Kanum Varma Atikal,,
+SAD,Vayirril Kanum Varma Atikal,,
+SAE,Mutukil Kanum Varma Atikal,,
+SAF,Kupakattil Kanum Varma Atikal,,
+SAG,Totaiyil Kanum Varma Atikal,,
+SAH,Muzankalil Kanum Varma Atikal,,
+SAI,Kalil Kanum Varma Atikal,,
+SAJ,Patattil Kanum Varma Atikal,,
+SAK,Puyattil Kanum Varma Atikal,,
+SAL,Muzankaiyil Kanum Varma Atikal,,
+SAM,Muzankai Muttil Kanum Varma Atikal,,
+SAN,Kaiyil Kanum Varma Atikal,,
+SAO,Manikkattil Kanum Varma Atikal,,
+TAA,Vali,,
+VAA,Vali,,
+VAA1.1,Vali Korukku Noy,,
+VAB,Azal,,
+VAB1.1,Azal Korukku Noy,,
+VAC,Aiyam,,
+VAC1.1,Aiya Korukku Noy,,
+VAD,Mukkurram,,
+VAD1.1,Mukkurra Korukku Noy,,
+VAD1.2,Kuruti Korukku Noy,,
+ZA,,,
+ZAA,Vali,,
+ZAB,Azal,,
+ZAC,Aiyam,,
+ABD1.1,,,
+AC,Manniral Noy,567425990,Diseases of spleen
+ACA,Vali,,
+ACA1.1,Vali Manniral Noy,,
+ACB,Azal,,
+ACB1.1,Azal Manniral Noy,,
+ACC,Aiyam,,
+ACC1.1,Aiya Manniral Noy,,
+ACD,Mukkurram,,
+ACD1.1,Mukkurra Manniral Noy,,
+AD,Nir Vetkai Noy,,
+ADA,Vali,,
+ADA1.1,Vali Nir Vetkai Noy,,
+ADB,Azal,,
+ADB1.1,Azal Nir Vetkai Noy,1368778001,Aggravation of Aẕal and increased thirst disorder (TM2)
+ADC,Aiyam,,
+ADC1.1,Aiya Nir Vetkai Noy,1539305997,Thirst disorder due to Aiyam (TM2)
+ADC1.2,Ceriya Nir Vetkai Noy,1362253153,Thirst disorder due to dyspepsia (TM2)
+ADD,Mukkurram,,
+ADD1.1,Mukkurra Nir Vetkai Noy,,
+AE,Utal Noy,464234830,Generalised oedema
+AEA,Vali,,
+AEA1.1,Vali Utal Noy,,
+AEB,Azal,,
+AEB1.1,Azal Utal Noy,,
+AEC,Aiyam,,
+AEC1.1,Aiya Utal Noy,,
+AED,Mukkurram,,
+AED1.1,Mukkurra Utal Noy,,
+B,Tol Noykal,2044170142,Skin disorder of uncertain or unspecified nature
+BA,Akki,,
+BAA1.1,Akki,,
+BAA,Vali,,
+BB,Akkul Ericcal Katti,211970165,Abscess in the axilla disorder (TM2)
+BBB1.2,Akkul Katti,211970165,Abscess in the axilla disorder (TM2)
+BBB,Azal,,
+BGB,Azal,,
+BBB1.1,Akkul Ericcal Katti,,
+BC,Kal Ani,,
+BCA1.1,Kal Ani,,
+BCA,Vali,,
+BD,Kalancakappatai,63698555,Psoriasis
+BDB1.1,Kalancakappatai,63698555,Psoriasis
+BDB,Azal,,
+BE,Kanakkati,,
+BEB1.1,Kanakkati,,
+BEB,Azal,,
+BF,Karappan,1887882424,Dermatitis or eczema
+BFA,Vali,,
+BFA1.1,Kapala Karunkarappan,915176895,Hyperpigmentation of skin in the scalp disorder (TM2)
+BIA1.1,Kapala Karunkuttam,915176895,Hyperpigmentation of skin in the scalp disorder (TM2)
+BFA1.2,Kantak Karappan,902404076,Eczema disorder occuring in head and ears (TM2)
+BFA1.3,Timirvatak Karappan,1061433480,Eczema disorder with joint pain (TM2)
+BFA1.4,Vali Kapalak Karappan,182731908,Eczema disorder occurred in scalp due to increased Vaḷi (TM2)
+BFA1.5,Varatcikkarappan,1954520243,Eczema disorder with dry skin (TM2)
+BFA1.6,Vatak Karappan,182731908,Eczema disorder occurred in scalp due to increased Vaḷi (TM2)
+BFB,Azhal,,
+BFB1.1,Akki Katu Karappan,,
+BFB1.2,Azal Kapalak Karappan,,
+BFB1.3,Azukanni Katu Karappan,,
+BFB1.4,Pittak Karappan,710901344,Eczema disorder caused by increased Aẕal (TM2)
+BFB1.5,kollIkkarappann,,
+BFB1.6,Pokki Katu Karappan,,
+BFB1.7,Cori Katu Karappan,,
+BFC1.2,Cori Katu Karappan,,
+BFB1.8,Veti Katu Karappan,,
+BFC,Aiyam,,
+BFC1.1,Aiyak Kapala Karappan,182731908,Eczema disorder occurred in scalp due to increased Vaḷi (TM2)
+BFC1.3,Cilettumakkarappan,550689076,Eczema disorder caused by increase Aiyam (TM2)
+BG,Katti,1324834502,Pyogenic abscess of the skin
+BGB1.1,Katti,1324834502,Pyogenic abscess of the skin
+RF,Katti,1324834502,Pyogenic abscess of the skin
+BGB1.2,Muttiranalakkatti,1210500328,Gonococcal infection of lower genitourinary tract with periurethral or accessory gland abscess
+BGB1.3,Kalliral Katti,1323593849,Abscess of liver
+BGB1.4,Manniral Katti,1831834962,Abscess of spleen
+BGB1.5,Pakka Vilakkatti,,
+BGB1.6,Marpu Katti,1511777595,Chest abscess
+BGB1.7,Iraippaikkatti,1759664954,Gastric phlegmon
+BGB1.8,Totai Itukku Katti,1263330409,Abscess in the inguinal region disorder (TM2)
+BGB1.9,Antakkatti,2060835178,Abscess of scrotum
+BGB1.10,Eruvaykkatti,,
+BH,Koppulam,1081137172,Furuncle
+BHB,Azal,,
+BHB1.1,Akkul Koppulam,1537949129,Boils in the axilla disorder (TM2)
+BHB1.2,Ammai Koppulam,,
+BI,Kuttam,402520533,Skin lesion of uncertain or unspecified nature
+BIA,Vali,,
+BIA1.2,Kapala Vitak Kuttam,,
+BIA1.3,Katic Cevi Kuttam,,
+BIA1.4,Katuppuc Cevi Kuttam,,
+BIA1.5,Karuncevi Kuttam,,
+BIA1.6,Katuppu Peru Noy Karnakuttam,,
+BIA1.7,Pullic Cevi Kuttam,,
+BIA1.8,Caruma Cevik Kuttam,,
+BIA1.9,Cevi Cenkuttam,,
+BIA1.10,Vita Cevik Kuttam,,
+BJ,Maccam,1757898640,Benign cutaneous melanocytic neoplasms
+BJA1.1,Maccam,1757898640,Benign cutaneous melanocytic neoplasms
+BJA,Vali,,
+BK,Marul,1074706780,Common warts
+BKA1.1,Marul,1074706780,Common warts
+BKA,Vali,,
+BL,Mayir Utiral,1313926062,Alopecia or hair loss
+BLA1.1,Mayir Utiral,1313926062,Alopecia or hair loss
+BLA,Vali,,
+BM,Mukapparu,1892393023,Acne
+BMB1.1,Mukapparu,1892393023,Acne
+HAC1.3,Paru,1892393023,Acne
+BMB,Azhal,,
+BN,Narai,1511230615,Premature canities
+BNC1.1,Narai,1511230615,Premature canities
+BNC,Aiyam,,
+BO,Pal Unni,466868531,Molluscum disorder (TM2)
+BOA1.1,Pal Unni,466868531,Molluscum disorder (TM2)
+BOA,Vali,,
+BQ,Patartamarai,41336270,Ring worm infection disorder (TM2)
+BQC1.1,Patartamarai,41336270,Ring worm infection disorder (TM2)
+BSC1.2,Patartamarai Peru Noy Puntarikak Kuttam,41336270,Ring worm infection disorder (TM2)
+BQC,Aiyam,,
+BR,Penkal,1083938812,Pediculosis
+BRA,Vali,,
+BRA1.1,Penkal,1083938812,Pediculosis
+BS,Perunoy,1841320198,Skin eruptions disorder (TM2)
+BSA,Vali,,
+BSA1.1,Attikkay Peru Noy Avutumpara Kuttam,221014277,Neurofibroma
+BSA1.2,Nap Peru Noy Citma Kuttam,1918286002,Greenish yellow annular lesion disorder with numbness (TM2)
+BSA1.3,Corip Peru Noy Vicarccika Kuttam,,
+BSA1.4,Tolvetip Peru Noy Carmatala Kuttam,744429745,Thickened skin disorder with linear fissures with throbbing pain (TM2)
+BSA1.5,Valaiyap Peru Noy Mantalak Kuttam,1752861800,Greenish red colured skin lesions disorder with oozing (TM2)
+BSA1.6,Valip Peru Noy Aparica Kuttam,2027626462,Pain and fissures over the body disorder (TM2)
+BSB,Azhal,,
+BSB1.1,Koppulap Peru Noy Vicpotakak Kuttam,859620521,Blisters with burning sensation and thickened skin disorder (TM2)
+BSB1.2,panrit Tol Peru Noy Kitipa Kuttam,228663763,Greenish discolouration with elephant skin thickening disorder (TM2)
+BSB1.3,cirankup Peru Noy Pama Kuttam,,
+BSB1.4,Tatippup Peru Noy Tatturukuttam,,
+BSB1.5,Tor Peru Noy Carma Kuttam,1649449850,Greenish and pale skin eruptions disorder with pus (TM2)
+BSC,Aiyam,,
+BSC1.1,Karu Peru Noy Kirusna Kuttam,98221538,Blackish discoloration of the skin disorder (TM2)
+BT,Venpatai,872905594,Occupational leukoderma
+BTA,Vali,,
+BTA1.1,Vata Ven Patai,,
+BTB,Azhal,,
+BTB1.1,Pitta Ven Patai,199920818,Leucoderma disorder caused by increased Aẕal (TM2)
+BTB1.2,Meka Ven Patai,23538654,Leucoderma disorder caused by increased heat (TM2)
+BTC,Aiyam,,
+BTC1.1,Kapa Ven Patai,,
+BU,Itara Noykal,,
+BUA,Vali,,
+BUA1.1,Potuku,1291606644,Pityriasis capitis
+BUA1.2,Puzuvettu,1313926062,Alopecia or hair loss
+BUA1.3,Tol Varatci,827960496,Atopic xeroderma
+BUA1.4,Toltatippu,422046362,Full thickness skin graft failure
+BUB,Azhal,,
+BUB1.1,Tapitam,396939646,Inflammatory arthropathies
+GA,Tapitam,396939646,Inflammatory arthropathies
+BUB1.2,Temal,67108853,Pityriasis versicolor
+BUB1.3,Cilvita Tatippu,,
+BUB1.4,Mekat Tazumpu,1689707039,Scar caused by veneral ulcers disorder (TM2)
+BUB1.5,Tazumpu,188639283,"Scar of skin, not elsewhere classified"
+BUB1.6,Verkkuru,1245016385,Miliaria rubra
+BUB1.7,Vazukkai,,
+BUB1.8,Pittavetippu,,
+BV,Cilaippun,1638777406,Neurotrophic ulcer disorder (TM2)
+BVA,Vali,,
+BVA1.1,Valicilaippun,,
+BVA1.2,Enpucilaippun,,
+BVC1.1,Aiyacilaippun,,
+BVA1.3,Mukkurracilaippun,,
+BVB,Azhal,,
+BVB1.1,Azalcilaippun,,
+BVC,Aiyam,,
+BW,Punkal,2058491071,Osteomyelitis or osteitis
+BWB1.1,patukkaip Pun,455330172,Pressure ulceration
+BWB1.2,Pun,960305085,Dyspnoea
+BWB1.3,Cerru Pun,922959334,Wounds present in web of the feet disorder (TM2)
+BWB1.4,Tip Pun,1492289359,Wounds disorder caused by burns (TM2)
+C,Tacai Marrum Enpu Noykal,1183362073,Personal history of diseases of the musculoskeletal system or connective tissue
+CA,Kil Vayu,396939646,Inflammatory arthropathies
+CAA,Vali,,
+CAA1.2,Vali Kil Vayu,576319925,Rheumatoid arthritis
+CAA1.3,Vali Azal Kil Vayu,576319925,Rheumatoid arthritis
+CAA1.4,Vali Aiya Kil Vayu,622473950,Direct infections of joint
+CAB,Azal,,
+CAB1.1,Azal Kil Vayu,558562409,Osteoarthritis
+CAB1.2,Azal Vali Kil Vayu,,
+CAB1.3,Azal Aiya Kil Vayu,1174862381,Syphilitic arthritis
+CAC,Aiyam,,
+CAC 1.1,Aiya Kil Vayu,486812263,Tuberculous arthritis
+CAC 1.2,Aiya Vali Kil Vayu,488918209,Gonococcal arthritis
+CAC 1.3,Aiya Azal Kil Vayu,855395716,Arthritis disorder with increased body heat and swelling (TM2)
+CAD,Mukkurram,,
+CAD1.1,Mukkurra Kil Vayu,,
+D,Cuvacanoykal,197934298,Diseases of the respiratory system
+DA,Iraippu Noy,577724120,"Unspecified asthma, uncomplicated"
+DAA,Vali,,
+DAA1.1,Vali Iraippu Noy,,
+DAA1.2,Mel Nokku Iraippu Noy,1480952049,Unspecified asthma with status asthmaticus
+DAC,Aiyam,,
+DAC1.1,Aiya Iraippu Noy,1429671974,Cardiac asthma
+DAC1.2,Aiyavali Iraippu Noy,,
+DAD,Mukkurram,,
+DAD1.1,Mukkurra Iraippu Noy,,
+DB,Irumal Noy,2027526159,Cough
+DBA,Vali,,
+DBA1.1,Vata Irumal Noy,1901511568,Cough disorder due to increased Vaḷi (TM2)
+DBA1.2,Vatapitta Irumal Noy,88128717,Cough due to derangement of Vaḷi and Aẕal disorder (TM2)
+DBA1.3,Cuvaca Irumal Noy,1466639844,Cough variant asthma
+DBB,Azal,,
+DBB1.1,Pitta Irumal Noy,2077975804,Cough disorder due to increased Aẕal (TM2)
+DBB1.2,Pittakapa Irumal Noy,,
+DBB1.3,Rattakacam Irumal Noy,70057373,Cough disorder due to haemophobia (TM2)
+DBC,Aiyam,,
+DBC1.1,Pinica Irumal Noy,1626348408,Cough disorder occuring in sinusitis (TM2)
+DBC1.2,Kapa Irumal Noy,1643597866,Cough disorder due to increased Aiyam (TM2)
+DBC1.3,Mantarakacam Irumal Noy,1858087460,Cough disorder due to seasonal variations (TM2)
+DBC1.4,Pakkamantara Irumal Noy,1682804040,Cough disorder due to waxing and wanning of moon (TM2)
+DBC1.5,Cutar Irumal Noy,86750915,Post puerperal cough disorder (TM2)
+DBD,Mukkurram,,
+DBD1.1,Mukkurra Irumal Noy,,
+DC,Kural Kammal,1293014912,Hoarseness of voice disorder (TM2)
+DCA,Vali,,
+DCA1.1,Vali Kural Kammal,,
+DCB,Azal,,
+DCB1.1,Azal Kural Kammal,,
+DCC,Aiyam,,
+DCC1.1,Aiya Kural Kammal,,
+DCC1.2,Ilaippu Noy Kural Kammal,,
+DCC1.3,Ninak Kural Kammal,1201434860,Hoarseness of voice caused by increased lymph disorder (TM2)
+DCD,Mukkurram,,
+DCD1.1,Mukkurra Kural Kammal,,
+DD,Mukkataippu Noy,1836987572,Chronic rhinosinusitis
+DDA,Vali,,
+DDA1.1,Vali Mukkataippu Noy,2055292625,Sinusitis caused by increased Vaḷi disorder (TM2)
+DDB,Azal,,
+DDB1.1,Azal Mukkataippu Noy,7058082,Sinusitis caused by increased Aẕal disorder (TM2)
+DDB1.2,Kuruti Mukkataippu,,
+DDB1.3,Mulai Mukkataippu Noy,240878578,Sinusitis associated with blister in the nose disorder (TM2)
+DDB1.4,Ciz Mukkataippu Noy,900727192,Infective sinusitis disorder (TM2)
+DDC,Aiyam,,
+DDC1.1,Aiya Mukkataippu Noy,81142942,Sinusitis caused by increased Aiyam disorder (TM2)
+DDC1.2,Kazuttu Mukkataippu Noy,,
+DDC1.3,Nir Mukkataippu Noy,,
+DDC1.4,Ciray Mukkataippu Noy,,
+E,Unavuppatai Noykal,1256772020,Diseases of the digestive system
+EA,Eruvay Mulai Noy,1352501137,Haemorrhoids
+EAA,Vali,,
+EAA1.1,Eruvay Nir Mulai,1748417677,Piles disorder with abdominal pain and flatulence (TM2)
+EAA1.2,Eruvayc Centu Mulai,,
+EAA1.3,Eruvay Perumulai,604625427,External piles disorder with growth in the size of Curcuma longa (TM2)
+EAA1.4,Tamaraka Mulai,1353242626,External bleeding piles disorder with growth in the size of lotus flower (TM2)
+EAA1.5,Vali Mulai,1656429537,Piles disorder caused by derangement of Vaḷi (TM2)
+EAA1.6,Vinai Mulai,1048731319,Piles associated with neurological pain and belching disorder (TM2)
+EAA1.7,Kazal Mulai,186788531,Piles associated with penile ulcers disorder (TM2)
+EAA1.8,Atittallal,2050618820,External piles disorder with growth in the size of bamboo bud and bloody pus discharge (TM2)
+EAA1.9,Curukku Mulai,351701991,Piles associated with intestinal pain and increased body heat disorder (TM2)
+EAB,Azal,,
+EAB1.1,Azal Mulai,408022930,Piles disorder caused by derangement of Aẕal (TM2)
+EAB1.2,Eruvay Varal Mulai,1512406894,External piles disorder with dryness (TM2)
+EAB1.3,Kuruti Mulai,2139302050,Bleeding piles disorder (TM2)
+EAB1.4,Ciz Mulai,233640248,Piles disorder with pus exudates from anus (TM2)
+EAB1.5,Meka Mulai,1323634092,Piles associated with glycosuria disorder (TM2)
+EAC,Aiyam,,
+EAC1.1,Aiya Mulai,316426494,Piles disorder caused by derangement of Aiyam (TM2)
+EAC1.2,Eruvay Ciru Mulai,548686893,External piles disorder with small growth (TM2)
+EAC1.3,Kuzi Mulai,2057192882,External piles disorder with growth in the size of coocinia grandis and pus discharge (TM2)
+EAC1.4,Veli Mulai,708438849,External piles disorder with numerous acne size growth around the anus (TM2)
+EAC1.5,Cavvu Mulai,1311356886,External piles disorder with skin tag (TM2)
+EB,Kunmam,,
+EBA,Vali,,
+EBA1.1,Vali Kunmam,,
+EBA1.2,Vali Kunmam,,
+EBA1.3,Kal Kunmam,1095184393,Gastric disorder due to increased flattulence (TM2)
+EBB,Azal,,
+EBB1.1,Azal Kunmam,,
+EBB1.2,Eri Kunmam,1145813715,"Peptic ulcer, site unspecified"
+EBB1.3,Vanti Kunmam,464604886,Gastric disorder with vomiting (TM2)
+EBC,Aiyam,,
+EBC1.1,Aiya Kunmam,,
+EBD,Mukkurram,,
+EBD1.1,Mukkurra Kunmam,,
+EC,Katuppukkaziccal,734393149,Loose stools disorder with blood and pus (TM2)
+ECB1.1,Katuppukkaziccal,734393149,Loose stools disorder with blood and pus (TM2)
+ECB,Azal,,
+ED,Manta Noy,1256772020,Diseases of the digestive system
+EDA,Vali,,
+EDA1.1,Kol Manta Noy,,
+EDB,Azal,,
+EDB1.1,Nancu Manta Noy,,
+EDC,Aiyam,,
+EDC1.1,Aiya Manta Noy,,
+EE,Ninak Kaziccal,370126495,Infantile dysentry disorder (TM2)
+EEA,Vali,,
+EEA1.1,Vali Ninak Kaziccal,,
+EEA1.2,Ottu Ninak Kaziccal,,
+EEA1.3,Kutarkal Ninak Kaziccal,,
+EEA1.4,Kiz Vayuk Kaziccal,,
+EEB,Azal,,
+EEB1.1,Azal Ninak Kaziccal,,
+EEB1.2,Azarkal Ninak Kaziccal,,
+EEB1.3,Ericcal Ninak Kaziccal,,
+EEB1.4,Cul Ninak Kaziccal,,
+EEB1.5,Kunma Kaziccal,,
+EEC,Aiyam,,
+EEC1.1,Aiya Ninak Kaziccal,,
+EED,Mukkurram,,
+EED1.1,Mukkurra Ninak Kaziccal,,
+EF,Perun Kaziccal,272989015,Bloody loose stools disorder (TM2)
+EFA,Vali,,
+EFA1.1,Valipperun Kaziccal,4413599,Loose stools disorder caused by derangement of Vaḷi (TM2)
+EFA1.2,Curapperun Kaziccal,2125695650,Loose stools disorder occuring in fever (TM2)
+EFB,Azal,,
+EFB1.1,Azal Perun Kaziccal,358094407,Loose stools disorder caused by derangement of Aẕal (TM2)
+EFB1.2,Kuruti Perun Kaziccal,272989015,Bloody loose stools disorder (TM2)
+EFB1.3,Payam Perun Kaziccal,534098219,Loose stools disorder occuring in fearness (TM2)
+EFB1.4,Thoda Perun Kaziccal,,
+EFC,Aiyam,,
+EFC1.1,Aiya Perun Kaziccal,2142552576,Loose stools disorder caused by derangement of Aiyam (TM2)
+EFD,Mukkurram,,
+EFD1.1,Mukkurra Perun Kaziccal,443509835,Loose stools disorder caused by derangement of Mukkuṟṟam (TM2)
+EG,Ceriyamai,1616929118,Functional dyspepsia
+Z$18,Acirana Pittam,1616929118,Functional dyspepsia
+EGA,Vali,,
+EGA1.1,Vali Ceriyamai,,
+EGB,Azal,,
+EGB1.1,Azal Ceriyamai,,
+EGC,Aiyam,,
+EGC1.1,Aiya Ceriyamai,,
+EGD,Mukkurram,,
+EGD1.1,Mukkurra Cuvaiyinmai Noy,,
+EHD1.1,Mukkurracuvaiyinmai Noy,,
+EH,Cuvaiyinmai Noy,1320493037,Dysgeusia
+EHA,Vali,,
+EHA1.1,Vali Cuvaiyinmai Noy,,
+EHB,Azal,,
+EHB1.1,Azal Cuvaiyinmai Noy,,
+EHB1.2,Mana Cuvaiyinmai Noy,,
+EHC,Aiyam,,
+EHC1.1,Aiya Cuvaiyinmai Noy,,
+EHD,Mukkurram,,
+EI,Vanti,447658033,Vomiting
+EIA,Vali,,
+EIA1.1,Vali Vanti,,
+EIB,Azal,,
+EIB1.1,Eru Vanti,185363103,Vomiting of faecal matter
+EIB1.2,Azal Vanti,,
+EIB1.3,Kanneru Vanti,,
+EIB1.4,Kuruti Vanti,,
+EIB1.5,Veruppu Vanti,,
+EIB1.6,Puzu Vanti,1099090682,Vomiting due to helmenthic infections disorder (TM2)
+EIB1.7,Cul Vanti,1890576287,Morning sickness during pregnancy (Nausea gravidarum) disorder (TM2)
+EIC,Aiyam,,
+EIC1.1,Aiya Vanti,,
+EID,Mukkurram,,
+EID1.1,Mukkurra Vanti,,
+EJ,Vikkal Noy,798509501,Hiccough
+EJA,Vali,,
+EJA1.1,Vali Vikkal Noy,,
+EJB,Azal,,
+EJB1.1,Azal Vikkal Noy,,
+EJC,Aiyam,,
+EJC1.1,Aiyavikkal Mulai,,
+EJC1.2,Ceriya Vikkal Noy,416514273,Hiccough disorder due to gastroesophageal reflux (TM2)
+EJD,Mukkurram,,
+EJD1.1,Mukkurra Vikkal Noy,,
+F,Narampu Noykal,1812940625,Neurological complications of Behçet disease
+FA,Canni Noy,897917531,Delirium
+TO,Canni,897917531,Delirium
+TOD1.6,Alarttitu Canni,897917531,Delirium
+FAD,Mukkurram,,
+TOD,Mukkurram,,
+FAD1.1,Cantika Canni,,
+FAD1.2,Antaka Canni,,
+FAD1.3,Ruttaka Canni,,
+FAD1.4,Citta Viprama Canni,,
+FAD1.5,Citanka Canni,,
+FAD1.6,Tantarika Canni,,
+FAD1.7,Kantakupca Canni,,
+FAD1.8,Karnika Canni,,
+FAD1.9,Puknanettira Canni,,
+FAD1.10,Raktastivi Canni,,
+FAD1.11,Piralapa Canni,,
+FAD1.12,Cimmaka Canni,,
+FAD1.13,Apiniyaca Canni,,
+FB,Valippu,1397288146,Epilepsy or seizures
+FBD,Mukkurram,,
+FBD1.1,Muppini Valippu,,
+FBD1.2,Kutirai Valippu,,
+FBD1.3,Kurankuvalippu,,
+FBD1.5,Muyal Valippu,,
+FBD1.12,Mukkurra Valippu,,
+FBD1.16,Vikkal Valippu,,
+FBD1.18,Kozai Valippu,,
+FBD1.4,Kakkai Valippu,1807637236,Epilepsy due to Aiyam disorder (TM2)
+FBD1.13,Aiya Valippu,1807637236,Epilepsy due to Aiyam disorder (TM2)
+FBD1.6,Timir Valippu,,
+FBD1.7,Kun Valippu,,
+FBD1.8,Kotiya Valippu,,
+FBD1.9,Marana Valippu,,
+FBD1.10,Mano Valippu,,
+FBD1.11,Nancu Valippu,,
+FBD1.14,Vil Valippu,1659266639,Opisthotonos
+FBD1.15,Cura Valippu,,
+FBD1.17,Talai Valippu,,
+FBD1.19,Otu Valippu,,
+FBD1.20,Marpu Valippu,,
+FBD1.21,Tamaraka Valippu,,
+G,Makalir Noykal,585064432,Diseases of the female genital system
+GAA,Azal,,
+GAA1.1,Cinaippai Tapitam,1249127955,Inflammation of ovary
+GAA1.2,Akal Tapitam,727252860,Vulvitis
+GAA1.3,Yoni Tapitam,290861382,Vaginitis
+Z51,Yoniculai Vatam,290861382,Vaginitis
+GAA1.4,Yoni-Akal Tapitam,1578618352,Acute vulvovaginitis
+GAA1.5,Kazuntu Tapitam,1433247301,Cervicitis
+GAA1.6,Karuppai Ulkavaca Tapitam,,
+GB,Cutaka Tatai,1595830028,Amenorrhoea
+GBA,Vali,,
+GBA1.1,Kukarana Mey Cutaka Tatai,,
+GBA1.2,Poli Cutaka Tatai,,
+GC,Cutaka Vali,,
+GCA,Vali,,
+GCA1.1,Aka Cutaka Vali,1237728775,Dysmennorrhea disorder due to reproductive organ diseases (TM2)
+GD,Kazalai,1630407678,Neoplasms
+GDC,Aiyam,,
+GDC1.1,Karuppaitacai Vankazalai,,
+GDC1.2,Karuppai Kampu Kazalai,1177845017,Tumour of cervix disorder (TM2)
+GE,Karppa Kirani,459810581,Diarrhoea disorder during pregnancy (TM2)
+GEA1.1,Karppa Kirani,459810581,Diarrhoea disorder during pregnancy (TM2)
+GEA,Vali,,
+GF,Perumpatu,1162728986,Excessive menstruation with regular cycle
+GFA,Vali,,
+GFA1.1,Vata Perumpatu,,
+GFB,Azal,,
+GFB1.1,Pitta Perumpatu,2069762553,Menorrhagia due to increased Aẕal disorder (TM2)
+GFB1.2,Acatarana Perumpatu,357921189,Dysfunctional uterine bleeding
+GFB1.3,Catarana Perumpatu,147967528,Abnormal uterine bleeding
+GFC,Aiyam,,
+GFC1.1,Cetuma Perumpatu,,
+GFD,Mukkurram,,
+GFD1.1,Tonta Perumpatu,,
+GG,Makalir Vellai Noy,879327727,Leukorrhoea
+GGB1.1,Vellai Noy,879327727,Leukorrhoea
+GGB,Azal,,
+GH,Yoni Noykal,106734019,Noninflammatory disorders of vagina
+GHA,Vali,,
+GHA1.1,Culai Yoni,1932194482,Sexual pain-penetration disorder
+GHA1.2,Vata Yoni,,
+GHA1.3,Vali Yoni,,
+GHA1.4,Vati Yoni,,
+GHA1.5,Tulita Yoni,,
+GHA1.6,Puppukala Yoni,,
+GHB,Azal,,
+GHB1.1,Pitta Yoni,,
+GHB1.2,Kuruti Yoni,46736715,Genital ulcer disease of vagina
+GHB1.3,Kuruti Ciz Yoni,,
+GHB1.4,Kotippu Yoni,,
+GHB1.5,Cutka Yoni,,
+GHB1.6,Civappu Yoni,1217587798,Primary herpetic vulvovaginitis
+GHB1.7,Napuncaka Yoni,,
+GHB1.8,Aticarana Yoni,,
+GHB1.9,Kirumi Yoni,,
+GHB1.10,Viparita Yoni,,
+GHC,Aiyam,,
+GHC1.1,Aiya Yoni,,
+GHC1.2,Kozai Yoni,,
+GHC1.3,Maka Yoni,,
+GHC1.4,Tamaraka Yoni,,
+H,Katu Mukku Tontai Noykal,,
+HA,Mukku Noykal,1723702006,"Disorder of the nose, unspecified"
+HAA,Vali,,
+HAA1.1,Karappan,1501415190,Eczema disorder of the nose (TM2)
+HAA1.2,Pilavai,1684408498,Carbuncle present in the nose disorder (TM2)
+HAC,Aiyam,,
+HAC1.1,Nacikapitam,,
+HAC1.2,Kazalai,137754914,Nasal polyp
+HB,Cevi Noy,1769556904,"Disorders of ear, not elsewhere classified"
+HBA,Vali,,
+HBA1.1,Curonita Cevivali,,
+HBA1.2,Virana Cevi Vali,,
+HBA1.3,Cevivirai Vali,,
+HBA1.4,Cevi Timir Vali,,
+HBA1.5,Vayu Cevi Culai,,
+HBA1.6,Temalkatu Karappan,,
+HBA1.7,Cori Katu Karappan,,
+HBA1.8,Pokkikatu Karappan,,
+HBA1.9,Vetikatu Karappan,,
+HBA1.10,Azukannikatu Karappan,,
+HBA1.11,Irana Cevi Ezucci,,
+HBA1.12,Curam Cevi Ezucci,,
+HBA1.13,Caruma Cevi Kuttam,,
+HBA1.14,karun Cevi Kuttam,,
+HBA1.15,Katuppu Cevi Kuttam,,
+HBA1.16,Kati Cevi Kuttam,,
+HBA1.17,Vali Pilavai,,
+HBA1.18,Kuruti Cevi Paru,,
+HBA1.19,Kunri Cevi Paru,,
+HBA1.20,Vita Cevi Paru,,
+HBB,Azal,,
+HBB1.1,Pulli Cevi Kuttam,,
+HBB1.2,Cevi Cenkuttam,,
+HBB1.3,Curam Cevi Culai,,
+HBB1.4,Kuruti Cevi Kuttam,,
+HBB1.5,Cennir Cevi Kuttam,,
+HBB1.6,Vita Cevi Kuttam,,
+HBB1.7,Anar Cevi Paru,,
+HBB1.8,Cennir Cevi Ezucci,,
+HBB1.9,Kollikatu Karappan,,
+HBB1.10,Akkikatu Karappan,,
+HBB1.11,Nir Katu Karappan,,
+HBC,Aiyam,,
+HBC1.1,Ven Cevi Kuttam,,
+HBC1.2,Kunri Pilavai,,
+HBC1.3,Mankisa Cevi Culai,,
+HBC1.4,Aiyam,,
+HBC1.5,Ciz Cevi Ezucci,,
+HBC1.6,Nir Cevi Ezucci,,
+HBC1.7,Pokki Cevi Paru,,
+HBC1.8,Virana Cevi Paru,,
+HBC1.9,Kuvai Cevi Paru,,
+HBC1.10,Nir Cevi Paru,,
+HBC1.11,Nir Cevi Culai,,
+HBC1.12,Nirpilavai,,
+HBC1.13,Kazalai Pilavai,,
+HBD,Mukkurram,,
+HBD1.1,Ciz Cevi Canni,,
+HBD1.2,Kuruti Cevi Canni,,
+HBD1.3,Nir Cevi Canni,,
+HBD1.4,Vali Cevi Canni,,
+HBD1.5,Mukkurra Ceviezucci,,
+HC,Vay Noykal,504580572,Facial paralysis disorder (TM1)
+HCA,Vali,,
+HCA1.1,Vali Utatunoy,,
+HCA1.2,Kutta Utatunoy,,
+HCB,Azal,,
+HCB1.1,Azal Utatunoy,,
+HCB1.2,Catai Utatunoy,,
+HCB1.3,Kuruti Utatunoy,,
+HCB1.4,Vetippu Utatunoy,,
+HCC,Aiyam,,
+HCC1.1,Aiya Utatunoy,,
+HCC1.2,Nir Utatunoy,,
+HCC1.3,Minumunuppu Utatunoy,,
+HCC1.4,Utattil Atipatta Vikkam,,
+HCD,Mukkurram,,
+HCD1.1,Mukkurra Utatunoy,,
+HD,Nakku Noykal,928435705,Diseases of tongue
+HDB,Azal,,
+HDB1.1,Nakku Noykal,,
+I,Nalamilla Curappi Noykal,461716838,Endocrine diseases
+J,Torru Noykal,1435254666,Certain infectious or parasitic diseases
+JA,Ammai Noy,1826431497,Measles
+JAB,Azal,,
+JAB1.1,Katuku Ammai,,
+JAB1.2,Kallutari Ammai,,
+JAB1.3,Karumpanicai Ammai,,
+JAB1.4,Kollammai,,
+JAB1.5,Kuluvan Ammai,,
+JAB1.6,Milakammai,,
+JAB1.7,Pacippayarrammai,,
+JAB1.8,Panaimukari Ammai,,
+JAB1.9,Varakutari Ammai,,
+JAB1.10,Viccarippu Ammai,,
+JAC,Aiyam,,
+JAC1.1,Pal Ammai,,
+JAC1.2,Upputiri Ammai,,
+JAC1.3,Ventaya Ammai,,
+JAD,Mukkurram,,
+JAD1.1,Tavalai Ammai,,
+JB,Ilaippu Noy,2072728114,Tuberculosis
+JBA,Vali,,
+JBA1.1,Atokata Totam,,
+JBA1.2,Kottakata Totam,,
+JBA1.3,Tiriyakkata Totam,,
+JBA1.4,Urttuvakata Totam,,
+JC,Uzi Noy,257068234,Cholera
+JCA,Vali,,
+JCA1.1,Vali Uzi,,
+JCB,Azal,,
+JCB1.1,Azal Uzi,,
+JCC,Aiyam,,
+JCC1.1,Aiya Uzi,,
+JD,Ulaimantai,131635852,"Intestinal tuberculosis, unspecified"
+JDA,Vali,,
+JDA1.1,Vata Ulaimantai,,
+JDB,Azal,,
+JDB1.1,Pitta Ulaimantai,,
+JDC,Aiyam,,
+JDC1.1,Kapa Ulaimantai,,
+JDD,Mukkurram,,
+JDD1.1,Tiritota Ulaimantai,,
+K,Ula Noykal,334423054,"Mental, behavioural or neurodevelopmental disorders"
+KA,Piramai,665363966,Hallucinations
+KAA,Vali,,
+KAA1.1,Vata Piramai,,
+KAB,Azal,,
+KAB1.1,Pitta Piramamai,,
+KAC,Aiyam,,
+KAC1.1,Kapa Piramai,,
+KB,Kirikai,281200968,Lunacy disorder (TM2)
+KBA,Vali,,
+KBA1.1,Vata Kirikai,1697598341,Catatonic withdrawal with raising up and lying down disorder (TM2)
+KBA1.2,Natavintu Kirikai,,
+KBA1.3,Munankal Kirikai,,
+KBA1.4,Valippu Kirikai,1779970441,Catatonic excitement with veins pounding disorder (TM2)
+KBA1.5,Peypiti Kirikai,264477758,Catatonic excitement with tearing their dresses disorder (TM2)
+KBB,Azal,,
+KBB1.1,Anarkirikai,,
+KBB1.2,Pitta Kirikai,,
+KBB1.3,Eccil Kirikai,,
+KBB1.4,Puta Kirikai,,
+KBB1.5,Jala Kirikai,,
+KBB1.6,Kal Eri Kirikai,,
+KBB1.7,Kumpitu Kirikai,,
+KBB1.8,Alaru Kirikai,2058986033,Catatonic withdrawal with purposeless yelling disorder (TM2)
+KBB1.9,Marut Kirikai,,
+KBC,Aiyam,,
+KBC1.1,Cilettumak Kirikai,1872948457,Catatonic withdrawal with yawning and shutting tears disorder (TM2)
+KBC1.2,Mokinik Kirikai,,
+KBC1.3,Mutu Kirikai,1882457437,Catatonic withdrawal disorder (TM2)
+KBC1.4,Nirkuti Kirikai,,
+KC,Kuti Veri Noy,1991751314,Alcohol
+KCB1.1,Kuti Veri Noy,1991751314,Alcohol
+KCB,Azal,,
+KD,Matazivu,,
+KDA,Vali,,
+KDA1.1,Vali Matazivu,,
+KDB1.1,Azal Mataazivu,,
+KDC1.1,Aiya Mataazivu,,
+KDD1.1,Mukkurra Mataazivu,,
+KDA1.2,Vanmaiketu Matazivu,,
+KDB,Azal,,
+KDC,Aiyam,,
+KDC1.2,Utarketu,,
+KDD,Mukkurram,,
+KE,Mayakkanoy,1000337196,Stupor
+KEA,Vali,,
+KEA1.1,Vali Mayakkanoy,,
+KEB,Azal,,
+KEB1.1,Azal Mayakkanoy,,
+KEB1.2,Kuruti Mayakkanoy,,
+KEC,Aiyam,,
+KEC1.1,Aiya Mayakkanoy,,
+KEC1.2,Nancu Mayakkam,,
+KED,Mukkurram,,
+KED1.1,Mukkurra Mayakkanoy,,
+KF,Cerukku Noy,,
+KFA,Vali,,
+KFA1.1,Vali Cerukku Noy,,
+KFB,Azal,,
+KFB1.1,Azal Cerukku Noy,,
+KFB1.2,Kuruti Cerukku Noy,,
+KFC,Aiyam,,
+KFC1.1,Aiya Cerukku Noy,,
+KFD,Mukkurram,,
+KFD1.1,Mukkurra Cerukku Noy,,
+KG,Cutikavatam,953661315,Histrionic personality disorder
+KGA1.1,Cutikavatam,953661315,Histrionic personality disorder
+KGA,Vali,,
+KH,Veri,441413164,Insanity disorder (TM2)
+KHA,Vali,,
+KHA1.1,Vali Veri,,
+KHB,Azal,,
+KHB1.1,Azal Veri,,
+KHB1.2,Nancu Veri,,
+KHC,Aiyam,,
+KHC1.1,Aiya Veri,,
+KHC1.2,Coka Veri,,
+KHD,Mukkurram,,
+KHD1.1,Mukkurra Veri,,
+L,Irutaya Noykal,1013092713,"Cardiac disorder, unspecified"
+LA,Kuruti Azal Noy,451942852,Traumatic purpura
+Z$11,Uratta Pitta Vatam,451942852,Traumatic purpura
+LAA,Vali,,
+LAA1.1,Vali Kurutiyazal Noy,,
+LAA1.2,Valiti Kurutiyazal Noy,,
+LAA1.3,Vali Aiya Kurutiyazal Noy,,
+LAB,Azal,,
+LAB1.1,Tikkurutiyazal Noy,,
+LAC1.1,Aiya Kurutiyazal Noy,,
+LAC1.2,Aiyavali Kurutiyazal Noy,,
+LAC1.3,Aiya Azal Kurutiyazal Noy,,
+LAD,Mukkurram,,
+LAD1.1,Mukkurra Kurutiyazal Noy,,
+LB,Tamaraka Noy,2135151223,Diseases of the myocardium or cardiac chambers
+LBA,Vali,,
+LBA1.1,Vata Tamaraka Noy,,
+LBB,Azal,,
+LBB1.1,Pitta Tamaraka Noy,,
+LBC,Aiyam,,
+LBC1.1,Kapa Tamaraka Noy,,
+LBD1.1,Mukkurra Tamaraka Noy,,
+LBD,Mukkurram,,
+M,Inapperukka Noykal,1237728775,Dysmennorrhea disorder due to reproductive organ diseases (TM2)
+MA,An Malatu,753457327,Male infertility
+MAA1.1,An Malatu,753457327,Male infertility
+MAA,Vali,,
+MB,Pen Malatu,1237004558,Female infertility
+MBA,Vali,,
+MBA1.1,Kaka Malatu,,
+MBA1.2,Katali Malatu,,
+MBA1.3,Cutta Malatu,1237004558,Female infertility
+MC,Punarcci Noykal,,
+MCB,Azal,,
+MCB1.1,Punarcci Vali,126329423,Dyspareunia
+MD,Ankuri Noykal,37689731,Vascular disorders of male genital organs
+ME,Vitai Noykal,85116327,"Disease or disorder of testis, unspecified"
+MEA1.1,Kutal Vitai Noy,474718032,Inguinal hernia
+MEA1.2,Kumural Vitai Noy,474718032,Inguinal hernia
+MEC1.1,Nir Vitai Noy,,
+MEC1.2,Cataivitai Noy,1516011744,Elephantiasis of the scrotum disorder (TM2)
+N,Kan Noykal,868865918,Diseases of the visual system
+,Itara Kan Noykal,,
+NAA,Vali,,
+NAA1.1,Ukkira Rokam,,
+NAA1.2,Caykan Kurutu,,
+NAA1.3,Tuyakan Kurutu,,
+NAA1.4,Cuzal Vanterital,,
+NAA1.5,Cotikaviranam,2089700977,Corneal ulcer
+NAA1.6,Patikuntam,,
+NAA1.7,Pukaiccal,,
+NAA1.8,Cevver,,
+NAA1.9,Kuvalai Nerittal,,
+NAA1.10,Pakkappatuvan,,
+NAA1.11,Vennerkkatu,,
+NAA1.12,Vitana Mantaram,,
+NAA1.13,Cutar Pala Tonral,,
+NAA1.14,Puttiyazittal,,
+NAB1.17,Kuvalaippatuvan,,
+NAA1.15,Ponkiya Vitanam,,
+NAA1.16,Cantira Rokam,,
+NAA1.17,Kuci Vizittal,,
+NAB,Azal,,
+NAB1.1,Akkirarokam,,
+NAB1.2,Avikaya Viranam,,
+NAB1.3,Kan Tinavu,,
+NAB1.4,Anna Kopam,,
+NAB1.5,Maruvu Kan Civappu,,
+NAB1.6,Erivizi Mazunkutal,,
+NAB1.7,Matanamantaram,,
+NAB1.8,Kan Viranam,,
+NAB1.9,Ataintezuntital,,
+NAB1.10,Uruvizi Putaittal,,
+NAB1.11,Paravaippu,,
+NAB1.12,Amaram,,
+NAB1.13,Cuzal Vizi Erittal,,
+NAB1.14,Mayir Puzuvettu,,
+NAB1.15,Vinki Vizittal,,
+NAB1.16,Nattaippatuvan,,
+NAB1.18,Azarri,,
+NAB1.19,Imaiyoturuttal,,
+NAC1.1,Arupam,,
+NAC1.2,Kankurutu,,
+NAC1.3,Parumulai,,
+NAC1.4,Turmamicam,,
+NAC1.5,Vellezuttu,42829604,"Sensitivity of eyes, blurred vision and long sightedness disorder (TM2)"
+NAC1.6,Atimantaram,,
+NAC1.7,Coti Neri,,
+NAC1.8,Kacamuruki,,
+NAC1.9,Malaikkan,205882698,Night blindness
+NDA1.11,Malaikkan Timiram,205882698,Night blindness
+NAC1.10,Akkaram,,
+NAC1.11,Azuntitum Pirittal,,
+NAC1.12,Tunnu Ven Pukaiccal,,
+NAC1.13,Corakkan Tutippu,,
+NAC1.14,Valarntezu Rokam,,
+NAC1.15,Matana Mantaram,,
+NAC1.16,Cutarati Mamicam,,
+NAC1.17,Uyarntu Kan Putaittal,,
+NAC1.18,Kumpimai Tatittal,,
+NAC1.19,Ezu Nayiru,,
+NAC1.20,Piravikkurutu,,
+NAC1.21,Varuncalarokam,,
+NB,Imai Noykal,,
+NBA,Vali,,
+NBA1.1,Muta Mayir,1143150083,Trichiasis disorder (TM2)
+NBA1.2,Iziccakkan,1627987797,Seborrhoeic keratosis
+NBA1.3,Currukkulaivu,,
+NBA1.4,Imaiyuyarcci,857829804,Ectropion of eyelid
+NBB,Azal,,
+NBB1.1,Iratta Kazalai,,
+NBB1.2,Rattam Parpa Rokam,777918741,Chalazion
+NBB1.4,Puzukkati,1920274373,Ciliary madarosis
+NBC,Aiyam,,
+NBC1.1,Nir Pillam,284613639,Trichinosis
+NBC1.2,Kutar Pillam,,
+NBC1.3,Imai Tatippu,1248470145,Posterior blepharitis
+NBC1.4,Nir Kazalai,,
+NBC1.5,Tacai Kazalai,735227050,Eyelid tumour disorder (TM2)
+NBC1.6,Nir Parpa Rokam,522397394,Hordeolum externum
+NBC1.7,Mankisa Parpa Rokam,1259721857,Hordeolum
+NBC1.8,Imainir Payccal,1611503766,Epiphora
+NC,Kataikan Noykal,,
+NCA,Vali,,
+NCA1.1,Vizi Vali,,
+NCA1.2,Nitiravayu,,
+NCB,Azal,,
+NCB1.1,Ratta Patartti,,
+NCB1.2,Ratakuvai,,
+NCB1.3,Viranap Paru,,
+NCB1.4,Imaikkurutu,,
+NCC,Aiyam,,
+NCC1.1,Kan Nokkatu,,
+NCC1.2,Puccantiram,,
+NCC1.3,Imaik Kumiz,,
+ND,Karuvizi Noykal,980864631,Disorders of the cornea
+NDA,Vali,,
+NDA1.1,Vali Kacam,358308722,Corneal eye disease with blindness and increased lacrimation disorder (TM2)
+NDA1.2,Vala Kacam,,
+NDC1.2,Nilakkacam,,
+NDA1.3,Maninila Kacam,,
+NDA1.4,Nirezu Kacam,1121025478,Corneal eye disease with fleshy growth disorder (TM2)
+NDC1.4,Tunnu Kacam,1121025478,Corneal eye disease with fleshy growth disorder (TM2)
+NDA1.5,Tuttitun Kacam,,
+NDB1.6,Varezu Kacam,,
+NDA1.6,Cataip Patalam,,
+NDB1.8,Rattap Patalam,,
+NDA1.7,Karunkumutam,,
+NDA1.8,Virana Cukkiran,,
+NDA1.9,Karutta Cukkiran,,
+NDA1.10,Ceri Vari,,
+NDA1.12,Varatcit Timiram,358308722,Corneal eye disease with blindness and increased lacrimation disorder (TM2)
+NDA1.13,Vayu Timiram,,
+NDA1.14,Pukaippu,,
+NDA1.15,Catai Kuntam,,
+NDB,Azal,,
+NDB1.1,Kumarikkacam,,
+NDB1.2,Rana Kacam,,
+NDB1.3,Utaintezu Kacam,,
+NDB1.4,Malai Kacam,,
+NDB1.5,Uru Kacam,,
+NDB1.7,Antira Kacam,,
+NDB1.9,Vari Ezuccippatalam,,
+NDB1.10,Karunakap Patalam,,
+NDB1.11,Pacuvizip Patalam,,
+NDC1.10,Pancu Nir Patalam,,
+NDB1.12,Cenkumutam,,
+NDB1.13,Uttana Nerical,,
+NDB1.14,Anar Cukkiran,,
+NDB1.15,Cori Vari,,
+NDB1.16,Mekat Timiram,,
+NDB1.17,Untal Pu,,
+NDB1.18,Utira Kuntam,,
+NDC,Aiyam,,
+NDC1.1,Aiya Kacam,,
+NDC1.3,Mantara Kacam,,
+NDC1.5,Kuvalai Kacam,,
+NDC1.6,Nirp Patalam,358308722,Corneal eye disease with blindness and increased lacrimation disorder (TM2)
+NDC1.7,Atimankisap Patalam,,
+NDC1.8,Vellai Patalam,,
+NDC1.9,Naka Atalam,,
+NDC1.11,Venkumutam,,
+NDC1.12,Nir Nerical,,
+NDC1.13,Vizi Vizunki Cukkiran,,
+NDC1.14,Ven Cukkiran,,
+NDC1.15,Nir Vari,,
+NDC1.16,Vellezuttu,22794400,Presbyopia
+NDC1.17,Mantara Timiram,,
+NDC1.18,Nirt Timiram,358308722,Corneal eye disease with blindness and increased lacrimation disorder (TM2)
+NDC1.19,Nir Kuntam,,
+NDD,Mukkurram,,
+NDD1.1,Curonita Nerical,358308722,Corneal eye disease with blindness and increased lacrimation disorder (TM2)
+NDD1.2,Anip Pu,1121025478,Corneal eye disease with fleshy growth disorder (TM2)
+NE,Velvizi Noykal,,
+NEA,Vali,,
+NEA1.1,Vari Ezucci,,
+NEA1.3,Kuvai Ezucci,,
+NEA1.2,Virana Ezucci,,
+NEA1.4,Vari Patartti,,
+NEA1.5,Virana Nerical,,
+NEA1.6,Nilavari,,
+NEB,Azal,,
+NEB1.1,Corip Patartti,,
+NEB1.2,Untu Nerical,,
+NEC1.4,Tuli Nerical,,
+NEB1.3,Irattak Kumilam,,
+NEC,Aiyam,,
+NEC1.1,Nir Ezucci,,
+NEC1.2,Muttezucci,,
+NEC1.3,Cataip Patartti,,
+NEC1.5,Nir Kumilam,,
+NEC1.6,Mankica Kumilam,,
+NEC1.7,Velvari,,
+O,Uttaccattu Kuraipatu Noykal,1939216245,Generalised excess and redundant skin due to disease or malnutrition
+P,Purru Noykal,50574435,"Neoplasm, malignant"
+PA,Nakirkatti,1623614569,Neoplasms of unknown behaviour of breast
+PAA,Vali,,
+PAA1.1,Vali Nakirkatti,,
+PAB,Azal,,
+PAB1.1,Azal Nakirkatti,,
+PAC,Aiyam,,
+PAC1.1,Aiyam Nakirkatti,,
+PAD,Mukkurram,,
+PAD1,Mukkurram Nakirkatti,,
+PAD1.1,adipaduthala Untakum Nakirkatti,,
+PB,Velvizi Noykal,,
+PBD,Mukkurram,,
+PBD1.1,Nirppurru,,
+PBD1.2,Cataippurru,,
+PBD1.3,Manalppurru,,
+PC,Vippuruti,50574435,"Neoplasm, malignant"
+PCD,Mukkurram,,
+PCD1.1,Karppa Vippuruti,,
+PCD1.2,Kuvalai Vippuruti,928893749,Abscess of pleural cavity
+PCD1.3,Pitta Vippuruti,,
+PCD1.4,Cantu Vippuruti,,
+PCD1.5,Otu Vippuruti,,
+PCD1.6,Cilettuma Vippuruti,,
+PCD1.7,Vata Vippuruti,,
+PD,Karuppaippurrukal,1551596364,"Malignant neoplasms of uterus, part not specified"
+Q,Irattacaya Noykal,1766440644,Diseases of the blood or blood-forming organs
+QA,Veluppu Noy,224336967,Anaemias or other erythrocyte disorders
+QAA,Vali,,
+QAA1.1,Vali Veluppu Noy,,
+QAB,Azal,,
+QAB1.1,Azal Veluppu Noy,,
+QAB1.2,Mannun Veluppu Noy,614350249,Anaemia disorder due to pica (TM2)
+QAC,Aiyam,,
+QAC1.1,Nancu Veluppu Noy,,
+QAC1.2,Aiya Veluppu Noy,,
+QAD1.1,Tonta Veluppu Noy,,
+R,Aruvai Noykal,506055626,Other functional disturbances following cardiac surgery
+RA,Atitallal,231914102,Rectal prolapse
+RAA,Vali,,
+RAA1.1,Atitallal,,
+RB,Akkul Nila Pucani Katti,1997596692,Axillary lymph node enlargement
+RBB,Azal,,
+RBB1.1,Akkul Nila Pucani Katti,,
+RC,Kapala Pilavai,,
+RCB,Azal,,
+RCB1.1,Meka Kapala Pilavai,,
+RCB1.2,Curik Kapala Pilavai,,
+RCB1.3,Kuruti Kannan Kapala Pilavai,,
+RCB1.4,Pokkik Kapala Pilavai,,
+RCB1.5,Karun Kapala Pilavai,,
+RCC,Aiyam,,
+RCC1.1,Viranakkapalappilavai,,
+RCC1.2,Pakka Kapala Pilavai,,
+RCC1.3,Kunri Kapala Pilavai,,
+RCC1.4,Azukanni Kapala Pilavai,,
+RCC1.5,Ponni Kapala Pilavai,,
+RD,Kapala Terai,182731908,Eczema disorder occurred in scalp due to increased Vaḷi (TM2)
+RE,Kantamalai,1221395809,Cervical lymph node enlargement
+RED,Mukkurram,,
+RED1,Kantamalai,,
+RFA,Vali,,
+RFA1.1,Matakkuk Katti,,
+RFA1.2,Valaikkan Katti,,
+RFA1.3,Atomukak Katti,,
+RFA1.4,Katalaik Katti,,
+RFA1.5,Katukuk Katti,,
+RFB,Azal,,
+RFB1.1,Peyccuraik Katti,,
+RFB1.2,Vittiratik Katti,,
+RFB1.3,Meka Vittiratik Katti,,
+RFC1.1,Amai Otu Katti,,
+RFC1.2,Nilappucani Katti,,
+RG,Kiranti,455894495,Syphilis
+RGA,Vali,,
+RGA1.1,Vali Kiranti,,
+RGA1.2,Catai Kiranti,,
+RGA1.3,Enpu Kiranti,,
+RGA1.4,Narampu Kiranti,,
+RGB,Azal,,
+RGB1.1,Azal Kiranti,,
+RGC,Aiyam,,
+RGC1.1,laiya Kiranti,,
+RGC1.2,Kozuppu Kiranti,,
+RGC1.3,Pun Kiranti,,
+RGD,Mukkurram,,
+RGD1.1,Kurutik Kiranti,,
+RH,Mantai Kanappu,316699522,Heaviness of head disorder (TM2)
+RHA,Vali,,
+RHA1.1,Vali Mantaik Kanappu,,
+RHA1.2,Kuruti Mantaik Kanappu,,
+RHC,Aiyam,,
+RHC1.1,Nir Mantai Kanappu,,
+RI,Mantaikkuttiyal,1405405864,"Headache, not elsewhere classified"
+RIA,Vali,,
+RIA1.1,Mantaikkuttiyal,,
+RJ,Mantaic Canni,1637220901,Delirium caused by diseases of head disorder (TM2)
+RJD1,Mantaic Canni,1637220901,Delirium caused by diseases of head disorder (TM2)
+RJD,Mukkurram,,
+RK,Mantai Culai,1209404767,Scalp pain disorder (TM2)
+RKA,Vali,,
+RKA1.1,Vali Mantaic Culai,,
+RKA1.2,Kuruti Mantaic Culai,,
+RKA1.3,Nir Mantaic Culai,,
+RL,Mantait Timir,1977273780,Numbness over scalp disorder (TM2)
+RLA,Vali,,
+RLA1.1,Mantait Timir,,
+RM,Mantai Vali,1405405864,"Headache, not elsewhere classified"
+RMA1.1,Mantai Vali,1405405864,"Headache, not elsewhere classified"
+RMA,Vali,,
+RN,Mantai Varatci,327344374,Dryness over the scalp disorder (TM2)
+RNA1.1,Mantai Varatci,327344374,Dryness over the scalp disorder (TM2)
+RNA,Vali,,
+RO,Mulai Noy,151219786,"Disease of brain, not elsewhere classified"
+ROA,Vali,,
+ROA1.1,Vali Mulai Noy,,
+ROA1.2,Vali Aiyam Mulai Noy,,
+ROA1.3,Varatci Mulai Noy,,
+ROA1.4,Vali Azal Mulai Noy,,
+ROB,Azal,,
+ROB1.1,Azal Aiyam Mulai Noy,,
+ROB1.2,Azal Mulai Noy,,
+ROB1.3,Kuruti Mulai Noy,,
+ROC,Aiyam,,
+ROC1.1,Aiyam Mulai Noy,,
+ROC1.2,Aiyavali Mulai Noy,,
+ROC1.4,Azal Vali Mulai Noy,,
+ROC1.3,Nir Mulai Noy,,
+ROC1.5,Aiya Azal Mulai Noy,,
+RP,Pavuttiram,130989435,Fistula of joint
+RPA,Vali,,
+RPA1.1,Kotip Pavuttiram,,
+RPA1.2,Mekap Pavuttiram,,
+RPA1.3,Mulap Pavuttiram,651510970,Ano vesical fistula disorder (TM2)
+RPA1.4,Eruvay Kantamalai Pavuttiram,271637227,Anorectal fistula disorder due to increasing Vaḷi (TM2)
+RPB,Azal,,
+RPB1.1,Eruvay Pavuttiram,2143379524,Fistula in ani disorder due to increasing Aẕal (TM2)
+RPB1.2,Pakka Pauttiram,,
+RPC,Aiyam,,
+RPC1.1,Kiranti Pauttiram,,
+RPC1.2,Carakanta Malai Pauttiram,,
+RQ,Ucci Vali,,
+RQA,Vali,,
+RQA1.1,Mantai Ucci Vali,,
+RQA1.2,Mantai Ucci Vali Azal,,
+RQA1.3,Mantai UcciParica Vali,,
+RQA1.4,Mantai Ucci Vali Aiyam,,
+RQB,Azal,,
+RQB1.1,Mantai Ucci Azal,,
+RQB1.2,Mantai Ucci Azal Aiyam,,
+RQB1.3,Mantai Ucci Azal Vali,,
+RQC,Aiyam,,
+RQC1.1,Mantai Ucci Aiya Azal,,
+RQC1.2,Mantai Ucci Aiyam,,
+RQC1.3,Mantai Ucci Aiya Vali,,
+RR,Yanaikkal,,
+RRA,Vali,,
+RRA1.1,Vali Yanaikkal,,
+RRB,Azal,,
+RRB1.1,Azal Yanaikkal,,
+RRC,Aiyam,,
+RRC1.1,Aiya Yanaikka,,
+S,Varmam Marrum Kayankal,1742405136,Injury pattern in the varmam or marmam (TM2)
+SA,Varma Ati,1742405136,Injury pattern in the varmam or marmam (TM2)
+SAA1.1,Tilarta Varmam,,
+SAA1.2,Cirunkolli Varmam,,
+SAA1.3,Ottu Varmam,,
+SAA1.4,Ucci Varmam,,
+SAA1.5,Poykai Varmam,,
+SAA1.6,Cevikkutti Varmam,,
+SAA1.7,Kuruntu Kutti Varmam,,
+SAA1.8,Alavati Varmam,,
+SAA1.9,Natcattira Varmam,,
+SAA1.10,Pin Vetti Varmam,,
+SAA1.11,Komperi Varmam,,
+SAA1.12,Cuzumunai Varmam,,
+SAA1.13,Puccanti Varmam,,
+SAA1.14,Kanmani Varmam,,
+SAA1.15,Pala Varmam,,
+SAA1.16,Kannati Varmam,,
+SAA1.17,Pitari Varmam,,
+SAA1.18,Valaimutinta Varmam,,
+SAA1.19,Netti Varmam,,
+SAA1.20,Kakkattai Varmam,,
+SAB1.1,Mun Nakkuttalli Varmam,,
+SAB1.2,Pin Kazuttu Natukku Varmam,,
+SAB1.3,Pakka Kazuttu Natukku Varmam,,
+SAB1.4,Karaikkuzi Varmam,,
+SAB1.5,Tummi Varmam,,
+SAB1.6,Urakka Varmam,,
+SAB1.7,Muzi Turi Varmam,,
+SAC1.1,Unti Varmam,,
+SAC1.2,Ner Varmam,,
+SAC1.3,Atappu Varmam,,
+SAC1.4,Cariti Varmam,,
+SAC1.5,Puja Varmam,,
+SAC1.6,Nencu Natukku Varmam,,
+SAC1.7,Ellu Komperi Varmam,,
+SAC1.8,Urumi Varmam,,
+SAC1.9,Mun Marpu Varmam,,
+SAC1.10,Kutti Varmam,,
+SAC1.11,Tivalai Varmam,,
+SAC1.12,Velliral Varmam,,
+SAC1.13,Kariral Varmam,,
+SAC1.14,Cittira Varmam,,
+SAC1.15,Ellurukki Varmam,,
+SAC1.16,Atti Kantari Varmam,,
+SAD1.1,Catayanta Varmam,,
+SAD1.2,Ciriya Atti Curukki Varmam,,
+SAD1.3,Periya Atti Curukki Varmam,,
+SAD1.4,Muntellu Varmam,,
+SAD1.5,Ceppu Varmam,,
+SAE1.1,Ilan Kuruttu Untimaru Varmam,,
+SAE1.2,Komperi Maruvarmam Ellu Maru Varmam,,
+SAE1.3,Nencu Natukku Maru Varmam,,
+SAE1.4,Urumi Maru Varmam,,
+SAE1.5,Kulipputtut Tallelumpu Varmam,,
+SAE1.6,Cippi Tunku Catai Varmam,,
+SAE1.7,Cippi Varmam,,
+SAE1.8,Navari Ellu Varmam,,
+SAE1.9,Akattuvara Varmam,,
+SAE1.10,Kaik Kuzi Varmam,,
+SAE1.11,Cippi Acaivu Varmam,,
+SAE1.12,Kaip Puja Poruttu Varmam,,
+SAF1.1,Kallatai Varmam,,
+SAF1.2,Mum Murtti Varmam,,
+SAF1.3,Muttira Varmam,,
+SAF1.4,Patippu Varmam,,
+SAF1.5,Aka Urulai Vicai Narampu Varmam,,
+SAF1.6,Vittu Varmam,,
+SAF1.7,Ilinka Natukku Varmam,,
+SAF1.8,Tumpu Varmam,,
+SAG1.1,Totai Maiya Varmam,,
+SAG1.2,Mel Totai Maiya Varmam,,
+SAG1.3,Kiz Totai Maiya Varmam,,
+SAH1.1,Muttukkannu Varmam,,
+SAH1.2,Muttu Cirattai Varmam,,
+SAH1.3,Muzankal Muttu Pataippu Varmam,,
+SAH1.4,Muzankal Muttu Mozi Poruttu Varmam,,
+SAI1.1,Kutiraimuka Varmam,,
+SAI1.2,Kutirai Nuni Nakku Varmam,,
+SAI1.3,Vayiruti Varmam,,
+SAI1.4,Tumpikkala Varmam,,
+SAI1.5,Kutirai Ati Nakku Varmam,,
+SAI1.6,Kanapati Muka Varmam,,
+SAJ1.1,Karantai Kannu Varmam,,
+SAJ1.2,Pata Cakkara Varmam,,
+SAJ1.3,Karantai Mozi Poruttu Varmam,,
+SAJ1.4,Kutikal Varmam,,
+SAJ1.5,Narampu Natukku Muticcu Varmam,,
+SAJ1.6,Kalnerukku Varmam,,
+SAJ1.7,Peru Viral Mancal Varmam,,
+SAK1.1,Puya Natukku Varmam,,
+SAK1.2,Puya Mel Natukku Varmam,,
+SAK1.3,Puya Kiz Natukku Varmam,,
+SAL1.1,Muzankai Natukku Varmam,,
+SAL1.2,Muzankai Mel Natukku Varmam,,
+SAL1.3,Muzankai Kiz Natukku Varmam,,
+SAL1.4,Nati Cuttira Varmam,,
+SAM1.1,Muzankai Muttu Pataippu Varmam,,
+SAM1.2,Muzankai Muttu Puratarai Vicai Narampu Varmam,,
+SAM1.3,Muzankai Muttu Mozipporuttu Varmam,,
+SAM1.4,Muzankai Muttu Kai Mantai Varmam,,
+SAN1.1,Kai Peruviral Mozi Poruttu Varmam,,
+SAN1.2,Kai Peruviral Patakkalai Varmam,,
+SAN1.3,Kai Peruviral Aka Puratarai Varmam,,
+SAN1.4,Corna Verrilai Varmam,,
+SAN1.5,Kai Nerukku Varmam,,
+SAN1.6,Kai Kavali Varmam,,
+SAO1.1,Kozikkazuttu Varmam,,
+SAO1.2,Kozikkazuttu Kannu Varmam,,
+SAO1.3,Kozikkazuttu Aka Puratarai Varmam,,
+SB,Otivu Murivu,1504538171,Fracture of unspecified body region
+SBA,Kai Kayankal,542074492,"Injury of hand, unspecified"
+SBA1,Tol Pakuti Kayankal,1456931412,"Shoulder injury, unspecified"
+SBA1.1,Karai Elumpu Murivu,663825629,Fracture of clavicle
+SBA1.2,Cippi Mozi Karai Poruttu Kayankal,,
+SBA1.3,Nencu - Karai Poruttu Kayankal,,
+SBA1.4,Cippi Elumpu Murivu,,
+SBA1.5,Tolporuttu Vilakal,711423750,Dislocation of scapula
+SBA1.5.1,Tolporuttu Mun Vilakal,,
+SBA1.5.2,Atikkati Nikazum Munpakka Tolporuttu Mun Vilakal,,
+SBA1.5.3,Tolporuttu Pin Vilakal,,
+SBA1.5.4,Tolporuttu Kiz Vilakal,,
+SBA1.6,Puya Elumpin Melmunai Murivukal,913813942,Fracture of upper end of humerus
+SBA2,Puya Kayankal,92381677,"Unspecified injury of arm, level unspecified"
+SBA2.1,Puya Elumpin Tantup Pakuti Murivukal,1396472868,Fracture of shaft of humerus
+SBA3,Muzankai Muttup Pakuti Kayankal,,
+SBA3.1,Puya Elumpin Kiz Munai Murivukal,550694840,Fracture of lower end of humerus
+SBA3.2,Muzankaimuttu Vilakal,,
+SBA3.2.1,Eliya Muzankai Muttu Vilakal,,
+SBA3.3,Izuppatta Muzankaimuttu,,
+SBA3.4,Irattini Elumpin Mel - Munai Murivukal,,
+SBA3.5,Arai Elumpin Mel Munai Murivukal,1388364408,Fracture of upper end of radius
+SBA4,Muzankai Kayankal,1379406256,"Injury of forearm, unspecified"
+SBA4.1,Arai Marrum Irattini - Iru Elumputtantu Murivukal,,
+SBA4.2,Arai Elumputtantu Murivu,,
+SBA4.3,Irattini Elumputtantu Murivu,644715143,Fracture of shaft of ulna
+SBA4.4,Kozikkazuttu Murivu,816406686,"Fracture of lower end of radius, dorsal tilt"
+SBA5,Manikkattu Kayankal,1275560008,"Injury of wrist, unspecified"
+SBA5.1,Pataku Elumpu Murivu,128281279,Fracture of scaphoid bone of hand
+SBA5.2,Pirai Elumpu Murivu,836279188,Fracture of lunate
+SBA5.3,Mukkona Elumpu Murivu,1983484730,Fracture of triquetral bone
+SBA5.4,Pattani Elumpu Murivu,1980191591,Fracture of pisiform bone
+SBA5.5,Kokki Elumpu Murivu,966154137,Fracture of body of hamate bone
+SBA5.6,Urul Talai Elumpu Murivu,105626346,Fracture of capitate bone
+SBA5.7,Narcatura Elumpu Murivu,1747077776,Fracture of trapezoid bone
+SBA5.8,Irucarivu Narcirai Elumpu Murivu,1100247577,Fracture of trapezium bone
+SBA6,Ankai Kayankal,542074492,"Injury of hand, unspecified"
+SBA6.1,Karapa Elumpukalin Murivukal,1929919042,Fracture of other metacarpal bone
+SBA6.2,Viral Elumpukalin Murivukal,1951136043,Multiple fractures of fingers
+SBB,Kal Kayankal,1222058116,"Unspecified injury of lower limb, level unspecified"
+SBB1,Ituppup Pakuti Kayankal,,
+SBB1.1,Ituppup Poruttu Vilakal,189235471,Dislocation of hip
+SBB1.2,Totai Elumpin Talaippakuti Murivu,1382371972,Fracture of head of femur
+SBB1.3,Totai Elumpin Kazuttuppakuti Murivu,398412176,Fracture of neck of femur
+SBB1.4,Totai Elumpin Mel Munai Murivukal,1353404524,Physeal fracture of proximal femur
+SBB2,Totai Kayankal,1058024243,"Injury of thigh, unspecified"
+SBB2.1,Totai Elumpu Tantu Murivu,1662130545,Fracture of shaft of femur
+SBB3,Muzankal Muttuppakuti Kayankal,74800073,"Injury of knee, unspecified"
+SBB3.1,Totai Elumpu Muntu Murivukal,2077390749,Fracture of femoral condyle
+SBB3.2,Cirattai Elumpu Murivukal,416761455,Fracture of patella
+SBB3.3,Cirattai Vilakal,70225648,Dislocation of patella
+SBB3.4,Muzankal Muttu Vilakal,1633960826,Dislocation of knee
+SBB3.5,Nalaka Elumpin Melmunai Murivukal,2107411451,Fracture of upper end of tibia
+SBB4,Muzankal Kayankal,1222058116,"Unspecified injury of lower limb, level unspecified"
+SBB4.1,Nala Marrum Cara Elumputtantu Murivukal,,
+SBB5,Kanukkal Kayankal,1307160167,"Injury of ankle, unspecified"
+SBB5.1,Nala Elumpu Kizmunai Murivukal,1819940496,Fracture of lower end of tibia
+SBB5.2,Kanukkal Murivukal,1788045058,"Fracture of ankle, not elsewhere classified"
+SBB6,Pata Kayankal,1292654327,"Injury of foot, unspecified"
+SBB6.1,Kanavi Elumpu Murivu,1949163310,Fracture of cuboid bone
+SBB6.2,Navvi Elumpu Murivu,128281279,Fracture of scaphoid bone of hand
+SBB6.3,Kilavi Elumpu Murivu,324749809,Fracture of triquetrum bone of wrist
+SBB6.4,Patankal Elumpu Murivu,2086679969,Fracture of metatarsal bone
+SBB6.5,Viral Elumpu Murivu,1951136043,Multiple fractures of fingers
+SBC,Accu Elumpu Kayankal,,
+SBC1,Nattellu Kayankal,216639497,"Injury of unspecified nerve, spinal nerve root or plexus of trunk"
+SBC1.1,Kazuttu Nattellu Kayankal,185195405,Cervical spinal trauma
+SBC2,Marpu Marrum Ituppu Nattellu Kayankal,,
+SBC2.1,Mutuku Nattellu Murivu,1204676219,Fracture of thoracic vertebra
+SBC2.2,Kukai Elumpu Murivu,,
+SBC2.3,Tilai Elumpu Murivu,,
+SBC2.4,Ezuntayiru Mullelumpu Kayam,,
+SBC2.5,Tarai Elumpu Murivu,1473758540,Fracture of lumbar vertebra
+SBC2.6,Puttelumpu Murivu,1204676219,Fracture of thoracic vertebra
+SBC3,Kupaka Kayankal,1806408182,Pelvic injury
+SBC3.1,Ituppukkuzi Murivukal,1351878177,Fracture of acetabulum without disruption of pelvic ring
+SBC3.2,Munara Murivukal,849086686,Fracture of sacrum without disruption of pelvic ring
+SBC3.3,Kuzipputtu Tallelumpu Murivukal,1177638945,Fracture of coccyx
+SBC3.4,Vari Elumpu Kayankal,1082174956,"Osteonecrosis due to trauma, ribs"
+SBC3.5,Punelumpin Melelumpu Murivu,,
+SBC4,Nencelumpu Kayankal,,
+SBC4.1,Tuti Elumpu Murivu,,
+SBD,Talaik Kayankal,452386362,Injuries to the head
+SBD1.1,Kapala Murivukal,399491868,Fracture of skull or facial bones
+SBD1.2,Mukku Elumpu Murivu,1981758834,Fracture of nasal bones
+T,Kuzantai Noykal,1557930774,Autoimmune movement disorder
+TA,Pala Karappan,1777874942,Eczema of children disorder (TM2)
+TAA1.1,Pala Karappan - Vata Karappan,,
+TAA1.2,Pala Karappan - Ari Karappan,,
+TAA1.3,Pala Karappan - Utu Karappan,,
+TAA1.4,Pala Karappan - Culai Karappan,,
+TAA1.5,Pala Karappan - Veti Karappan,,
+TAA1.6,Pala Karappan - Mantai Karappan,310887391,Allergic contact dermatitis of scalp
+TAA1.7,Pala Karappan - Cattai Karappan,,
+TAA1.8,Pala Karappan - Otu Karappan,,
+TAA1.9,Pala Karappan - Karun Karappan,,
+TAA1.10,Pala Karappan - Valai Karappan,,
+TAA1.11,Pala Karappan - Varal Karappan,,
+TAB,Azal,,
+TAB1.1,Pala Karappan - Pitta Karappan,,
+TAB1.2,Pala Karappan - Pori Karappan,,
+TAB1.3,Pala Karappan - Cenkarappan,,
+TAB1.4,Pala Karappan - Kolli Karappan,,
+TAC,Aiyam,,
+TAC1.1,Pala Karappan - Aiya Karappan,550689076,Eczema disorder caused by increase Aiyam (TM2)
+TAC1.2,Pala Karappan - Vinku Karappan,,
+TAD,Mukkurram,,
+TAD1.1,Pala Karappan - Tota Karappan,1141799940,Infectious dermatitis
+TB,Kakkuvan,2064398473,Whooping cough
+TBA1.1,Kakkuvan,2064398473,Whooping cough
+TBA,Vali,,
+TC,Kamalai,940431037,Jaundice disorder of children (TM2)
+TCA,Vali,,
+TCA1.1,Varal Kamalai,,
+TCB,Azal,,
+TCB1.1,Mancal Kamalai,1056591229,Unspecified jaundice
+TCC,Aiyam,,
+TCC1.1,Utu Kamalai,,
+TD,Kanam,166874405,Respiratory syndrome of children disorder (TM2)
+TDA,Vali,,
+TDA1.1,Vatak Kanam,,
+TDA1.2,Mantak Kanam,,
+TDA1.3,Piralik Kanam,,
+TDA1.4,Varatkkanam,,
+TDA1.5,Mulakkanam,,
+TDB,Azal,,
+TDB1.1,Pittakkanam,,
+TDB1.2,Nirkkanam,,
+TDB1.3,Kottippukkanam,197934298,Diseases of the respiratory system
+TDB1.4,Antakkkanam,,
+TDB1.5,Mantarakkanam,,
+TDB1.6,Erikkanam,,
+TDB1.7,Niramakkanam,,
+TDB1.8,Mukkukkanam,,
+TDB1.9,Irattakkanam,,
+TDC,Aiyam,1381279193,Aggravated aiyam lodging in chest and face leading respiratory ailments disorder (TM2)
+TDC1.1,Aiyak Kanam,,
+TDC1.2,Culikkanam,,
+TDC1.3,Cuzikkanam,,
+TDC1.4,Maka Kanam,,
+TDC1.5,Utu Kanam,,
+TDC1.6,Vinku Kanam,,
+TDC1.7,Ama Kanam,,
+TDC1.8,Perama Kanam,,
+TDC1.9,Cinkikkanam,,
+TE,Kaziccal,,
+TEA,Vali,,
+TEA1.1,Mantak Kaziccal,,
+TEA1.2,Kana Kaziccal,598727323,Dysentery disorder due to respiratory disorders (TM2)
+TEC,Aiyam,,
+TEC1.1,Amakaziccal,,
+TF,Mantam,994179294,"Functional digestive disorders of infants, toddlers or children"
+TFA,Vali,,
+TFA1.1,Vali Mantam,,
+TFA1.2,Pitta Mantam,,
+TFA1.3,Por Mantam,,
+TFA1.4,Cura Mantam,1244021285,Digestive disorder due to fever in children (TM2)
+TFA1.5,Nir Mantam,,
+TFA1.6,Ceriyamai Mantam,,
+TFA1.7,Kattu Mantam,,
+TFA1.8,Eri Mantam,,
+TFA1.9,Talai Mantam,,
+TFA1.10,Valippu Mantam,,
+TFA1.11,Cuzi Mantam,,
+TFA1.12,Mukku Mantam,,
+TFA1.13,Tulai Mantam,,
+TFB,Azal,,
+TFB1.1,Valai Mantam,,
+TFB1.2,Pal Mantam,1026224967,Lactose intolerance
+TFB1.3,Kana Mantam,,
+TFB1.4,Vikkam Mantam,,
+TFC,Aiyam,,
+TFC1.1,Aiya Mantam,,
+TFC1.2,Vita Mantam,,
+TFC1.3,Utal Mantam,,
+TFC1.4,Canni Mantam,,
+TG,Nanarram,,
+TGA1.1,Nanarram,,
+TGA,Vali,,
+TH,Namul,535250676,Papules in the tongue disorder (TM2)
+THA1.1,Namul,535250676,Papules in the tongue disorder (TM2)
+THA,Vali,,
+TI,Navil Tonrum Noykal,928435705,Diseases of tongue
+TIA,Vali,,
+TIA1.1,Cuzi Akkaram,,
+TIA1.2,Nili Akkaram,,
+TIA1.3,Coti Akkaram,,
+TIA1.5,Kumari Akkaram,,
+TIA1.4,Kunti Akkaram,,
+TIB,Azal,,
+TIB1.1,Vimi Akkaram,,
+TIB1.2,Kapali Akkaram,,
+TIB1.3,Ul Akkaram,,
+TJ,Purakarana Noykal,,
+TJA,Vali,,
+TJA1.1,Vikkal,798509501,Hiccough
+TJA1.2,Porumal,1540491307,Flatulence
+TJA1.3,Vayiru Vinkal,898362405,Abdominal distension
+TJA1.4,Pal Etiretuttal,1196448725,Neonatal aspiration of milk or regurgitated food
+TJA1.5,Kottavi,1198766532,Yawning
+TJA1.6,Ciriyazutal,402509933,Inconsolable crying disorder (TM2)
+TJA1.7,Pal Kutiyamai,,
+TJA1.8,Vayirru Noy,1810710745,Pain localised to upper abdomen
+TJA1.9,Malakkattu,1454083330,"Functional constipation of infants, toddlers or children"
+TJA1.10,Nirkkattu,312764628,Anuria due to Vaḷi (pead) disorder (TM2)
+TK,Puzu Noykal,863306856,Other or unspecified infestation by parasitic worms
+TKA,Vali,,
+TKA1.1,Macarai Puzu,321014067,"Cestode infection, unspecified"
+TKA1.2,Kiri Puzu,,
+TL,Cokai,826220775,Oedema
+TLA,Vali,,
+TLA1.1,Vata Cokai,,
+TLB,Azal,,
+TLB1.1,Pitta Cokai,1716436942,Dropsy due to Aẕal disorder (TM2)
+TM,Totam,,
+TMA,Vali,,
+TMA1.1,Pen Patci Totam,,
+TMA1.2,Malattu Patci Totam,,
+TMA1.3,Tunkupul Totam,,
+TMA1.6,Varatpultotam,,
+TMA1.4,Karutakkanpul Totam,,
+TMA1.5,Cenkkan Pul Totam,,
+TMA1.7,Peykkanpul Totam,,
+TMA1.8,Nirppul Totam,,
+TMA1.9,Eccir Totam,,
+TMA1.10,Muttu Pen Totam,,
+TMA1.11,Kulicap Pen Totam,,
+TMA1.12,Kulittaval Etutta Pen Totam,,
+TMA1.13,Karppam Azinta Pen Totam,,
+TMB,Azal,,
+TMB1.1,An Patci Totam,,
+TMB1.2,Paravai Totam,,
+TMB1.3,Vilakku Oli Pul Totam,,
+TMB1.4,Venkan Pul Totam,,
+TMC,Aiyam,,
+TMC1.1,Vinkupul Totam,,
+TMC1.2,Anti Pul Totam,,
+TMC1.3,Kulitta Pen Kanta Totam,,
+TMD,Mukkurram,,
+TMD1.1,Ecci Totam,,
+TMD1.2,Pen Totam,,
+TMD1.3,An Totam,,
+TMD1.4,Terai Totam,,
+TN,Valippu,539646260,Types of seizures
+TNA1.2,Kakkai Valippu,539646260,Types of seizures
+TNA,Vali,,
+TNA1.1,Manta Valippu,,
+TNA1.3,Allu Valippu,,
+TNA1.4,Pura Icivu,,
+TOD1.1,Manta Canni,,
+TOD1.2,Mantakana Canni,,
+TOD1.3,Ama Canni,,
+TOD1.4,Korama Canni,,
+TOD1.5,Tantirika Canni,,
+TOD1.7,Vitu Canni,,
+TOD1.8,Kulir Canni,,
+TOD1.9,Tota Canni,407097039,Acute seizures due to central nervous system infections or infestations
+U,Pal Noykal,852313030,Dental cavities disorder (TM2)
+UA,Pal Noykal,1966342512,"Dental disease, not elsewhere classified"
+UAA,Vali,,
+UAA1.1,Pal Kuccam,,
+UAA1.2,Pal Kuttal,452224902,"Dental pain, not elsewhere classified"
+UAA1.3,Pallattam,,
+UAA1.4,Pal Caytal,,
+UAA1.5,Kuttippal,1628931334,Impacted teeth
+UAA1.6,Pal Ciray,,
+UAA1.7,Pal Utiral,,
+UAA1.8,Pal Karuttal,,
+UAA1.9,Pal Pilattal,,
+UAA1.10,Pal Puzu,,
+UAA1.11,Pal Un Melivu,,
+UB,PallatI Noykal,1903499403,Certain specified disorders of gingiva or edentulous alveolar ridge
+UBA,Vali,,
+UBA1.1,Pallati Tulai,,
+UBA1.2,Pallati Unkuraital,1059404242,Gingival recession
+UBA1.3,Pallati Karuttal,,
+UBA1.4,Pallati Karaivu,,
+UBA1.5,Pallati Vikkam,1542018172,Chronic gingivitis
+UBA1.6,Pallati Kotippu,,
+UBA1.7,Pallati Mancalatal,,
+UBA1.8,Pallati Katti,946135091,Abscess of periodontium
+UBA1.9,Pallati Unvalarcci,,
+UBA1.10,Pallati Veluttal,,
+UBA1.11,Pallati Palaniramataital,,
+V,Palvinai Noykal,1201713369,Contact with or exposure to infections with a predominantly sexual mode of transmission
+VA,Korukku Noy,157813290,Syphilitic ulcer disorder (TM2)
+W,Cura Noykal,915343154,Fever of other or unknown origin
+WA,Thanvazhi Suram,,
+WAA,Vali,,
+WAA1.1,Vata Curam,,
+WAA1.2,Vatapitta Curam,,
+WAA1.3,Vatakapa Curam,,
+WAA1.4,Veli Curam,141686025,Aggravated Aiyam along with Vaḷi and aiyam causing fever with chills disorder (TM2)
+WAA1.5,Vittuvarum Curam,633896543,Malaria without parasitological confirmation
+WAA1.6,Pakal Curam,,
+WAA1.7,Atikalai Curam,,
+WAB1.14,Kalaic Curam,,
+WAA1.8,Eppa Curam,,
+WAA1.9,Kottavi Curam,,
+WAA1.10,Tukka Curam,,
+WAB,Azal,,
+WAB1.1,Pitta Curam,,
+WAB1.2,Pittavata Curam,,
+WAB1.3,Pittakapa Curam,,
+WAB1.4,Nalir Curam,1614642919,Fever with chills
+WAB1.5,Meni Curam,,
+WAB1.15,Tivaratci Curam,,
+WAB1.6,Ul Curam,913453088,Internal fever disorder (TM2)
+WAB1.7,Vita Curam,,
+WAB1.8,Cenkaraic Curam,,
+WAB1.9,Murai Curam,1373335705,Familial Mediterranean fever
+WAB1.10,Mayakka Curam,,
+WAB1.11,Pitarral Curam,,
+WBD1.3,Puta Curam,,
+WAB1.12,Puzuc Curam,,
+WAB1.13,Mancat Curam,,
+WAB1.16,Anal Curam,,
+WAB1.17,Vanti Curam,,
+WAB1.18,Viyarvai Curam,,
+WAB1.19,Tunkac Curam,,
+WAB1.20,Natukkal Curam,,
+WAB1.21,Eval Curam,,
+WAB1.22,Cerkkai Curam,,
+WAB1.23,Maruntu Veka curam,1596497122,Drug-induced fever
+WAB1.24,Cina Curam,,
+WAB1.25,Kama Curam,,
+WAB1.26,Teyva Cina Curam,,
+WAC,Aiyam,,
+WAC1.1,Kapa Curam,,
+WAC1.2,Kapavata Curam,,
+WAC1.3,Kapapitta Curam,,
+WAC1.4,Kalappu Curam,472885152,Quotidian fever disorder due to putrefaction of Balgham mixed with Ṣafrā’ (TM2)
+WAC1.5,Manta Curam,1244021285,Digestive disorder due to fever in children (TM2)
+WAC1.6,Ven Curam,,
+WAC1.7,Carar Curam,,
+WAC1.8,Un Curam,,
+WAC1.9,Kozuppu Curam,,
+WAC1.10,Enpu Curam,,
+WAC1.11,Mulai Curam,,
+WAC1.12,Malai Curam,,
+WAC1.13,Irac Curam,,
+WAC1.14,Irumal Curam,1470330585,Fever disorder caused due to cough (TM2)
+WAC1.15,Pazan Curam,,
+WAC1.16,Katti Curam,,
+WAC1.17,Ciz Curam,,
+WAC1.18,Pal Koppulac Curam,,
+WAC1.19,Vikka Curam,,
+WAC1.20,Kaziccar Curam,,
+WB,Piravazhi Suram,,
+WBC,Aiyam,,
+WBC1.1,Motu Curam,,
+WBC1.2,Naveru Curam,,
+WBC1.3,Naccu Curam,,
+WBC1.4,Paya Curam,1970407217,Anxiety ephemeral fever disorder (TM2)
+WBC1.5,Vintu Curam,,
+WBD,Mukkurram,,
+WBD1.1,Tunpa Curam,,
+WBD1.2,Vitavikkal Curam,,
+X,Ciruniraka Noykal,,
+XA,Kallataippu,1746821938,Urolithiasis
+XAA,Vali,,
+XAA1.1,Vali Kallataippu,,
+XAB,Azal,,
+XAB1.1,Azal Kallataippu,,
+XAC,Aiyam,,
+XAC1.1,Aiya Kallataippu,,
+XAD,Mukkurram,,
+XAD1.1,Mukkurra Kallataippu,,
+XB,Nirataippu,,
+XBA,Vali,,
+XBA1.1,Nirataippu,,
+XC,Nirkkattu,248693056,Anuria
+XCA,Vali,,
+XCA1.1,Nirkkattu,312764628,Anuria due to Vaḷi (pead) disorder (TM2)
+XD,Nirccurukku,1848472780,"Urinary tract infection, site not specified"
+XDA,Vali,,
+XDA1.1,Vali Nirccurukku,,
+XDB,Azal,,
+XDB1.1,Azal Nirccurukku,,
+XDC,Aiyam,,
+XDC1.1,Aiya Nirccurukku,,
+XDD,Mukkurram,,
+XDD1.1,Mukkurra Nirccurukku,,
+XE,Cottu Nir,,
+XEA,Vali,,
+XEA1.1,Cottu Nir,,
+Y,Nancu Noykal,,
+YA,Vitapaka Rokam,,
+YAA,Vali,,
+YAA1.1,Vata Vitapakam,,
+YAB,Azal,,
+YAB1.1,Pitta Vitapakam,,
+YAB1.2,Akkini Vitapakam,,
+YAB1.3,Erivu Vitapakam,,
+YAB1.4,Cutta Vitapakam,,
+YAC,Aiyam,,
+YAC1.1,Kapa Vitapakam,,
+YAD,Mukkurram,,
+YAD1.1,Canni Vitapakam,,
+YAD1.2,Mukkurra Vitapakam,,
+YB,Patana Nancu,,
+YB1,Iraca Nancu,,
+YB2,Pura Nancu,,
+YB3,Ilinka Nancu,,
+YB4,Vira Nancu,,
+YB5,Kantaka Nancu,,
+YB6,Talaka Nancu,,
+YB7,Vellaippatana Nancu,,
+YB8,Kaurippatana Nancu,,
+YB9,Mirutar Cinki Nancu,,
+YB10,Uppu Nancu,,
+YB11,Upputtiravaka Nancu,,
+YC,Uloka Nancu,1766840660,Nephropathy induced by heavy metals
+YC1,Tamira Nancu,,
+YC2,Turucu Nancu,,
+YC3,Karuvanka Nancu,,
+YC4,Appiraka Nancu,,
+YC5,Cunnampu Nancu,,
+YC6,Kannati Nancu,,
+YD,Civa Nancu,1529921934,Animal poisons disorder (TM2)
+YD1,Vitapampukkati Nancu,,
+YD2,Iracanaka Nancu,,
+YD3,Kattuviriyan Nancu,,
+YD4,Vazalaippampu Nancu,,
+YD5,Mukkan Nakanancu,,
+YD6,Curuttai Nakanancu,,
+YD7,Caraippampu Nancu,,
+YD8,Karunakanancu,,
+YD9,Paranakanancu,,
+YD10,Kalnencan Nakanancu,,
+YD11,Umai Nakanancu,,
+YD12,Kanneriyan Nakanancu,,
+YD13,Paccaippampu Nancu,,
+YD14,Cuvatu Nakanancu,,
+YD15,Mannulippampu Nancu,,
+YD16,Putaiyan Pampu Nancu,,
+YD17,Elikkati Nancu,,
+YD18,Ceyyankati Nancu,,
+YD19,Purankati Nancu,,
+YD20,Cilantikati Nancu,,
+YD21,Arukal Puccikkati Nancu,,
+YD22,Pulimukappuccikkati Nancu,,
+YD23,Paccontikkati Nancu,,
+YD24,Onan Kati Nancu,,
+YD25,Tavalaikkatinancu,,
+YD26,Ikkati Nancu,,
+YD27,Pallikkati Nancu,,
+YD28,Kattukkocukkati Nancu,,
+YD29,Kulavikkatinancu,,
+YD30,Vantukkati Nancu,,
+YD31,Attaikkati Nancu,,
+YD32,Kampalippuccikkati Nancu,,
+YD33,Telkati Nancu,,
+YD34,Minkati Nancu,,
+YD35,Civa Verinancu,,
+YD36,Kurankukkati Nancu,,
+YD37,Punaikkati Nancu,,
+YD38,Punukuppunaikkati Nancu,,
+YD39,Panrikkati Nancu,,
+YD40,Narikkati Nancu,,
+YD41,Mutalaikkati Nancu,,
+YD42,Naykkati Nancu,,
+YD43,Kutiraikkati Nancu,,
+YE,Itumaruntu Nancu,,
+YE1,Itumaruntu Nancu,,
+YF,Tavara Nancu,1408767977,Substance of plant origin
+YF1,Uluntu Nancu,,
+YF2,Katalai Nancu,,
+YF3,Tuvarai Nancu,,
+YF4,Moccai Nancu,,
+YF5,Ney Nancu,,
+YF6,Ney Ten Nancu,,
+YF7,Verkkatalai Nancu,,
+YF8,Tenkay Nancu,,
+YF9,Kozimuttai Nancu,,
+YF10,Vazaippaza Nancu,,
+YF11,Palappaza Nancu,,
+YF12,Palatai Nancu,,
+YF13,Ilavampicin Nancu,,
+YF14,Kunrimani Nancu,,
+YF15,Unankizanku Nancu,,
+YF16,Navalkottai Nancu,,
+YF17,Kalappaikkizanku Nancu,,
+YF18,Milakay Nancu,,
+YF19,Civanarkkizanku Nancu,,
+YF20,Makizam Nancu,,
+YF21,Coru Nancu,,
+YF22,Marutonriyum Enneyum Cernta Nancu,,
+YF23,Nunku Nancu,,
+YF24,Pulitta Tayirccoru Nancu,,
+YF25,Kotikkallippal Nancu,,
+YF26,Nallenney Coru Nancu,,
+YF27,Verrilaiccaru Nallenney Nancu,,
+YF28,Nelver Enney Nancu,,
+YF29,Nelver Carkkarai Nancu,,
+YF30,Nelver Nancu,,
+YF31,Kotumai Nancu,,
+YF32,Enney Nancu,,
+YF33,Erukku Nancu,,
+YF34,Caturakkallippal Nancu,,
+YF35,Tillaippal Nancu,,
+YF36,Nervala Nancu,,
+YF37,Cittira Mulaver Nancu,,
+YF38,Cenkottai Nancu,,
+YF39,Mancal Alari Nancu,,
+YF40,Umattai Nancu,,
+YF41,Ettikkottai Nancu,,
+YF42,Apini Nancu,,
+YF43,Kanca Nancu,,
+YF44,Napi Nancu,,
+YF45,Pukaiyilai Nancu,,
+YF46,Irattapola Nancu,,
+YF47,Kutinirt Tota Nancu,,
+YF48,Unavuttota Nancu,,
+YF49,Nirt Tota Nancu,,
+Z,Vali VataNoykal,,
+Z1,Vatastampam,,
+Z2,Vatakarsanam,58868923,Polyneuropathy
+Z3,Karastampam,,
+Z4,Talastampam,254630809,Plantar fasciitis
+Z5,Pucuvatam,,
+Z6,Kalancakavatam,868183264,Psoriatic arthritis
+Z7,Urustampavatam,,
+Z8,Vatakarnakam,1417408670,Meneire disease disorder (TM2)
+Z9,Kurisikirisavatam,1634924619,Strangulated inguinal hernia disorder (TM2)
+Z10,Narittalai Vatam,488918209,Gonococcal arthritis
+Z11,Kumpa Vatam,,
+Z12,Malaittakampa Vatam,,
+Z13,Panikkampa Vatam,2024168133,Parkinsonism
+Z14,Kuni Vatam,,
+Z15,Akunivatam,,
+Z16,Anopakavatam,2046015098,Certain specified inflammatory liver diseases
+Z17,Vata Upakatam,,
+Z18,Nerriculai Vatam,,
+Z19,Karna Culai Vatam,1462021380,Pustular otitis media disorder (TM2)
+Z20,Cevipatuvatam,,
+Z21,Pakka Vatam,735087277,Incomplete hemiplegia disorder (TM2)
+Z22,Paksavatam,,
+Z23,Pey Vatam,1600101146,Inflammation and numbness in the body below the head disorder (TM2)
+Z24,Piranalaya Vatam,,
+Z25,Calastampa Vatam,,
+Z26,Cantu Vatam,396939646,Inflammatory arthropathies
+Z61,Vatacuronitam,396939646,Inflammatory arthropathies
+Z27,Cakana Vatam,,
+Z28,Arputa Vatam,,
+Z29,Uraka Vatam,2004402146,Bell palsy
+Z30,Urakari Vatam,1323593849,Abscess of liver
+Z31,Asvatampa Vatam,405704375,Vertebral column
+Z32,Pacattampa Vatam,,
+Z33,Nettira Pavuttiravatam,,
+Z34,Tantaka Vatam,,
+Z35,Asta Tantira Vatam,1793762788,Tetanus
+Z36,Vacana Vatam,2124747820,Grandmal epilepsy disorder (TM2)
+Z37,Maka Vatam,1493613976,Pernicious anaemia
+Z38,Mirut Vatam,1267652425,Crohn disease
+Z39,Utara Vatam,1397617262,Malignant neoplasms of stomach
+Z40,Muttira Utira Vatam,2085092346,Carcinoma of urinary bladder
+Z41,Cukkila Vatam,1934974711,Carcinoma of prostate
+Z42,Cavviranka Vatam,,
+Z43,Urttuva Vatam,2136808878,Congestive heart failure
+Z44,Annanattampam,75194057,Malignant neoplasms of larynx
+Z45,Cirakkampa Vatam,76906748,Cerebral palsy
+Z46,Catastampa Vatam,493534161,Hyperthyrodisim disorder (TM2)
+Z47,Vaccirarupa Vatam,1537714794,Meninges
+Z48,Kantakirakavatam,,
+Z49,Nakari Vatam,,
+Z50,Patita Vatam,,
+Z52,Karppaculai Vatam,2079791713,Lower abdominal pain with accumulation of blood in uterus disorder (TM2)
+Z53,Astaculai Vatam,,
+Z54,Kutal Vatam,1294458332,Hernias
+Z55,Acuva Vatam,1065823595,Filarial scrotum disorder (TM2)
+Z56,Meccu Vatam,1848472780,"Urinary tract infection, site not specified"
+Z57,Mutu Vatam,,
+Z58,Vacu Vatam,,
+Z59,Pijastampa Vatam,1484511712,Inflammation of testis
+Z60,Tantira Vetti Vatam,1323357778,Hydrocele or spermatocele
+Z62,Cittuvata Curonitam,,
+Z63,Vaikita Vata Curonitam,,
+Z64,Utira Vata Curonitam,1594969621,Rheumatoid arthritis (Initial stage) disorder (TM2)
+Z65,Payittiya Vata Curonitam,,
+Z66,Cilettumavata Curonitam,,
+Z67,Utaravata Curonitam,,
+Z68,Kuna Avatanakam,2036729570,Abortion
+Z69,Kantaka Avatanakam,229121159,Pre-eclampsia
+Z70,Cirukampa Avatanakam,,
+Z71,Vatattalai Nokkatu,,
+Z72,Pittattalai Nokkatu,,
+Z73,Cilettuma Talai Nokkatu,,
+Z74,Cannivata Nokkatu,,
+Z75,Iratta Pitta Nokkatu,,
+Z76,Kirumikata Nokkatu,1329635150,Ear pain due to infection disorder (TM2)
+Z77,Curiya Varttam Nokkatu,,
+Z78,Cantira Varttam Nokkatu,,
+Z79,Karnavarttam Nokkatu,962492793,Otalgia
+Z80,Oru Talaiyin Vartam,760621151,Cluster headache
+Z81,Vatakarna Culai,,
+Z82,Pittakarna Culai,1515966870,Pain in the ears due to aggrevation of Aẕal disorder (TM2)
+Z83,Cilettuma Karna Culai,1171077154,Pain in the ears due to aggrevation of Aiyam disorder (TM2)
+Z84,Kirumikarna Culai,770120603,Pain in ears due to infestations disorder (TM2)
+Z85,Tanta Vayu,1526532820,Pain in tooth due to Vaḷi disorder (TM2)
+ZAA1.1,Vali Culai,1800532632,Pain in limb
+ZAA1.2,Mekaculai,2024992433,Pricking pain in the extremities disorder (TM2)
+ZAA1.3,Muriculai,1738275803,Spasmodic pain in the abdomen disorder (TM2)
+ZAA1.4,Kunmaculai,166022696,Other and unspecified abdominal pain
+ZAA1.5,Curaculai,594116296,Fever with body pain disorder (TM2)
+ZAA1.6,Pakkaculai,2015988321,Intolerable pricking pain in the chest disorder (TM2)
+ZAA1.7,Karpaculai,,
+ZAA1.8,Turaculai,762029774,Abdomen pain and flatulance disorder (TM2)
+ZAB1.1,Azal Culai,,
+ZAB1.2,Ularttuculai,154465975,Dryness and pain in the whole body disorder (TM2)
+ZAB1.3,Karaiculai,522346851,Pricking pain in the palm and sole disorder (TM2)
+ZAC1.1,Aiya Culai,2047598004,Pain localised to other parts of lower abdomen
+ZAC1.2,Ama Culai,166022696,Other and unspecified abdominal pain
+ZAC1.3,Ukkara Culai,,
+ZAC1.4,Nitampaculai,,
+Z$,Azal Pitta Noykal,,
+Z$1,Avuru Pittam,,
+Z$2,Amila Pittam,,
+Z$3,Unmata Pittam,,
+Z$4,Tamanta Pittam,,
+Z$5,Vata Pittam,1287320214,Congenital vitreous opacity
+Z$6,Vanni Pittam,1871672644,Gastritis
+Z$7,Cilettuma Pittam,,
+Z$8,Curonita Pittam,176235975,Toxic arthritis of menopause
+Z$9,Vikara Pittam,,
+Z$10,Virana Pittam,,
+Z$12,Iratta Pittam,761947693,Essential hypertension
+Z$13,Kaca Pittam,1791890273,Acute pharyngitis
+Z$14,Cuvaca Pittam,11753425,Bronchitis
+Z$15,Cem Pittam,,
+Z$16,Karum Pittam,,
+Z$17,Karappan Pittam,1887882424,Dermatitis or eczema
+Z$19,Aruci Pittam,,
+Z$20,Eripittam,749069122,Peripheral neuralgia disorder (TM2)
+Z$21,Azal Pittam,,
+Z$22,Tuti Pittam,,
+Z$23,Vita Pittam,,
+Z$24,Aticara Pittam,,
+Z$25,Mula Pittam,,
+Z$26,Mutir Pittam,,
+Z$27,Kanta Pittam,1180710837,Acute laryngitis
+Z$28,otu Pittam,,
+Z$29,Mutu Pittam,261282054,Unspecified nonorganic psychosis
+Z$40,Acattiya Pittam,261282054,Unspecified nonorganic psychosis
+Z$30,Natukku Pittam,,
+Z$31,Kapala Pittam,1099694795,Painful cranial neuropathies or other facial pains
+Z$32,Cartti Pittam,469481605,Alcoholic liver disease
+Z$33,Taka Pittam,,
+Z$34,Vikkal Pittam,,
+Z$35,Ksaya Pittam,882244568,Tuberculosis of the respiratory system
+Z$36,Timir Pittam,,
+Z$37,Vali Pittam,,
+Z$38,Cita Pittam,,
+Z$39,Kirumi Pittam,,
+Z$41,Markka Pittam,,
+Z$42,Maruntitu Pittam,,
+Z#,Aiya Kapa Noykal,,
+Z#1,Irumal,1381279193,Aggravated aiyam lodging in chest and face leading respiratory ailments disorder (TM2)
+Z#2,Kacam,,
+Z#3,Cuvacam,,
+Z#4,Tipanam,,
+Z#5,Mantam,,
+Z#6,Vali,2053370254,Vitiated Vaḷi along with Aiyam affecting genito urinary pathways disorder (TM2)
+Z#7,Azal,,
+Z#8,Mukkuttu,141686025,Aggravated Aiyam along with Vaḷi and aiyam causing fever with chills disorder (TM2)
+Z#9,Cuka Canni,170742997,Three humours affected leading to seizure disorder (TM2)
+Z#10,Curam,1839880380,Aggravated Aiyam disorder with hyper pyrexia (TM2)
+Z#11,Aticaram,,
+Z#12,Nirkkovai,1288884347,Aggravated Aiyam leading to polyurea disorder (TM2)
+Z#13,Anal,687028611,Aggravated Aiyam disorder with fire element results in aggressive burning in corpse (TM2)
+Z#14,Putam,1652300401,Aggravated Aiyam leading to schizophrenia disorder (TM2)
+Z#15,Muyalakan,,
+Z#16,Veri,523639309,Aggravated Aiyam leading to catatonia disorder (TM2)
+Z#17,Vikaram,449925514,Aggravated Aiyam with depressive psychosis disorder (TM2)
+Z#18,Curonitam,186366950,Aggravated Aiyam with rheumatism disorder (TM2)
+Z#19,Viranam,1909309505,Aggravated Aiyam disorder leading to ulceration in throat (TM2)
+Z#20,Turk Kantam,1654969574,Aggravated Aiyam disorder results in septicaemia (TM2)
+Z#21,Nittiyam,1752296358,Aggravated Aiyam with fainting and mutism disorder (TM2)

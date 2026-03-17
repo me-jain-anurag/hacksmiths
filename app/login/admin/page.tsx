@@ -138,15 +138,33 @@ export default function AdminLoginPage() {
   );
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <Card className="w-full max-w-md">
-        <CardHeader>
-          <CardTitle>Admin Login</CardTitle>
-        </CardHeader>
-        <CardContent>
-          {renderLoginForm()}
-        </CardContent>
-      </Card>
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-md w-full space-y-8">
+        <div>
+          <h2 className="mt-6 text-center text-2xl font-bold text-gray-900">
+            Administrator Portal
+          </h2>
+          <p className="mt-2 text-center text-sm text-gray-600">
+            Government of India - Setu Medical Terminology Bridge
+          </p>
+        </div>
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-lg font-semibold text-center">Sign In</CardTitle>
+          </CardHeader>
+          <CardContent>
+            {renderLoginForm()}
+          </CardContent>
+        </Card>
+        <div className="text-center">
+          <Link 
+            href="/" 
+            className="inline-flex items-center text-sm text-gray-500 hover:text-gray-700 underline"
+          >
+            ← Back to Home
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
