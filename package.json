@@ -31,7 +31,7 @@
     "papaparse": "^5.5.3",
     "pg": "^8.20.0",
     "prisma": "^7.7.0",
-    "react": "19.2.4",
+    "react": "19.2.5",
     "react-dom": "19.2.4",
     "react-hook-form": "^7.72.1",
     "tailwind-merge": "^3.5.0",
